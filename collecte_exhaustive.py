@@ -394,11 +394,16 @@ def parse_composition(text: str) -> tuple[int, int, int] | None:
 
 
 def parse_party_strength(html: str) -> dict[int, tuple[int, int, int]]:
-    """Sièges (D, R, autres) des deux chambres réunies, par année."""
+    """Sièges (D, R, autres) des deux chambres réunies, par année.
+
+    Certaines pages découpent l'historique en plusieurs tableaux (Alabama :
+    1817-1882 puis 1883-aujourd'hui) : les années de tous les tableaux sont
+    réunies, le premier tableau l'emportant si une année apparaît deux fois."""
     soup = BeautifulSoup(html, "html.parser")
     root = soup.select_one(".mw-parser-output") or soup
     for node in root.select("sup.reference, .reference, style, script"):
         node.decompose()
+    merged: dict[int, tuple[int, int, int]] = {}
     for table in root.find_all("table", class_="wikitable"):
         grid = expand_table(table)
         if not grid:
@@ -443,9 +448,9 @@ def parse_party_strength(html: str) -> dict[int, tuple[int, int, int]]:
                 total = [a + b for a, b in zip(total, comp)]
             if ok and total[0] + total[1] > 0:
                 years[int(m.group(1))] = tuple(total)
-        if years:
-            return years
-    return {}
+        for y, v in years.items():
+            merged.setdefault(y, v)
+    return merged
 
 
 def fetch_seats(client: cp.WikiClient, verbose: bool = True) -> tuple[list[dict], list[str]]:

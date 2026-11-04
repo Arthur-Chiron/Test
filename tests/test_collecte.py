@@ -130,6 +130,14 @@ class TestSeats(unittest.TestCase):
         # 1903 : pas d'effectifs chiffrés -> année ignorée.
         self.assertNotIn(1903, years)
 
+    def test_history_split_over_two_tables(self):
+        second = PARTY_STRENGTH_HTML.replace("1901", "1951").replace("1902", "1952") \
+                                    .replace("1903", "1953")
+        html = PARTY_STRENGTH_HTML.replace("</div>", "") + second.replace(
+            '<div class="mw-parser-output">', "")
+        years = ce.parse_party_strength(html)
+        self.assertEqual(sorted(years), [1901, 1902, 1951, 1952])
+
 
 FEDERAL_HTML = """
 <div class="mw-parser-output"><table class="wikitable">
