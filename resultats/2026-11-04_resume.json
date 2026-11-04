@@ -1,0 +1,146 @@
+{
+  "pages_lues": [
+    "Lists of American state and local politicians convicted of crimes",
+    "List of 1850s American state and local politicians convicted of crimes",
+    "List of 1870s American state and local politicians convicted of crimes",
+    "List of 1880s American state and local politicians convicted of crimes",
+    "List of 1890s American state and local politicians convicted of crimes",
+    "List of 1900s American state and local politicians convicted of crimes",
+    "List of 1910s American state and local politicians convicted of crimes",
+    "List of 1920s American state and local politicians convicted of crimes",
+    "List of 1930s American state and local politicians convicted of crimes",
+    "List of 1940s American state and local politicians convicted of crimes",
+    "List of 1950s American state and local politicians convicted of crimes",
+    "List of 1960s American state and local politicians convicted of crimes",
+    "List of 1970s American state and local politicians convicted of crimes",
+    "List of 1980s American state and local politicians convicted of crimes",
+    "List of 1990s American state and local politicians convicted of crimes",
+    "List of 2000s American state and local politicians convicted of crimes",
+    "List of 2010s American state and local politicians convicted of crimes",
+    "List of 2020s American state and local politicians convicted of crimes"
+  ],
+  "pages_en_echec": [],
+  "entrees_brutes": 860,
+  "personnes_uniques": 843,
+  "total": {
+    "Démocrate": 465,
+    "Républicain": 340,
+    "Autre": 10,
+    "Indéterminé": 28
+  },
+  "total_brut": {
+    "Démocrate": 472,
+    "Républicain": 350,
+    "Autre": 10,
+    "Indéterminé": 28
+  },
+  "part_democrates_sur_D_plus_R": 57.8,
+  "par_page": {
+    "List of 1850s American state and local politicians convicted of crimes": {
+      "Démocrate": 1,
+      "Républicain": 0,
+      "Autre": 0,
+      "Indéterminé": 0
+    },
+    "List of 1870s American state and local politicians convicted of crimes": {
+      "Démocrate": 0,
+      "Républicain": 4,
+      "Autre": 0,
+      "Indéterminé": 0
+    },
+    "List of 1880s American state and local politicians convicted of crimes": {
+      "Démocrate": 2,
+      "Républicain": 0,
+      "Autre": 0,
+      "Indéterminé": 0
+    },
+    "List of 1890s American state and local politicians convicted of crimes": {
+      "Démocrate": 2,
+      "Républicain": 0,
+      "Autre": 1,
+      "Indéterminé": 0
+    },
+    "List of 1900s American state and local politicians convicted of crimes": {
+      "Démocrate": 0,
+      "Républicain": 8,
+      "Autre": 0,
+      "Indéterminé": 1
+    },
+    "List of 1910s American state and local politicians convicted of crimes": {
+      "Démocrate": 5,
+      "Républicain": 10,
+      "Autre": 0,
+      "Indéterminé": 1
+    },
+    "List of 1920s American state and local politicians convicted of crimes": {
+      "Démocrate": 0,
+      "Républicain": 4,
+      "Autre": 0,
+      "Indéterminé": 2
+    },
+    "List of 1930s American state and local politicians convicted of crimes": {
+      "Démocrate": 1,
+      "Républicain": 5,
+      "Autre": 0,
+      "Indéterminé": 2
+    },
+    "List of 1940s American state and local politicians convicted of crimes": {
+      "Démocrate": 4,
+      "Républicain": 6,
+      "Autre": 0,
+      "Indéterminé": 1
+    },
+    "List of 1950s American state and local politicians convicted of crimes": {
+      "Démocrate": 1,
+      "Républicain": 3,
+      "Autre": 0,
+      "Indéterminé": 1
+    },
+    "List of 1960s American state and local politicians convicted of crimes": {
+      "Démocrate": 7,
+      "Républicain": 5,
+      "Autre": 0,
+      "Indéterminé": 1
+    },
+    "List of 1970s American state and local politicians convicted of crimes": {
+      "Démocrate": 32,
+      "Républicain": 16,
+      "Autre": 0,
+      "Indéterminé": 1
+    },
+    "List of 1980s American state and local politicians convicted of crimes": {
+      "Démocrate": 41,
+      "Républicain": 16,
+      "Autre": 0,
+      "Indéterminé": 1
+    },
+    "List of 1990s American state and local politicians convicted of crimes": {
+      "Démocrate": 56,
+      "Républicain": 31,
+      "Autre": 0,
+      "Indéterminé": 1
+    },
+    "List of 2000s American state and local politicians convicted of crimes": {
+      "Démocrate": 87,
+      "Républicain": 69,
+      "Autre": 2,
+      "Indéterminé": 4
+    },
+    "List of 2010s American state and local politicians convicted of crimes": {
+      "Démocrate": 137,
+      "Républicain": 83,
+      "Autre": 1,
+      "Indéterminé": 7
+    },
+    "List of 2020s American state and local politicians convicted of crimes": {
+      "Démocrate": 89,
+      "Républicain": 80,
+      "Autre": 6,
+      "Indéterminé": 5
+    }
+  },
+  "methodes": {
+    "marqueur": 815,
+    "aucune": 28
+  }
+}

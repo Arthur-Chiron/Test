@@ -43,41 +43,51 @@ Code de sortie : `0` si tout s'est bien passé, `2` si une sous-liste n'a pas pu
 2. **Parcours** : depuis la page d'index, le script suit les liens dont le
    titre commence par « List of … convicted … ». Il exclut les listes
    fédérales et ignore les sections *See also*, *References*, *External links*,
-   ainsi que les bandeaux de navigation.
+   ainsi que les bandeaux de navigation. Aujourd'hui, l'index renvoie vers 17
+   listes **par décennie** (années 1850 à 2020), elles-mêmes classées par État.
 3. **Extraction** des entrées : puces `<li>` (sans leurs sous-listes) et
-   lignes des tableaux `wikitable`.
+   lignes des tableaux `wikitable`. Les sous-puces qui détaillent la
+   condamnation de la personne parente (« John McGee (R): » puis « Found
+   guilty of… ») ne sont pas comptées comme des personnes en plus.
 4. **Détection du parti**, de la méthode la plus fiable à la moins fiable
    (colonne `methode` du CSV) :
    - `marqueur` : `(D)`, `(R)`, `(R-TX)`, `(D–Chicago)`, `(Democrat)`,
-     `(Republican)`, `(DFL)`… placé derrière le nom. `(D.C.)` ou `(R.I.)` ne
-     sont pas pris pour des partis ;
+     `(Republican)`, `(DFL)`, `(populist)`, `(PNP)`… placé derrière le nom.
+     `(D.C.)`, `(R.I.)`, `(?)` ou `(-)` ne sont pas pris pour des partis ;
    - `colonne` : colonne *Party* d'un tableau ;
    - `titre` : entrée rangée sous un titre « Democrats » ou « Republicans » ;
    - `mot-clé` : « Democratic »/« Republican » ailleurs dans le texte
      (désactivé par `--strict`).
-   Le DFL du Minnesota est compté comme démocrate. Indépendants, libertariens,
-   whigs, etc. vont dans « Autre ».
-5. **Dédoublonnage** : une personne présente dans plusieurs listes n'est
-   comptée qu'une fois. Le CSV garde toutes les lignes, avec une colonne
-   `compte_dans_total`.
+   Le DFL du Minnesota est compté comme démocrate. Indépendants, Working
+   Families, Green-Rainbow, partis de Porto Rico (PNP, PPD) et des Mariannes
+   du Nord (Covenant) vont dans « Autre ».
+5. **Plusieurs personnes dans une puce** : on compte chaque personne marquée
+   *avant* le verbe principal (« X (D) and Y (R) were convicted » → 2
+   condamnés). Celles nommées après le verbe ne sont pas comptées : dans
+   « Looper (R) was convicted of the murder of Senator Burks (D) », Burks est
+   la victime.
+6. **Dédoublonnage** : une personne présente dans plusieurs listes n'est
+   comptée qu'une fois. L'identité est l'article Wikipédia lié au nom, sinon
+   le nom et l'État. Une entrée sans parti n'est jamais fusionnée. Le CSV
+   garde toutes les lignes, avec les colonnes `article` et `compte_dans_total`.
 
 ## Limites à connaître
 
 - **Condamnés, pas seulement inculpés.** La page recense des politiciens
   *condamnés* (« convicted »). Une personne seulement inculpée puis acquittée
   n'y figure normalement pas : le script compte donc des condamnations.
-- **Heuristique.** Une puce = une personne, et c'est le premier marqueur de
-  parti qui compte. Une puce citant plusieurs personnes ne compte qu'une
-  fois. Les homonymes sont fusionnés. Vérifiez dans le CSV les lignes
-  `Indéterminé` et celles détectées par `mot-clé`.
+- **Ce que dit la liste, pas une vérification.** Le script reprend le parti
+  et l'inclusion tels qu'ils sont écrits sur Wikipédia. Quelques entrées
+  décrivent une personne inculpée mais pas (encore) condamnée, voire une
+  personne qui s'est suicidée avant procès (opération « Rocky Top »).
+- **Heuristique.** Les règles ci-dessus ont été vérifiées à la main sur les
+  vraies pages, mais un nom sans lien peut garder sa fonction (« State
+  Senator John Doe »). Deux mentions sans lien d'une même personne, écrites
+  différemment, peuvent alors rester séparées. Vérifiez dans le CSV les
+  lignes `Indéterminé`.
 - **Pas une mesure de la criminalité des partis.** Les listes Wikipédia sont
   incomplètes et inégales selon les États et les époques ; elles mélangent
   plus d'un siècle de vie politique locale.
-- **Pas encore lancé sur la vraie page.** Le script a été écrit dans un
-  environnement où Wikipédia n'était pas accessible. L'analyse HTML est
-  testée sur des pages reproduisant le format de l'API (anciens et nouveaux
-  titres de section, tableaux, notes de bas de page, navbox), mais pas sur le
-  contenu réel. Au premier lancement, contrôlez le CSV.
 
 ## Tests
 

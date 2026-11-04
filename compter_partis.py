@@ -79,14 +79,18 @@ EXCLUDED_TITLE_RE = re.compile(r"\bfederal\b", re.IGNORECASE)
 
 # Marqueur de parti entre parenthèses, juste après le nom de la personne.
 # Les lettres seules (D, R, I, L) doivent être suivies d'un séparateur pour
-# ne pas confondre « (D.C.) » ou « (R.I.) » avec un parti.
+# ne pas confondre « (D.C.) » ou « (R.I.) » avec un parti. Les mots sont
+# acceptés quelle que soit la casse (« (populist) » existe sur Wikipédia).
 PAREN_MARKER_RE = re.compile(
     r"""
     \(\s*
     (?:
         (?P<letter>[DRIL])\s*(?=[-–—‑,/;:)\s])
-      | (?P<word>
+      | (?P<word>(?i:
             Democratic[-–\s]Republican
+          | Popular\ Democratic | New\ Progressive | PPD | PNP | PIP   # Porto Rico
+          | Covenant | CP                                            # Mariannes du Nord
+          | Green[-–\s]Rainbow | GRP
           | Democratic[-–\s]+Farmer[-–\s]+Labor
           | DFL | Democrat(?:ic)? | Dem
           | Republican | Rep | GOP
@@ -95,7 +99,7 @@ PAREN_MARKER_RE = re.compile(
           | Know[-\s]Nothing | Federalist | Conservative | Liberal
           | Constitution | Prohibition | Greenback | Unionist | Readjuster
           | Working\ Families
-        )(?![A-Za-z])
+        ))(?![A-Za-z])
     )
     """,
     re.VERBOSE,
@@ -112,21 +116,31 @@ KEYWORD_RE = re.compile(r"\b(Democratic[-–]Republican|Democratic|Democrats?|Re
 def classify_token(token: str) -> str:
     """Convertit un marqueur (« D », « Republican », « DFL »...) en parti."""
     t = token.strip()
-    if re.match(r"Democratic[-–\s]Republican", t):
+    if re.match(r"Democratic[-–\s]Republican", t, re.IGNORECASE):
         return OTHER  # parti jeffersonien du XIXe siècle, ni D ni R
-    if t == "D" or t.startswith("Dem") or t == "DFL":
+    low = t.lower()
+    if t == "D" or low.startswith("dem") or low == "dfl":
         return DEM
-    if t == "R" or t.startswith("Rep") or t == "GOP":
+    if t == "R" or low.startswith("rep") or low == "gop":
         return REP
     return OTHER
 
 
+def find_markers(text: str) -> list[tuple[str, int, int]]:
+    """Tous les marqueurs de parti entre parenthèses : [(parti, début, fin)].
+    La fin est placée après la parenthèse fermante (« (R-TX) » en entier)."""
+    out = []
+    for m in PAREN_MARKER_RE.finditer(text):
+        close = text.find(")", m.end())
+        end = close + 1 if close != -1 else m.end()
+        out.append((classify_token(m.group("letter") or m.group("word")), m.start(), end))
+    return out
+
+
 def find_marker(text: str) -> tuple[str, int] | None:
     """Premier marqueur de parti entre parenthèses : (parti, position)."""
-    m = PAREN_MARKER_RE.search(text)
-    if not m:
-        return None
-    return classify_token(m.group("letter") or m.group("word")), m.start()
+    markers = find_markers(text)
+    return (markers[0][0], markers[0][1]) if markers else None
 
 
 def party_from_keyword(text: str) -> str | None:
@@ -175,6 +189,7 @@ class Entry:
     party: str
     method: str
     text: str
+    article: str = ""  # article Wikipédia de la personne, si son nom est un lien
 
 
 def clean_text(s: str) -> str:
@@ -244,36 +259,91 @@ def own_copy(li: Tag) -> Tag:
     return c
 
 
-def guess_name(li_own: Tag, text: str, marker_pos: int | None) -> str:
-    # Cas habituel : « Kwame Kilpatrick (D), Mayor of Detroit... »
-    if marker_pos is not None:
-        before = re.split(r"[,;:]", text[:marker_pos])[-1]
-        before = re.sub(r"^\s*(?:\d{4}s?|[-–—•])\s*", "", before).strip(" -–—")
-        if 2 <= len(before) <= 80:
-            return before
-    for a in li_own.find_all("a", href=True):
-        t = link_title(a)
-        if t:
-            return clean_text(a.get_text(" "))
-    return clean_text(re.split(r"[,(;:]", text, maxsplit=1)[0])[:80]
+# Fin du « sujet » d'une phrase : « X (D) and Y (R) were convicted of... ».
+# Les marqueurs placés avant ce verbe désignent les personnes condamnées ;
+# ceux qui suivent désignent en général d'autres personnes (victimes,
+# complices cités, élus fédéraux...).
+SUBJECT_END_RE = re.compile(
+    r"\b(?:was|were|is|are|has|had|have|pleaded|pled|plead|pleads|convicted|"
+    r"found|sentenced|guilty|served|resigned|received|admitted|indicted|charged|"
+    r"jailed|imprisoned|acquitted|committed|died|who)\b",
+    re.IGNORECASE,
+)
+# Sous-puce qui détaille la condamnation de la personne de la puce parente.
+DETAIL_START_RE = re.compile(
+    r"^(?:Found|Pleaded|Pled|Convicted|Sentenced|Was|Were|Served|Resigned|Received|"
+    r"Admitted|Acquitted|Indicted|Charged|Jailed)\b"
+)
+# Virgule qui ne coupe pas un nom : « Otto Kerner, Jr. », « John Smith, III ».
+NAME_SEPARATOR_RE = re.compile(r"[;:]|,(?!\s*(?:Jr|Sr|I{2,3}|IV)\b)")
 
 
-def entry_from_text(page: str, section: str, subsection: str, text: str,
-                    name_source: Tag) -> Entry:
-    marker = find_marker(text)
-    if marker:
-        party, method, pos = marker[0], METHOD_MARKER, marker[1]
+def person_links(source: Tag) -> list[tuple[str, str]]:
+    """(texte du lien, titre de l'article) pour chaque lien interne, les plus longs d'abord."""
+    out = []
+    for a in source.find_all("a", href=True):
+        title = link_title(a)
+        text = clean_text(a.get_text(" "))
+        if title and text:
+            out.append((text, title))
+    return sorted(out, key=lambda x: -len(x[0]))
+
+
+def name_before(text: str, start: int, end: int,
+                links: list[tuple[str, str]]) -> tuple[str, str]:
+    """Nom placé juste avant un marqueur : (nom, article).
+
+    On préfère le lien qui précède immédiatement le marqueur
+    (« State Representative [[Ed Henry]] (R) » -> « Ed Henry »).
+    Sinon, on prend le texte depuis le dernier séparateur."""
+    before = text[start:end].rstrip(" ,")
+    for link_text, title in links:
+        if before.endswith(link_text):
+            # Un lien vers « List of mayors of X » n'identifie pas une personne.
+            return link_text, ("" if re.match(r"Lists? of\b", title) else title)
+    parts = NAME_SEPARATOR_RE.split(before)
+    name = parts[-1] if parts else before
+    name = re.sub(r"^\s*(?:(?:\d{4}s?|[-–—•*]|and|&)\s+)+", "", name).strip(" -–—*")
+    return name[:80], ""
+
+
+def entries_from_text(page: str, section: str, subsection: str, text: str,
+                      name_source: Tag) -> list[Entry]:
+    """Personne(s) décrite(s) par une puce ou une ligne de tableau."""
+    links = person_links(name_source)
+    markers = find_markers(text)
+    if markers:
+        first_end = markers[0][2]
+        verb = SUBJECT_END_RE.search(text, first_end)
+        subject_end = verb.start() if verb else len(text)
+        out: list[Entry] = []
+        seen: set[str] = set()
+        prev_end = 0
+        for party, m_start, m_end in markers:
+            if out and m_start >= subject_end:
+                break
+            name, article = name_before(text, prev_end, m_start, links)
+            prev_end = m_end
+            key = (article or name).casefold()
+            if key in seen:  # même personne citée deux fois dans la puce
+                continue
+            seen.add(key)
+            out.append(Entry(page, section, subsection, name, party, METHOD_MARKER, text, article))
+        return out
+
+    heading_party = party_from_heading(subsection, section)
+    keyword_party = party_from_keyword(text)
+    if heading_party:
+        party, method = heading_party, METHOD_HEADING
+    elif keyword_party:
+        party, method = keyword_party, METHOD_KEYWORD
     else:
-        pos = None
-        heading_party = party_from_heading(subsection, section)
-        keyword_party = party_from_keyword(text)
-        if heading_party:
-            party, method = heading_party, METHOD_HEADING
-        elif keyword_party:
-            party, method = keyword_party, METHOD_KEYWORD
-        else:
-            party, method = UNKNOWN, ""
-    return Entry(page, section, subsection, guess_name(name_source, text, pos), party, method, text)
+        party, method = UNKNOWN, ""
+    # Sans marqueur, le nom n'est qu'indicatif : le lien en tête de puce est souvent
+    # une fonction (« [[Tax collector]], York County... »), donc pas d'identité
+    # par article, et l'entrée ne sera jamais fusionnée avec une autre.
+    name = clean_text(NAME_SEPARATOR_RE.split(re.split(r"\(", text, maxsplit=1)[0])[0])[:80]
+    return [Entry(page, section, subsection, name, party, method, text)]
 
 
 def parse_table(table: Tag, page: str, section: str, subsection: str) -> list[Entry]:
@@ -296,10 +366,14 @@ def parse_table(table: Tag, page: str, section: str, subsection: str) -> list[En
         if party_col is not None and len(cells) == len(headers):
             party = party_from_cell(clean_text(cells[party_col].get_text(" ")))
             if party:
-                name = clean_text(cells[name_col].get_text(" ")) if name_col < len(cells) else ""
-                entries.append(Entry(page, section, subsection, name, party, METHOD_COLUMN, text))
+                cell = cells[name_col] if name_col < len(cells) else cells[0]
+                name = clean_text(cell.get_text(" "))
+                links = person_links(cell)
+                article = links[0][1] if len(links) == 1 else ""
+                entries.append(Entry(page, section, subsection, name, party, METHOD_COLUMN,
+                                     text, article))
                 continue
-        entries.append(entry_from_text(page, section, subsection, text, cells[0]))
+        entries.extend(entries_from_text(page, section, subsection, text, cells[0]))
     return entries
 
 
@@ -345,11 +419,18 @@ def parse_page(html: str, page: str) -> tuple[list[Entry], list[str]]:
         if re.match(r"Lists? of\b", text) or (titles and all(is_list_title(t) for t in titles)):
             continue
         has_children = el.find(["ul", "ol"]) is not None
-        entry = entry_from_text(page, section, subsection, text, own)
+        new = entries_from_text(page, section, subsection, text, own)
         # Puce « intitulé » (ex. « Chicago : ») dont les personnes sont en sous-liste.
-        if has_children and entry.method != METHOD_MARKER:
+        if has_children and new[0].method != METHOD_MARKER:
             continue
-        entries.append(entry)
+        # Sous-puce « Found guilty of... » sous « John McGee (R): » : c'est un détail
+        # de la condamnation de la personne parente, déjà comptée.
+        parent = el.find_parent("li")
+        if (parent is not None and new[0].method != METHOD_MARKER
+                and DETAIL_START_RE.match(text)
+                and find_marker(clean_text(own_copy(parent).get_text(" ")))):
+            continue
+        entries.extend(new)
     return entries, links
 
 
@@ -486,7 +567,16 @@ def crawl(source: HtmlSource, start: str = INDEX_TITLE, max_depth: int = 2,
 # --------------------------------------------------------------------------
 
 def person_key(e: Entry) -> str:
-    return re.sub(r"\s+", " ", e.name).strip().casefold()
+    """Identité d'une personne, prudente pour ne jamais fusionner deux personnes.
+
+    - nom en lien : l'article Wikipédia (fiable d'une liste à l'autre) ;
+    - nom sans lien mais parti explicite : nom + État (section) ;
+    - sinon : le texte complet de l'entrée."""
+    if e.article:
+        return "wiki:" + e.article.casefold()
+    if e.method in STRICT_METHODS and e.name:
+        return "txt:" + e.section.casefold() + "|" + re.sub(r"\s+", " ", e.name).strip().casefold()
+    return "entry:" + e.text.casefold()
 
 
 def deduplicate(entries: Iterable[Entry]) -> list[Entry]:
@@ -496,7 +586,7 @@ def deduplicate(entries: Iterable[Entry]) -> list[Entry]:
     best: dict[str, Entry] = {}
     order: list[str] = []
     for e in entries:
-        k = person_key(e) or e.text.casefold()
+        k = person_key(e)
         if k not in best:
             order.append(k)
             best[k] = e
@@ -538,10 +628,10 @@ def write_csv(entries: list[Entry], path: Path) -> None:
     unique_ids = {id(e) for e in deduplicate(entries)}
     with path.open("w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
-        w.writerow(["page", "section", "sous_section", "nom", "parti", "methode",
+        w.writerow(["page", "section", "sous_section", "nom", "article", "parti", "methode",
                     "compte_dans_total", "texte"])
         for e in entries:
-            w.writerow([e.page, e.section, e.subsection, e.name, e.party, e.method,
+            w.writerow([e.page, e.section, e.subsection, e.name, e.article, e.party, e.method,
                         "oui" if id(e) in unique_ids else "non (doublon)", e.text])
 
 

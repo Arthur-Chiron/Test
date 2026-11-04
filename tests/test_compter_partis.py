@@ -84,7 +84,7 @@ ILLINOIS_HTML = """
 <ul>
   <li>Ed Burke (D), alderman, convicted of racketeering (2023).</li>
   <li>Jane Example, alderwoman, convicted of fraud (1990).</li>
-  <li>Mike Hubbard (R), duplicate entry also present in another list.</li>
+  <li><a href="/wiki/Mike_Hubbard_(politician)">Mike Hubbard</a> (R), duplicate entry also present in another list.</li>
 </ul>
 <ul>
   <li>See <a href="/wiki/List_of_Cook_County_politicians_convicted_of_crimes">List of Cook County politicians convicted of crimes</a></li>
@@ -145,6 +145,11 @@ class TestMarkers(unittest.TestCase):
             "Joe (Whig), 1850": cp.OTHER,
             "Joe (Democratic-Republican), 1810": cp.OTHER,
             "Joe ( R ), Senator": cp.REP,
+            "Jospeth M Meyers (populist) convicted": cp.OTHER,
+            "Freddy Valentin (PNP) was indicted": cp.OTHER,
+            "José Luis Cruz Cruz (PPD) convicted": cp.OTHER,
+            "Timothy Villagomez (CP) was sentenced": cp.OTHER,
+            "Chuck Turner (GRP) was expelled": cp.OTHER,
         }
         for text, expected in cases.items():
             with self.subTest(text=text):
@@ -153,7 +158,9 @@ class TestMarkers(unittest.TestCase):
     def test_false_positives(self):
         for text in ["Lobbyist in Washington (D.C.)", "Providence (R.I.) mayor",
                      "Rep. John Smith, convicted", "(Representative), convicted",
-                     "convicted in 2001 (Dallas)", "(Dennis) Smith"]:
+                     "convicted in 2001 (Dallas)", "(Dennis) Smith",
+                     "Harvey D Garrison (?) convicted", "Carolyn Davis (-) was convicted",
+                     "John Smith (indicted 2009)"]:
             with self.subTest(text=text):
                 self.assertIsNone(cp.find_marker(text))
 
@@ -223,6 +230,102 @@ class TestParsePage(unittest.TestCase):
             "List of Illinois politicians convicted of crimes",
             "List of Ohio politicians convicted of crimes",
         ])
+
+
+def li_entries(inner_html, section="State"):
+    html = f'<div class="mw-parser-output"><h2>{section}</h2><ul>{inner_html}</ul></div>'
+    return cp.parse_page(html, "P")[0]
+
+
+class TestRealWorldPatterns(unittest.TestCase):
+    """Formulations relevées sur les vraies listes Wikipédia par décennie."""
+
+    def test_office_before_linked_name(self):
+        [e] = li_entries('<li>State Representative <a href="/wiki/Ed_Henry_(politician)">Ed Henry</a>'
+                         ' (R) convicted of fraud. (2019)</li>')
+        self.assertEqual((e.name, e.article, e.party), ("Ed Henry", "Ed Henry (politician)", cp.REP))
+
+    def test_suffix_jr_is_part_of_the_name(self):
+        entries = li_entries(
+            '<li>Governor Otto Kerner, Jr. (D) was convicted. (1973)</li>'
+            '<li>State Senator William Lee Slocum, Jr. (R) pleaded guilty. (1990)</li>')
+        self.assertEqual([e.name for e in entries],
+                         ["Governor Otto Kerner, Jr.", "State Senator William Lee Slocum, Jr."])
+        # Deux personnes différentes : pas de fusion sur « Jr. ».
+        self.assertEqual(len(cp.deduplicate(entries)), 2)
+
+    def test_several_people_convicted_together(self):
+        entries = li_entries(
+            "<li>State Senators Joseph DiCarlo (D) and Ronald MacKenzie (R) were convicted of "
+            "violating the Hobbs Act. (1977)</li>"
+            "<li>Governor's Councilors Joseph Ray Crimmins (D) and Raymond F. Sullivan (D) and "
+            "former councilors Michael Favulli (D) and Ernest C. Stasiun (D) were found guilty "
+            "of conspiracy for requesting bribes from Governor Foster Furcolo. (1965)</li>")
+        self.assertEqual([(e.name, e.party) for e in entries], [
+            ("State Senators Joseph DiCarlo", cp.DEM), ("Ronald MacKenzie", cp.REP),
+            ("Governor's Councilors Joseph Ray Crimmins", cp.DEM), ("Raymond F. Sullivan", cp.DEM),
+            ("former councilors Michael Favulli", cp.DEM), ("Ernest C. Stasiun", cp.DEM),
+        ])
+
+    def test_people_named_after_the_verb_are_not_counted(self):
+        entries = li_entries(
+            "<li>Tax Assessor of Putnam County Byron Looper (R), was convicted of the murder of "
+            "State Senator Tommy Burks (D). (2000)</li>"
+            "<li>Tax collector of Seminole County Joel Greenberg (R) was convicted of sex "
+            "trafficking for former congressman Matt Gaetz (R-FL). (2022)</li>")
+        self.assertEqual([(e.name, e.party) for e in entries], [
+            ("Tax Assessor of Putnam County Byron Looper", cp.REP),
+            ("Tax collector of Seminole County Joel Greenberg", cp.REP),
+        ])
+
+    def test_same_person_twice_in_one_item(self):
+        entries = li_entries(
+            "<li>Cincinnati City Councilor Jeffrey Pastor (R) convicted of fraud. (2023) "
+            "* Cincinnati City Councilor Jeffrey Pastor (R) convicted of fraud. (2023)</li>")
+        self.assertEqual(len(entries), 1)
+
+    def test_detail_sub_items_are_not_extra_people(self):
+        entries = li_entries(
+            "<li>State Senator John McGee (R):<ul>"
+            "<li>Found guilty of drunk driving and auto theft. (2013)</li>"
+            "<li>Pleaded guilty to probation violation. (2015)</li></ul></li>"
+            "<li>Speaker of the House Edison Misla Aldarondo (R) was convicted of extortion.<ul>"
+            "<li>Jose Omar Cruz-Mercado was the Associate Secretary of Education.</li></ul></li>")
+        self.assertEqual([(e.name, e.party) for e in entries], [
+            ("State Senator John McGee", cp.REP),
+            ("Speaker of the House Edison Misla Aldarondo", cp.REP),
+            ("Jose Omar Cruz-Mercado was the Associate Secretary of Education.", cp.UNKNOWN),
+        ])
+
+    def test_unlinked_namesakes_in_different_states_are_kept(self):
+        a = li_entries("<li>Mayor John Smith (D) convicted. (1990)</li>", section="Ohio")
+        b = li_entries("<li>Mayor John Smith (D) convicted. (1990)</li>", section="Texas")
+        c = li_entries("<li>Mayor John Smith (D) convicted again. (1995)</li>", section="Ohio")
+        self.assertEqual(len(cp.deduplicate(a + b + c)), 2)
+
+    def test_unknown_entries_are_never_merged(self):
+        entries = li_entries(
+            '<li><a href="/wiki/Tax_collector">Tax collector</a>, York County Melissa Ann Arnold '
+            'convicted of theft. (2015)</li>'
+            '<li><a href="/wiki/Tax_collector">Tax collector</a>, Berks County, Jodie Mae Keller '
+            'pleaded guilty. (2013)</li>')
+        self.assertEqual(len(cp.deduplicate(entries)), 2)
+
+    def test_list_link_is_not_a_person_identity(self):
+        entries = li_entries(
+            '<li><a href="/wiki/List_of_mayors_of_Springfield,_Missouri">Mayor of Springfield '
+            'Thomas H Gideon</a> (R) convicted. (1920)</li>'
+            '<li><a href="/wiki/List_of_mayors_of_Springfield,_Missouri">Mayor of Springfield '
+            'John Doe</a> (R) convicted. (1925)</li>', section="Missouri")
+        self.assertEqual([e.article for e in entries], ["", ""])
+        self.assertEqual(len(cp.deduplicate(entries)), 2)
+
+    def test_linked_person_merged_across_lists(self):
+        a = li_entries('<li><a href="/wiki/Alan_Robbins">State Senator Alan Robbins</a> (D) resigned.</li>',
+                       section="California")
+        b = li_entries('<li>State Senator <a href="/wiki/Alan_Robbins">Alan Robbins</a> (D)</li>',
+                       section="California")
+        self.assertEqual(len(cp.deduplicate(a + b)), 1)
 
 
 class TestCrawl(unittest.TestCase):
