@@ -132,6 +132,8 @@ class TestSeats(unittest.TestCase):
     def test_composition(self):
         self.assertEqual(ce.parse_composition("88R, 62D, 2PO, 1Proh"), (62, 88, 3))
         self.assertEqual(ce.parse_composition("40DFL, 27R"), (40, 27, 0))
+        self.assertEqual(ce.parse_composition("107DFL, 94IR"), (107, 94, 0))
+        self.assertEqual(ce.parse_composition("20D, 18R, 1vac."), (20, 18, 0))
         self.assertIsNone(ce.parse_composition("DR majority"))
 
     def test_party_strength_table(self):

@@ -43,8 +43,9 @@ C = {
     "surface": "#fcfcfb", "ink": "#0b0b0b", "ink2": "#52514e", "muted": "#898781",
     "grid": "#e1e0d9", "axis": "#c3c2b7",
 }
-SOURCE_NOTE = ("Sources : Wikipédia (listes et catégories d'élus condamnés ; pages « Political "
-               "party strength in … »), téléchargées le {date}.")
+SOURCE_NOTE = ("Sources : Wikipédia (listes, catégories, « Political party strength in … »), "
+               "Wikidata, C. Klarner (Harvard Dataverse), ministère de la Justice (PIN). "
+               "Données du {date}.")
 
 
 # --------------------------------------------------------------------------
@@ -60,6 +61,23 @@ def load(base: Path, seats_path: Path):
     return persons, seats
 
 
+def load_optional(directory: Path):
+    """Sièges de Klarner et série du ministère de la Justice, s'ils ont été collectés."""
+    klarner, doj = None, None
+    kp = directory / "sieges_klarner.csv"
+    if kp.exists():
+        with kp.open(encoding="utf-8") as f:
+            klarner = [{k: (int(v) if k != "etat" else v) for k, v in r.items()}
+                       for r in csv.DictReader(f)]
+    dp = directory / "doj_condamnations_etats_locaux.csv"
+    if dp.exists():
+        with dp.open(encoding="utf-8") as f:
+            doj = {int(r["annee"]): {"etat": int(r["condamnes_etats"]),
+                                     "local": int(r["condamnes_locaux"])}
+                   for r in csv.DictReader(f)}
+    return klarner, doj
+
+
 def seat_tables(seats):
     """(État, décennie) -> sièges moyens (D, R) ; année -> total national (D, R)."""
     by_sd = defaultdict(list)
@@ -73,7 +91,7 @@ def seat_tables(seats):
     return state_decade, dict(sorted(national.items()))
 
 
-def analyse(persons, seats):
+def analyse(persons, seats, klarner=None, doj=None):
     state_decade, national = seat_tables(seats)
     dr = [p for p in persons if p["parti"] in (DEM, REP)]
     out: dict = {
@@ -92,14 +110,15 @@ def analyse(persons, seats):
     out["condamnes_sans_decennie"] = sum(1 for p in dr if not p["decennie"])
 
     # Observé vs attendu (même État, même décennie)
-    def compare(subset):
+    def compare(subset, sd_table=None):
+        sd_table = state_decade if sd_table is None else sd_table
         exp = defaultdict(lambda: {"obs_D": 0, "obs_R": 0, "exp_D": 0.0, "var": 0.0})
         per_state = defaultdict(lambda: {"obs_D": 0, "n": 0, "exp_D": 0.0})
         covered = 0
         for p in subset:
             if not p["decennie"] or p["etat"] not in STATES:
                 continue
-            sd = state_decade.get((p["etat"], int(p["decennie"])))
+            sd = sd_table.get((p["etat"], int(p["decennie"])))
             if not sd or sd[0] + sd[1] == 0:
                 continue
             covered += 1
@@ -146,6 +165,31 @@ def analyse(persons, seats):
     }
     out["robustesse"] = {name: summarize_exp(compare(sub)[0]["total"])
                          for name, sub in subsets.items()}
+
+    # Même comparaison avec les sièges de Klarner (décennies 1940-2000, entièrement
+    # couvertes par ses données 1937-2011), face aux sièges Wikipédia sur les mêmes personnes.
+    if klarner:
+        k_table, _ = seat_tables(klarner)
+        same = [p for p in dr if p["decennie"] and 1940 <= int(p["decennie"]) <= 2000
+                and (p["etat"], int(p["decennie"])) in k_table]
+        out["robustesse"]["sieges_wikipedia_1940_2009"] = summarize_exp(compare(same)[0]["total"])
+        out["robustesse"]["sieges_klarner_1940_2009"] = summarize_exp(
+            compare(same, k_table)[0]["total"])
+
+    # Couverture : condamnations fédérales d'agents et élus d'États et locaux (DOJ)
+    # face aux personnes de la base, par décennie.
+    if doj:
+        base_by_decade = Counter(int(p["decennie"]) for p in persons if p["decennie"])
+        cov = {}
+        for dec in sorted({y // 10 * 10 for y in doj}):
+            years = [y for y in doj if y // 10 * 10 == dec]
+            n_doj = sum(doj[y]["etat"] + doj[y]["local"] for y in years)
+            # Base ramenée aux mêmes années quand la décennie DOJ est incomplète.
+            n_base = base_by_decade.get(dec, 0)
+            cov[dec] = {"annees_doj": f"{min(years)}-{max(years)}", "doj": n_doj,
+                        "base_decennie_entiere": n_base,
+                        "part_base_sur_doj_pct": round(100 * n_base / n_doj, 1) if n_doj else None}
+        out["couverture"] = cov
 
     # Sièges nationaux (somme des États disposant de données)
     out["sieges_nationaux_par_annee"] = {y: {"D": d, "R": r} for y, (d, r) in national.items()}
@@ -384,6 +428,8 @@ ROBUSTNESS_LABELS = {
     "ajouts_hors_listes": "Ajouts hors listes (catégories…)",
     "avant_1970": "Condamnés avant 1970",
     "depuis_1970": "Condamnés depuis 1970",
+    "sieges_wikipedia_1940_2009": "1940-2009, sièges Wikipédia",
+    "sieges_klarner_1940_2009": "1940-2009, sièges Klarner (Harvard)",
 }
 
 
@@ -418,6 +464,41 @@ def fig_robustesse(a, path, note):
     ax.legend([h1, h2], ["Observée", "Attendue (sièges)"], loc="lower left", frameon=False,
               fontsize=9, labelcolor=C["ink2"])
     fig.subplots_adjust(left=0.3)
+    fig.savefig(path, facecolor=C["surface"])
+    plt.close(fig)
+
+
+def fig_couverture(a, path, note):
+    cov = a["couverture"]
+    decades = sorted(cov)
+    x = range(len(decades))
+    w = 0.38
+    tot_doj = sum(v["doj"] for v in cov.values())
+    fig, ax = new_figure(
+        "Combien d'affaires la base recense-t-elle ?",
+        f"Condamnations fédérales d'élus et d'agents d'États et locaux "
+        f"({f'{tot_doj:,}'.replace(',', ' ')} de 1974 à 2023, sans parti) face aux personnes "
+        "de la base", note)
+    b1 = ax.bar([i - w / 2 for i in x], [cov[d]["doj"] for d in decades], w, color=C["muted"],
+                edgecolor=C["surface"], linewidth=1.5)
+    b2 = ax.bar([i + w / 2 for i in x], [cov[d]["base_decennie_entiere"] for d in decades], w,
+                color=C["dem"], edgecolor=C["surface"], linewidth=1.5)
+    for i, d in enumerate(decades):
+        v = cov[d]
+        if v["annees_doj"] != f"{d}-{d + 9}":
+            continue  # décennie incomplète côté DOJ : le rapport n'aurait pas de sens
+        ax.annotate(f"{fr(v['part_base_sur_doj_pct'])} %", (i + w / 2, v["base_decennie_entiere"]),
+                    xytext=(0, 4), textcoords="offset points", ha="center", va="bottom",
+                    fontsize=8.5, color=C["ink2"])
+    labels = [f"{d}s" + ("" if cov[d]["annees_doj"] == f"{d}-{d + 9}" else
+                        f"\n({cov[d]['annees_doj']})") for d in decades]
+    ax.set_xticks(list(x), labels, fontsize=8)
+    ax.yaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{int(v):,}".replace(",", " ")))
+    ax.set_ylabel("Personnes condamnées", color=C["ink2"], fontsize=9)
+    ax.set_ylim(0, max(v["doj"] for v in cov.values()) * 1.3)  # place pour la légende
+    legend(ax, [(b1, "Condamnations fédérales (ministère de la Justice)"),
+                (b2, "Personnes dans la base (% = taille rapportée aux condamnations "
+                     "fédérales, décennies complètes)")])
     fig.savefig(path, facecolor=C["surface"])
     plt.close(fig)
 
@@ -474,7 +555,8 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
     persons, seats = load(args.dir / "base_exhaustive.csv",
                           args.dir / "sieges_parlements_etats.csv")
-    a = analyse(persons, seats)
+    klarner, doj = load_optional(args.dir)
+    a = analyse(persons, seats, klarner, doj)
     out = args.dir / "graphiques"
     out.mkdir(parents=True, exist_ok=True)
     note = SOURCE_NOTE.format(date=args.date or "jour de la collecte")
@@ -485,6 +567,8 @@ def main(argv=None) -> int:
     fig_taux(a, out / "5_taux_parlementaires.png", note)
     fig_etats(a, out / "6_etats.png", note)
     fig_robustesse(a, out / "7_robustesse.png", note)
+    if "couverture" in a:
+        fig_couverture(a, out / "8_couverture.png", note)
     (args.dir / "analyse.json").write_text(json.dumps(a, ensure_ascii=False, indent=2),
                                            encoding="utf-8")
     write_markdown(a, args.dir / "analyse.md")

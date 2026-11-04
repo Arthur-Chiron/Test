@@ -401,14 +401,20 @@ def is_legislature_label(label: str) -> bool:
                                            "class", "speaker")))
 
 
+# DFL : démocrates du Minnesota ; IR : « Independent-Republicans », nom des
+# républicains du Minnesota de 1975 à 1995. Les sièges vacants ne comptent pas.
+DEM_CODES = {"D", "DFL"}
+REP_CODES = {"R", "IR"}
+
+
 def parse_composition(text: str) -> tuple[int, int, int] | None:
     """« 88R, 62D, 2PO, 1Proh » -> (D, R, autres)."""
     pairs = re.findall(r"(\d+)\s*([A-Za-z][A-Za-z.]*)", text)
     if not pairs:
         return None
-    d = sum(int(n) for n, code in pairs if code in ("D", "DFL"))
-    r = sum(int(n) for n, code in pairs if code == "R")
-    o = sum(int(n) for n, code in pairs if code not in ("D", "DFL", "R"))
+    d = sum(int(n) for n, code in pairs if code in DEM_CODES)
+    r = sum(int(n) for n, code in pairs if code in REP_CODES)
+    o = sum(int(n) for n, code in pairs if code not in DEM_CODES | REP_CODES | {"vac."})
     return d, r, o
 
 
@@ -656,6 +662,62 @@ def build(client: cp.WikiClient, verbose: bool = True) -> tuple[list[Person], di
     return persons, report
 
 
+SRC_WIKIDATA = "wikidata"
+
+
+def enrich_with_wikidata(persons: list[Person], sparql, verbose: bool = True) -> dict:
+    """Complète le parti par Wikidata (P102) et ajoute les condamnés (P1399) absents."""
+    import sources_complementaires as sc
+
+    report: dict = {}
+    by_article = {p.article: p for p in persons if p.article}
+    parties = sc.wikidata_parties(sparql, list(by_article), verbose=verbose)
+    filled, agree = 0, Counter()
+    for title, labels in parties.items():
+        p = by_article.get(title)
+        if p is None or not labels:
+            continue
+        wd = decide_party(set().union(*(party_signals(l) for l in labels)))
+        if p.party == UNKNOWN and wd != UNKNOWN:
+            p.party, p.party_source = wd, "Wikidata (P102)"
+            filled += 1
+        elif p.party in (DEM, REP) and wd in (DEM, REP):
+            agree["identique" if p.party == wd else "différent"] += 1
+    report["partis_completes"] = filled
+    report["controle_parti_base_vs_wikidata"] = dict(agree)
+
+    added, skipped = 0, Counter()
+    for wp in sc.wikidata_convicted(sparql):
+        known = by_article.get(wp["title"]) if wp["title"] else None
+        if known is not None:
+            known.add_source(SRC_WIKIDATA)
+            continue
+        positions = " | ".join(wp["positions"])
+        if sc.FEDERAL_POSITION_RE.search(positions):
+            skipped["mandat fédéral"] += 1
+            continue
+        if not sc.STATE_LOCAL_POSITION_RE.search(positions):
+            skipped["aucun mandat d'État ou local"] += 1
+            continue
+        year = min(wp["years"]) if wp["years"] else None
+        person = Person(
+            name=wp["label"] or wp["item"], article=wp["title"],
+            party=decide_party(set().union(set(), *(party_signals(l) for l in wp["parties"]))),
+            party_source="Wikidata (P102)", state=place_of(positions),
+            year=year, decade=year // 10 * 10 if year else None, level="état/local",
+            legislator=bool(sc.LEGISLATOR_POSITION_RE.search(positions)),
+            office=positions[:200], sources=[SRC_WIKIDATA])
+        if person.party == UNKNOWN:
+            person.party_source = ""
+        persons.append(person)
+        if person.article:
+            by_article[person.article] = person
+        added += 1
+    report["personnes_ajoutees"] = added
+    report["exclues"] = dict(skipped)
+    return report
+
+
 def write_people(persons: list[Person], path: Path) -> None:
     with path.open("w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
@@ -679,17 +741,41 @@ def main(argv: list[str] | None = None) -> int:
     args.out.mkdir(parents=True, exist_ok=True)
     client = cp.WikiClient(delay=args.delay, cache_dir=args.cache_dir, verbose=True)
 
-    print("1/2  Condamnés : listes, tableaux, catégories...", file=sys.stderr)
+    import sources_complementaires as sc
+
+    print("1/4  Condamnés : listes, tableaux, catégories...", file=sys.stderr)
     persons, report = build(client)
+
+    print("2/4  Wikidata : partis et condamnés absents de Wikipédia...", file=sys.stderr)
+    report["wikidata"] = enrich_with_wikidata(persons, sc.Sparql(args.cache_dir))
+    persons.sort(key=lambda p: (p.decade or 0, p.state, p.name))
+    report["total_personnes"] = len(persons)
+    report["apport_par_source"]["en_plus_via_wikidata"] = report["wikidata"]["personnes_ajoutees"]
     write_people(persons, args.out / "base_exhaustive.csv")
 
-    print("2/2  Sièges des parlements d'États...", file=sys.stderr)
+    print("3/4  Sièges des parlements d'États (Wikipédia, Klarner)...", file=sys.stderr)
+    fields = ["etat", "annee", "democrates", "republicains", "autres"]
     seats, missing = fetch_seats(client)
-    with (args.out / "sieges_parlements_etats.csv").open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["etat", "annee", "democrates", "republicains", "autres"])
-        w.writeheader()
-        w.writerows(seats)
-    report["sieges"] = {"lignes_etat_annee": len(seats), "etats_sans_donnees": missing}
+    klarner = sc.klarner_seats(args.cache_dir)
+    for name, rows in (("sieges_parlements_etats.csv", seats), ("sieges_klarner.csv", klarner)):
+        with (args.out / name).open("w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=fields)
+            w.writeheader()
+            w.writerows(rows)
+    report["sieges"] = {"lignes_etat_annee": len(seats), "etats_sans_donnees": missing,
+                        "controle_wikipedia_vs_klarner": sc.compare_seats(seats, klarner)}
+
+    print("4/4  Condamnations fédérales (ministère de la Justice)...", file=sys.stderr)
+    doj = sc.doj_convictions(args.cache_dir)
+    with (args.out / "doj_condamnations_etats_locaux.csv").open("w", newline="",
+                                                                encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["annee", "condamnes_etats", "condamnes_locaux", "rapport_source"])
+        for y, v in doj.items():
+            w.writerow([y, v["etat"], v["local"], v["rapport"]])
+    report["doj"] = {"annees": f"{min(doj)}-{max(doj)}",
+                     "total_condamnes_etats_et_locaux": sum(v["etat"] + v["local"]
+                                                            for v in doj.values())}
     (args.out / "collecte.json").write_text(json.dumps(report, ensure_ascii=False, indent=2),
                                             encoding="utf-8")
     print(json.dumps(report, ensure_ascii=False, indent=2))

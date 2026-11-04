@@ -178,26 +178,26 @@ Alabama,2023,36,104,0
 Alabama,2024,37,103,0
 Alabama,2025,37,103,0
 Alabama,2026,37,103,0
-Alaska,1913,3,3,18
-Alaska,1914,3,3,18
+Alaska,1913,3,5,15
+Alaska,1914,3,5,15
 Alaska,1915,6,1,17
 Alaska,1916,6,1,17
-Alaska,1917,10,7,7
-Alaska,1918,10,7,7
-Alaska,1919,16,4,4
-Alaska,1920,16,4,4
-Alaska,1921,5,14,5
-Alaska,1922,5,14,5
+Alaska,1917,10,8,6
+Alaska,1918,10,8,6
+Alaska,1919,16,5,3
+Alaska,1920,16,5,3
+Alaska,1921,5,16,3
+Alaska,1922,5,16,3
 Alaska,1923,2,16,6
 Alaska,1924,2,16,6
-Alaska,1925,6,13,5
-Alaska,1926,6,13,5
+Alaska,1925,6,14,4
+Alaska,1926,6,14,4
 Alaska,1927,4,17,3
 Alaska,1928,4,17,3
-Alaska,1929,5,14,5
-Alaska,1930,5,14,5
+Alaska,1929,5,15,4
+Alaska,1930,5,15,4
 Alaska,1931,8,15,1
-Alaska,1932,7,15,2
+Alaska,1932,7,15,1
 Alaska,1933,18,6,0
 Alaska,1934,18,6,0
 Alaska,1935,23,1,0
@@ -444,8 +444,8 @@ Arkansas,1879,112,4,7
 Arkansas,1880,112,4,7
 Arkansas,1881,110,10,2
 Arkansas,1882,110,10,2
-Arkansas,1883,115,2,7
-Arkansas,1884,115,2,7
+Arkansas,1883,115,4,5
+Arkansas,1884,115,4,5
 Arkansas,1885,111,16,0
 Arkansas,1886,111,16,0
 Arkansas,1887,103,16,8
@@ -921,7 +921,7 @@ Connecticut,1837,124,0,86
 Connecticut,1838,43,0,184
 Connecticut,1839,95,0,122
 Connecticut,1840,66,0,161
-Connecticut,1841,58,0,177
+Connecticut,1841,58,0,136
 Connecticut,1842,138,0,62
 Connecticut,1843,129,0,80
 Connecticut,1844,82,0,128
@@ -933,7 +933,7 @@ Connecticut,1849,106,0,137
 Connecticut,1850,123,0,120
 Connecticut,1851,118,0,127
 Connecticut,1852,144,0,102
-Connecticut,1853,159,0,89
+Connecticut,1853,159,0,87
 Connecticut,1854,94,0,146
 Connecticut,1855,69,0,180
 Connecticut,1856,113,0,140
@@ -959,7 +959,7 @@ Connecticut,1875,152,113,1
 Connecticut,1876,179,88,0
 Connecticut,1877,115,152,0
 Connecticut,1878,117,150,0
-Connecticut,1879,106,157,4
+Connecticut,1879,106,157,2
 Connecticut,1880,88,178,1
 Connecticut,1881,85,182,2
 Connecticut,1882,96,177,0
@@ -967,12 +967,12 @@ Connecticut,1883,121,152,0
 Connecticut,1884,105,168,0
 Connecticut,1885,107,165,1
 Connecticut,1886,127,144,2
-Connecticut,1887,119,151,3
-Connecticut,1888,119,151,3
+Connecticut,1887,119,151,2
+Connecticut,1888,119,151,2
 Connecticut,1889,103,169,1
 Connecticut,1890,103,169,1
-Connecticut,1891,133,140,2
-Connecticut,1892,133,140,2
+Connecticut,1891,133,140,1
+Connecticut,1892,133,140,1
 Connecticut,1893,125,149,1
 Connecticut,1894,125,149,1
 Connecticut,1895,47,227,1
@@ -1313,10 +1313,10 @@ Florida,1849,23,0,36
 Florida,1850,23,0,36
 Florida,1851,31,0,28
 Florida,1852,31,0,28
-Florida,1853,38,0,21
-Florida,1854,38,0,21
-Florida,1855,34,0,25
-Florida,1856,34,0,25
+Florida,1853,38,0,20
+Florida,1854,38,0,20
+Florida,1855,34,0,24
+Florida,1856,34,0,24
 Florida,1857,42,0,23
 Florida,1858,42,0,23
 Florida,1859,50,0,16
@@ -2499,16 +2499,16 @@ Kansas,1861,14,86,0
 Kansas,1862,14,86,0
 Kansas,1863,10,77,12
 Kansas,1864,5,50,3
-Kansas,1865,8,81,12
-Kansas,1866,11,80,9
+Kansas,1865,8,82,11
+Kansas,1866,11,81,8
 Kansas,1867,18,89,0
 Kansas,1868,31,82,0
 Kansas,1869,7,108,0
 Kansas,1871,16,107,0
 Kansas,1873,3,78,57
-Kansas,1874,4,84,50
+Kansas,1874,4,84,49
 Kansas,1875,13,95,30
-Kansas,1876,12,97,31
+Kansas,1876,12,101,27
 Kansas,1877,23,142,0
 Kansas,1878,23,142,0
 Kansas,1879,22,143,0
@@ -2830,7 +2830,7 @@ Kentucky,2001,84,54,0
 Kentucky,2002,84,54,0
 Kentucky,2003,81,57,0
 Kentucky,2004,80,58,0
-Kentucky,2005,72,64,2
+Kentucky,2005,72,64,1
 Kentucky,2006,72,65,1
 Kentucky,2007,77,60,1
 Kentucky,2008,78,59,1
@@ -2871,20 +2871,20 @@ Louisiana,1852,60,0,69
 Louisiana,1853,67,0,60
 Louisiana,1854,80,0,49
 Louisiana,1855,80,0,49
-Louisiana,1856,65,0,55
-Louisiana,1857,65,0,55
+Louisiana,1856,65,0,54
+Louisiana,1857,65,0,54
 Louisiana,1858,72,0,48
 Louisiana,1859,72,0,48
-Louisiana,1860,80,0,47
-Louisiana,1861,80,0,47
+Louisiana,1860,80,0,46
+Louisiana,1861,80,0,46
 Louisiana,1869,61,76,0
 Louisiana,1870,61,76,0
-Louisiana,1871,36,103,2
-Louisiana,1872,36,103,2
+Louisiana,1871,36,103,0
+Louisiana,1872,36,103,0
 Louisiana,1875,72,74,0
 Louisiana,1876,72,74,0
-Louisiana,1877,84,58,4
-Louisiana,1878,84,58,4
+Louisiana,1877,84,58,0
+Louisiana,1878,84,58,0
 Louisiana,1879,101,26,3
 Louisiana,1880,101,26,3
 Louisiana,1881,106,28,0
@@ -3037,7 +3037,7 @@ Maine,1835,112,0,73
 Maine,1836,73,0,44
 Maine,1837,129,0,58
 Maine,1838,99,0,109
-Maine,1839,122,0,84
+Maine,1839,122,0,83
 Maine,1840,140,0,71
 Maine,1841,73,0,112
 Maine,1842,158,0,59
@@ -3451,9 +3451,9 @@ Massachusetts,1867,11,269,0
 Massachusetts,1868,68,212,0
 Massachusetts,1869,18,262,0
 Massachusetts,1870,68,189,12
-Massachusetts,1871,39,229,2
+Massachusetts,1871,39,229,1
 Massachusetts,1872,60,214,0
-Massachusetts,1873,25,250,5
+Massachusetts,1873,25,250,0
 Massachusetts,1874,81,193,6
 Massachusetts,1875,94,179,7
 Massachusetts,1876,67,212,1
@@ -3462,13 +3462,13 @@ Massachusetts,1878,74,206,0
 Massachusetts,1879,53,213,14
 Massachusetts,1880,53,207,17
 Massachusetts,1881,52,226,2
-Massachusetts,1882,57,215,8
+Massachusetts,1882,57,220,3
 Massachusetts,1883,102,173,5
-Massachusetts,1884,106,162,11
-Massachusetts,1885,70,198,5
+Massachusetts,1884,106,163,10
+Massachusetts,1885,70,199,4
 Massachusetts,1886,86,185,8
-Massachusetts,1887,93,183,5
-Massachusetts,1888,81,194,5
+Massachusetts,1887,93,184,4
+Massachusetts,1888,81,195,4
 Massachusetts,1889,65,214,1
 Massachusetts,1890,90,190,0
 Massachusetts,1891,118,160,2
@@ -3482,12 +3482,12 @@ Massachusetts,1898,64,214,2
 Massachusetts,1899,71,201,7
 Massachusetts,1900,79,197,4
 Massachusetts,1901,67,210,3
-Massachusetts,1902,77,192,10
+Massachusetts,1902,77,195,7
 Massachusetts,1903,92,185,3
 Massachusetts,1904,94,185,1
 Massachusetts,1905,75,203,2
 Massachusetts,1906,78,196,5
-Massachusetts,1907,75,201,4
+Massachusetts,1907,75,203,2
 Massachusetts,1908,74,206,0
 Massachusetts,1909,66,214,0
 Massachusetts,1910,76,202,2
@@ -3572,11 +3572,11 @@ Massachusetts,1988,158,42,0
 Massachusetts,1989,160,40,0
 Massachusetts,1990,160,40,0
 Massachusetts,1991,145,54,1
-Massachusetts,1992,145,53,2
+Massachusetts,1992,145,53,1
 Massachusetts,1993,155,44,1
 Massachusetts,1994,155,44,1
 Massachusetts,1995,155,44,1
-Massachusetts,1996,153,44,3
+Massachusetts,1996,153,44,1
 Massachusetts,1997,157,42,1
 Massachusetts,1998,157,42,1
 Massachusetts,1999,164,35,1
@@ -3612,7 +3612,7 @@ Michigan,1838,44,0,22
 Michigan,1839,42,0,27
 Michigan,1840,22,0,47
 Michigan,1841,25,0,44
-Michigan,1842,59,0,12
+Michigan,1842,59,0,11
 Michigan,1843,64,0,7
 Michigan,1844,65,0,6
 Michigan,1845,64,0,7
@@ -3859,33 +3859,33 @@ Minnesota,1907,33,145,4
 Minnesota,1908,33,145,4
 Minnesota,1909,41,137,4
 Minnesota,1910,41,137,4
-Minnesota,1911,45,130,8
-Minnesota,1912,45,130,8
+Minnesota,1911,45,131,7
+Minnesota,1912,45,131,7
 Minnesota,1913,39,140,4
 Minnesota,1914,39,140,4
 Minnesota,1973,114,87,0
 Minnesota,1974,113,88,0
-Minnesota,1975,142,0,59
-Minnesota,1976,141,0,60
-Minnesota,1977,153,0,48
-Minnesota,1978,147,0,54
-Minnesota,1979,114,0,87
-Minnesota,1980,113,0,88
-Minnesota,1981,115,0,86
-Minnesota,1982,114,0,87
-Minnesota,1983,119,0,82
-Minnesota,1984,118,0,83
-Minnesota,1985,107,0,94
-Minnesota,1986,108,0,93
-Minnesota,1987,130,0,71
-Minnesota,1988,128,0,73
-Minnesota,1989,125,0,76
-Minnesota,1990,124,0,77
-Minnesota,1991,126,0,75
-Minnesota,1992,124,0,77
-Minnesota,1993,132,0,69
-Minnesota,1994,129,0,72
-Minnesota,1995,114,0,87
+Minnesota,1975,142,58,1
+Minnesota,1976,141,59,1
+Minnesota,1977,153,48,0
+Minnesota,1978,147,54,0
+Minnesota,1979,114,87,0
+Minnesota,1980,113,88,0
+Minnesota,1981,115,86,0
+Minnesota,1982,114,87,0
+Minnesota,1983,119,82,0
+Minnesota,1984,118,83,0
+Minnesota,1985,107,93,1
+Minnesota,1986,108,93,0
+Minnesota,1987,130,71,0
+Minnesota,1988,128,73,0
+Minnesota,1989,125,76,0
+Minnesota,1990,124,77,0
+Minnesota,1991,126,75,0
+Minnesota,1992,124,77,0
+Minnesota,1993,132,69,0
+Minnesota,1994,129,72,0
+Minnesota,1995,114,87,0
 Minnesota,1996,111,90,0
 Minnesota,1997,112,88,1
 Minnesota,1998,112,88,1
@@ -3943,10 +3943,10 @@ Mississippi,1870,32,108,0
 Mississippi,1871,32,108,0
 Mississippi,1872,64,88,0
 Mississippi,1873,64,88,0
-Mississippi,1874,58,91,3
-Mississippi,1875,58,91,3
-Mississippi,1876,122,30,1
-Mississippi,1877,122,30,1
+Mississippi,1874,58,91,0
+Mississippi,1875,58,91,0
+Mississippi,1876,122,31,0
+Mississippi,1877,122,31,0
 Mississippi,1878,145,10,3
 Mississippi,1879,145,10,3
 Mississippi,1880,136,6,16
@@ -4118,14 +4118,14 @@ Missouri,1859,111,0,55
 Missouri,1860,111,0,55
 Missouri,1861,110,0,55
 Missouri,1862,110,0,55
-Missouri,1863,49,81,11
-Missouri,1864,49,81,11
-Missouri,1865,34,128,3
-Missouri,1866,34,128,3
-Missouri,1867,48,118,3
-Missouri,1868,48,118,3
-Missouri,1869,45,117,5
-Missouri,1870,45,117,5
+Missouri,1863,49,81,0
+Missouri,1864,49,81,0
+Missouri,1865,34,128,0
+Missouri,1866,34,128,0
+Missouri,1867,48,118,0
+Missouri,1868,48,118,0
+Missouri,1869,45,117,0
+Missouri,1870,45,117,0
 Missouri,1871,92,42,37
 Missouri,1872,92,42,37
 Missouri,1873,117,48,0
@@ -4134,12 +4134,12 @@ Missouri,1875,119,46,0
 Missouri,1876,119,46,0
 Missouri,1877,129,48,0
 Missouri,1878,129,48,0
-Missouri,1879,132,16,29
-Missouri,1880,132,16,29
+Missouri,1879,132,17,28
+Missouri,1880,132,17,28
 Missouri,1881,123,49,5
 Missouri,1882,123,49,5
-Missouri,1883,138,31,7
-Missouri,1884,138,31,7
+Missouri,1883,138,32,6
+Missouri,1884,138,32,6
 Missouri,1885,126,48,0
 Missouri,1886,126,48,0
 Missouri,1887,112,58,4
@@ -4516,8 +4516,8 @@ Nevada,1867,2,55,0
 Nevada,1868,2,55,0
 Nevada,1869,10,49,0
 Nevada,1870,10,49,0
-Nevada,1871,29,38,2
-Nevada,1872,29,38,2
+Nevada,1871,29,40,0
+Nevada,1872,29,40,0
 Nevada,1873,18,53,1
 Nevada,1874,18,53,1
 Nevada,1875,26,49,0
@@ -4558,10 +4558,10 @@ Nevada,1909,46,20,1
 Nevada,1910,46,20,1
 Nevada,1911,38,31,0
 Nevada,1912,38,31,0
-Nevada,1913,44,24,7
-Nevada,1914,44,24,7
-Nevada,1915,32,35,8
-Nevada,1916,32,35,8
+Nevada,1913,44,26,5
+Nevada,1914,44,26,5
+Nevada,1915,32,36,7
+Nevada,1916,32,36,7
 Nevada,1917,25,23,6
 Nevada,1918,25,23,6
 Nevada,1919,22,23,8
@@ -4690,13 +4690,13 @@ New Hampshire,1847,157,0,137
 New Hampshire,1848,169,0,123
 New Hampshire,1849,169,0,108
 New Hampshire,1850,200,0,87
-New Hampshire,1851,124,0,180
+New Hampshire,1851,124,0,170
 New Hampshire,1852,151,0,139
 New Hampshire,1853,189,0,127
-New Hampshire,1854,170,0,152
-New Hampshire,1855,80,227,16
+New Hampshire,1854,170,0,147
+New Hampshire,1855,80,227,11
 New Hampshire,1856,150,168,8
-New Hampshire,1857,132,204,4
+New Hampshire,1857,132,204,0
 New Hampshire,1858,122,205,0
 New Hampshire,1859,130,207,0
 New Hampshire,1860,123,216,0
@@ -4774,8 +4774,8 @@ New Hampshire,1931,168,273,0
 New Hampshire,1932,168,273,0
 New Hampshire,1933,201,241,0
 New Hampshire,1934,201,241,0
-New Hampshire,1935,217,228,3
-New Hampshire,1936,217,228,3
+New Hampshire,1935,217,228,1
+New Hampshire,1936,217,228,1
 New Hampshire,1937,195,246,1
 New Hampshire,1938,195,246,1
 New Hampshire,1939,164,287,0
@@ -5174,7 +5174,8 @@ New Mexico,2023,72,40,0
 New Mexico,2024,72,40,0
 New Mexico,2025,70,42,0
 New Mexico,2026,70,42,0
-New York,1835,119,0,41
+New York,1809,0,1,144
+New York,1835,119,0,40
 New York,1836,139,0,21
 New York,1837,117,0,43
 New York,1838,50,0,110
@@ -5197,11 +5198,11 @@ New York,1854,55,0,105
 New York,1855,46,2,112
 New York,1856,51,51,58
 New York,1857,44,96,20
-New York,1858,71,76,14
-New York,1859,41,106,13
-New York,1860,46,113,1
+New York,1858,71,77,13
+New York,1859,41,107,12
+New York,1860,46,113,0
 New York,1861,44,116,0
-New York,1862,43,116,1
+New York,1862,43,117,0
 New York,1863,72,88,0
 New York,1864,56,102,2
 New York,1865,63,96,1
@@ -5213,33 +5214,33 @@ New York,1870,91,69,0
 New York,1871,83,77,0
 New York,1872,38,122,0
 New York,1873,41,117,2
-New York,1874,67,90,3
-New York,1875,87,71,2
+New York,1874,67,91,2
+New York,1875,87,72,1
 New York,1876,69,91,0
 New York,1877,70,90,0
 New York,1878,73,85,2
 New York,1879,39,117,4
 New York,1880,42,116,2
 New York,1881,54,105,1
-New York,1882,84,75,1
-New York,1883,103,53,4
+New York,1882,84,76,0
+New York,1883,103,54,3
 New York,1884,69,91,0
 New York,1885,67,93,0
-New York,1886,61,97,2
+New York,1886,61,98,1
 New York,1887,66,94,0
 New York,1888,66,93,1
 New York,1889,62,98,0
 New York,1890,70,90,0
-New York,1891,81,78,1
-New York,1892,84,75,1
-New York,1893,91,68,1
+New York,1891,81,79,0
+New York,1892,84,76,0
+New York,1893,91,69,0
 New York,1894,69,90,1
 New York,1895,35,124,1
-New York,1896,61,138,1
-New York,1897,49,149,2
-New York,1898,83,112,5
+New York,1896,61,139,0
+New York,1897,49,150,1
+New York,1898,83,114,3
 New York,1899,86,114,0
-New York,1900,80,119,1
+New York,1900,80,119,0
 New York,1901,60,140,0
 New York,1902,57,141,2
 New York,1903,83,117,0
@@ -5269,13 +5270,13 @@ New York,1926,81,120,0
 New York,1927,90,111,0
 New York,1928,86,115,0
 New York,1929,85,116,0
-New York,1930,87,113,1
+New York,1930,87,113,0
 New York,1931,95,106,0
 New York,1932,95,106,0
 New York,1933,99,102,0
 New York,1934,91,110,0
 New York,1935,106,95,0
-New York,1936,96,104,1
+New York,1936,96,104,0
 New York,1937,103,98,0
 New York,1938,94,106,5
 New York,1939,88,112,1
@@ -5366,7 +5367,7 @@ New York,2023,144,69,0
 New York,2024,144,69,0
 New York,2025,144,69,0
 New York,2026,144,69,0
-North Carolina,1836,97,0,99
+North Carolina,1836,97,0,98
 North Carolina,1837,86,0,84
 North Carolina,1838,86,0,84
 North Carolina,1839,77,0,93
@@ -5758,10 +5759,10 @@ Ohio,1894,27,111,0
 Ohio,1895,27,111,0
 Ohio,1896,31,117,1
 Ohio,1897,31,117,1
-Ohio,1898,65,79,1
-Ohio,1899,65,79,1
-Ohio,1900,56,81,4
-Ohio,1901,56,81,4
+Ohio,1898,65,80,0
+Ohio,1899,65,80,0
+Ohio,1900,56,85,0
+Ohio,1901,56,85,0
 Ohio,1902,54,89,0
 Ohio,1903,54,89,0
 Ohio,1904,26,117,0
@@ -5992,7 +5993,7 @@ Oklahoma,2008,68,81,0
 Oklahoma,2009,62,87,0
 Oklahoma,2010,61,88,0
 Oklahoma,2011,47,102,0
-Oklahoma,2012,47,99,3
+Oklahoma,2012,47,99,0
 Oklahoma,2013,41,108,0
 Oklahoma,2014,41,108,0
 Oklahoma,2015,37,112,0
@@ -6057,8 +6058,8 @@ Oregon,1897,7,63,20
 Oregon,1898,7,63,20
 Oregon,1899,4,66,20
 Oregon,1900,4,66,20
-Oregon,1901,8,56,26
-Oregon,1902,8,56,26
+Oregon,1901,8,56,25
+Oregon,1902,8,56,25
 Oregon,1903,14,69,7
 Oregon,1904,14,69,7
 Oregon,1905,15,75,0
@@ -6198,7 +6199,7 @@ Pennsylvania,1847,58,0,75
 Pennsylvania,1848,78,0,55
 Pennsylvania,1849,62,0,71
 Pennsylvania,1850,76,0,57
-Pennsylvania,1851,76,0,57
+Pennsylvania,1851,76,0,56
 Pennsylvania,1852,74,0,59
 Pennsylvania,1853,77,0,56
 Pennsylvania,1854,88,0,45
@@ -6374,8 +6375,8 @@ Pennsylvania,2023,124,129,0
 Pennsylvania,2024,124,129,0
 Pennsylvania,2025,125,128,0
 Pennsylvania,2026,126,127,0
-Rhode Island,1834,36,0,42
-Rhode Island,1835,39,0,43
+Rhode Island,1834,36,0,41
+Rhode Island,1835,39,0,41
 Rhode Island,1836,41,0,33
 Rhode Island,1838,28,0,54
 Rhode Island,1839,32,0,50
@@ -6385,9 +6386,9 @@ Rhode Island,1842,10,0,72
 Rhode Island,1843,26,0,74
 Rhode Island,1844,20,0,80
 Rhode Island,1845,37,0,63
-Rhode Island,1847,27,0,72
+Rhode Island,1847,27,0,70
 Rhode Island,1848,37,0,63
-Rhode Island,1849,34,0,66
+Rhode Island,1849,34,0,64
 Rhode Island,1850,36,0,64
 Rhode Island,1851,52,0,51
 Rhode Island,1852,44,0,57
@@ -7081,10 +7082,10 @@ Texas,1897,148,3,8
 Texas,1898,148,3,8
 Texas,1899,148,2,9
 Texas,1900,148,2,9
-Texas,1901,157,0,2
-Texas,1902,157,0,2
-Texas,1903,161,1,2
-Texas,1904,161,1,2
+Texas,1901,157,1,1
+Texas,1902,157,1,1
+Texas,1903,161,2,1
+Texas,1904,161,2,1
 Texas,1905,162,2,0
 Texas,1906,162,2,0
 Texas,1932,49,0,0
@@ -7321,85 +7322,85 @@ Vermont,1841,58,0,206
 Vermont,1842,83,0,148
 Vermont,1843,113,0,148
 Vermont,1844,102,0,145
-Vermont,1845,75,0,160
-Vermont,1846,74,0,191
-Vermont,1847,75,0,188
-Vermont,1848,87,0,180
-Vermont,1849,56,0,210
-Vermont,1850,11,0,255
-Vermont,1851,22,0,248
-Vermont,1852,31,0,239
-Vermont,1853,67,0,201
-Vermont,1854,93,0,178
-Vermont,1855,47,0,213
-Vermont,1856,29,186,42
-Vermont,1857,8,257,4
-Vermont,1858,30,230,7
-Vermont,1859,39,219,11
-Vermont,1860,32,229,8
-Vermont,1861,26,239,5
-Vermont,1862,17,230,5
-Vermont,1864,14,254,2
-Vermont,1865,19,242,2
-Vermont,1866,11,243,4
-Vermont,1867,13,254,3
-Vermont,1868,25,242,4
-Vermont,1869,15,254,2
-Vermont,1870,24,240,6
-Vermont,1871,27,236,7
-Vermont,1872,27,236,7
-Vermont,1873,16,246,9
-Vermont,1874,16,246,9
-Vermont,1875,51,203,17
-Vermont,1876,51,203,17
-Vermont,1877,31,235,5
-Vermont,1878,31,235,5
-Vermont,1879,46,204,21
-Vermont,1880,46,204,21
-Vermont,1881,19,247,5
-Vermont,1882,19,247,5
-Vermont,1883,49,211,11
-Vermont,1884,49,211,11
-Vermont,1885,38,222,11
-Vermont,1886,38,222,11
-Vermont,1887,30,236,5
-Vermont,1888,30,236,5
-Vermont,1889,19,249,6
-Vermont,1890,19,249,6
-Vermont,1891,63,201,8
-Vermont,1892,63,201,8
-Vermont,1893,40,230,3
-Vermont,1894,40,230,3
-Vermont,1895,11,258,5
-Vermont,1896,11,258,5
-Vermont,1897,19,254,3
-Vermont,1898,19,254,3
+Vermont,1845,75,0,157
+Vermont,1846,74,0,151
+Vermont,1847,75,0,149
+Vermont,1848,87,0,143
+Vermont,1849,56,0,190
+Vermont,1850,11,0,233
+Vermont,1851,22,0,231
+Vermont,1852,31,0,210
+Vermont,1853,67,0,154
+Vermont,1854,93,0,151
+Vermont,1855,47,0,193
+Vermont,1856,29,186,30
+Vermont,1857,8,257,0
+Vermont,1858,30,230,0
+Vermont,1859,39,219,2
+Vermont,1860,32,229,4
+Vermont,1861,26,239,2
+Vermont,1862,17,230,0
+Vermont,1864,14,254,0
+Vermont,1865,19,242,0
+Vermont,1866,11,243,0
+Vermont,1867,13,254,0
+Vermont,1868,25,242,1
+Vermont,1869,15,254,0
+Vermont,1870,24,240,1
+Vermont,1871,27,236,1
+Vermont,1872,27,236,1
+Vermont,1873,16,246,7
+Vermont,1874,16,246,7
+Vermont,1875,51,203,12
+Vermont,1876,51,203,12
+Vermont,1877,31,235,0
+Vermont,1878,31,235,0
+Vermont,1879,46,204,11
+Vermont,1880,46,204,11
+Vermont,1881,19,247,2
+Vermont,1882,19,247,2
+Vermont,1883,49,211,6
+Vermont,1884,49,211,6
+Vermont,1885,38,222,9
+Vermont,1886,38,222,9
+Vermont,1887,30,236,3
+Vermont,1888,30,236,3
+Vermont,1889,19,249,2
+Vermont,1890,19,249,2
+Vermont,1891,63,201,5
+Vermont,1892,63,201,5
+Vermont,1893,40,230,1
+Vermont,1894,40,230,1
+Vermont,1895,11,258,2
+Vermont,1896,11,258,2
+Vermont,1897,19,254,2
+Vermont,1898,19,254,2
 Vermont,1899,41,233,2
 Vermont,1900,41,233,2
-Vermont,1901,48,226,2
-Vermont,1902,48,226,2
-Vermont,1903,53,217,6
-Vermont,1904,53,217,6
+Vermont,1901,48,226,1
+Vermont,1902,48,226,1
+Vermont,1903,53,217,2
+Vermont,1904,53,217,2
 Vermont,1905,33,236,6
 Vermont,1906,33,236,6
-Vermont,1907,35,229,12
-Vermont,1908,35,229,12
-Vermont,1909,31,229,8
-Vermont,1910,31,229,8
+Vermont,1907,35,229,11
+Vermont,1908,35,229,11
+Vermont,1909,31,229,6
+Vermont,1910,31,229,6
 Vermont,1911,47,224,5
 Vermont,1912,47,224,5
-Vermont,1913,59,174,43
-Vermont,1914,59,174,43
+Vermont,1913,59,174,40
+Vermont,1914,59,174,40
 Vermont,1915,32,207,37
 Vermont,1916,32,207,37
-Vermont,1917,42,225,8
-Vermont,1918,42,225,8
-Vermont,1919,26,241,10
-Vermont,1920,26,241,10
+Vermont,1917,42,225,7
+Vermont,1918,42,225,7
+Vermont,1919,26,241,9
+Vermont,1920,26,241,9
 Vermont,1921,23,245,8
 Vermont,1922,23,245,8
-Vermont,1923,37,233,8
-Vermont,1924,37,233,8
+Vermont,1923,37,233,7
+Vermont,1924,37,233,7
 Vermont,1925,29,244,5
 Vermont,1926,29,244,5
 Vermont,1927,29,247,2
@@ -7980,7 +7981,7 @@ Wisconsin,1848,65,0,20
 Wisconsin,1849,50,0,35
 Wisconsin,1850,54,0,31
 Wisconsin,1851,60,0,25
-Wisconsin,1852,41,0,44
+Wisconsin,1852,41,0,43
 Wisconsin,1853,69,0,38
 Wisconsin,1854,70,0,38
 Wisconsin,1855,47,56,4
@@ -8109,8 +8110,8 @@ Wisconsin,1977,89,43,0
 Wisconsin,1978,89,43,0
 Wisconsin,1979,81,51,0
 Wisconsin,1980,81,51,0
-Wisconsin,1981,77,54,1
-Wisconsin,1982,77,54,1
+Wisconsin,1981,77,54,0
+Wisconsin,1982,77,54,0
 Wisconsin,1983,78,54,0
 Wisconsin,1984,78,54,0
 Wisconsin,1985,71,61,0

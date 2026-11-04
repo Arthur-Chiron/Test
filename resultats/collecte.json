@@ -22,14 +22,38 @@
     "même décennie": 425,
     "décennie différente": 68
   },
-  "total_personnes": 1384,
+  "total_personnes": 1403,
   "apport_par_source": {
     "listes_decennies": 842,
     "en_plus_via_listes_corruption_federale": 197,
-    "en_plus_via_categories": 345
+    "en_plus_via_categories": 345,
+    "en_plus_via_wikidata": 19
+  },
+  "wikidata": {
+    "partis_completes": 2,
+    "controle_parti_base_vs_wikidata": {
+      "différent": 2,
+      "identique": 799
+    },
+    "personnes_ajoutees": 19,
+    "exclues": {
+      "aucun mandat d'État ou local": 89,
+      "mandat fédéral": 50
+    }
   },
   "sieges": {
-    "lignes_etat_annee": 8293,
-    "etats_sans_donnees": []
+    "lignes_etat_annee": 8294,
+    "etats_sans_donnees": [],
+    "controle_wikipedia_vs_klarner": {
+      "etat_annees_comparees": 3616,
+      "identiques": 2512,
+      "ecart_de_5_sieges_ou_moins_pct": 96.1,
+      "ecart_median_part_D_points": 0.0,
+      "ecart_part_D_inferieur_a_2_points_pct": 96.6
+    }
+  },
+  "doj": {
+    "annees": "1974-2023",
+    "total_condamnes_etats_et_locaux": 13893
   }
 }

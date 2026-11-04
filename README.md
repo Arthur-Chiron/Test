@@ -28,6 +28,14 @@ utilisant uniquement Wikipédia :
 | 3 listes « … officials convicted of federal corruption offenses » | élus d'États, locaux et des territoires condamnés pour corruption par la justice fédérale (tableaux sans parti) |
 | arbre de catégories « American politicians convicted of crimes » | tous les articles de politiciens condamnés ; on ne garde que ceux qui ont exercé un mandat d'État ou local et aucun mandat fédéral |
 | pages « Political party strength in <État> » | sièges démocrates et républicains de chaque parlement d'État, année par année |
+| Wikidata (`query.wikidata.org`) | parti (P102) des personnes ayant un article ; personnes américaines condamnées (P1399) ayant eu un mandat d'État ou local |
+| C. Klarner, *State Partisan Balance Data, 1937-2011* (Harvard Dataverse) | sièges D / R des parlements d'États, pour vérifier ceux tirés de Wikipédia et refaire la comparaison |
+| rapports annuels de la Public Integrity Section (ministère de la Justice) | élus et agents d'États et locaux condamnés par la justice fédérale, chaque année de 1974 à 2023, sans parti : sert à mesurer la part des affaires que la base recense |
+
+Contrôles automatiques (résultats dans `collecte.json`) :
+- parti lu dans les articles comparé au marqueur des listes, et à Wikidata ;
+- sièges tirés de Wikipédia comparés à ceux de Klarner ;
+- rapports du ministère de la Justice recoupés sur les années qu'ils ont en commun.
 
 Une personne présente dans plusieurs sources n'est comptée qu'une fois
 (identité = article Wikipédia). Son parti vient du marqueur de la liste
@@ -61,12 +69,13 @@ chiffre ne l'indique.
 **Limites propres à cette comparaison.** Le seul effectif d'élus par parti
 disponible sur Wikipédia est celui des parlements d'États. Il sert de
 référence aussi pour les élus locaux, dont beaucoup sont élus sans étiquette.
-Wikipédia ne recense qu'une petite partie des condamnations réelles, et ses
-contributeurs couvrent certains États et certaines affaires bien plus que
-d'autres. Sources consultées mais bloquées dans l'environnement de
-développement : Wikidata, Harvard Dataverse (données de Klarner sur la
-composition des parlements), NCSL, ministère de la Justice (rapports de la
-Public Integrity Section), Ballotpedia.
+Wikipédia ne recense qu'une petite partie des condamnations réelles (de 3 à
+9 % du nombre de condamnations fédérales selon la décennie, d'après les
+rapports du ministère de la Justice), et ses contributeurs couvrent certains
+États et certaines affaires bien plus que d'autres. Ballotpedia, la NCSL,
+congress.gov et fbi.gov bloquent les scripts (protection anti-robots) : il
+n'existe donc toujours pas d'effectif d'élus locaux par parti dans cette
+étude.
 
 ## Utilisation de compter_partis.py
 
