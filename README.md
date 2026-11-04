@@ -52,6 +52,12 @@ Sorties dans `resultats/` : `base_exhaustive.csv`,
 `sieges_parlements_etats.csv`, `collecte.json`, `analyse.json`, `analyse.md`
 (tous les chiffres sous forme de tableaux) et `graphiques/*.png`.
 
+L'écart est donné en écarts-types en supposant les condamnations
+indépendantes. Or beaucoup arrivent par grappes : une même opération du FBI
+(Tennessee Waltz, Operation Greylord…) fait condamner plusieurs élus d'un même
+parti et d'une même ville. L'incertitude réelle est donc plus grande que ce
+chiffre ne l'indique.
+
 **Limites propres à cette comparaison.** Le seul effectif d'élus par parti
 disponible sur Wikipédia est celui des parlements d'États. Il sert de
 référence aussi pour les élus locaux, dont beaucoup sont élus sans étiquette.

@@ -54,7 +54,7 @@ class TestAnalyse(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             out = Path(d)
             for fn in (g.fig_condamnes_par_decennie, g.fig_sieges, g.fig_part_democrate,
-                       g.fig_observe_attendu, g.fig_taux, g.fig_etats):
+                       g.fig_observe_attendu, g.fig_taux, g.fig_etats, g.fig_robustesse):
                 path = out / f"{fn.__name__}.png"
                 fn(a, path, "note")
                 self.assertGreater(path.stat().st_size, 10_000)

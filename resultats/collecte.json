@@ -1,0 +1,35 @@
+{
+  "listes_decennies": {
+    "pages": 18,
+    "pages_en_echec": [],
+    "personnes": 843
+  },
+  "listes_corruption_federale": {
+    "lignes": 303
+  },
+  "categories": {
+    "articles": 1164,
+    "exclus": {
+      "mandat fédéral": 138,
+      "aucun mandat d'État ou local identifié": 122
+    }
+  },
+  "controle_parti_liste_vs_article": {
+    "identique": 579,
+    "différent": 1
+  },
+  "controle_decennie_liste_vs_article": {
+    "même décennie": 425,
+    "décennie différente": 68
+  },
+  "total_personnes": 1384,
+  "apport_par_source": {
+    "listes_decennies": 842,
+    "en_plus_via_listes_corruption_federale": 197,
+    "en_plus_via_categories": 345
+  },
+  "sieges": {
+    "lignes_etat_annee": 8293,
+    "etats_sans_donnees": []
+  }
+}

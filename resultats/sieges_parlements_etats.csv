@@ -1,0 +1,8294 @@
+etat,annee,democrates,republicains,autres
+Alabama,1837,56,0,64
+Alabama,1839,85,0,40
+Alabama,1840,90,0,43
+Alabama,1841,74,0,59
+Alabama,1842,72,0,61
+Alabama,1843,88,0,45
+Alabama,1844,81,0,52
+Alabama,1846,81,0,50
+Alabama,1847,81,0,50
+Alabama,1848,82,0,51
+Alabama,1849,82,0,51
+Alabama,1850,73,0,60
+Alabama,1851,73,0,60
+Alabama,1854,79,0,54
+Alabama,1855,79,0,54
+Alabama,1856,81,0,52
+Alabama,1857,81,0,52
+Alabama,1858,111,0,22
+Alabama,1859,111,0,22
+Alabama,1860,112,0,21
+Alabama,1861,112,0,21
+Alabama,1869,4,129,0
+Alabama,1870,4,129,0
+Alabama,1871,66,67,0
+Alabama,1872,66,67,0
+Alabama,1873,65,68,0
+Alabama,1874,65,68,0
+Alabama,1875,80,53,0
+Alabama,1876,80,53,0
+Alabama,1877,113,20,0
+Alabama,1878,113,20,0
+Alabama,1879,122,5,6
+Alabama,1880,122,5,6
+Alabama,1881,127,1,5
+Alabama,1882,127,1,5
+Alabama,1883,108,7,18
+Alabama,1884,108,7,18
+Alabama,1885,123,10,0
+Alabama,1886,123,10,0
+Alabama,1887,115,18,0
+Alabama,1888,115,18,0
+Alabama,1889,124,9,0
+Alabama,1890,124,9,0
+Alabama,1891,130,3,0
+Alabama,1892,130,3,0
+Alabama,1893,87,1,45
+Alabama,1894,87,1,45
+Alabama,1895,89,2,42
+Alabama,1896,89,2,42
+Alabama,1897,96,5,32
+Alabama,1898,96,5,32
+Alabama,1899,117,1,15
+Alabama,1900,117,1,15
+Alabama,1901,124,2,7
+Alabama,1902,124,2,7
+Alabama,1903,138,2,0
+Alabama,1904,138,2,0
+Alabama,1905,138,2,0
+Alabama,1906,138,2,0
+Alabama,1907,138,3,0
+Alabama,1908,138,3,0
+Alabama,1909,138,3,0
+Alabama,1910,138,3,0
+Alabama,1911,137,4,0
+Alabama,1912,137,4,0
+Alabama,1913,137,4,0
+Alabama,1914,137,4,0
+Alabama,1915,138,3,0
+Alabama,1916,138,3,0
+Alabama,1917,138,3,0
+Alabama,1918,138,3,0
+Alabama,1919,134,6,0
+Alabama,1920,134,6,0
+Alabama,1921,134,6,0
+Alabama,1922,134,6,0
+Alabama,1923,140,1,0
+Alabama,1924,140,1,0
+Alabama,1925,140,1,0
+Alabama,1926,140,1,0
+Alabama,1927,139,2,0
+Alabama,1928,139,2,0
+Alabama,1929,139,2,0
+Alabama,1930,139,2,0
+Alabama,1931,138,3,0
+Alabama,1932,138,3,0
+Alabama,1933,138,3,0
+Alabama,1934,138,3,0
+Alabama,1935,140,1,0
+Alabama,1936,140,1,0
+Alabama,1937,140,1,0
+Alabama,1938,140,1,0
+Alabama,1939,140,1,0
+Alabama,1940,140,1,0
+Alabama,1941,140,1,0
+Alabama,1942,140,1,0
+Alabama,1943,140,1,0
+Alabama,1944,140,1,0
+Alabama,1945,140,1,0
+Alabama,1946,140,1,0
+Alabama,1947,140,1,0
+Alabama,1948,140,1,0
+Alabama,1949,140,1,0
+Alabama,1950,140,1,0
+Alabama,1951,140,1,0
+Alabama,1952,140,1,0
+Alabama,1953,140,1,0
+Alabama,1954,140,1,0
+Alabama,1955,140,1,0
+Alabama,1956,140,1,0
+Alabama,1957,140,1,0
+Alabama,1958,140,1,0
+Alabama,1959,141,0,0
+Alabama,1960,141,0,0
+Alabama,1961,141,0,0
+Alabama,1962,141,0,0
+Alabama,1963,139,2,0
+Alabama,1964,139,2,0
+Alabama,1965,139,2,0
+Alabama,1966,139,2,0
+Alabama,1967,140,1,0
+Alabama,1968,140,1,0
+Alabama,1969,140,1,0
+Alabama,1970,140,1,0
+Alabama,1971,139,2,0
+Alabama,1972,139,2,0
+Alabama,1973,139,2,0
+Alabama,1974,139,2,0
+Alabama,1975,140,0,0
+Alabama,1976,140,0,0
+Alabama,1977,139,0,1
+Alabama,1978,139,0,1
+Alabama,1979,136,4,0
+Alabama,1980,136,4,0
+Alabama,1981,136,4,0
+Alabama,1982,136,4,0
+Alabama,1983,129,11,0
+Alabama,1984,116,22,2
+Alabama,1985,116,22,2
+Alabama,1986,116,22,2
+Alabama,1987,119,21,0
+Alabama,1988,119,21,0
+Alabama,1989,109,31,0
+Alabama,1990,109,31,0
+Alabama,1991,110,30,0
+Alabama,1992,110,30,0
+Alabama,1993,109,31,0
+Alabama,1994,109,31,0
+Alabama,1995,96,44,0
+Alabama,1996,96,44,0
+Alabama,1997,94,46,0
+Alabama,1998,89,51,0
+Alabama,1999,92,48,0
+Alabama,2000,93,47,0
+Alabama,2001,92,48,0
+Alabama,2002,91,49,0
+Alabama,2003,88,52,0
+Alabama,2004,88,52,0
+Alabama,2005,88,52,0
+Alabama,2006,87,53,0
+Alabama,2007,85,55,0
+Alabama,2008,84,56,0
+Alabama,2009,83,56,1
+Alabama,2010,80,59,1
+Alabama,2011,51,88,1
+Alabama,2012,51,88,1
+Alabama,2013,49,89,2
+Alabama,2014,48,90,2
+Alabama,2015,41,98,1
+Alabama,2016,41,98,1
+Alabama,2017,41,98,1
+Alabama,2018,41,98,1
+Alabama,2019,36,104,0
+Alabama,2020,36,104,0
+Alabama,2021,36,104,0
+Alabama,2022,36,104,0
+Alabama,2023,36,104,0
+Alabama,2024,37,103,0
+Alabama,2025,37,103,0
+Alabama,2026,37,103,0
+Alaska,1913,3,3,18
+Alaska,1914,3,3,18
+Alaska,1915,6,1,17
+Alaska,1916,6,1,17
+Alaska,1917,10,7,7
+Alaska,1918,10,7,7
+Alaska,1919,16,4,4
+Alaska,1920,16,4,4
+Alaska,1921,5,14,5
+Alaska,1922,5,14,5
+Alaska,1923,2,16,6
+Alaska,1924,2,16,6
+Alaska,1925,6,13,5
+Alaska,1926,6,13,5
+Alaska,1927,4,17,3
+Alaska,1928,4,17,3
+Alaska,1929,5,14,5
+Alaska,1930,5,14,5
+Alaska,1931,8,15,1
+Alaska,1932,7,15,2
+Alaska,1933,18,6,0
+Alaska,1934,18,6,0
+Alaska,1935,23,1,0
+Alaska,1936,23,1,0
+Alaska,1937,22,2,0
+Alaska,1938,22,2,0
+Alaska,1939,23,1,0
+Alaska,1940,23,1,0
+Alaska,1941,21,3,0
+Alaska,1942,21,3,0
+Alaska,1943,23,1,0
+Alaska,1944,23,1,0
+Alaska,1945,34,6,0
+Alaska,1946,34,6,0
+Alaska,1947,20,20,0
+Alaska,1948,20,20,0
+Alaska,1949,28,12,0
+Alaska,1950,28,12,0
+Alaska,1951,23,17,0
+Alaska,1952,23,17,0
+Alaska,1953,10,30,0
+Alaska,1954,10,30,0
+Alaska,1955,33,7,0
+Alaska,1956,33,7,0
+Alaska,1957,32,8,0
+Alaska,1958,32,8,0
+Alaska,1959,52,7,1
+Alaska,1960,52,7,1
+Alaska,1961,33,26,1
+Alaska,1962,33,26,1
+Alaska,1963,35,25,0
+Alaska,1964,35,25,0
+Alaska,1965,47,13,0
+Alaska,1966,47,13,0
+Alaska,1967,20,40,0
+Alaska,1968,20,40,0
+Alaska,1969,31,29,0
+Alaska,1970,31,29,0
+Alaska,1971,41,19,0
+Alaska,1972,41,19,0
+Alaska,1973,29,30,1
+Alaska,1974,29,30,1
+Alaska,1975,43,16,1
+Alaska,1976,43,16,1
+Alaska,1977,37,23,0
+Alaska,1978,37,23,0
+Alaska,1979,34,25,1
+Alaska,1980,34,25,1
+Alaska,1981,32,26,2
+Alaska,1982,32,26,2
+Alaska,1983,29,31,0
+Alaska,1984,29,31,0
+Alaska,1985,30,29,1
+Alaska,1986,30,29,1
+Alaska,1987,32,28,0
+Alaska,1988,32,28,0
+Alaska,1989,32,28,0
+Alaska,1990,32,28,0
+Alaska,1991,33,27,0
+Alaska,1992,33,27,0
+Alaska,1993,29,28,3
+Alaska,1994,29,28,3
+Alaska,1995,24,34,2
+Alaska,1996,24,34,2
+Alaska,1997,21,39,0
+Alaska,1998,21,39,0
+Alaska,1999,19,41,0
+Alaska,2000,19,41,0
+Alaska,2001,19,41,0
+Alaska,2002,19,41,0
+Alaska,2003,21,39,0
+Alaska,2004,21,39,0
+Alaska,2005,22,38,0
+Alaska,2006,22,38,0
+Alaska,2007,26,34,0
+Alaska,2008,26,34,0
+Alaska,2009,28,32,0
+Alaska,2010,28,32,0
+Alaska,2011,26,34,0
+Alaska,2012,26,34,0
+Alaska,2013,21,39,0
+Alaska,2014,21,39,0
+Alaska,2015,22,37,1
+Alaska,2016,22,37,1
+Alaska,2017,23,35,2
+Alaska,2018,23,35,2
+Alaska,2019,22,36,2
+Alaska,2020,22,36,2
+Alaska,2021,22,34,4
+Alaska,2022,22,34,4
+Alaska,2023,22,32,6
+Alaska,2024,22,33,5
+Alaska,2025,23,32,5
+Alaska,2026,23,32,5
+Arizona,1912,46,8,0
+Arizona,1913,46,8,0
+Arizona,1914,46,8,0
+Arizona,1915,53,1,0
+Arizona,1916,53,1,0
+Arizona,1917,45,9,0
+Arizona,1918,45,9,0
+Arizona,1919,40,14,0
+Arizona,1920,40,14,0
+Arizona,1921,29,28,0
+Arizona,1922,29,28,0
+Arizona,1923,59,7,0
+Arizona,1924,59,7,0
+Arizona,1925,58,8,0
+Arizona,1926,58,8,0
+Arizona,1927,60,11,0
+Arizona,1928,60,11,0
+Arizona,1929,54,19,0
+Arizona,1930,54,19,0
+Arizona,1931,70,13,0
+Arizona,1932,70,13,0
+Arizona,1933,78,4,0
+Arizona,1934,78,4,0
+Arizona,1935,69,1,0
+Arizona,1936,69,1,0
+Arizona,1937,69,1,0
+Arizona,1938,69,1,0
+Arizona,1939,70,1,0
+Arizona,1940,70,1,0
+Arizona,1941,72,0,0
+Arizona,1942,72,0,0
+Arizona,1943,77,0,0
+Arizona,1944,77,0,0
+Arizona,1945,76,1,0
+Arizona,1946,76,1,0
+Arizona,1947,72,5,0
+Arizona,1948,72,5,0
+Arizona,1949,71,7,0
+Arizona,1950,71,7,0
+Arizona,1951,80,10,0
+Arizona,1952,80,10,0
+Arizona,1953,65,34,0
+Arizona,1954,65,34,0
+Arizona,1955,87,21,0
+Arizona,1956,87,21,0
+Arizona,1957,83,25,0
+Arizona,1958,83,25,0
+Arizona,1959,82,26,0
+Arizona,1960,82,26,0
+Arizona,1961,76,32,0
+Arizona,1962,76,32,0
+Arizona,1963,72,36,0
+Arizona,1964,72,36,0
+Arizona,1965,71,37,0
+Arizona,1966,71,37,0
+Arizona,1967,41,49,0
+Arizona,1968,41,49,0
+Arizona,1969,39,51,0
+Arizona,1970,39,51,0
+Arizona,1971,38,52,0
+Arizona,1972,38,52,0
+Arizona,1973,34,56,0
+Arizona,1974,34,56,0
+Arizona,1975,45,45,0
+Arizona,1976,45,45,0
+Arizona,1977,38,52,0
+Arizona,1978,38,52,0
+Arizona,1979,32,58,0
+Arizona,1980,32,58,0
+Arizona,1981,31,59,0
+Arizona,1982,31,59,0
+Arizona,1983,33,57,0
+Arizona,1984,33,57,0
+Arizona,1985,34,56,0
+Arizona,1986,34,56,0
+Arizona,1987,35,55,0
+Arizona,1988,35,55,0
+Arizona,1989,39,51,0
+Arizona,1990,39,51,0
+Arizona,1991,44,46,0
+Arizona,1992,44,46,0
+Arizona,1993,37,53,0
+Arizona,1994,37,53,0
+Arizona,1995,33,57,0
+Arizona,1996,33,57,0
+Arizona,1997,34,56,0
+Arizona,1998,34,56,0
+Arizona,1999,34,56,0
+Arizona,2000,34,56,0
+Arizona,2001,39,51,0
+Arizona,2002,39,51,0
+Arizona,2003,34,56,0
+Arizona,2004,34,56,0
+Arizona,2005,34,56,0
+Arizona,2006,33,57,0
+Arizona,2007,40,50,0
+Arizona,2008,40,50,0
+Arizona,2009,36,54,0
+Arizona,2010,36,54,0
+Arizona,2011,29,61,0
+Arizona,2012,29,61,0
+Arizona,2013,37,53,0
+Arizona,2014,37,53,0
+Arizona,2015,37,53,0
+Arizona,2016,36,54,0
+Arizona,2017,38,52,0
+Arizona,2018,38,52,0
+Arizona,2019,42,48,0
+Arizona,2020,42,48,0
+Arizona,2021,43,47,0
+Arizona,2022,43,47,0
+Arizona,2023,43,47,0
+Arizona,2024,43,47,0
+Arizona,2025,40,50,0
+Arizona,2026,40,50,0
+Arkansas,1836,47,0,23
+Arkansas,1837,47,0,23
+Arkansas,1838,47,0,23
+Arkansas,1841,58,0,27
+Arkansas,1842,58,0,27
+Arkansas,1843,60,0,26
+Arkansas,1844,60,0,26
+Arkansas,1845,83,0,17
+Arkansas,1846,83,0,17
+Arkansas,1847,74,0,26
+Arkansas,1848,74,0,26
+Arkansas,1849,76,0,24
+Arkansas,1850,76,0,24
+Arkansas,1851,71,0,29
+Arkansas,1852,71,0,29
+Arkansas,1853,67,0,33
+Arkansas,1854,67,0,33
+Arkansas,1855,74,0,26
+Arkansas,1856,74,0,26
+Arkansas,1857,86,0,14
+Arkansas,1858,86,0,14
+Arkansas,1867,81,19,0
+Arkansas,1868,81,19,0
+Arkansas,1869,2,100,0
+Arkansas,1870,2,100,0
+Arkansas,1871,37,62,9
+Arkansas,1872,37,62,9
+Arkansas,1873,32,72,0
+Arkansas,1874,32,72,0
+Arkansas,1875,111,13,0
+Arkansas,1876,111,13,0
+Arkansas,1877,104,19,1
+Arkansas,1878,104,19,1
+Arkansas,1879,112,4,7
+Arkansas,1880,112,4,7
+Arkansas,1881,110,10,2
+Arkansas,1882,110,10,2
+Arkansas,1883,115,2,7
+Arkansas,1884,115,2,7
+Arkansas,1885,111,16,0
+Arkansas,1886,111,16,0
+Arkansas,1887,103,16,8
+Arkansas,1888,103,16,8
+Arkansas,1889,99,13,15
+Arkansas,1890,99,13,15
+Arkansas,1891,110,11,6
+Arkansas,1892,110,11,6
+Arkansas,1893,114,7,11
+Arkansas,1894,114,7,11
+Arkansas,1895,119,4,9
+Arkansas,1896,119,4,9
+Arkansas,1897,115,3,14
+Arkansas,1898,115,3,14
+Arkansas,1899,130,2,0
+Arkansas,1900,130,2,0
+Arkansas,1901,129,2,1
+Arkansas,1902,129,2,1
+Arkansas,1903,135,0,0
+Arkansas,1904,135,0,0
+Arkansas,1905,129,6,0
+Arkansas,1906,129,6,0
+Arkansas,1907,130,5,0
+Arkansas,1908,130,5,0
+Arkansas,1909,132,3,0
+Arkansas,1910,132,3,0
+Arkansas,1911,129,6,0
+Arkansas,1912,129,6,0
+Arkansas,1913,129,5,1
+Arkansas,1914,129,5,1
+Arkansas,1915,132,3,0
+Arkansas,1916,132,3,0
+Arkansas,1917,131,3,1
+Arkansas,1918,131,3,1
+Arkansas,1919,130,5,0
+Arkansas,1920,130,5,0
+Arkansas,1921,131,4,0
+Arkansas,1922,131,4,0
+Arkansas,1923,131,4,0
+Arkansas,1924,131,4,0
+Arkansas,1925,132,3,0
+Arkansas,1926,132,3,0
+Arkansas,1927,131,4,0
+Arkansas,1928,131,4,0
+Arkansas,1929,133,2,0
+Arkansas,1930,133,2,0
+Arkansas,1931,134,1,0
+Arkansas,1932,134,1,0
+Arkansas,1933,135,0,0
+Arkansas,1934,135,0,0
+Arkansas,1935,135,0,0
+Arkansas,1936,135,0,0
+Arkansas,1937,133,2,0
+Arkansas,1938,133,2,0
+Arkansas,1939,133,2,0
+Arkansas,1940,133,2,0
+Arkansas,1941,133,2,0
+Arkansas,1942,133,2,0
+Arkansas,1943,133,2,0
+Arkansas,1944,133,2,0
+Arkansas,1945,133,2,0
+Arkansas,1946,133,2,0
+Arkansas,1947,131,3,1
+Arkansas,1948,131,3,1
+Arkansas,1949,133,2,0
+Arkansas,1950,133,2,0
+Arkansas,1951,133,2,0
+Arkansas,1952,133,2,0
+Arkansas,1953,132,3,0
+Arkansas,1954,132,3,0
+Arkansas,1955,132,3,0
+Arkansas,1956,132,3,0
+Arkansas,1957,133,2,0
+Arkansas,1958,133,2,0
+Arkansas,1959,135,0,0
+Arkansas,1960,135,0,0
+Arkansas,1961,134,1,0
+Arkansas,1962,134,1,0
+Arkansas,1963,134,0,1
+Arkansas,1964,134,0,1
+Arkansas,1965,134,1,0
+Arkansas,1966,134,1,0
+Arkansas,1967,132,3,0
+Arkansas,1968,132,3,0
+Arkansas,1969,130,5,0
+Arkansas,1970,130,5,0
+Arkansas,1971,132,3,0
+Arkansas,1972,132,3,0
+Arkansas,1973,133,2,0
+Arkansas,1974,133,2,0
+Arkansas,1975,131,4,0
+Arkansas,1976,131,4,0
+Arkansas,1977,130,5,0
+Arkansas,1978,130,5,0
+Arkansas,1979,129,6,0
+Arkansas,1980,129,6,0
+Arkansas,1981,127,8,0
+Arkansas,1982,127,8,0
+Arkansas,1983,125,10,0
+Arkansas,1984,125,10,0
+Arkansas,1985,123,12,0
+Arkansas,1986,123,12,0
+Arkansas,1987,122,13,0
+Arkansas,1988,122,13,0
+Arkansas,1989,119,16,0
+Arkansas,1990,119,16,0
+Arkansas,1991,122,13,0
+Arkansas,1992,122,13,0
+Arkansas,1993,120,15,0
+Arkansas,1994,120,15,0
+Arkansas,1995,118,17,0
+Arkansas,1996,118,17,0
+Arkansas,1997,117,18,0
+Arkansas,1998,117,18,0
+Arkansas,1999,106,29,0
+Arkansas,2000,106,29,0
+Arkansas,2001,99,36,0
+Arkansas,2002,99,36,0
+Arkansas,2003,97,38,0
+Arkansas,2004,97,38,0
+Arkansas,2005,99,36,0
+Arkansas,2006,99,36,0
+Arkansas,2007,99,36,0
+Arkansas,2008,99,36,0
+Arkansas,2009,98,36,1
+Arkansas,2010,99,36,0
+Arkansas,2011,75,60,0
+Arkansas,2012,74,61,0
+Arkansas,2013,62,72,1
+Arkansas,2014,61,73,1
+Arkansas,2015,47,88,0
+Arkansas,2016,46,88,1
+Arkansas,2017,33,102,0
+Arkansas,2018,33,102,0
+Arkansas,2019,33,102,0
+Arkansas,2020,33,102,0
+Arkansas,2021,29,106,0
+Arkansas,2022,29,106,0
+Arkansas,2023,24,111,0
+Arkansas,2024,24,111,0
+Arkansas,2025,25,110,0
+Arkansas,2026,25,110,0
+California,1851,27,0,25
+California,1852,67,0,24
+California,1853,61,0,29
+California,1854,94,0,20
+California,1855,68,0,45
+California,1856,39,0,74
+California,1857,80,14,19
+California,1858,93,14,8
+California,1859,102,12,1
+California,1860,111,4,0
+California,1861,90,25,1
+California,1862,64,56,0
+California,1863,26,94,0
+California,1864,15,105,0
+California,1865,15,105,0
+California,1866,28,92,0
+California,1867,28,92,0
+California,1868,71,49,0
+California,1869,71,49,0
+California,1870,93,22,5
+California,1871,93,22,5
+California,1872,47,71,2
+California,1873,47,71,2
+California,1874,33,45,42
+California,1875,33,45,42
+California,1876,84,18,18
+California,1877,84,18,18
+California,1878,82,34,4
+California,1879,82,34,4
+California,1880,25,69,26
+California,1881,40,65,15
+California,1882,40,65,15
+California,1883,93,27,0
+California,1884,93,27,0
+California,1885,40,80,0
+California,1886,40,80,0
+California,1887,61,59,0
+California,1888,61,59,0
+California,1889,64,56,0
+California,1890,64,56,0
+California,1891,31,88,1
+California,1892,31,88,1
+California,1893,63,53,4
+California,1894,63,53,4
+California,1895,29,89,2
+California,1896,29,89,2
+California,1897,20,75,25
+California,1898,20,75,25
+California,1899,34,85,2
+California,1900,34,85,2
+California,1901,26,94,0
+California,1902,26,94,0
+California,1903,26,93,1
+California,1904,26,93,1
+California,1905,7,105,8
+California,1906,7,105,8
+California,1907,12,106,2
+California,1908,12,106,2
+California,1909,29,90,1
+California,1910,29,90,1
+California,1911,29,101,0
+California,1912,29,101,0
+California,1913,35,84,1
+California,1914,35,84,1
+California,1915,25,54,41
+California,1916,25,54,41
+California,1917,20,89,11
+California,1918,20,89,11
+California,1919,17,102,1
+California,1920,17,102,1
+California,1921,14,106,0
+California,1922,14,106,0
+California,1923,7,112,1
+California,1924,7,112,1
+California,1925,8,112,0
+California,1926,8,112,0
+California,1927,11,109,0
+California,1928,11,109,0
+California,1929,12,106,2
+California,1930,12,106,2
+California,1931,11,109,0
+California,1932,11,109,0
+California,1933,30,90,0
+California,1934,30,90,0
+California,1935,45,73,2
+California,1936,45,73,2
+California,1937,62,58,0
+California,1938,62,58,0
+California,1939,63,57,0
+California,1940,63,57,0
+California,1941,58,62,0
+California,1942,58,62,0
+California,1943,52,68,0
+California,1944,52,68,0
+California,1945,57,66,1
+California,1946,57,66,1
+California,1947,52,72,0
+California,1948,52,72,0
+California,1949,49,71,0
+California,1950,49,71,0
+California,1951,45,75,0
+California,1952,45,75,0
+California,1953,38,82,0
+California,1954,38,82,0
+California,1955,41,69,0
+California,1956,41,69,0
+California,1957,58,62,0
+California,1958,58,62,0
+California,1959,73,47,0
+California,1960,73,47,0
+California,1961,77,43,0
+California,1962,77,43,0
+California,1963,79,41,0
+California,1964,79,41,0
+California,1965,76,44,0
+California,1966,76,44,0
+California,1967,63,57,0
+California,1968,62,58,0
+California,1969,58,62,0
+California,1970,58,62,0
+California,1971,64,56,0
+California,1972,64,56,0
+California,1973,71,49,0
+California,1974,71,49,0
+California,1975,80,40,0
+California,1976,80,40,0
+California,1977,85,35,0
+California,1978,85,35,0
+California,1979,76,44,0
+California,1980,76,44,0
+California,1981,73,47,0
+California,1982,73,47,0
+California,1983,73,47,0
+California,1984,73,47,0
+California,1985,72,48,0
+California,1986,72,48,0
+California,1987,68,50,1
+California,1988,68,50,1
+California,1989,71,47,1
+California,1990,71,47,1
+California,1991,71,48,1
+California,1992,71,48,1
+California,1993,71,47,2
+California,1994,71,47,2
+California,1995,60,58,2
+California,1996,60,58,2
+California,1997,66,53,1
+California,1998,66,53,1
+California,1999,72,47,1
+California,2000,72,47,1
+California,2001,76,44,0
+California,2002,76,44,0
+California,2003,73,47,0
+California,2004,73,47,0
+California,2005,73,47,0
+California,2006,73,47,0
+California,2007,73,47,0
+California,2008,73,47,0
+California,2009,75,44,1
+California,2010,75,44,1
+California,2011,77,43,0
+California,2012,77,42,1
+California,2013,84,36,0
+California,2014,83,37,0
+California,2015,78,42,0
+California,2016,78,42,0
+California,2017,82,38,0
+California,2018,81,39,0
+California,2019,89,31,0
+California,2020,90,29,1
+California,2021,91,28,1
+California,2022,91,28,1
+California,2023,94,26,0
+California,2024,94,26,0
+California,2025,90,30,0
+California,2026,90,30,0
+Colorado,1876,25,50,0
+Colorado,1877,25,50,0
+Colorado,1878,25,50,0
+Colorado,1879,19,55,1
+Colorado,1880,19,55,1
+Colorado,1881,16,59,0
+Colorado,1882,16,59,0
+Colorado,1883,22,53,0
+Colorado,1884,22,53,0
+Colorado,1885,20,54,1
+Colorado,1886,20,54,1
+Colorado,1887,31,43,1
+Colorado,1888,31,43,1
+Colorado,1889,12,63,0
+Colorado,1890,12,63,0
+Colorado,1891,27,48,0
+Colorado,1892,27,48,0
+Colorado,1893,13,48,39
+Colorado,1894,13,48,39
+Colorado,1895,11,57,32
+Colorado,1896,11,57,32
+Colorado,1897,24,27,49
+Colorado,1898,24,27,49
+Colorado,1899,30,8,60
+Colorado,1900,30,8,60
+Colorado,1901,56,9,35
+Colorado,1902,56,9,35
+Colorado,1903,53,47,0
+Colorado,1904,53,47,0
+Colorado,1905,45,55,0
+Colorado,1906,45,55,0
+Colorado,1907,30,70,0
+Colorado,1908,30,70,0
+Colorado,1909,73,27,0
+Colorado,1910,73,27,0
+Colorado,1911,66,34,0
+Colorado,1912,66,34,0
+Colorado,1913,72,28,0
+Colorado,1914,72,28,0
+Colorado,1915,46,54,0
+Colorado,1916,46,54,0
+Colorado,1917,63,37,0
+Colorado,1918,63,37,0
+Colorado,1919,45,55,0
+Colorado,1920,45,55,0
+Colorado,1921,18,82,0
+Colorado,1922,18,82,0
+Colorado,1923,43,57,0
+Colorado,1924,43,57,0
+Colorado,1925,26,74,0
+Colorado,1926,26,74,0
+Colorado,1927,37,63,0
+Colorado,1928,37,63,0
+Colorado,1929,30,70,0
+Colorado,1930,30,70,0
+Colorado,1931,47,53,0
+Colorado,1932,47,53,0
+Colorado,1933,80,20,0
+Colorado,1934,80,20,0
+Colorado,1935,79,21,0
+Colorado,1936,79,21,0
+Colorado,1937,79,21,0
+Colorado,1938,79,21,0
+Colorado,1939,51,49,0
+Colorado,1940,51,49,0
+Colorado,1941,46,54,0
+Colorado,1942,46,54,0
+Colorado,1943,22,78,0
+Colorado,1944,22,78,0
+Colorado,1945,27,73,0
+Colorado,1946,27,73,0
+Colorado,1947,27,73,0
+Colorado,1948,27,73,0
+Colorado,1949,55,45,0
+Colorado,1950,55,45,0
+Colorado,1951,33,67,0
+Colorado,1952,33,67,0
+Colorado,1953,32,68,0
+Colorado,1954,32,68,0
+Colorado,1955,42,58,0
+Colorado,1956,42,58,0
+Colorado,1957,59,41,0
+Colorado,1958,59,41,0
+Colorado,1959,66,34,0
+Colorado,1960,66,34,0
+Colorado,1961,52,48,0
+Colorado,1962,52,48,0
+Colorado,1963,39,61,0
+Colorado,1964,39,61,0
+Colorado,1965,57,43,0
+Colorado,1966,57,43,0
+Colorado,1967,43,57,0
+Colorado,1968,43,57,0
+Colorado,1969,38,62,0
+Colorado,1970,38,62,0
+Colorado,1971,41,59,0
+Colorado,1972,41,59,0
+Colorado,1973,41,59,0
+Colorado,1974,41,59,0
+Colorado,1975,55,45,0
+Colorado,1976,55,45,0
+Colorado,1977,47,53,0
+Colorado,1978,47,53,0
+Colorado,1979,40,60,0
+Colorado,1980,40,60,0
+Colorado,1981,39,61,0
+Colorado,1982,39,61,0
+Colorado,1983,38,62,0
+Colorado,1984,38,62,0
+Colorado,1985,28,72,0
+Colorado,1986,28,72,0
+Colorado,1987,34,66,0
+Colorado,1988,34,66,0
+Colorado,1989,36,64,0
+Colorado,1990,36,64,0
+Colorado,1991,39,61,0
+Colorado,1992,39,61,0
+Colorado,1993,47,53,0
+Colorado,1994,47,53,0
+Colorado,1995,40,60,0
+Colorado,1996,40,60,0
+Colorado,1997,39,61,0
+Colorado,1998,39,61,0
+Colorado,1999,40,60,0
+Colorado,2000,40,60,0
+Colorado,2001,45,55,0
+Colorado,2002,45,55,0
+Colorado,2003,45,55,0
+Colorado,2004,45,55,0
+Colorado,2005,53,47,0
+Colorado,2006,53,47,0
+Colorado,2007,59,41,0
+Colorado,2008,59,41,0
+Colorado,2009,59,41,0
+Colorado,2010,59,41,0
+Colorado,2011,52,48,0
+Colorado,2012,52,48,0
+Colorado,2013,57,43,0
+Colorado,2014,55,45,0
+Colorado,2015,51,49,0
+Colorado,2016,51,49,0
+Colorado,2017,54,46,0
+Colorado,2018,54,46,0
+Colorado,2019,60,40,0
+Colorado,2020,60,40,0
+Colorado,2021,61,39,0
+Colorado,2022,62,38,0
+Colorado,2023,69,31,0
+Colorado,2024,69,31,0
+Colorado,2025,66,34,0
+Colorado,2026,66,34,0
+Connecticut,1835,142,0,85
+Connecticut,1836,147,0,75
+Connecticut,1837,124,0,86
+Connecticut,1838,43,0,184
+Connecticut,1839,95,0,122
+Connecticut,1840,66,0,161
+Connecticut,1841,58,0,177
+Connecticut,1842,138,0,62
+Connecticut,1843,129,0,80
+Connecticut,1844,82,0,128
+Connecticut,1845,82,0,129
+Connecticut,1846,127,0,114
+Connecticut,1847,108,0,133
+Connecticut,1848,110,0,131
+Connecticut,1849,106,0,137
+Connecticut,1850,123,0,120
+Connecticut,1851,118,0,127
+Connecticut,1852,144,0,102
+Connecticut,1853,159,0,89
+Connecticut,1854,94,0,146
+Connecticut,1855,69,0,180
+Connecticut,1856,113,0,140
+Connecticut,1857,99,154,0
+Connecticut,1858,94,161,0
+Connecticut,1859,117,138,0
+Connecticut,1860,95,161,0
+Connecticut,1861,94,162,0
+Connecticut,1862,57,208,0
+Connecticut,1863,103,153,1
+Connecticut,1864,82,173,0
+Connecticut,1865,77,179,0
+Connecticut,1866,102,154,0
+Connecticut,1867,121,138,0
+Connecticut,1868,118,141,0
+Connecticut,1869,113,146,0
+Connecticut,1870,119,138,3
+Connecticut,1871,118,142,0
+Connecticut,1872,117,145,0
+Connecticut,1873,139,122,1
+Connecticut,1874,116,147,0
+Connecticut,1875,152,113,1
+Connecticut,1876,179,88,0
+Connecticut,1877,115,152,0
+Connecticut,1878,117,150,0
+Connecticut,1879,106,157,4
+Connecticut,1880,88,178,1
+Connecticut,1881,85,182,2
+Connecticut,1882,96,177,0
+Connecticut,1883,121,152,0
+Connecticut,1884,105,168,0
+Connecticut,1885,107,165,1
+Connecticut,1886,127,144,2
+Connecticut,1887,119,151,3
+Connecticut,1888,119,151,3
+Connecticut,1889,103,169,1
+Connecticut,1890,103,169,1
+Connecticut,1891,133,140,2
+Connecticut,1892,133,140,2
+Connecticut,1893,125,149,1
+Connecticut,1894,125,149,1
+Connecticut,1895,47,227,1
+Connecticut,1896,47,227,1
+Connecticut,1897,29,242,5
+Connecticut,1898,29,242,5
+Connecticut,1899,73,200,3
+Connecticut,1900,73,200,3
+Connecticut,1901,54,223,2
+Connecticut,1902,54,223,2
+Connecticut,1903,74,205,0
+Connecticut,1904,74,205,0
+Connecticut,1905,42,248,0
+Connecticut,1906,42,248,0
+Connecticut,1907,74,216,0
+Connecticut,1908,74,216,0
+Connecticut,1909,51,239,0
+Connecticut,1910,51,239,0
+Connecticut,1911,112,181,0
+Connecticut,1912,112,181,0
+Connecticut,1913,141,144,8
+Connecticut,1914,141,144,8
+Connecticut,1915,65,226,2
+Connecticut,1916,65,226,2
+Connecticut,1917,74,219,0
+Connecticut,1918,74,219,0
+Connecticut,1919,80,213,0
+Connecticut,1920,80,213,0
+Connecticut,1921,14,282,1
+Connecticut,1922,14,282,1
+Connecticut,1923,60,237,0
+Connecticut,1924,60,237,0
+Connecticut,1925,25,272,0
+Connecticut,1926,25,272,0
+Connecticut,1927,25,272,0
+Connecticut,1928,25,272,0
+Connecticut,1929,55,242,0
+Connecticut,1930,55,242,0
+Connecticut,1931,100,202,0
+Connecticut,1932,100,202,0
+Connecticut,1933,90,212,0
+Connecticut,1934,90,212,0
+Connecticut,1935,102,195,5
+Connecticut,1936,102,195,5
+Connecticut,1937,126,176,0
+Connecticut,1938,126,176,0
+Connecticut,1939,80,218,4
+Connecticut,1940,80,218,4
+Connecticut,1941,108,199,0
+Connecticut,1942,108,199,0
+Connecticut,1943,85,223,0
+Connecticut,1944,85,223,0
+Connecticut,1945,97,211,0
+Connecticut,1946,97,211,0
+Connecticut,1947,53,255,0
+Connecticut,1948,53,255,0
+Connecticut,1949,115,193,0
+Connecticut,1950,115,193,0
+Connecticut,1951,106,207,0
+Connecticut,1952,106,207,0
+Connecticut,1953,72,243,0
+Connecticut,1954,72,243,0
+Connecticut,1955,112,200,3
+Connecticut,1956,112,200,3
+Connecticut,1957,35,280,0
+Connecticut,1958,35,280,0
+Connecticut,1959,170,145,0
+Connecticut,1960,170,145,0
+Connecticut,1961,142,188,0
+Connecticut,1962,142,188,0
+Connecticut,1963,134,196,0
+Connecticut,1964,134,196,0
+Connecticut,1965,134,196,0
+Connecticut,1966,134,196,0
+Connecticut,1967,142,71,0
+Connecticut,1968,142,71,0
+Connecticut,1969,134,79,0
+Connecticut,1970,134,79,0
+Connecticut,1971,118,95,0
+Connecticut,1972,118,95,0
+Connecticut,1973,71,116,0
+Connecticut,1974,71,116,0
+Connecticut,1975,147,40,0
+Connecticut,1976,147,40,0
+Connecticut,1977,115,72,0
+Connecticut,1978,115,72,0
+Connecticut,1979,129,58,0
+Connecticut,1980,129,58,0
+Connecticut,1981,106,81,0
+Connecticut,1982,106,81,0
+Connecticut,1983,110,77,0
+Connecticut,1984,110,77,0
+Connecticut,1985,78,109,0
+Connecticut,1986,78,109,0
+Connecticut,1987,117,70,0
+Connecticut,1988,117,70,0
+Connecticut,1989,111,76,0
+Connecticut,1990,111,76,0
+Connecticut,1991,108,79,0
+Connecticut,1992,108,79,0
+Connecticut,1993,106,81,0
+Connecticut,1994,106,81,0
+Connecticut,1995,108,79,0
+Connecticut,1996,108,79,0
+Connecticut,1997,115,72,0
+Connecticut,1998,115,72,0
+Connecticut,1999,115,72,0
+Connecticut,2000,115,72,0
+Connecticut,2001,121,66,0
+Connecticut,2002,121,66,0
+Connecticut,2003,115,72,0
+Connecticut,2004,115,72,0
+Connecticut,2005,123,64,0
+Connecticut,2006,123,64,0
+Connecticut,2007,131,56,0
+Connecticut,2008,130,57,0
+Connecticut,2009,138,49,0
+Connecticut,2010,138,49,0
+Connecticut,2011,121,66,0
+Connecticut,2012,121,66,0
+Connecticut,2013,120,67,0
+Connecticut,2014,119,68,0
+Connecticut,2015,108,79,0
+Connecticut,2016,108,79,0
+Connecticut,2017,98,89,0
+Connecticut,2018,98,89,0
+Connecticut,2019,113,74,0
+Connecticut,2020,113,74,0
+Connecticut,2021,121,66,0
+Connecticut,2022,120,67,0
+Connecticut,2023,122,65,0
+Connecticut,2024,122,65,0
+Connecticut,2025,127,60,0
+Connecticut,2026,127,60,0
+Delaware,1829,11,0,19
+Delaware,1830,11,0,19
+Delaware,1831,7,0,23
+Delaware,1832,9,0,21
+Delaware,1833,9,0,21
+Delaware,1834,9,0,21
+Delaware,1835,10,0,20
+Delaware,1836,10,0,20
+Delaware,1837,10,0,20
+Delaware,1838,10,0,20
+Delaware,1839,19,0,11
+Delaware,1840,19,0,11
+Delaware,1841,5,0,25
+Delaware,1842,5,0,25
+Delaware,1843,9,0,21
+Delaware,1844,9,0,21
+Delaware,1845,5,0,13
+Delaware,1846,5,0,13
+Delaware,1847,14,0,16
+Delaware,1848,14,0,16
+Delaware,1849,10,0,19
+Delaware,1850,10,0,19
+Delaware,1851,19,0,11
+Delaware,1852,19,0,11
+Delaware,1853,13,0,17
+Delaware,1854,13,0,17
+Delaware,1855,4,0,26
+Delaware,1856,4,0,26
+Delaware,1857,26,0,4
+Delaware,1858,26,0,4
+Delaware,1859,21,0,9
+Delaware,1860,21,0,9
+Delaware,1861,15,15,0
+Delaware,1862,15,15,0
+Delaware,1863,19,11,0
+Delaware,1864,19,11,0
+Delaware,1865,20,10,0
+Delaware,1866,20,10,0
+Delaware,1867,21,9,0
+Delaware,1868,21,9,0
+Delaware,1869,30,0,0
+Delaware,1870,30,0,0
+Delaware,1871,30,0,0
+Delaware,1872,30,0,0
+Delaware,1873,29,1,0
+Delaware,1874,29,1,0
+Delaware,1875,29,1,0
+Delaware,1876,29,1,0
+Delaware,1877,30,0,0
+Delaware,1878,30,0,0
+Delaware,1879,30,0,0
+Delaware,1880,30,0,0
+Delaware,1881,22,8,0
+Delaware,1882,22,8,0
+Delaware,1883,28,2,0
+Delaware,1884,28,2,0
+Delaware,1885,30,0,0
+Delaware,1886,30,0,0
+Delaware,1887,30,0,0
+Delaware,1888,30,0,0
+Delaware,1889,11,19,0
+Delaware,1890,11,19,0
+Delaware,1891,14,16,0
+Delaware,1892,14,16,0
+Delaware,1893,26,4,0
+Delaware,1894,26,4,0
+Delaware,1895,11,19,0
+Delaware,1896,11,19,0
+Delaware,1897,25,5,0
+Delaware,1898,25,5,0
+Delaware,1899,22,30,0
+Delaware,1900,22,30,0
+Delaware,1901,23,29,0
+Delaware,1902,23,29,0
+Delaware,1903,22,30,0
+Delaware,1904,22,30,0
+Delaware,1905,21,31,0
+Delaware,1906,21,31,0
+Delaware,1907,16,36,0
+Delaware,1908,16,36,0
+Delaware,1909,24,28,0
+Delaware,1910,24,28,0
+Delaware,1911,21,31,0
+Delaware,1912,21,31,0
+Delaware,1913,29,23,0
+Delaware,1914,29,23,0
+Delaware,1915,24,28,0
+Delaware,1916,24,28,0
+Delaware,1917,26,26,0
+Delaware,1918,26,26,0
+Delaware,1919,19,33,0
+Delaware,1920,19,33,0
+Delaware,1921,23,29,0
+Delaware,1922,23,29,0
+Delaware,1923,24,28,0
+Delaware,1924,24,28,0
+Delaware,1925,22,30,0
+Delaware,1926,22,30,0
+Delaware,1927,26,26,0
+Delaware,1928,26,26,0
+Delaware,1929,17,35,0
+Delaware,1930,17,35,0
+Delaware,1931,18,34,0
+Delaware,1932,18,34,0
+Delaware,1933,30,22,0
+Delaware,1934,30,22,0
+Delaware,1935,19,33,0
+Delaware,1936,19,33,0
+Delaware,1937,27,25,0
+Delaware,1938,27,25,0
+Delaware,1939,21,31,0
+Delaware,1940,21,31,0
+Delaware,1941,22,30,0
+Delaware,1942,22,30,0
+Delaware,1943,18,34,0
+Delaware,1944,18,34,0
+Delaware,1945,19,33,0
+Delaware,1946,19,33,0
+Delaware,1947,17,35,0
+Delaware,1948,17,35,0
+Delaware,1949,25,27,0
+Delaware,1950,25,27,0
+Delaware,1951,25,27,0
+Delaware,1952,25,27,0
+Delaware,1953,24,28,0
+Delaware,1954,24,28,0
+Delaware,1955,39,13,0
+Delaware,1956,39,13,0
+Delaware,1957,32,20,0
+Delaware,1958,32,20,0
+Delaware,1959,37,15,0
+Delaware,1960,37,15,0
+Delaware,1961,31,21,0
+Delaware,1962,31,21,0
+Delaware,1963,34,18,0
+Delaware,1964,34,18,0
+Delaware,1965,43,10,0
+Delaware,1966,43,10,0
+Delaware,1967,21,32,0
+Delaware,1968,21,32,0
+Delaware,1969,19,39,0
+Delaware,1970,19,39,0
+Delaware,1971,22,36,0
+Delaware,1972,22,36,0
+Delaware,1973,30,32,0
+Delaware,1974,30,32,0
+Delaware,1975,38,24,0
+Delaware,1976,38,24,0
+Delaware,1977,39,23,0
+Delaware,1978,39,23,0
+Delaware,1979,34,28,0
+Delaware,1980,34,28,0
+Delaware,1981,28,34,0
+Delaware,1982,28,34,0
+Delaware,1983,38,24,0
+Delaware,1984,38,24,0
+Delaware,1985,32,30,0
+Delaware,1986,32,30,0
+Delaware,1987,32,30,0
+Delaware,1988,32,30,0
+Delaware,1989,32,30,0
+Delaware,1990,32,30,0
+Delaware,1991,32,30,0
+Delaware,1992,32,30,0
+Delaware,1993,34,28,0
+Delaware,1994,34,28,0
+Delaware,1995,26,36,0
+Delaware,1996,26,36,0
+Delaware,1997,30,32,0
+Delaware,1998,30,32,0
+Delaware,1999,28,34,0
+Delaware,2000,28,34,0
+Delaware,2001,28,34,0
+Delaware,2002,28,34,0
+Delaware,2003,25,37,0
+Delaware,2004,25,37,0
+Delaware,2005,28,34,0
+Delaware,2006,28,34,0
+Delaware,2007,31,31,0
+Delaware,2008,31,31,0
+Delaware,2009,40,22,0
+Delaware,2010,39,23,0
+Delaware,2011,40,22,0
+Delaware,2012,40,22,0
+Delaware,2013,40,22,0
+Delaware,2014,40,22,0
+Delaware,2015,37,25,0
+Delaware,2016,37,25,0
+Delaware,2017,36,26,0
+Delaware,2018,36,26,0
+Delaware,2019,38,24,0
+Delaware,2020,38,24,0
+Delaware,2021,40,22,0
+Delaware,2022,40,22,0
+Delaware,2023,41,21,0
+Delaware,2024,41,21,0
+Delaware,2025,42,20,0
+Delaware,2026,42,20,0
+Florida,1845,41,0,16
+Florida,1846,41,0,16
+Florida,1847,34,0,24
+Florida,1848,18,0,33
+Florida,1849,23,0,36
+Florida,1850,23,0,36
+Florida,1851,31,0,28
+Florida,1852,31,0,28
+Florida,1853,38,0,21
+Florida,1854,38,0,21
+Florida,1855,34,0,25
+Florida,1856,34,0,25
+Florida,1857,42,0,23
+Florida,1858,42,0,23
+Florida,1859,50,0,16
+Florida,1860,50,0,16
+Florida,1861,50,0,18
+Florida,1862,50,0,18
+Florida,1868,23,53,0
+Florida,1869,23,53,0
+Florida,1870,23,53,0
+Florida,1871,30,34,0
+Florida,1872,30,34,0
+Florida,1873,34,42,0
+Florida,1874,34,42,0
+Florida,1875,40,36,0
+Florida,1876,40,36,0
+Florida,1877,46,30,0
+Florida,1878,46,30,0
+Florida,1879,71,35,2
+Florida,1880,71,35,2
+Florida,1881,85,23,0
+Florida,1882,85,23,0
+Florida,1883,51,33,24
+Florida,1884,51,33,24
+Florida,1885,65,32,11
+Florida,1886,65,32,11
+Florida,1887,79,18,11
+Florida,1888,79,18,11
+Florida,1889,85,14,9
+Florida,1890,85,14,9
+Florida,1891,107,1,0
+Florida,1892,107,1,0
+Florida,1893,107,1,0
+Florida,1894,107,1,0
+Florida,1895,105,1,2
+Florida,1896,105,1,2
+Florida,1897,94,3,3
+Florida,1898,94,3,3
+Florida,1899,100,0,0
+Florida,1900,100,0,0
+Florida,1901,100,0,0
+Florida,1902,100,0,0
+Florida,1903,99,1,0
+Florida,1904,99,1,0
+Florida,1905,100,0,0
+Florida,1906,100,0,0
+Florida,1907,99,0,1
+Florida,1908,99,0,1
+Florida,1909,99,0,1
+Florida,1910,99,0,1
+Florida,1911,100,0,0
+Florida,1912,100,0,0
+Florida,1913,103,0,0
+Florida,1914,103,0,0
+Florida,1915,105,0,0
+Florida,1916,105,0,0
+Florida,1917,106,1,0
+Florida,1918,106,1,0
+Florida,1919,109,0,0
+Florida,1920,109,0,0
+Florida,1921,109,0,0
+Florida,1922,109,0,0
+Florida,1923,109,0,0
+Florida,1924,109,0,0
+Florida,1925,116,0,0
+Florida,1926,119,0,0
+Florida,1927,127,0,0
+Florida,1928,127,0,0
+Florida,1929,130,3,0
+Florida,1930,130,3,0
+Florida,1931,133,0,0
+Florida,1932,133,0,0
+Florida,1933,132,1,0
+Florida,1934,132,1,0
+Florida,1935,133,0,0
+Florida,1936,133,0,0
+Florida,1937,133,0,0
+Florida,1938,133,0,0
+Florida,1939,133,0,0
+Florida,1940,133,0,0
+Florida,1941,133,0,0
+Florida,1942,133,0,0
+Florida,1943,133,0,0
+Florida,1944,133,0,0
+Florida,1945,133,0,0
+Florida,1946,133,0,0
+Florida,1947,132,1,0
+Florida,1948,132,1,0
+Florida,1949,133,0,0
+Florida,1950,133,0,0
+Florida,1951,130,3,0
+Florida,1952,130,3,0
+Florida,1953,127,6,0
+Florida,1954,127,6,0
+Florida,1955,126,7,0
+Florida,1956,126,7,0
+Florida,1957,126,7,0
+Florida,1958,126,7,0
+Florida,1959,129,4,0
+Florida,1960,129,4,0
+Florida,1961,125,8,0
+Florida,1962,125,8,0
+Florida,1963,150,18,0
+Florida,1964,150,18,0
+Florida,1965,143,12,0
+Florida,1966,143,12,0
+Florida,1967,108,59,0
+Florida,1968,108,59,0
+Florida,1969,109,58,0
+Florida,1970,109,58,0
+Florida,1971,114,53,0
+Florida,1972,114,53,0
+Florida,1973,102,57,1
+Florida,1974,102,57,1
+Florida,1975,113,46,1
+Florida,1976,113,46,1
+Florida,1977,122,37,1
+Florida,1978,122,37,1
+Florida,1979,118,42,0
+Florida,1980,118,42,0
+Florida,1981,108,52,0
+Florida,1982,108,52,0
+Florida,1983,116,44,0
+Florida,1984,116,44,0
+Florida,1985,108,52,0
+Florida,1986,107,53,0
+Florida,1987,98,62,0
+Florida,1988,98,62,0
+Florida,1989,93,67,0
+Florida,1990,93,67,0
+Florida,1991,97,63,0
+Florida,1992,96,64,0
+Florida,1993,91,69,0
+Florida,1994,91,69,0
+Florida,1995,82,78,0
+Florida,1996,81,79,0
+Florida,1997,76,84,0
+Florida,1998,69,91,0
+Florida,1999,62,98,0
+Florida,2000,60,100,0
+Florida,2001,58,102,0
+Florida,2002,58,102,0
+Florida,2003,53,107,0
+Florida,2004,53,107,0
+Florida,2005,50,110,0
+Florida,2006,49,111,0
+Florida,2007,56,104,0
+Florida,2008,57,103,0
+Florida,2009,58,102,0
+Florida,2010,58,102,0
+Florida,2011,51,109,0
+Florida,2012,51,109,0
+Florida,2013,58,102,0
+Florida,2014,59,101,0
+Florida,2015,53,107,0
+Florida,2016,53,107,0
+Florida,2017,56,104,0
+Florida,2018,58,102,0
+Florida,2019,64,96,0
+Florida,2020,64,96,0
+Florida,2021,58,102,0
+Florida,2022,58,102,0
+Florida,2023,47,113,0
+Florida,2024,48,112,0
+Florida,2025,45,115,0
+Florida,2026,45,115,0
+Georgia,1841,132,0,166
+Georgia,1842,160,0,132
+Georgia,1843,173,0,127
+Georgia,1844,130,0,167
+Georgia,1845,130,0,167
+Georgia,1846,94,0,83
+Georgia,1847,94,0,83
+Georgia,1848,83,0,94
+Georgia,1849,83,0,94
+Georgia,1850,86,0,88
+Georgia,1851,86,0,88
+Georgia,1854,170,0,88
+Georgia,1855,170,0,88
+Georgia,1856,170,0,89
+Georgia,1857,170,0,89
+Georgia,1858,188,0,85
+Georgia,1859,188,0,85
+Georgia,1860,223,0,71
+Georgia,1861,223,0,71
+Georgia,1869,106,110,0
+Georgia,1870,106,110,0
+Georgia,1871,165,43,2
+Georgia,1872,165,43,2
+Georgia,1873,201,18,0
+Georgia,1874,201,18,0
+Georgia,1875,211,8,0
+Georgia,1876,211,8,0
+Georgia,1877,199,9,11
+Georgia,1878,199,9,11
+Georgia,1879,215,4,0
+Georgia,1880,215,4,0
+Georgia,1881,208,11,0
+Georgia,1882,208,11,0
+Georgia,1883,211,2,6
+Georgia,1884,211,2,6
+Georgia,1885,213,6,0
+Georgia,1886,213,6,0
+Georgia,1887,189,12,18
+Georgia,1888,189,12,18
+Georgia,1889,215,4,0
+Georgia,1890,215,4,0
+Georgia,1891,215,4,0
+Georgia,1892,215,4,0
+Georgia,1893,202,4,12
+Georgia,1894,202,4,12
+Georgia,1895,164,3,52
+Georgia,1896,164,3,52
+Georgia,1897,179,4,36
+Georgia,1898,179,4,36
+Georgia,1899,213,1,5
+Georgia,1900,213,1,5
+Georgia,1901,209,1,9
+Georgia,1902,209,1,9
+Georgia,1903,211,5,3
+Georgia,1904,211,5,3
+Georgia,1905,217,2,0
+Georgia,1906,217,2,0
+Georgia,1907,214,3,2
+Georgia,1908,214,3,2
+Georgia,1909,228,0,0
+Georgia,1910,228,0,0
+Georgia,1911,226,2,0
+Georgia,1912,226,2,0
+Georgia,1913,226,2,0
+Georgia,1914,226,2,0
+Georgia,1915,231,2,0
+Georgia,1916,231,2,0
+Georgia,1917,232,1,0
+Georgia,1918,232,1,0
+Georgia,1919,241,3,0
+Georgia,1920,241,3,0
+Georgia,1921,252,5,0
+Georgia,1922,252,5,0
+Georgia,1923,256,1,0
+Georgia,1924,256,1,0
+Georgia,1925,254,3,0
+Georgia,1926,254,3,0
+Georgia,1927,254,3,0
+Georgia,1928,254,3,0
+Georgia,1929,255,3,0
+Georgia,1930,255,3,0
+Georgia,1931,257,1,0
+Georgia,1932,257,1,0
+Georgia,1933,255,1,0
+Georgia,1934,255,1,0
+Georgia,1935,253,3,0
+Georgia,1936,253,3,0
+Georgia,1937,254,2,0
+Georgia,1938,254,2,0
+Georgia,1939,255,2,0
+Georgia,1940,255,2,0
+Georgia,1941,255,2,0
+Georgia,1942,255,2,0
+Georgia,1943,255,2,0
+Georgia,1944,255,2,0
+Georgia,1945,255,2,0
+Georgia,1946,255,2,0
+Georgia,1947,257,2,0
+Georgia,1948,257,2,0
+Georgia,1949,256,3,0
+Georgia,1950,256,3,0
+Georgia,1951,258,1,0
+Georgia,1952,258,1,0
+Georgia,1953,257,2,0
+Georgia,1954,257,2,0
+Georgia,1955,255,4,0
+Georgia,1956,255,4,0
+Georgia,1957,255,4,0
+Georgia,1958,255,4,0
+Georgia,1959,255,4,0
+Georgia,1960,255,4,0
+Georgia,1961,256,3,0
+Georgia,1962,256,3,0
+Georgia,1963,253,6,0
+Georgia,1964,253,6,0
+Georgia,1965,242,16,2
+Georgia,1966,232,26,2
+Georgia,1967,229,29,1
+Georgia,1968,229,29,1
+Georgia,1969,217,33,1
+Georgia,1970,217,33,1
+Georgia,1971,223,28,0
+Georgia,1972,223,28,0
+Georgia,1973,200,35,0
+Georgia,1974,200,35,0
+Georgia,1975,206,29,0
+Georgia,1976,206,29,0
+Georgia,1977,210,28,0
+Georgia,1978,210,28,0
+Georgia,1979,211,25,0
+Georgia,1980,211,25,0
+Georgia,1981,208,28,0
+Georgia,1982,208,28,0
+Georgia,1983,205,31,0
+Georgia,1984,205,31,0
+Georgia,1985,201,35,0
+Georgia,1986,201,35,0
+Georgia,1987,199,37,0
+Georgia,1988,199,37,0
+Georgia,1989,190,46,0
+Georgia,1990,190,46,0
+Georgia,1991,189,47,0
+Georgia,1992,189,47,0
+Georgia,1993,167,69,0
+Georgia,1994,167,69,0
+Georgia,1995,150,86,0
+Georgia,1996,150,86,0
+Georgia,1997,136,100,0
+Georgia,1998,136,100,0
+Georgia,1999,136,100,0
+Georgia,2000,136,100,0
+Georgia,2001,137,98,1
+Georgia,2002,137,98,1
+Georgia,2003,133,102,1
+Georgia,2004,133,102,1
+Georgia,2005,101,134,1
+Georgia,2006,100,135,1
+Georgia,2007,96,140,0
+Georgia,2008,96,140,0
+Georgia,2009,97,139,0
+Georgia,2010,96,139,1
+Georgia,2011,83,152,1
+Georgia,2012,83,152,1
+Georgia,2013,78,157,1
+Georgia,2014,78,157,1
+Georgia,2015,78,157,1
+Georgia,2016,77,158,1
+Georgia,2017,80,156,0
+Georgia,2018,80,156,0
+Georgia,2019,95,141,0
+Georgia,2020,95,141,0
+Georgia,2021,99,137,0
+Georgia,2022,99,137,0
+Georgia,2023,102,134,0
+Georgia,2024,101,135,0
+Georgia,2025,103,133,0
+Georgia,2026,104,132,0
+Hawaii,1891,0,23,25
+Hawaii,1892,0,23,25
+Hawaii,1893,0,23,25
+Hawaii,1894,0,30,0
+Hawaii,1895,0,30,0
+Hawaii,1896,0,30,0
+Hawaii,1897,0,30,0
+Hawaii,1898,0,30,0
+Hawaii,1900,4,15,26
+Hawaii,1901,4,15,26
+Hawaii,1902,4,15,26
+Hawaii,1903,1,30,14
+Hawaii,1904,1,30,14
+Hawaii,1905,2,42,1
+Hawaii,1906,2,42,1
+Hawaii,1907,2,36,7
+Hawaii,1908,2,36,7
+Hawaii,1909,11,31,3
+Hawaii,1910,11,31,3
+Hawaii,1911,1,40,4
+Hawaii,1912,1,40,4
+Hawaii,1913,26,36,3
+Hawaii,1914,26,36,3
+Hawaii,1915,8,37,0
+Hawaii,1916,8,37,0
+Hawaii,1917,9,36,0
+Hawaii,1918,9,36,0
+Hawaii,1919,7,38,0
+Hawaii,1920,7,38,0
+Hawaii,1923,1,44,0
+Hawaii,1924,1,44,0
+Hawaii,1927,4,41,0
+Hawaii,1928,4,41,0
+Hawaii,1929,4,41,0
+Hawaii,1930,4,41,0
+Hawaii,1931,3,42,0
+Hawaii,1932,3,42,0
+Hawaii,1933,14,31,0
+Hawaii,1934,14,31,0
+Hawaii,1935,12,33,0
+Hawaii,1936,12,33,0
+Hawaii,1937,8,36,1
+Hawaii,1938,8,36,1
+Hawaii,1939,6,39,0
+Hawaii,1940,6,39,0
+Hawaii,1941,6,39,0
+Hawaii,1942,6,39,0
+Hawaii,1943,9,36,0
+Hawaii,1944,9,36,0
+Hawaii,1945,16,29,0
+Hawaii,1946,16,29,0
+Hawaii,1947,22,23,0
+Hawaii,1948,22,23,0
+Hawaii,1949,16,29,0
+Hawaii,1950,16,29,0
+Hawaii,1951,15,30,0
+Hawaii,1952,15,30,0
+Hawaii,1953,18,27,0
+Hawaii,1954,18,27,0
+Hawaii,1955,31,14,0
+Hawaii,1956,31,14,0
+Hawaii,1957,30,15,0
+Hawaii,1958,30,15,0
+Hawaii,1959,49,27,0
+Hawaii,1960,44,32,0
+Hawaii,1961,44,32,0
+Hawaii,1962,44,32,0
+Hawaii,1963,55,21,0
+Hawaii,1964,55,21,0
+Hawaii,1965,55,21,0
+Hawaii,1966,55,21,0
+Hawaii,1967,54,22,0
+Hawaii,1968,54,22,0
+Hawaii,1969,53,23,0
+Hawaii,1970,53,23,0
+Hawaii,1971,51,25,0
+Hawaii,1972,51,25,0
+Hawaii,1973,52,24,0
+Hawaii,1974,52,24,0
+Hawaii,1975,51,25,0
+Hawaii,1976,51,25,0
+Hawaii,1977,58,18,0
+Hawaii,1978,58,18,0
+Hawaii,1979,60,16,0
+Hawaii,1980,60,16,0
+Hawaii,1981,56,20,0
+Hawaii,1982,56,20,0
+Hawaii,1983,60,16,0
+Hawaii,1984,60,16,0
+Hawaii,1985,62,14,0
+Hawaii,1986,62,14,0
+Hawaii,1987,60,16,0
+Hawaii,1988,60,16,0
+Hawaii,1989,67,9,0
+Hawaii,1990,67,9,0
+Hawaii,1991,67,9,0
+Hawaii,1992,67,9,0
+Hawaii,1993,69,7,0
+Hawaii,1994,69,7,0
+Hawaii,1995,67,9,0
+Hawaii,1996,67,9,0
+Hawaii,1997,62,14,0
+Hawaii,1998,62,14,0
+Hawaii,1999,62,14,0
+Hawaii,2000,62,14,0
+Hawaii,2001,54,22,0
+Hawaii,2002,54,22,0
+Hawaii,2003,56,20,0
+Hawaii,2004,56,20,0
+Hawaii,2005,61,15,0
+Hawaii,2006,61,15,0
+Hawaii,2007,63,13,0
+Hawaii,2008,63,13,0
+Hawaii,2009,68,8,0
+Hawaii,2010,68,8,0
+Hawaii,2011,67,9,0
+Hawaii,2012,67,9,0
+Hawaii,2013,68,8,0
+Hawaii,2014,68,8,0
+Hawaii,2015,68,8,0
+Hawaii,2016,68,8,0
+Hawaii,2017,71,5,0
+Hawaii,2018,71,5,0
+Hawaii,2019,70,6,0
+Hawaii,2020,70,6,0
+Hawaii,2021,71,5,0
+Hawaii,2022,71,5,0
+Hawaii,2023,68,8,0
+Hawaii,2024,68,8,0
+Hawaii,2025,64,12,0
+Hawaii,2026,63,13,0
+Idaho,1890,9,45,0
+Idaho,1891,9,45,0
+Idaho,1892,9,45,0
+Idaho,1893,17,26,11
+Idaho,1894,17,26,11
+Idaho,1895,3,35,15
+Idaho,1896,3,35,15
+Idaho,1897,22,24,23
+Idaho,1898,22,24,23
+Idaho,1899,41,21,8
+Idaho,1900,41,21,8
+Idaho,1901,26,27,17
+Idaho,1902,26,27,17
+Idaho,1903,19,50,1
+Idaho,1904,19,50,1
+Idaho,1905,4,67,0
+Idaho,1906,4,67,0
+Idaho,1907,18,53,1
+Idaho,1908,18,53,1
+Idaho,1909,19,57,0
+Idaho,1910,19,57,0
+Idaho,1911,34,48,0
+Idaho,1912,34,48,0
+Idaho,1913,7,77,0
+Idaho,1914,7,77,0
+Idaho,1915,39,51,4
+Idaho,1916,39,51,4
+Idaho,1917,57,45,0
+Idaho,1918,57,45,0
+Idaho,1919,30,75,0
+Idaho,1920,30,75,0
+Idaho,1921,8,90,0
+Idaho,1922,8,90,0
+Idaho,1923,36,62,11
+Idaho,1924,36,62,11
+Idaho,1925,10,77,19
+Idaho,1926,10,77,19
+Idaho,1927,18,81,13
+Idaho,1928,18,81,13
+Idaho,1929,21,82,0
+Idaho,1930,21,82,0
+Idaho,1931,48,66,0
+Idaho,1932,48,66,0
+Idaho,1933,94,13,0
+Idaho,1934,94,13,0
+Idaho,1935,89,14,0
+Idaho,1936,89,14,0
+Idaho,1937,83,20,0
+Idaho,1938,83,20,0
+Idaho,1939,37,66,0
+Idaho,1940,37,66,0
+Idaho,1941,61,42,0
+Idaho,1942,61,42,0
+Idaho,1943,40,63,0
+Idaho,1944,40,63,0
+Idaho,1945,49,54,0
+Idaho,1946,49,54,0
+Idaho,1947,30,73,0
+Idaho,1948,30,73,0
+Idaho,1949,48,55,0
+Idaho,1950,48,55,0
+Idaho,1951,38,65,0
+Idaho,1952,38,65,0
+Idaho,1953,25,78,0
+Idaho,1954,25,78,0
+Idaho,1955,43,60,0
+Idaho,1956,43,60,0
+Idaho,1957,52,51,0
+Idaho,1958,52,51,0
+Idaho,1959,62,41,0
+Idaho,1960,62,41,0
+Idaho,1961,49,54,0
+Idaho,1962,49,54,0
+Idaho,1963,50,57,0
+Idaho,1964,50,57,0
+Idaho,1965,56,67,0
+Idaho,1966,56,67,0
+Idaho,1967,45,60,0
+Idaho,1968,45,60,0
+Idaho,1969,47,58,0
+Idaho,1970,47,58,0
+Idaho,1971,45,60,0
+Idaho,1972,45,60,0
+Idaho,1973,31,74,0
+Idaho,1974,31,74,0
+Idaho,1975,41,64,0
+Idaho,1976,41,64,0
+Idaho,1977,37,68,0
+Idaho,1978,37,68,0
+Idaho,1979,36,69,0
+Idaho,1980,36,69,0
+Idaho,1981,26,79,0
+Idaho,1982,26,79,0
+Idaho,1983,33,72,0
+Idaho,1984,33,72,0
+Idaho,1985,31,95,0
+Idaho,1986,31,95,0
+Idaho,1987,36,90,0
+Idaho,1988,36,90,0
+Idaho,1989,39,87,0
+Idaho,1990,39,87,0
+Idaho,1991,49,77,0
+Idaho,1992,49,77,0
+Idaho,1993,32,73,0
+Idaho,1994,32,73,0
+Idaho,1995,21,84,0
+Idaho,1996,21,84,0
+Idaho,1997,16,89,0
+Idaho,1998,16,89,0
+Idaho,1999,16,89,0
+Idaho,2000,16,89,0
+Idaho,2001,12,93,0
+Idaho,2002,12,93,0
+Idaho,2003,23,82,0
+Idaho,2004,23,82,0
+Idaho,2005,20,85,0
+Idaho,2006,20,85,0
+Idaho,2007,26,79,0
+Idaho,2008,26,79,0
+Idaho,2009,25,80,0
+Idaho,2010,25,80,0
+Idaho,2011,20,85,0
+Idaho,2012,20,85,0
+Idaho,2013,20,85,0
+Idaho,2014,20,85,0
+Idaho,2015,21,84,0
+Idaho,2016,21,84,0
+Idaho,2017,17,88,0
+Idaho,2018,17,88,0
+Idaho,2019,21,84,0
+Idaho,2020,21,84,0
+Idaho,2021,19,86,0
+Idaho,2022,19,86,0
+Idaho,2023,18,87,0
+Idaho,2024,18,87,0
+Idaho,2025,15,90,0
+Idaho,2026,15,90,0
+Illinois,1837,79,0,42
+Illinois,1838,79,0,42
+Illinois,1839,60,0,71
+Illinois,1840,60,0,71
+Illinois,1841,77,0,54
+Illinois,1842,77,0,54
+Illinois,1843,114,0,49
+Illinois,1844,114,0,49
+Illinois,1845,104,0,55
+Illinois,1846,104,0,55
+Illinois,1847,105,0,56
+Illinois,1848,105,0,56
+Illinois,1849,71,0,28
+Illinois,1850,71,0,28
+Illinois,1851,63,0,37
+Illinois,1852,63,0,37
+Illinois,1853,76,0,24
+Illinois,1854,76,0,24
+Illinois,1855,48,0,52
+Illinois,1856,48,0,52
+Illinois,1857,68,42,0
+Illinois,1858,68,42,0
+Illinois,1859,54,46,0
+Illinois,1860,54,46,0
+Illinois,1861,46,54,0
+Illinois,1862,46,54,0
+Illinois,1863,68,42,0
+Illinois,1864,68,42,0
+Illinois,1865,45,65,0
+Illinois,1866,45,65,0
+Illinois,1867,34,76,0
+Illinois,1868,34,76,0
+Illinois,1869,34,76,0
+Illinois,1870,34,76,0
+Illinois,1871,96,128,1
+Illinois,1872,96,128,1
+Illinois,1873,85,119,0
+Illinois,1874,85,119,0
+Illinois,1875,60,93,50
+Illinois,1876,60,93,50
+Illinois,1877,89,100,15
+Illinois,1878,89,100,15
+Illinois,1879,84,106,14
+Illinois,1880,84,106,14
+Illinois,1881,89,114,1
+Illinois,1882,89,114,1
+Illinois,1883,95,108,1
+Illinois,1884,95,108,1
+Illinois,1885,101,102,1
+Illinois,1886,101,102,1
+Illinois,1887,79,125,0
+Illinois,1888,79,125,0
+Illinois,1889,79,125,0
+Illinois,1890,79,125,0
+Illinois,1891,101,100,3
+Illinois,1892,101,100,3
+Illinois,1893,107,97,0
+Illinois,1894,107,97,0
+Illinois,1895,79,125,0
+Illinois,1896,79,125,0
+Illinois,1897,73,128,3
+Illinois,1898,73,128,3
+Illinois,1899,87,115,2
+Illinois,1900,87,115,2
+Illinois,1901,91,113,0
+Illinois,1902,91,113,0
+Illinois,1903,77,124,3
+Illinois,1904,77,124,3
+Illinois,1905,67,132,5
+Illinois,1906,67,132,5
+Illinois,1907,67,134,3
+Illinois,1908,67,134,3
+Illinois,1909,78,126,0
+Illinois,1910,78,126,0
+Illinois,1911,85,116,3
+Illinois,1912,85,116,3
+Illinois,1913,95,77,32
+Illinois,1914,95,77,32
+Illinois,1915,95,104,5
+Illinois,1916,95,104,5
+Illinois,1917,85,118,1
+Illinois,1918,85,118,1
+Illinois,1919,80,124,0
+Illinois,1920,80,124,0
+Illinois,1921,66,138,0
+Illinois,1922,66,138,0
+Illinois,1923,72,131,1
+Illinois,1924,72,131,1
+Illinois,1925,72,132,0
+Illinois,1926,72,132,0
+Illinois,1927,70,134,0
+Illinois,1928,70,134,0
+Illinois,1929,73,131,0
+Illinois,1930,73,131,0
+Illinois,1931,90,114,0
+Illinois,1932,90,114,0
+Illinois,1933,113,91,0
+Illinois,1934,113,91,0
+Illinois,1935,119,85,0
+Illinois,1936,119,85,0
+Illinois,1937,120,84,0
+Illinois,1938,120,84,0
+Illinois,1939,103,101,0
+Illinois,1940,103,101,0
+Illinois,1941,97,107,0
+Illinois,1942,97,107,0
+Illinois,1943,92,112,0
+Illinois,1944,92,112,0
+Illinois,1945,92,112,0
+Illinois,1946,92,112,0
+Illinois,1947,80,124,0
+Illinois,1948,80,124,0
+Illinois,1949,97,107,0
+Illinois,1950,97,107,0
+Illinois,1951,96,115,0
+Illinois,1952,96,115,0
+Illinois,1953,82,122,0
+Illinois,1954,82,122,0
+Illinois,1955,93,111,0
+Illinois,1956,93,111,0
+Illinois,1957,103,132,0
+Illinois,1958,103,132,0
+Illinois,1959,116,119,0
+Illinois,1960,116,119,0
+Illinois,1961,115,120,0
+Illinois,1962,115,120,0
+Illinois,1963,110,125,0
+Illinois,1964,110,125,0
+Illinois,1965,143,92,0
+Illinois,1966,143,92,0
+Illinois,1967,98,137,0
+Illinois,1968,98,137,0
+Illinois,1969,103,132,0
+Illinois,1970,103,132,0
+Illinois,1971,116,119,0
+Illinois,1972,116,119,0
+Illinois,1973,113,122,1
+Illinois,1974,113,122,1
+Illinois,1975,132,101,3
+Illinois,1976,132,101,3
+Illinois,1977,127,108,1
+Illinois,1978,127,108,1
+Illinois,1979,120,115,1
+Illinois,1980,120,115,1
+Illinois,1981,115,120,1
+Illinois,1982,115,120,1
+Illinois,1983,103,74,0
+Illinois,1984,103,74,0
+Illinois,1985,98,79,0
+Illinois,1986,98,79,0
+Illinois,1987,98,79,0
+Illinois,1988,98,79,0
+Illinois,1989,99,78,0
+Illinois,1990,99,78,0
+Illinois,1991,103,74,0
+Illinois,1992,103,74,0
+Illinois,1993,94,83,0
+Illinois,1994,94,83,0
+Illinois,1995,80,97,0
+Illinois,1996,80,97,0
+Illinois,1997,88,89,0
+Illinois,1998,88,89,0
+Illinois,1999,89,88,0
+Illinois,2000,89,88,0
+Illinois,2001,89,88,0
+Illinois,2002,89,88,0
+Illinois,2003,98,78,1
+Illinois,2004,98,78,1
+Illinois,2005,96,80,1
+Illinois,2006,96,80,1
+Illinois,2007,103,74,0
+Illinois,2008,104,73,0
+Illinois,2009,107,70,0
+Illinois,2010,107,70,0
+Illinois,2011,99,78,0
+Illinois,2012,99,78,0
+Illinois,2013,111,66,0
+Illinois,2014,111,66,0
+Illinois,2015,110,67,0
+Illinois,2016,110,67,0
+Illinois,2017,104,73,0
+Illinois,2018,104,73,0
+Illinois,2019,114,63,0
+Illinois,2020,114,63,0
+Illinois,2021,114,63,0
+Illinois,2022,114,63,0
+Illinois,2023,118,59,0
+Illinois,2024,118,59,0
+Illinois,2025,118,59,0
+Illinois,2026,118,59,0
+Indiana,1830,31,0,41
+Indiana,1831,28,0,47
+Indiana,1832,46,0,58
+Indiana,1833,51,0,53
+Indiana,1834,52,0,48
+Indiana,1835,44,0,62
+Indiana,1836,51,0,60
+Indiana,1837,66,0,81
+Indiana,1838,66,0,81
+Indiana,1839,63,0,84
+Indiana,1840,86,0,61
+Indiana,1841,36,0,111
+Indiana,1842,75,0,75
+Indiana,1843,73,0,77
+Indiana,1844,81,0,69
+Indiana,1845,70,0,79
+Indiana,1846,81,0,69
+Indiana,1847,73,0,77
+Indiana,1848,74,0,76
+Indiana,1849,88,0,62
+Indiana,1850,98,0,52
+Indiana,1851,100,0,50
+Indiana,1852,100,0,50
+Indiana,1853,100,0,50
+Indiana,1854,100,0,50
+Indiana,1855,69,0,81
+Indiana,1856,69,0,81
+Indiana,1857,86,61,3
+Indiana,1858,86,61,3
+Indiana,1859,77,68,4
+Indiana,1860,77,68,4
+Indiana,1861,60,90,0
+Indiana,1862,60,90,0
+Indiana,1863,87,61,2
+Indiana,1864,87,61,2
+Indiana,1865,71,79,0
+Indiana,1866,71,79,0
+Indiana,1867,59,91,0
+Indiana,1868,59,91,0
+Indiana,1869,60,90,0
+Indiana,1870,60,90,0
+Indiana,1871,79,71,0
+Indiana,1872,79,71,0
+Indiana,1873,69,81,0
+Indiana,1874,69,81,0
+Indiana,1875,83,54,13
+Indiana,1876,83,54,13
+Indiana,1877,71,78,1
+Indiana,1878,71,78,1
+Indiana,1879,76,62,12
+Indiana,1880,76,62,12
+Indiana,1881,65,82,3
+Indiana,1882,65,82,3
+Indiana,1883,86,64,0
+Indiana,1884,86,64,0
+Indiana,1885,96,54,0
+Indiana,1886,96,54,0
+Indiana,1887,31,119,0
+Indiana,1888,31,119,0
+Indiana,1889,84,66,0
+Indiana,1890,84,66,0
+Indiana,1891,108,42,0
+Indiana,1892,108,42,0
+Indiana,1893,98,52,0
+Indiana,1894,98,52,0
+Indiana,1895,36,114,0
+Indiana,1896,36,114,0
+Indiana,1897,53,85,11
+Indiana,1898,53,85,11
+Indiana,1899,50,89,0
+Indiana,1900,50,89,0
+Indiana,1901,56,94,0
+Indiana,1902,56,94,0
+Indiana,1903,49,101,0
+Indiana,1904,49,101,0
+Indiana,1905,35,115,0
+Indiana,1906,35,115,0
+Indiana,1907,60,90,0
+Indiana,1908,60,90,0
+Indiana,1909,83,67,0
+Indiana,1910,83,67,0
+Indiana,1911,90,60,0
+Indiana,1912,90,60,0
+Indiana,1913,135,12,3
+Indiana,1914,135,12,3
+Indiana,1915,101,47,2
+Indiana,1916,101,47,2
+Indiana,1917,43,106,1
+Indiana,1918,43,106,1
+Indiana,1919,34,116,0
+Indiana,1920,34,116,0
+Indiana,1921,20,130,0
+Indiana,1922,20,130,0
+Indiana,1923,66,84,0
+Indiana,1924,66,84,0
+Indiana,1925,34,116,0
+Indiana,1926,34,116,0
+Indiana,1927,52,98,0
+Indiana,1928,52,98,0
+Indiana,1929,32,118,0
+Indiana,1930,32,118,0
+Indiana,1931,93,54,0
+Indiana,1932,93,54,0
+Indiana,1933,134,16,0
+Indiana,1934,134,16,0
+Indiana,1935,103,47,0
+Indiana,1936,103,47,0
+Indiana,1937,115,35,0
+Indiana,1938,115,35,0
+Indiana,1939,82,68,0
+Indiana,1940,82,68,0
+Indiana,1941,53,97,0
+Indiana,1942,53,97,0
+Indiana,1943,30,120,0
+Indiana,1944,30,120,0
+Indiana,1945,44,106,0
+Indiana,1946,44,106,0
+Indiana,1947,31,119,0
+Indiana,1948,31,119,0
+Indiana,1949,61,89,0
+Indiana,1950,61,89,0
+Indiana,1951,55,95,0
+Indiana,1952,55,95,0
+Indiana,1953,29,121,0
+Indiana,1954,29,121,0
+Indiana,1955,52,98,0
+Indiana,1956,52,98,0
+Indiana,1957,41,109,0
+Indiana,1958,41,109,0
+Indiana,1959,102,48,0
+Indiana,1960,102,48,0
+Indiana,1961,60,90,0
+Indiana,1962,60,90,0
+Indiana,1963,68,82,0
+Indiana,1964,68,82,0
+Indiana,1965,113,37,0
+Indiana,1966,113,37,0
+Indiana,1967,63,87,0
+Indiana,1968,63,87,0
+Indiana,1969,42,108,0
+Indiana,1970,42,108,0
+Indiana,1971,67,83,0
+Indiana,1972,67,83,0
+Indiana,1973,48,102,0
+Indiana,1974,48,102,0
+Indiana,1975,79,71,0
+Indiana,1976,79,71,0
+Indiana,1977,75,75,0
+Indiana,1978,75,75,0
+Indiana,1979,67,83,0
+Indiana,1980,67,83,0
+Indiana,1981,52,98,0
+Indiana,1982,52,98,0
+Indiana,1983,61,89,0
+Indiana,1984,61,89,0
+Indiana,1985,57,93,0
+Indiana,1986,57,93,0
+Indiana,1987,68,82,0
+Indiana,1988,68,82,0
+Indiana,1989,74,76,0
+Indiana,1990,74,76,0
+Indiana,1991,76,74,0
+Indiana,1992,76,74,0
+Indiana,1993,77,73,0
+Indiana,1994,77,73,0
+Indiana,1995,64,86,0
+Indiana,1996,64,86,0
+Indiana,1997,69,81,0
+Indiana,1998,69,81,0
+Indiana,1999,72,78,0
+Indiana,2000,72,78,0
+Indiana,2001,71,79,0
+Indiana,2002,71,79,0
+Indiana,2003,69,81,0
+Indiana,2004,69,81,0
+Indiana,2005,65,85,0
+Indiana,2006,65,85,0
+Indiana,2007,68,82,0
+Indiana,2008,68,82,0
+Indiana,2009,69,81,0
+Indiana,2010,69,81,0
+Indiana,2011,53,97,0
+Indiana,2012,53,97,0
+Indiana,2013,44,106,0
+Indiana,2014,44,106,0
+Indiana,2015,39,111,0
+Indiana,2016,39,111,0
+Indiana,2017,39,111,0
+Indiana,2018,39,111,0
+Indiana,2019,43,107,0
+Indiana,2020,43,107,0
+Indiana,2021,40,110,0
+Indiana,2022,40,110,0
+Indiana,2023,40,110,0
+Indiana,2024,40,110,0
+Indiana,2025,40,110,0
+Indiana,2026,40,110,0
+Iowa,1846,29,0,29
+Iowa,1847,29,0,29
+Iowa,1848,29,0,29
+Iowa,1849,39,0,19
+Iowa,1850,39,0,19
+Iowa,1851,47,0,10
+Iowa,1852,47,0,10
+Iowa,1853,60,0,34
+Iowa,1854,60,0,34
+Iowa,1855,48,0,54
+Iowa,1856,48,0,54
+Iowa,1857,38,67,0
+Iowa,1858,44,64,0
+Iowa,1859,44,64,0
+Iowa,1860,57,72,0
+Iowa,1861,57,72,0
+Iowa,1862,48,92,0
+Iowa,1863,48,92,0
+Iowa,1864,9,129,0
+Iowa,1865,9,129,0
+Iowa,1866,20,125,0
+Iowa,1867,20,125,0
+Iowa,1868,21,128,0
+Iowa,1869,21,128,0
+Iowa,1870,21,129,0
+Iowa,1871,21,129,0
+Iowa,1872,30,120,0
+Iowa,1873,30,120,0
+Iowa,1874,12,84,54
+Iowa,1875,12,84,54
+Iowa,1876,39,111,0
+Iowa,1877,39,111,0
+Iowa,1878,37,111,2
+Iowa,1879,37,111,2
+Iowa,1880,21,123,6
+Iowa,1881,21,123,6
+Iowa,1882,24,117,9
+Iowa,1883,24,117,9
+Iowa,1884,53,91,6
+Iowa,1885,53,91,6
+Iowa,1886,58,91,1
+Iowa,1887,58,91,1
+Iowa,1888,48,99,3
+Iowa,1889,48,99,3
+Iowa,1890,70,73,7
+Iowa,1891,70,73,7
+Iowa,1892,70,78,2
+Iowa,1893,70,78,2
+Iowa,1894,37,113,0
+Iowa,1895,37,113,0
+Iowa,1896,27,123,0
+Iowa,1897,27,123,0
+Iowa,1898,49,101,0
+Iowa,1899,49,101,0
+Iowa,1900,27,123,0
+Iowa,1901,27,123,0
+Iowa,1902,27,123,0
+Iowa,1903,27,123,0
+Iowa,1904,30,120,0
+Iowa,1905,30,120,0
+Iowa,1906,28,122,0
+Iowa,1907,47,111,0
+Iowa,1908,47,111,0
+Iowa,1909,44,114,0
+Iowa,1910,44,114,0
+Iowa,1911,54,104,0
+Iowa,1912,54,104,0
+Iowa,1913,59,99,0
+Iowa,1914,59,99,0
+Iowa,1915,47,111,0
+Iowa,1916,47,111,0
+Iowa,1917,24,134,0
+Iowa,1918,24,134,0
+Iowa,1919,20,138,0
+Iowa,1920,20,138,0
+Iowa,1921,8,149,1
+Iowa,1922,8,149,1
+Iowa,1923,20,137,1
+Iowa,1924,20,137,1
+Iowa,1925,11,146,1
+Iowa,1926,11,146,1
+Iowa,1927,14,143,1
+Iowa,1928,14,143,1
+Iowa,1929,14,144,0
+Iowa,1930,14,144,0
+Iowa,1931,43,115,0
+Iowa,1932,43,115,0
+Iowa,1933,101,57,0
+Iowa,1934,100,58,0
+Iowa,1935,86,72,0
+Iowa,1936,84,74,0
+Iowa,1937,76,82,0
+Iowa,1938,75,83,0
+Iowa,1939,31,127,0
+Iowa,1940,31,127,0
+Iowa,1941,26,132,0
+Iowa,1942,26,132,0
+Iowa,1943,15,143,0
+Iowa,1944,15,143,0
+Iowa,1945,22,136,0
+Iowa,1946,22,136,0
+Iowa,1947,16,142,0
+Iowa,1948,16,142,0
+Iowa,1949,36,122,0
+Iowa,1950,36,122,0
+Iowa,1951,24,134,0
+Iowa,1952,24,134,0
+Iowa,1953,7,151,0
+Iowa,1954,7,151,0
+Iowa,1955,24,134,0
+Iowa,1956,24,134,0
+Iowa,1957,47,111,0
+Iowa,1958,47,111,0
+Iowa,1959,67,91,0
+Iowa,1960,67,91,0
+Iowa,1961,45,113,0
+Iowa,1962,45,113,0
+Iowa,1963,42,116,0
+Iowa,1964,42,116,0
+Iowa,1965,135,48,0
+Iowa,1966,135,48,0
+Iowa,1967,67,118,0
+Iowa,1968,67,118,0
+Iowa,1969,55,130,0
+Iowa,1970,55,130,0
+Iowa,1971,49,101,0
+Iowa,1972,49,101,0
+Iowa,1973,65,85,0
+Iowa,1974,65,85,0
+Iowa,1975,87,63,0
+Iowa,1976,87,63,0
+Iowa,1977,85,65,0
+Iowa,1978,85,65,0
+Iowa,1979,65,85,0
+Iowa,1980,65,85,0
+Iowa,1981,63,87,0
+Iowa,1982,63,87,0
+Iowa,1983,88,62,0
+Iowa,1984,88,62,0
+Iowa,1985,89,61,0
+Iowa,1986,89,61,0
+Iowa,1987,88,62,0
+Iowa,1988,88,62,0
+Iowa,1989,91,59,0
+Iowa,1990,91,59,0
+Iowa,1991,81,69,0
+Iowa,1992,81,69,0
+Iowa,1993,75,75,0
+Iowa,1994,75,75,0
+Iowa,1995,63,87,0
+Iowa,1996,63,87,0
+Iowa,1997,67,83,0
+Iowa,1998,67,83,0
+Iowa,1999,64,86,0
+Iowa,2000,64,86,0
+Iowa,2001,64,86,0
+Iowa,2002,64,86,0
+Iowa,2003,67,83,0
+Iowa,2004,67,83,0
+Iowa,2005,74,76,0
+Iowa,2006,74,76,0
+Iowa,2007,84,66,0
+Iowa,2008,84,66,0
+Iowa,2009,89,61,0
+Iowa,2010,89,61,0
+Iowa,2011,66,84,0
+Iowa,2012,66,84,0
+Iowa,2013,73,77,0
+Iowa,2014,73,77,0
+Iowa,2015,69,81,0
+Iowa,2016,69,81,0
+Iowa,2017,61,88,1
+Iowa,2018,61,88,1
+Iowa,2019,65,85,0
+Iowa,2020,65,85,0
+Iowa,2021,59,91,0
+Iowa,2022,58,92,0
+Iowa,2023,52,98,0
+Iowa,2024,52,98,0
+Iowa,2025,49,101,0
+Iowa,2026,50,100,0
+Kansas,1861,14,86,0
+Kansas,1862,14,86,0
+Kansas,1863,10,77,12
+Kansas,1864,5,50,3
+Kansas,1865,8,81,12
+Kansas,1866,11,80,9
+Kansas,1867,18,89,0
+Kansas,1868,31,82,0
+Kansas,1869,7,108,0
+Kansas,1871,16,107,0
+Kansas,1873,3,78,57
+Kansas,1874,4,84,50
+Kansas,1875,13,95,30
+Kansas,1876,12,97,31
+Kansas,1877,23,142,0
+Kansas,1878,23,142,0
+Kansas,1879,22,143,0
+Kansas,1880,22,143,0
+Kansas,1881,11,149,5
+Kansas,1882,11,149,5
+Kansas,1883,28,123,14
+Kansas,1884,28,123,14
+Kansas,1885,14,144,7
+Kansas,1886,14,144,7
+Kansas,1887,27,134,4
+Kansas,1888,27,134,4
+Kansas,1889,3,160,2
+Kansas,1890,3,160,2
+Kansas,1891,8,65,92
+Kansas,1892,8,65,92
+Kansas,1893,4,79,82
+Kansas,1894,4,79,82
+Kansas,1895,3,106,56
+Kansas,1896,3,106,56
+Kansas,1897,10,58,97
+Kansas,1898,10,58,97
+Kansas,1899,2,103,60
+Kansas,1900,2,103,60
+Kansas,1901,14,112,39
+Kansas,1902,14,112,39
+Kansas,1903,32,126,7
+Kansas,1904,32,126,7
+Kansas,1905,18,147,0
+Kansas,1906,18,147,0
+Kansas,1907,34,131,0
+Kansas,1908,34,131,0
+Kansas,1909,46,118,1
+Kansas,1910,46,118,1
+Kansas,1911,59,105,1
+Kansas,1912,59,105,1
+Kansas,1913,93,69,3
+Kansas,1914,93,69,3
+Kansas,1915,70,84,11
+Kansas,1916,70,84,11
+Kansas,1917,46,117,2
+Kansas,1918,46,117,2
+Kansas,1919,24,141,0
+Kansas,1920,24,141,0
+Kansas,1921,14,151,0
+Kansas,1922,14,151,0
+Kansas,1923,32,133,0
+Kansas,1924,32,133,0
+Kansas,1925,41,124,0
+Kansas,1926,41,124,0
+Kansas,1927,41,124,0
+Kansas,1928,41,124,0
+Kansas,1929,27,138,0
+Kansas,1930,27,138,0
+Kansas,1931,51,114,0
+Kansas,1932,51,114,0
+Kansas,1933,77,88,0
+Kansas,1934,77,88,0
+Kansas,1935,67,98,0
+Kansas,1936,67,98,0
+Kansas,1937,66,99,0
+Kansas,1938,66,99,0
+Kansas,1939,32,133,0
+Kansas,1940,32,133,0
+Kansas,1941,32,133,0
+Kansas,1942,32,133,0
+Kansas,1943,17,148,0
+Kansas,1944,17,148,0
+Kansas,1945,6,159,0
+Kansas,1946,6,159,0
+Kansas,1947,18,147,0
+Kansas,1948,18,147,0
+Kansas,1949,36,129,0
+Kansas,1950,36,129,0
+Kansas,1951,26,139,0
+Kansas,1952,26,139,0
+Kansas,1953,25,140,0
+Kansas,1954,25,140,0
+Kansas,1955,41,124,0
+Kansas,1956,41,124,0
+Kansas,1957,51,114,0
+Kansas,1958,51,114,0
+Kansas,1959,64,101,0
+Kansas,1960,64,101,0
+Kansas,1961,51,114,0
+Kansas,1962,51,114,0
+Kansas,1963,44,121,0
+Kansas,1964,44,121,0
+Kansas,1965,58,107,0
+Kansas,1966,58,107,0
+Kansas,1967,61,104,0
+Kansas,1968,61,104,0
+Kansas,1969,46,119,0
+Kansas,1970,46,119,0
+Kansas,1971,49,116,0
+Kansas,1972,49,116,0
+Kansas,1973,58,107,0
+Kansas,1974,58,107,0
+Kansas,1975,66,99,0
+Kansas,1976,66,99,0
+Kansas,1977,84,81,0
+Kansas,1978,84,81,0
+Kansas,1979,75,90,0
+Kansas,1980,75,90,0
+Kansas,1981,70,95,0
+Kansas,1982,70,95,0
+Kansas,1983,70,95,0
+Kansas,1984,70,95,0
+Kansas,1985,65,100,0
+Kansas,1986,65,100,0
+Kansas,1987,67,98,0
+Kansas,1988,67,98,0
+Kansas,1989,76,89,0
+Kansas,1990,76,89,0
+Kansas,1991,81,84,0
+Kansas,1992,81,84,0
+Kansas,1993,73,92,0
+Kansas,1994,73,92,0
+Kansas,1995,59,106,0
+Kansas,1996,59,106,0
+Kansas,1997,61,104,0
+Kansas,1998,61,104,0
+Kansas,1999,61,104,0
+Kansas,2000,61,104,0
+Kansas,2001,56,109,0
+Kansas,2002,56,109,0
+Kansas,2003,55,110,0
+Kansas,2004,55,110,0
+Kansas,2005,52,113,0
+Kansas,2006,52,113,0
+Kansas,2007,57,108,0
+Kansas,2008,57,108,0
+Kansas,2009,57,108,0
+Kansas,2010,58,107,0
+Kansas,2011,41,124,0
+Kansas,2012,41,124,0
+Kansas,2013,41,124,0
+Kansas,2014,40,125,0
+Kansas,2015,35,130,0
+Kansas,2016,35,130,0
+Kansas,2017,49,116,0
+Kansas,2018,49,115,1
+Kansas,2019,52,112,1
+Kansas,2020,52,113,0
+Kansas,2021,50,115,0
+Kansas,2022,50,115,0
+Kansas,2023,51,113,1
+Kansas,2024,51,113,1
+Kansas,2025,46,119,0
+Kansas,2026,46,119,0
+Kentucky,1828,64,0,74
+Kentucky,1829,73,0,64
+Kentucky,1830,50,0,88
+Kentucky,1831,62,0,76
+Kentucky,1832,68,0,70
+Kentucky,1833,56,0,82
+Kentucky,1834,60,0,78
+Kentucky,1835,42,0,96
+Kentucky,1836,52,0,86
+Kentucky,1837,56,0,82
+Kentucky,1838,43,0,95
+Kentucky,1839,48,0,90
+Kentucky,1840,54,0,82
+Kentucky,1841,38,0,100
+Kentucky,1842,34,0,104
+Kentucky,1843,52,0,86
+Kentucky,1844,50,0,88
+Kentucky,1845,47,0,90
+Kentucky,1846,52,0,86
+Kentucky,1847,49,0,89
+Kentucky,1848,52,0,86
+Kentucky,1849,47,0,91
+Kentucky,1850,52,0,86
+Kentucky,1851,58,0,80
+Kentucky,1852,63,0,75
+Kentucky,1853,63,0,75
+Kentucky,1854,60,0,78
+Kentucky,1855,60,0,78
+Kentucky,1856,52,0,86
+Kentucky,1857,52,0,86
+Kentucky,1858,80,0,58
+Kentucky,1859,80,0,58
+Kentucky,1860,83,0,55
+Kentucky,1861,83,0,55
+Kentucky,1868,113,17,8
+Kentucky,1869,113,17,8
+Kentucky,1870,128,10,0
+Kentucky,1871,128,10,0
+Kentucky,1872,123,15,0
+Kentucky,1873,123,15,0
+Kentucky,1874,110,28,0
+Kentucky,1875,110,28,0
+Kentucky,1876,121,17,0
+Kentucky,1877,121,17,0
+Kentucky,1878,124,14,0
+Kentucky,1879,124,14,0
+Kentucky,1880,114,21,3
+Kentucky,1881,114,21,3
+Kentucky,1882,102,30,6
+Kentucky,1883,102,30,6
+Kentucky,1884,123,15,0
+Kentucky,1885,123,15,0
+Kentucky,1886,114,24,0
+Kentucky,1887,114,24,0
+Kentucky,1888,101,33,4
+Kentucky,1889,101,33,4
+Kentucky,1890,116,22,0
+Kentucky,1891,116,22,0
+Kentucky,1892,98,25,15
+Kentucky,1893,98,25,15
+Kentucky,1894,103,33,2
+Kentucky,1895,103,33,2
+Kentucky,1896,68,68,2
+Kentucky,1897,66,70,2
+Kentucky,1898,99,37,2
+Kentucky,1899,99,37,2
+Kentucky,1900,86,52,0
+Kentucky,1901,86,52,0
+Kentucky,1902,98,39,1
+Kentucky,1903,98,39,1
+Kentucky,1904,108,30,0
+Kentucky,1905,108,30,0
+Kentucky,1906,104,34,0
+Kentucky,1907,104,34,0
+Kentucky,1908,73,65,0
+Kentucky,1909,73,65,0
+Kentucky,1910,99,39,0
+Kentucky,1911,99,39,0
+Kentucky,1912,108,30,0
+Kentucky,1913,108,30,0
+Kentucky,1914,104,33,1
+Kentucky,1915,104,33,1
+Kentucky,1916,92,46,0
+Kentucky,1917,92,46,0
+Kentucky,1918,84,54,0
+Kentucky,1919,84,54,0
+Kentucky,1920,65,73,0
+Kentucky,1921,65,73,0
+Kentucky,1922,88,50,0
+Kentucky,1923,88,50,0
+Kentucky,1924,92,45,1
+Kentucky,1925,92,45,1
+Kentucky,1926,91,47,0
+Kentucky,1927,91,47,0
+Kentucky,1928,86,52,0
+Kentucky,1929,86,52,0
+Kentucky,1930,90,48,0
+Kentucky,1931,90,48,0
+Kentucky,1932,100,38,0
+Kentucky,1933,100,38,0
+Kentucky,1934,96,42,0
+Kentucky,1935,96,42,0
+Kentucky,1936,92,46,0
+Kentucky,1937,92,46,0
+Kentucky,1938,104,34,0
+Kentucky,1939,104,34,0
+Kentucky,1940,102,36,0
+Kentucky,1941,102,36,0
+Kentucky,1942,104,34,0
+Kentucky,1943,104,34,0
+Kentucky,1944,80,58,0
+Kentucky,1945,80,58,0
+Kentucky,1946,90,48,0
+Kentucky,1947,90,48,0
+Kentucky,1948,104,34,0
+Kentucky,1949,104,34,0
+Kentucky,1950,105,33,0
+Kentucky,1951,105,33,0
+Kentucky,1952,101,37,0
+Kentucky,1953,101,37,0
+Kentucky,1954,108,30,0
+Kentucky,1955,108,30,0
+Kentucky,1956,107,31,0
+Kentucky,1957,107,31,0
+Kentucky,1958,104,34,0
+Kentucky,1959,104,34,0
+Kentucky,1960,110,28,0
+Kentucky,1961,110,28,0
+Kentucky,1962,103,35,0
+Kentucky,1963,103,35,0
+Kentucky,1964,88,50,0
+Kentucky,1965,88,50,0
+Kentucky,1966,90,48,0
+Kentucky,1967,90,48,0
+Kentucky,1968,83,55,0
+Kentucky,1969,83,55,0
+Kentucky,1970,95,43,0
+Kentucky,1971,95,43,0
+Kentucky,1972,100,38,0
+Kentucky,1973,100,38,0
+Kentucky,1974,109,29,0
+Kentucky,1975,109,29,0
+Kentucky,1976,109,29,0
+Kentucky,1977,109,29,0
+Kentucky,1978,108,30,0
+Kentucky,1979,108,30,0
+Kentucky,1980,104,34,0
+Kentucky,1981,104,34,0
+Kentucky,1982,105,33,0
+Kentucky,1983,105,33,0
+Kentucky,1984,105,33,0
+Kentucky,1985,102,36,0
+Kentucky,1986,102,36,0
+Kentucky,1987,102,36,0
+Kentucky,1988,100,38,0
+Kentucky,1989,102,36,0
+Kentucky,1990,101,37,0
+Kentucky,1991,95,43,0
+Kentucky,1992,95,43,0
+Kentucky,1993,97,41,0
+Kentucky,1994,95,43,0
+Kentucky,1995,84,54,0
+Kentucky,1996,84,54,0
+Kentucky,1997,79,36,23
+Kentucky,1998,80,35,23
+Kentucky,1999,81,34,23
+Kentucky,2000,83,55,0
+Kentucky,2001,84,54,0
+Kentucky,2002,84,54,0
+Kentucky,2003,81,57,0
+Kentucky,2004,80,58,0
+Kentucky,2005,72,64,2
+Kentucky,2006,72,65,1
+Kentucky,2007,77,60,1
+Kentucky,2008,78,59,1
+Kentucky,2009,81,56,1
+Kentucky,2010,82,55,1
+Kentucky,2011,74,63,1
+Kentucky,2012,74,63,1
+Kentucky,2013,69,68,1
+Kentucky,2014,68,69,1
+Kentucky,2015,66,72,0
+Kentucky,2016,64,74,0
+Kentucky,2017,47,91,0
+Kentucky,2018,48,90,0
+Kentucky,2019,48,90,0
+Kentucky,2020,48,90,0
+Kentucky,2021,33,105,0
+Kentucky,2022,33,105,0
+Kentucky,2023,27,111,0
+Kentucky,2024,27,111,0
+Kentucky,2025,26,112,0
+Kentucky,2026,26,112,0
+Louisiana,1829,27,0,37
+Louisiana,1830,27,0,37
+Louisiana,1839,24,0,43
+Louisiana,1840,24,0,43
+Louisiana,1841,22,0,34
+Louisiana,1842,22,0,34
+Louisiana,1843,34,0,43
+Louisiana,1844,34,0,43
+Louisiana,1845,35,0,42
+Louisiana,1846,35,0,42
+Louisiana,1847,75,0,55
+Louisiana,1848,64,0,66
+Louisiana,1849,64,0,66
+Louisiana,1850,61,0,68
+Louisiana,1851,61,0,68
+Louisiana,1852,60,0,69
+Louisiana,1853,67,0,60
+Louisiana,1854,80,0,49
+Louisiana,1855,80,0,49
+Louisiana,1856,65,0,55
+Louisiana,1857,65,0,55
+Louisiana,1858,72,0,48
+Louisiana,1859,72,0,48
+Louisiana,1860,80,0,47
+Louisiana,1861,80,0,47
+Louisiana,1869,61,76,0
+Louisiana,1870,61,76,0
+Louisiana,1871,36,103,2
+Louisiana,1872,36,103,2
+Louisiana,1875,72,74,0
+Louisiana,1876,72,74,0
+Louisiana,1877,84,58,4
+Louisiana,1878,84,58,4
+Louisiana,1879,101,26,3
+Louisiana,1880,101,26,3
+Louisiana,1881,106,28,0
+Louisiana,1882,106,28,0
+Louisiana,1883,106,28,0
+Louisiana,1884,116,18,0
+Louisiana,1885,116,18,0
+Louisiana,1886,116,18,0
+Louisiana,1887,116,18,0
+Louisiana,1888,119,17,0
+Louisiana,1889,119,17,0
+Louisiana,1890,119,17,0
+Louisiana,1891,119,17,0
+Louisiana,1892,134,2,0
+Louisiana,1893,134,2,0
+Louisiana,1894,134,2,0
+Louisiana,1895,134,2,0
+Louisiana,1896,92,28,16
+Louisiana,1897,92,28,16
+Louisiana,1898,92,28,16
+Louisiana,1899,92,28,16
+Louisiana,1900,137,0,0
+Louisiana,1901,137,0,0
+Louisiana,1902,137,0,0
+Louisiana,1903,137,0,0
+Louisiana,1904,137,0,0
+Louisiana,1905,137,0,0
+Louisiana,1906,137,0,0
+Louisiana,1907,137,0,0
+Louisiana,1908,155,0,0
+Louisiana,1909,155,0,0
+Louisiana,1910,155,0,0
+Louisiana,1911,155,0,0
+Louisiana,1912,157,0,2
+Louisiana,1913,157,0,2
+Louisiana,1914,157,0,2
+Louisiana,1915,157,0,2
+Louisiana,1916,142,0,17
+Louisiana,1917,142,0,17
+Louisiana,1918,142,0,17
+Louisiana,1919,142,0,17
+Louisiana,1920,159,0,0
+Louisiana,1921,159,0,0
+Louisiana,1922,159,0,0
+Louisiana,1923,159,0,0
+Louisiana,1924,140,0,0
+Louisiana,1925,140,0,0
+Louisiana,1926,140,0,0
+Louisiana,1927,140,0,0
+Louisiana,1928,140,0,0
+Louisiana,1929,140,0,0
+Louisiana,1930,140,0,0
+Louisiana,1931,140,0,0
+Louisiana,1932,140,0,0
+Louisiana,1933,140,0,0
+Louisiana,1934,140,0,0
+Louisiana,1935,140,0,0
+Louisiana,1936,140,0,0
+Louisiana,1937,140,0,0
+Louisiana,1938,140,0,0
+Louisiana,1939,140,0,0
+Louisiana,1940,140,0,0
+Louisiana,1941,140,0,0
+Louisiana,1942,140,0,0
+Louisiana,1943,140,0,0
+Louisiana,1944,140,0,0
+Louisiana,1945,140,0,0
+Louisiana,1946,140,0,0
+Louisiana,1947,140,0,0
+Louisiana,1948,140,0,0
+Louisiana,1949,140,0,0
+Louisiana,1950,140,0,0
+Louisiana,1951,140,0,0
+Louisiana,1952,140,0,0
+Louisiana,1953,140,0,0
+Louisiana,1954,140,0,0
+Louisiana,1955,140,0,0
+Louisiana,1956,140,0,0
+Louisiana,1957,140,0,0
+Louisiana,1958,140,0,0
+Louisiana,1959,140,0,0
+Louisiana,1960,140,0,0
+Louisiana,1961,140,0,0
+Louisiana,1962,140,0,0
+Louisiana,1963,140,0,0
+Louisiana,1964,142,2,0
+Louisiana,1965,142,2,0
+Louisiana,1966,141,3,0
+Louisiana,1967,140,4,0
+Louisiana,1968,144,0,0
+Louisiana,1969,144,0,0
+Louisiana,1970,142,2,0
+Louisiana,1971,142,2,0
+Louisiana,1972,140,4,0
+Louisiana,1973,140,4,0
+Louisiana,1974,140,4,0
+Louisiana,1975,140,4,0
+Louisiana,1976,139,5,0
+Louisiana,1977,137,7,0
+Louisiana,1978,136,8,0
+Louisiana,1979,136,8,0
+Louisiana,1980,134,10,0
+Louisiana,1981,134,10,0
+Louisiana,1982,134,10,0
+Louisiana,1983,134,10,0
+Louisiana,1984,130,13,1
+Louisiana,1985,130,13,1
+Louisiana,1986,130,13,1
+Louisiana,1987,130,13,1
+Louisiana,1988,122,21,1
+Louisiana,1989,122,21,1
+Louisiana,1990,122,21,1
+Louisiana,1991,122,21,1
+Louisiana,1992,120,23,1
+Louisiana,1993,120,23,1
+Louisiana,1994,120,23,1
+Louisiana,1995,120,23,1
+Louisiana,1996,104,40,0
+Louisiana,1997,104,40,0
+Louisiana,1998,104,40,0
+Louisiana,1999,104,40,0
+Louisiana,2000,100,44,0
+Louisiana,2001,100,44,0
+Louisiana,2002,100,44,0
+Louisiana,2003,100,44,0
+Louisiana,2004,90,52,2
+Louisiana,2005,90,52,2
+Louisiana,2006,90,52,2
+Louisiana,2007,90,52,2
+Louisiana,2008,76,66,2
+Louisiana,2009,76,66,2
+Louisiana,2010,76,66,2
+Louisiana,2011,63,77,4
+Louisiana,2012,60,82,2
+Louisiana,2013,60,82,2
+Louisiana,2014,57,85,2
+Louisiana,2015,57,85,2
+Louisiana,2016,56,86,2
+Louisiana,2017,55,86,3
+Louisiana,2018,55,86,3
+Louisiana,2019,53,86,5
+Louisiana,2020,47,95,2
+Louisiana,2021,47,95,2
+Louisiana,2022,46,96,2
+Louisiana,2023,45,98,1
+Louisiana,2024,43,101,0
+Louisiana,2025,43,101,0
+Louisiana,2026,43,101,0
+Maine,1835,112,0,73
+Maine,1836,73,0,44
+Maine,1837,129,0,58
+Maine,1838,99,0,109
+Maine,1839,122,0,84
+Maine,1840,140,0,71
+Maine,1841,73,0,112
+Maine,1842,158,0,59
+Maine,1843,85,0,19
+Maine,1844,117,0,47
+Maine,1845,113,0,52
+Maine,1846,112,0,70
+Maine,1847,105,0,77
+Maine,1848,129,0,53
+Maine,1849,105,0,77
+Maine,1850,108,63,11
+Maine,1851,119,0,63
+Maine,1852,119,0,63
+Maine,1853,93,0,88
+Maine,1854,90,0,92
+Maine,1855,93,0,88
+Maine,1856,88,63,31
+Maine,1857,27,155,0
+Maine,1858,35,147,0
+Maine,1859,49,133,0
+Maine,1860,33,149,0
+Maine,1861,23,159,0
+Maine,1862,33,149,0
+Maine,1863,50,132,0
+Maine,1864,32,150,0
+Maine,1865,25,157,0
+Maine,1866,15,167,0
+Maine,1867,13,169,0
+Maine,1868,49,133,0
+Maine,1869,30,152,0
+Maine,1870,37,145,0
+Maine,1871,41,141,0
+Maine,1872,42,140,0
+Maine,1873,19,158,5
+Maine,1874,41,133,8
+Maine,1875,58,117,7
+Maine,1876,74,105,3
+Maine,1877,32,149,1
+Maine,1878,50,127,5
+Maine,1879,28,85,69
+Maine,1880,12,109,61
+Maine,1881,29,107,46
+Maine,1882,29,107,46
+Maine,1883,46,136,0
+Maine,1884,46,136,0
+Maine,1885,34,146,2
+Maine,1886,34,146,2
+Maine,1887,33,149,0
+Maine,1888,33,149,0
+Maine,1889,26,156,0
+Maine,1890,26,156,0
+Maine,1891,45,137,0
+Maine,1892,45,137,0
+Maine,1893,45,137,0
+Maine,1894,45,137,0
+Maine,1895,5,177,0
+Maine,1896,5,177,0
+Maine,1897,6,176,0
+Maine,1898,6,176,0
+Maine,1899,25,157,0
+Maine,1900,25,157,0
+Maine,1901,20,162,0
+Maine,1902,20,162,0
+Maine,1903,24,158,0
+Maine,1904,24,158,0
+Maine,1905,29,153,0
+Maine,1906,29,153,0
+Maine,1907,71,111,0
+Maine,1908,71,111,0
+Maine,1909,59,123,0
+Maine,1910,59,123,0
+Maine,1911,108,74,0
+Maine,1912,108,74,0
+Maine,1913,82,100,0
+Maine,1914,82,100,0
+Maine,1915,92,86,4
+Maine,1916,92,86,4
+Maine,1917,49,133,0
+Maine,1918,49,133,0
+Maine,1919,43,139,0
+Maine,1920,43,139,0
+Maine,1921,16,166,0
+Maine,1922,16,166,0
+Maine,1923,38,144,0
+Maine,1924,38,144,0
+Maine,1925,30,152,0
+Maine,1926,30,152,0
+Maine,1927,23,159,0
+Maine,1928,23,159,0
+Maine,1929,16,166,0
+Maine,1930,16,166,0
+Maine,1931,31,151,0
+Maine,1932,31,151,0
+Maine,1933,65,119,0
+Maine,1934,65,119,0
+Maine,1935,66,118,0
+Maine,1936,66,118,0
+Maine,1937,31,153,0
+Maine,1938,31,153,0
+Maine,1939,29,155,0
+Maine,1940,29,155,0
+Maine,1941,25,159,0
+Maine,1942,25,159,0
+Maine,1943,16,168,0
+Maine,1944,16,168,0
+Maine,1945,17,167,0
+Maine,1946,17,167,0
+Maine,1947,28,156,0
+Maine,1948,28,156,0
+Maine,1949,30,154,0
+Maine,1950,30,154,0
+Maine,1951,26,157,1
+Maine,1952,26,157,1
+Maine,1953,26,158,0
+Maine,1954,26,158,0
+Maine,1955,38,146,0
+Maine,1956,38,146,0
+Maine,1957,59,125,0
+Maine,1958,59,125,0
+Maine,1959,69,115,0
+Maine,1960,69,115,0
+Maine,1961,41,143,0
+Maine,1962,41,143,0
+Maine,1963,46,139,0
+Maine,1964,46,139,0
+Maine,1965,109,76,0
+Maine,1966,109,76,0
+Maine,1967,66,119,0
+Maine,1968,66,119,0
+Maine,1969,80,103,0
+Maine,1970,80,103,0
+Maine,1971,85,98,0
+Maine,1972,85,98,0
+Maine,1973,83,101,0
+Maine,1974,83,101,0
+Maine,1975,105,78,1
+Maine,1976,105,78,1
+Maine,1977,101,83,0
+Maine,1978,101,83,0
+Maine,1979,90,92,2
+Maine,1980,90,92,2
+Maine,1981,100,84,0
+Maine,1982,100,84,0
+Maine,1983,115,69,0
+Maine,1984,115,69,0
+Maine,1985,107,79,0
+Maine,1986,107,79,0
+Maine,1987,106,80,0
+Maine,1988,106,80,0
+Maine,1989,117,69,0
+Maine,1990,117,69,0
+Maine,1991,118,68,0
+Maine,1992,118,68,0
+Maine,1993,110,76,0
+Maine,1994,110,76,0
+Maine,1995,93,92,1
+Maine,1996,93,92,1
+Maine,1997,100,84,2
+Maine,1998,100,84,2
+Maine,1999,99,85,2
+Maine,2000,99,85,2
+Maine,2001,105,79,2
+Maine,2002,105,79,2
+Maine,2003,98,84,4
+Maine,2004,98,84,4
+Maine,2005,94,90,2
+Maine,2006,94,90,2
+Maine,2007,108,76,2
+Maine,2008,108,76,2
+Maine,2009,115,70,1
+Maine,2010,115,70,1
+Maine,2011,86,98,2
+Maine,2012,86,98,2
+Maine,2013,108,73,5
+Maine,2014,108,73,5
+Maine,2015,93,88,5
+Maine,2016,93,89,4
+Maine,2017,94,91,1
+Maine,2018,91,88,7
+Maine,2019,110,70,6
+Maine,2020,110,70,6
+Maine,2021,102,80,4
+Maine,2022,102,80,4
+Maine,2023,103,81,2
+Maine,2024,103,81,2
+Maine,2025,96,88,2
+Maine,2026,96,88,2
+Maryland,1835,18,0,77
+Maryland,1836,25,0,70
+Maryland,1837,20,0,75
+Maryland,1838,35,0,66
+Maryland,1839,46,0,54
+Maryland,1840,55,0,45
+Maryland,1841,25,0,75
+Maryland,1842,50,0,50
+Maryland,1843,55,0,48
+Maryland,1844,43,0,60
+Maryland,1845,27,0,76
+Maryland,1846,45,0,58
+Maryland,1847,37,0,66
+Maryland,1848,36,0,67
+Maryland,1849,35,0,68
+Maryland,1850,43,0,60
+Maryland,1851,45,0,58
+Maryland,1852,55,0,41
+Maryland,1853,55,0,41
+Maryland,1854,38,0,58
+Maryland,1855,38,0,58
+Maryland,1856,19,0,77
+Maryland,1857,19,0,77
+Maryland,1858,37,0,59
+Maryland,1859,37,0,59
+Maryland,1860,57,0,39
+Maryland,1861,57,0,39
+Maryland,1862,15,0,81
+Maryland,1863,15,0,81
+Maryland,1864,21,0,75
+Maryland,1865,38,0,66
+Maryland,1866,38,0,66
+Maryland,1867,75,29,0
+Maryland,1868,111,0,0
+Maryland,1869,111,0,0
+Maryland,1870,111,0,0
+Maryland,1871,111,0,0
+Maryland,1872,94,13,0
+Maryland,1873,94,13,0
+Maryland,1874,87,23,0
+Maryland,1875,87,23,0
+Maryland,1876,77,33,0
+Maryland,1877,77,33,0
+Maryland,1878,83,24,3
+Maryland,1879,83,24,3
+Maryland,1880,82,28,0
+Maryland,1881,82,28,0
+Maryland,1882,76,41,0
+Maryland,1883,76,41,0
+Maryland,1884,77,40,0
+Maryland,1885,77,40,0
+Maryland,1886,102,14,1
+Maryland,1887,102,14,1
+Maryland,1888,93,24,0
+Maryland,1889,93,24,0
+Maryland,1890,77,40,0
+Maryland,1891,77,40,0
+Maryland,1892,103,11,3
+Maryland,1893,103,11,3
+Maryland,1894,89,28,0
+Maryland,1895,89,28,0
+Maryland,1896,34,83,0
+Maryland,1897,35,82,0
+Maryland,1898,50,67,0
+Maryland,1899,50,67,0
+Maryland,1900,80,37,0
+Maryland,1901,80,37,0
+Maryland,1902,68,53,0
+Maryland,1903,68,53,0
+Maryland,1904,90,38,0
+Maryland,1905,90,38,0
+Maryland,1906,69,54,5
+Maryland,1907,69,54,5
+Maryland,1908,88,39,1
+Maryland,1909,88,39,1
+Maryland,1910,91,37,0
+Maryland,1911,91,37,0
+Maryland,1912,79,49,0
+Maryland,1913,79,49,0
+Maryland,1914,97,32,0
+Maryland,1915,97,32,0
+Maryland,1916,72,55,2
+Maryland,1917,72,55,2
+Maryland,1918,61,68,0
+Maryland,1919,61,68,0
+Maryland,1920,71,58,0
+Maryland,1921,71,58,0
+Maryland,1922,94,39,0
+Maryland,1923,94,39,0
+Maryland,1924,115,32,0
+Maryland,1925,115,32,0
+Maryland,1926,115,32,0
+Maryland,1927,103,44,0
+Maryland,1928,103,44,0
+Maryland,1929,103,44,0
+Maryland,1930,103,44,0
+Maryland,1931,114,33,0
+Maryland,1932,114,33,0
+Maryland,1933,114,33,0
+Maryland,1934,114,33,0
+Maryland,1935,112,45,2
+Maryland,1936,112,45,2
+Maryland,1937,112,45,2
+Maryland,1938,112,45,2
+Maryland,1939,127,22,0
+Maryland,1940,127,22,0
+Maryland,1941,127,22,0
+Maryland,1942,127,22,0
+Maryland,1943,121,31,0
+Maryland,1944,121,31,0
+Maryland,1945,121,31,0
+Maryland,1946,121,31,0
+Maryland,1947,105,47,0
+Maryland,1948,105,47,0
+Maryland,1949,105,47,0
+Maryland,1950,105,47,0
+Maryland,1951,106,46,0
+Maryland,1952,106,46,0
+Maryland,1953,106,46,0
+Maryland,1954,106,46,0
+Maryland,1955,119,33,0
+Maryland,1956,119,33,0
+Maryland,1957,119,33,0
+Maryland,1958,119,33,0
+Maryland,1959,142,10,0
+Maryland,1960,142,10,0
+Maryland,1961,142,10,0
+Maryland,1962,142,10,0
+Maryland,1963,139,32,0
+Maryland,1964,139,32,0
+Maryland,1965,139,32,0
+Maryland,1966,139,32,0
+Maryland,1967,152,33,0
+Maryland,1968,152,33,0
+Maryland,1969,152,33,0
+Maryland,1970,152,33,0
+Maryland,1971,154,31,0
+Maryland,1972,154,31,0
+Maryland,1973,154,31,0
+Maryland,1974,154,31,0
+Maryland,1975,165,23,0
+Maryland,1976,165,23,0
+Maryland,1977,165,23,0
+Maryland,1978,165,23,0
+Maryland,1979,165,23,0
+Maryland,1980,165,23,0
+Maryland,1981,165,23,0
+Maryland,1982,165,23,0
+Maryland,1983,165,23,0
+Maryland,1984,165,23,0
+Maryland,1985,165,23,0
+Maryland,1986,165,23,0
+Maryland,1987,164,24,0
+Maryland,1988,164,24,0
+Maryland,1989,164,24,0
+Maryland,1990,164,24,0
+Maryland,1991,157,31,0
+Maryland,1992,157,31,0
+Maryland,1993,157,31,0
+Maryland,1994,157,31,0
+Maryland,1995,132,56,0
+Maryland,1996,132,56,0
+Maryland,1997,132,56,0
+Maryland,1998,132,56,0
+Maryland,1999,138,50,0
+Maryland,2000,139,49,0
+Maryland,2001,139,49,0
+Maryland,2002,139,49,0
+Maryland,2003,131,57,0
+Maryland,2004,131,57,0
+Maryland,2005,131,57,0
+Maryland,2006,131,57,0
+Maryland,2007,137,51,0
+Maryland,2008,137,51,0
+Maryland,2009,137,50,1
+Maryland,2010,137,50,1
+Maryland,2011,133,55,0
+Maryland,2012,133,55,0
+Maryland,2013,133,55,0
+Maryland,2014,133,55,0
+Maryland,2015,124,64,0
+Maryland,2016,124,64,0
+Maryland,2017,124,64,0
+Maryland,2018,124,64,0
+Maryland,2019,131,57,0
+Maryland,2020,131,57,0
+Maryland,2021,131,57,0
+Maryland,2022,131,57,0
+Maryland,2023,136,52,0
+Maryland,2024,136,52,0
+Maryland,2025,136,52,0
+Maryland,2026,136,52,0
+Massachusetts,1831,70,0,448
+Massachusetts,1832,93,0,471
+Massachusetts,1833,73,0,529
+Massachusetts,1834,116,0,485
+Massachusetts,1835,87,0,571
+Massachusetts,1836,184,0,480
+Massachusetts,1837,278,0,397
+Massachusetts,1838,114,0,403
+Massachusetts,1839,181,0,381
+Massachusetts,1840,261,0,298
+Massachusetts,1841,122,0,315
+Massachusetts,1842,148,0,228
+Massachusetts,1843,200,0,192
+Massachusetts,1844,139,0,223
+Massachusetts,1845,70,0,242
+Massachusetts,1846,63,0,242
+Massachusetts,1847,43,0,252
+Massachusetts,1848,79,0,233
+Massachusetts,1855,1,1,417
+Massachusetts,1856,36,77,256
+Massachusetts,1857,8,337,48
+Massachusetts,1858,43,202,35
+Massachusetts,1859,32,234,10
+Massachusetts,1860,56,217,6
+Massachusetts,1861,19,251,10
+Massachusetts,1862,30,187,48
+Massachusetts,1863,46,233,0
+Massachusetts,1864,12,268,0
+Massachusetts,1865,6,274,0
+Massachusetts,1866,20,260,0
+Massachusetts,1867,11,269,0
+Massachusetts,1868,68,212,0
+Massachusetts,1869,18,262,0
+Massachusetts,1870,68,189,12
+Massachusetts,1871,39,229,2
+Massachusetts,1872,60,214,0
+Massachusetts,1873,25,250,5
+Massachusetts,1874,81,193,6
+Massachusetts,1875,94,179,7
+Massachusetts,1876,67,212,1
+Massachusetts,1877,69,211,0
+Massachusetts,1878,74,206,0
+Massachusetts,1879,53,213,14
+Massachusetts,1880,53,207,17
+Massachusetts,1881,52,226,2
+Massachusetts,1882,57,215,8
+Massachusetts,1883,102,173,5
+Massachusetts,1884,106,162,11
+Massachusetts,1885,70,198,5
+Massachusetts,1886,86,185,8
+Massachusetts,1887,93,183,5
+Massachusetts,1888,81,194,5
+Massachusetts,1889,65,214,1
+Massachusetts,1890,90,190,0
+Massachusetts,1891,118,160,2
+Massachusetts,1892,104,174,2
+Massachusetts,1893,83,196,1
+Massachusetts,1894,63,216,1
+Massachusetts,1895,50,230,0
+Massachusetts,1896,65,215,0
+Massachusetts,1897,43,237,0
+Massachusetts,1898,64,214,2
+Massachusetts,1899,71,201,7
+Massachusetts,1900,79,197,4
+Massachusetts,1901,67,210,3
+Massachusetts,1902,77,192,10
+Massachusetts,1903,92,185,3
+Massachusetts,1904,94,185,1
+Massachusetts,1905,75,203,2
+Massachusetts,1906,78,196,5
+Massachusetts,1907,75,201,4
+Massachusetts,1908,74,206,0
+Massachusetts,1909,66,214,0
+Massachusetts,1910,76,202,2
+Massachusetts,1911,126,153,1
+Massachusetts,1912,108,169,3
+Massachusetts,1913,108,165,7
+Massachusetts,1914,121,139,20
+Massachusetts,1915,102,178,0
+Massachusetts,1916,78,202,0
+Massachusetts,1917,70,209,1
+Massachusetts,1918,68,212,0
+Massachusetts,1919,68,212,0
+Massachusetts,1920,71,209,0
+Massachusetts,1921,57,223,0
+Massachusetts,1922,57,223,0
+Massachusetts,1923,87,193,0
+Massachusetts,1924,87,193,0
+Massachusetts,1925,76,204,0
+Massachusetts,1926,76,204,0
+Massachusetts,1927,68,212,0
+Massachusetts,1928,68,212,0
+Massachusetts,1929,92,188,0
+Massachusetts,1930,92,188,0
+Massachusetts,1931,109,171,0
+Massachusetts,1932,109,171,0
+Massachusetts,1933,107,173,0
+Massachusetts,1934,107,173,0
+Massachusetts,1935,135,145,0
+Massachusetts,1936,135,145,0
+Massachusetts,1937,118,162,0
+Massachusetts,1938,118,162,0
+Massachusetts,1939,109,171,0
+Massachusetts,1940,109,171,0
+Massachusetts,1941,112,168,0
+Massachusetts,1942,112,168,0
+Massachusetts,1943,111,169,0
+Massachusetts,1944,111,169,0
+Massachusetts,1945,119,161,0
+Massachusetts,1946,119,161,0
+Massachusetts,1947,112,168,0
+Massachusetts,1948,112,168,0
+Massachusetts,1949,142,138,0
+Massachusetts,1950,142,138,0
+Massachusetts,1951,142,138,0
+Massachusetts,1952,142,138,0
+Massachusetts,1953,132,148,0
+Massachusetts,1954,132,148,0
+Massachusetts,1955,147,133,0
+Massachusetts,1956,147,133,0
+Massachusetts,1957,151,129,0
+Massachusetts,1958,151,129,0
+Massachusetts,1959,169,111,0
+Massachusetts,1960,169,111,0
+Massachusetts,1961,182,98,0
+Massachusetts,1962,182,98,0
+Massachusetts,1963,178,102,0
+Massachusetts,1964,178,102,0
+Massachusetts,1965,197,82,1
+Massachusetts,1966,197,82,1
+Massachusetts,1967,194,85,1
+Massachusetts,1968,194,85,1
+Massachusetts,1969,199,81,0
+Massachusetts,1970,199,81,0
+Massachusetts,1971,208,72,0
+Massachusetts,1972,208,72,0
+Massachusetts,1973,219,59,2
+Massachusetts,1974,219,59,2
+Massachusetts,1975,224,53,3
+Massachusetts,1976,224,53,3
+Massachusetts,1977,227,50,3
+Massachusetts,1978,227,50,3
+Massachusetts,1979,163,36,1
+Massachusetts,1980,163,36,1
+Massachusetts,1981,160,38,2
+Massachusetts,1982,160,38,2
+Massachusetts,1983,160,37,3
+Massachusetts,1984,160,37,3
+Massachusetts,1985,157,42,1
+Massachusetts,1986,157,42,1
+Massachusetts,1987,158,42,0
+Massachusetts,1988,158,42,0
+Massachusetts,1989,160,40,0
+Massachusetts,1990,160,40,0
+Massachusetts,1991,145,54,1
+Massachusetts,1992,145,53,2
+Massachusetts,1993,155,44,1
+Massachusetts,1994,155,44,1
+Massachusetts,1995,155,44,1
+Massachusetts,1996,153,44,3
+Massachusetts,1997,157,42,1
+Massachusetts,1998,157,42,1
+Massachusetts,1999,164,35,1
+Massachusetts,2000,164,35,1
+Massachusetts,2001,171,29,0
+Massachusetts,2002,171,29,0
+Massachusetts,2003,169,29,1
+Massachusetts,2004,168,30,1
+Massachusetts,2005,173,26,1
+Massachusetts,2006,173,26,1
+Massachusetts,2007,176,24,0
+Massachusetts,2008,176,24,0
+Massachusetts,2009,179,20,1
+Massachusetts,2010,179,20,1
+Massachusetts,2011,163,37,0
+Massachusetts,2012,163,37,0
+Massachusetts,2013,167,33,0
+Massachusetts,2014,167,33,0
+Massachusetts,2015,159,41,0
+Massachusetts,2016,159,41,0
+Massachusetts,2017,158,42,0
+Massachusetts,2018,158,42,0
+Massachusetts,2019,161,38,1
+Massachusetts,2020,163,35,1
+Massachusetts,2021,166,33,1
+Massachusetts,2022,167,32,1
+Massachusetts,2023,171,28,1
+Massachusetts,2024,170,29,1
+Massachusetts,2025,169,30,1
+Massachusetts,2026,169,30,1
+Michigan,1837,31,0,29
+Michigan,1838,44,0,22
+Michigan,1839,42,0,27
+Michigan,1840,22,0,47
+Michigan,1841,25,0,44
+Michigan,1842,59,0,12
+Michigan,1843,64,0,7
+Michigan,1844,65,0,6
+Michigan,1845,64,0,7
+Michigan,1846,70,0,17
+Michigan,1847,71,0,17
+Michigan,1848,72,0,16
+Michigan,1849,64,0,24
+Michigan,1850,64,0,24
+Michigan,1851,56,0,32
+Michigan,1852,56,0,32
+Michigan,1853,77,0,26
+Michigan,1854,77,0,26
+Michigan,1855,31,73,0
+Michigan,1856,31,73,0
+Michigan,1857,20,92,0
+Michigan,1858,20,92,0
+Michigan,1859,33,80,0
+Michigan,1860,33,80,0
+Michigan,1861,13,102,0
+Michigan,1862,13,102,0
+Michigan,1863,53,78,0
+Michigan,1864,53,78,0
+Michigan,1865,38,94,0
+Michigan,1866,38,94,0
+Michigan,1867,22,109,0
+Michigan,1868,22,109,0
+Michigan,1869,30,102,0
+Michigan,1870,30,102,0
+Michigan,1871,34,98,0
+Michigan,1872,34,98,0
+Michigan,1873,6,126,0
+Michigan,1874,6,126,0
+Michigan,1875,61,71,0
+Michigan,1876,61,71,0
+Michigan,1877,34,98,0
+Michigan,1878,34,98,0
+Michigan,1879,44,88,0
+Michigan,1880,44,88,0
+Michigan,1881,15,116,1
+Michigan,1882,15,116,1
+Michigan,1883,51,81,0
+Michigan,1884,51,81,0
+Michigan,1885,62,70,0
+Michigan,1886,62,70,0
+Michigan,1887,47,85,0
+Michigan,1888,47,85,0
+Michigan,1889,38,94,0
+Michigan,1890,38,94,0
+Michigan,1891,72,60,0
+Michigan,1892,72,60,0
+Michigan,1893,37,91,4
+Michigan,1894,37,91,4
+Michigan,1895,1,131,0
+Michigan,1896,1,131,0
+Michigan,1897,25,107,0
+Michigan,1898,25,107,0
+Michigan,1899,13,119,0
+Michigan,1900,13,119,0
+Michigan,1901,11,121,0
+Michigan,1902,11,121,0
+Michigan,1903,1,131,0
+Michigan,1904,1,131,0
+Michigan,1905,5,127,0
+Michigan,1906,5,127,0
+Michigan,1907,5,127,0
+Michigan,1908,5,127,0
+Michigan,1909,2,130,0
+Michigan,1910,2,130,0
+Michigan,1911,16,116,0
+Michigan,1912,16,116,0
+Michigan,1913,40,75,17
+Michigan,1914,40,75,17
+Michigan,1915,8,124,0
+Michigan,1916,8,124,0
+Michigan,1917,17,115,0
+Michigan,1918,17,115,0
+Michigan,1919,2,130,0
+Michigan,1920,2,130,0
+Michigan,1921,0,132,0
+Michigan,1922,0,132,0
+Michigan,1923,5,127,0
+Michigan,1924,5,127,0
+Michigan,1925,0,132,0
+Michigan,1926,0,132,0
+Michigan,1927,2,130,0
+Michigan,1928,2,130,0
+Michigan,1929,2,130,0
+Michigan,1930,2,130,0
+Michigan,1931,3,129,0
+Michigan,1932,3,129,0
+Michigan,1933,72,60,0
+Michigan,1934,72,60,0
+Michigan,1935,60,72,0
+Michigan,1936,60,72,0
+Michigan,1937,77,55,0
+Michigan,1938,77,55,0
+Michigan,1939,36,96,0
+Michigan,1940,36,96,0
+Michigan,1941,42,90,0
+Michigan,1942,42,90,0
+Michigan,1943,33,99,0
+Michigan,1944,33,99,0
+Michigan,1945,42,90,0
+Michigan,1946,42,90,0
+Michigan,1947,9,123,0
+Michigan,1948,9,123,0
+Michigan,1949,48,84,0
+Michigan,1950,48,84,0
+Michigan,1951,41,91,0
+Michigan,1952,41,91,0
+Michigan,1953,42,90,0
+Michigan,1954,42,90,0
+Michigan,1955,62,82,0
+Michigan,1956,62,82,0
+Michigan,1957,60,84,0
+Michigan,1958,60,84,0
+Michigan,1959,67,77,0
+Michigan,1960,67,77,0
+Michigan,1961,66,78,0
+Michigan,1962,66,78,0
+Michigan,1963,63,81,0
+Michigan,1964,63,81,0
+Michigan,1965,96,52,0
+Michigan,1966,96,52,0
+Michigan,1967,73,75,0
+Michigan,1968,72,76,0
+Michigan,1969,75,73,0
+Michigan,1970,75,73,0
+Michigan,1971,77,71,0
+Michigan,1972,77,71,0
+Michigan,1973,79,69,0
+Michigan,1974,79,69,0
+Michigan,1975,90,58,0
+Michigan,1976,90,58,0
+Michigan,1977,92,56,0
+Michigan,1978,92,56,0
+Michigan,1979,94,54,0
+Michigan,1980,94,54,0
+Michigan,1981,88,60,0
+Michigan,1982,88,60,0
+Michigan,1983,83,65,0
+Michigan,1984,81,67,0
+Michigan,1985,75,73,0
+Michigan,1986,75,73,0
+Michigan,1987,82,66,0
+Michigan,1988,82,66,0
+Michigan,1989,79,69,0
+Michigan,1990,79,69,0
+Michigan,1991,79,69,0
+Michigan,1992,79,69,0
+Michigan,1993,71,77,0
+Michigan,1994,71,77,0
+Michigan,1995,70,78,0
+Michigan,1996,70,78,0
+Michigan,1997,74,74,0
+Michigan,1998,74,74,0
+Michigan,1999,67,81,0
+Michigan,2000,67,81,0
+Michigan,2001,66,82,0
+Michigan,2002,66,82,0
+Michigan,2003,63,85,0
+Michigan,2004,63,85,0
+Michigan,2005,68,80,0
+Michigan,2006,68,80,0
+Michigan,2007,75,73,0
+Michigan,2008,75,73,0
+Michigan,2009,83,64,0
+Michigan,2010,83,65,0
+Michigan,2011,59,89,0
+Michigan,2012,58,90,0
+Michigan,2013,63,85,0
+Michigan,2014,63,85,0
+Michigan,2015,58,90,0
+Michigan,2016,58,90,0
+Michigan,2017,58,90,0
+Michigan,2018,58,90,0
+Michigan,2019,68,80,0
+Michigan,2020,68,80,0
+Michigan,2021,68,80,0
+Michigan,2022,68,80,0
+Michigan,2023,76,72,0
+Michigan,2024,76,72,0
+Michigan,2025,72,76,0
+Michigan,2026,72,76,0
+Minnesota,1849,18,0,6
+Minnesota,1850,18,0,6
+Minnesota,1851,14,0,5
+Minnesota,1852,17,0,5
+Minnesota,1853,20,0,5
+Minnesota,1854,22,0,5
+Minnesota,1855,22,1,0
+Minnesota,1856,27,14,0
+Minnesota,1857,24,25,0
+Minnesota,1858,63,54,0
+Minnesota,1859,50,67,0
+Minnesota,1860,35,81,1
+Minnesota,1861,4,59,0
+Minnesota,1862,15,46,2
+Minnesota,1863,17,45,1
+Minnesota,1864,15,44,4
+Minnesota,1865,14,49,0
+Minnesota,1866,18,45,0
+Minnesota,1867,14,54,0
+Minnesota,1868,20,49,0
+Minnesota,1869,15,54,0
+Minnesota,1870,15,54,0
+Minnesota,1871,28,41,0
+Minnesota,1872,45,102,0
+Minnesota,1873,37,110,0
+Minnesota,1874,61,86,0
+Minnesota,1875,66,75,6
+Minnesota,1876,46,101,0
+Minnesota,1877,44,103,0
+Minnesota,1878,52,95,0
+Minnesota,1879,46,96,5
+Minnesota,1880,46,96,5
+Minnesota,1881,26,116,0
+Minnesota,1882,26,116,0
+Minnesota,1883,38,108,3
+Minnesota,1884,38,108,3
+Minnesota,1885,50,100,0
+Minnesota,1886,50,100,0
+Minnesota,1887,50,96,4
+Minnesota,1888,50,96,4
+Minnesota,1889,25,119,6
+Minnesota,1890,25,119,6
+Minnesota,1891,68,68,32
+Minnesota,1892,68,68,32
+Minnesota,1893,57,96,15
+Minnesota,1894,57,96,15
+Minnesota,1895,13,141,14
+Minnesota,1896,13,141,14
+Minnesota,1897,14,136,18
+Minnesota,1898,14,136,18
+Minnesota,1899,43,137,2
+Minnesota,1900,43,137,2
+Minnesota,1901,35,140,7
+Minnesota,1902,35,140,7
+Minnesota,1903,26,156,0
+Minnesota,1904,26,156,0
+Minnesota,1905,21,161,0
+Minnesota,1906,21,161,0
+Minnesota,1907,33,145,4
+Minnesota,1908,33,145,4
+Minnesota,1909,41,137,4
+Minnesota,1910,41,137,4
+Minnesota,1911,45,130,8
+Minnesota,1912,45,130,8
+Minnesota,1913,39,140,4
+Minnesota,1914,39,140,4
+Minnesota,1973,114,87,0
+Minnesota,1974,113,88,0
+Minnesota,1975,142,0,59
+Minnesota,1976,141,0,60
+Minnesota,1977,153,0,48
+Minnesota,1978,147,0,54
+Minnesota,1979,114,0,87
+Minnesota,1980,113,0,88
+Minnesota,1981,115,0,86
+Minnesota,1982,114,0,87
+Minnesota,1983,119,0,82
+Minnesota,1984,118,0,83
+Minnesota,1985,107,0,94
+Minnesota,1986,108,0,93
+Minnesota,1987,130,0,71
+Minnesota,1988,128,0,73
+Minnesota,1989,125,0,76
+Minnesota,1990,124,0,77
+Minnesota,1991,126,0,75
+Minnesota,1992,124,0,77
+Minnesota,1993,132,0,69
+Minnesota,1994,129,0,72
+Minnesota,1995,114,0,87
+Minnesota,1996,111,90,0
+Minnesota,1997,112,88,1
+Minnesota,1998,112,88,1
+Minnesota,1999,103,97,1
+Minnesota,2000,104,95,2
+Minnesota,2001,104,96,1
+Minnesota,2002,103,97,1
+Minnesota,2003,88,112,1
+Minnesota,2004,88,112,1
+Minnesota,2005,101,99,1
+Minnesota,2006,103,97,1
+Minnesota,2007,129,72,0
+Minnesota,2008,129,71,0
+Minnesota,2009,133,68,0
+Minnesota,2010,133,68,0
+Minnesota,2011,92,109,0
+Minnesota,2012,92,109,0
+Minnesota,2013,112,89,0
+Minnesota,2014,112,89,0
+Minnesota,2015,101,100,0
+Minnesota,2016,100,101,0
+Minnesota,2017,90,111,0
+Minnesota,2018,90,110,0
+Minnesota,2019,107,94,0
+Minnesota,2020,107,94,0
+Minnesota,2021,101,98,2
+Minnesota,2022,100,98,3
+Minnesota,2023,104,97,0
+Minnesota,2024,104,97,0
+Minnesota,2025,101,100,0
+Minnesota,2026,101,100,0
+Mississippi,1838,70,0,49
+Mississippi,1839,70,0,49
+Mississippi,1840,72,0,48
+Mississippi,1841,72,0,48
+Mississippi,1842,81,0,49
+Mississippi,1843,81,0,49
+Mississippi,1844,86,0,44
+Mississippi,1845,86,0,44
+Mississippi,1846,93,0,38
+Mississippi,1847,93,0,38
+Mississippi,1848,98,0,32
+Mississippi,1849,98,0,32
+Mississippi,1850,82,0,46
+Mississippi,1851,82,0,46
+Mississippi,1854,117,0,38
+Mississippi,1855,117,0,38
+Mississippi,1860,113,0,18
+Mississippi,1861,113,0,18
+Mississippi,1866,52,0,76
+Mississippi,1867,52,0,76
+Mississippi,1868,52,0,76
+Mississippi,1869,52,0,76
+Mississippi,1870,32,108,0
+Mississippi,1871,32,108,0
+Mississippi,1872,64,88,0
+Mississippi,1873,64,88,0
+Mississippi,1874,58,91,3
+Mississippi,1875,58,91,3
+Mississippi,1876,122,30,1
+Mississippi,1877,122,30,1
+Mississippi,1878,145,10,3
+Mississippi,1879,145,10,3
+Mississippi,1880,136,6,16
+Mississippi,1881,136,6,16
+Mississippi,1882,135,17,5
+Mississippi,1883,135,17,5
+Mississippi,1884,133,16,8
+Mississippi,1885,133,16,8
+Mississippi,1886,158,10,2
+Mississippi,1887,158,10,2
+Mississippi,1888,151,7,2
+Mississippi,1889,151,7,2
+Mississippi,1890,153,7,0
+Mississippi,1891,153,7,0
+Mississippi,1892,174,3,1
+Mississippi,1893,174,3,1
+Mississippi,1894,174,3,1
+Mississippi,1895,174,3,1
+Mississippi,1896,176,2,0
+Mississippi,1897,176,2,0
+Mississippi,1898,176,2,0
+Mississippi,1899,176,2,0
+Mississippi,1900,176,2,0
+Mississippi,1901,176,2,0
+Mississippi,1902,176,2,0
+Mississippi,1903,176,2,0
+Mississippi,1904,178,0,0
+Mississippi,1905,178,0,0
+Mississippi,1906,178,0,0
+Mississippi,1907,178,0,0
+Mississippi,1908,178,0,0
+Mississippi,1909,178,0,0
+Mississippi,1910,178,0,0
+Mississippi,1911,178,0,0
+Mississippi,1912,178,0,0
+Mississippi,1913,178,0,0
+Mississippi,1914,178,0,0
+Mississippi,1915,178,0,0
+Mississippi,1916,178,0,0
+Mississippi,1917,178,0,0
+Mississippi,1918,178,0,0
+Mississippi,1919,178,0,0
+Mississippi,1920,189,0,0
+Mississippi,1921,189,0,0
+Mississippi,1922,189,0,0
+Mississippi,1923,189,0,0
+Mississippi,1924,189,0,0
+Mississippi,1925,189,0,0
+Mississippi,1926,189,0,0
+Mississippi,1927,189,0,0
+Mississippi,1928,189,0,0
+Mississippi,1929,189,0,0
+Mississippi,1930,189,0,0
+Mississippi,1931,189,0,0
+Mississippi,1932,189,0,0
+Mississippi,1933,189,0,0
+Mississippi,1934,189,0,0
+Mississippi,1935,189,0,0
+Mississippi,1936,189,0,0
+Mississippi,1937,189,0,0
+Mississippi,1938,189,0,0
+Mississippi,1939,189,0,0
+Mississippi,1940,189,0,0
+Mississippi,1941,189,0,0
+Mississippi,1942,189,0,0
+Mississippi,1943,189,0,0
+Mississippi,1944,189,0,0
+Mississippi,1945,189,0,0
+Mississippi,1946,189,0,0
+Mississippi,1947,189,0,0
+Mississippi,1948,189,0,0
+Mississippi,1949,189,0,0
+Mississippi,1950,189,0,0
+Mississippi,1951,189,0,0
+Mississippi,1952,189,0,0
+Mississippi,1953,189,0,0
+Mississippi,1954,189,0,0
+Mississippi,1955,189,0,0
+Mississippi,1956,189,0,0
+Mississippi,1957,189,0,0
+Mississippi,1958,189,0,0
+Mississippi,1959,189,0,0
+Mississippi,1960,189,0,0
+Mississippi,1961,189,0,0
+Mississippi,1962,189,0,0
+Mississippi,1963,188,1,0
+Mississippi,1964,171,3,0
+Mississippi,1965,171,3,0
+Mississippi,1966,171,3,0
+Mississippi,1967,171,3,0
+Mississippi,1968,174,0,0
+Mississippi,1969,174,0,0
+Mississippi,1970,174,0,0
+Mississippi,1971,174,0,0
+Mississippi,1972,169,5,0
+Mississippi,1973,169,5,0
+Mississippi,1974,169,5,0
+Mississippi,1975,169,5,0
+Mississippi,1976,168,6,0
+Mississippi,1977,168,6,0
+Mississippi,1978,168,6,0
+Mississippi,1979,168,6,0
+Mississippi,1980,164,10,0
+Mississippi,1981,164,10,0
+Mississippi,1982,164,10,0
+Mississippi,1983,164,10,0
+Mississippi,1984,165,9,0
+Mississippi,1985,165,9,0
+Mississippi,1986,165,9,0
+Mississippi,1987,165,9,0
+Mississippi,1988,158,16,0
+Mississippi,1989,158,16,0
+Mississippi,1990,158,16,0
+Mississippi,1991,158,16,0
+Mississippi,1992,141,33,0
+Mississippi,1993,132,42,0
+Mississippi,1994,132,42,0
+Mississippi,1995,132,42,0
+Mississippi,1996,120,51,3
+Mississippi,1997,120,51,3
+Mississippi,1998,120,51,3
+Mississippi,1999,120,51,3
+Mississippi,2000,120,51,3
+Mississippi,2001,120,51,3
+Mississippi,2002,120,51,3
+Mississippi,2003,110,61,3
+Mississippi,2004,105,69,0
+Mississippi,2005,103,71,0
+Mississippi,2006,103,71,0
+Mississippi,2007,100,74,0
+Mississippi,2008,102,72,0
+Mississippi,2009,100,74,0
+Mississippi,2010,100,74,0
+Mississippi,2011,93,81,0
+Mississippi,2012,79,95,0
+Mississippi,2013,77,97,0
+Mississippi,2014,76,98,0
+Mississippi,2015,75,99,0
+Mississippi,2016,68,106,0
+Mississippi,2017,67,107,0
+Mississippi,2018,67,107,0
+Mississippi,2019,64,108,2
+Mississippi,2020,60,111,3
+Mississippi,2021,60,112,2
+Mississippi,2022,58,113,3
+Mississippi,2023,58,113,3
+Mississippi,2024,57,115,2
+Mississippi,2025,57,115,2
+Mississippi,2026,60,112,2
+Missouri,1835,63,0,29
+Missouri,1836,63,0,29
+Missouri,1837,80,0,21
+Missouri,1838,80,0,21
+Missouri,1839,78,0,52
+Missouri,1840,78,0,52
+Missouri,1841,73,0,59
+Missouri,1842,73,0,59
+Missouri,1843,97,0,36
+Missouri,1844,97,0,36
+Missouri,1845,80,0,53
+Missouri,1846,80,0,53
+Missouri,1847,99,0,27
+Missouri,1848,99,0,27
+Missouri,1849,89,0,28
+Missouri,1850,89,0,28
+Missouri,1853,108,0,50
+Missouri,1854,108,0,50
+Missouri,1859,111,0,55
+Missouri,1860,111,0,55
+Missouri,1861,110,0,55
+Missouri,1862,110,0,55
+Missouri,1863,49,81,11
+Missouri,1864,49,81,11
+Missouri,1865,34,128,3
+Missouri,1866,34,128,3
+Missouri,1867,48,118,3
+Missouri,1868,48,118,3
+Missouri,1869,45,117,5
+Missouri,1870,45,117,5
+Missouri,1871,92,42,37
+Missouri,1872,92,42,37
+Missouri,1873,117,48,0
+Missouri,1874,117,48,0
+Missouri,1875,119,46,0
+Missouri,1876,119,46,0
+Missouri,1877,129,48,0
+Missouri,1878,129,48,0
+Missouri,1879,132,16,29
+Missouri,1880,132,16,29
+Missouri,1881,123,49,5
+Missouri,1882,123,49,5
+Missouri,1883,138,31,7
+Missouri,1884,138,31,7
+Missouri,1885,126,48,0
+Missouri,1886,126,48,0
+Missouri,1887,112,58,4
+Missouri,1888,112,58,4
+Missouri,1889,102,59,13
+Missouri,1890,102,59,13
+Missouri,1891,131,31,10
+Missouri,1892,131,31,10
+Missouri,1893,120,54,0
+Missouri,1894,120,54,0
+Missouri,1895,77,95,2
+Missouri,1896,77,95,2
+Missouri,1897,98,62,14
+Missouri,1898,98,62,14
+Missouri,1899,105,67,2
+Missouri,1900,105,67,2
+Missouri,1901,113,60,1
+Missouri,1902,113,60,1
+Missouri,1903,108,68,0
+Missouri,1904,108,68,0
+Missouri,1905,84,92,0
+Missouri,1906,84,92,0
+Missouri,1907,107,69,0
+Missouri,1908,107,69,0
+Missouri,1909,92,84,0
+Missouri,1910,92,84,0
+Missouri,1911,104,72,0
+Missouri,1912,104,72,0
+Missouri,1913,138,37,1
+Missouri,1914,138,37,1
+Missouri,1915,102,73,1
+Missouri,1916,102,73,1
+Missouri,1917,104,72,0
+Missouri,1918,104,72,0
+Missouri,1919,89,87,0
+Missouri,1920,89,87,0
+Missouri,1921,53,123,0
+Missouri,1922,53,123,0
+Missouri,1923,102,82,0
+Missouri,1924,102,82,0
+Missouri,1925,94,90,0
+Missouri,1926,94,90,0
+Missouri,1927,92,92,0
+Missouri,1928,92,92,0
+Missouri,1929,66,118,0
+Missouri,1930,66,118,0
+Missouri,1931,105,79,0
+Missouri,1932,105,79,0
+Missouri,1933,167,17,0
+Missouri,1934,167,17,0
+Missouri,1935,134,50,0
+Missouri,1936,134,50,0
+Missouri,1937,136,48,0
+Missouri,1938,136,48,0
+Missouri,1939,129,55,0
+Missouri,1940,129,55,0
+Missouri,1941,114,70,0
+Missouri,1942,114,70,0
+Missouri,1943,72,112,0
+Missouri,1944,72,112,0
+Missouri,1945,85,99,0
+Missouri,1946,85,99,0
+Missouri,1947,69,119,0
+Missouri,1948,69,119,0
+Missouri,1949,118,70,0
+Missouri,1950,118,70,0
+Missouri,1951,106,82,0
+Missouri,1952,106,82,0
+Missouri,1953,90,101,0
+Missouri,1954,90,101,0
+Missouri,1955,116,75,0
+Missouri,1956,116,75,0
+Missouri,1957,114,77,0
+Missouri,1958,114,77,0
+Missouri,1959,138,53,0
+Missouri,1960,138,53,0
+Missouri,1961,128,63,0
+Missouri,1962,128,63,0
+Missouri,1963,124,73,0
+Missouri,1964,124,73,0
+Missouri,1965,147,50,0
+Missouri,1966,147,50,0
+Missouri,1967,130,67,0
+Missouri,1968,130,67,0
+Missouri,1969,132,65,0
+Missouri,1970,132,65,0
+Missouri,1971,137,60,0
+Missouri,1972,137,60,0
+Missouri,1973,120,77,0
+Missouri,1974,120,77,0
+Missouri,1975,136,61,0
+Missouri,1976,136,61,0
+Missouri,1977,135,62,0
+Missouri,1978,135,62,0
+Missouri,1979,139,58,0
+Missouri,1980,139,58,0
+Missouri,1981,135,62,0
+Missouri,1982,135,62,0
+Missouri,1983,132,65,0
+Missouri,1984,132,65,0
+Missouri,1985,129,68,0
+Missouri,1986,129,68,0
+Missouri,1987,132,65,0
+Missouri,1988,132,65,0
+Missouri,1989,126,71,0
+Missouri,1990,126,71,0
+Missouri,1991,121,76,0
+Missouri,1992,121,76,0
+Missouri,1993,120,77,0
+Missouri,1994,120,77,0
+Missouri,1995,106,91,0
+Missouri,1996,106,91,0
+Missouri,1997,107,90,0
+Missouri,1998,107,90,0
+Missouri,1999,103,94,0
+Missouri,2000,103,94,0
+Missouri,2001,103,94,0
+Missouri,2002,103,94,0
+Missouri,2003,87,110,0
+Missouri,2004,87,110,0
+Missouri,2005,77,120,0
+Missouri,2006,77,120,0
+Missouri,2007,84,113,0
+Missouri,2008,84,113,0
+Missouri,2009,85,112,0
+Missouri,2010,85,112,0
+Missouri,2011,65,132,0
+Missouri,2012,64,132,1
+Missouri,2013,63,134,0
+Missouri,2014,63,134,0
+Missouri,2015,54,142,1
+Missouri,2016,54,142,1
+Missouri,2017,55,142,0
+Missouri,2018,56,141,0
+Missouri,2019,57,140,0
+Missouri,2020,57,140,0
+Missouri,2021,59,138,0
+Missouri,2022,59,138,0
+Missouri,2023,62,135,0
+Missouri,2024,62,135,0
+Missouri,2025,62,135,0
+Missouri,2026,62,135,0
+Montana,1889,33,33,0
+Montana,1890,33,33,0
+Montana,1891,37,34,0
+Montana,1892,37,34,0
+Montana,1893,35,33,3
+Montana,1894,35,33,3
+Montana,1895,8,57,17
+Montana,1896,8,57,17
+Montana,1897,50,20,21
+Montana,1898,50,20,21
+Montana,1899,74,15,5
+Montana,1900,74,15,5
+Montana,1901,42,32,20
+Montana,1902,42,32,20
+Montana,1903,22,59,17
+Montana,1904,22,59,17
+Montana,1905,34,54,10
+Montana,1906,34,54,10
+Montana,1907,25,75,0
+Montana,1908,25,75,0
+Montana,1909,48,50,0
+Montana,1910,48,50,0
+Montana,1911,54,48,0
+Montana,1912,54,48,0
+Montana,1913,66,33,19
+Montana,1914,66,33,19
+Montana,1915,71,55,10
+Montana,1916,71,55,10
+Montana,1917,62,74,0
+Montana,1918,62,74,0
+Montana,1919,45,96,0
+Montana,1920,45,96,0
+Montana,1921,22,139,1
+Montana,1922,22,139,1
+Montana,1923,60,94,0
+Montana,1924,60,94,0
+Montana,1925,50,105,3
+Montana,1926,50,105,3
+Montana,1927,54,101,3
+Montana,1928,54,101,3
+Montana,1929,49,108,1
+Montana,1930,49,108,1
+Montana,1931,58,100,0
+Montana,1932,58,100,0
+Montana,1933,94,63,1
+Montana,1934,94,63,1
+Montana,1935,97,60,1
+Montana,1936,97,60,1
+Montana,1937,110,48,0
+Montana,1938,110,48,0
+Montana,1939,89,69,0
+Montana,1940,89,69,0
+Montana,1941,76,82,0
+Montana,1942,76,82,0
+Montana,1943,58,88,0
+Montana,1944,58,88,0
+Montana,1945,54,92,0
+Montana,1946,54,92,0
+Montana,1947,46,99,1
+Montana,1948,46,99,1
+Montana,1949,77,67,2
+Montana,1950,77,67,2
+Montana,1951,67,77,2
+Montana,1952,67,77,2
+Montana,1953,52,98,0
+Montana,1954,52,98,0
+Montana,1955,72,78,0
+Montana,1956,72,78,0
+Montana,1957,90,60,0
+Montana,1958,90,60,0
+Montana,1959,99,48,3
+Montana,1960,99,48,3
+Montana,1961,78,71,1
+Montana,1962,78,71,1
+Montana,1963,72,78,0
+Montana,1964,72,78,0
+Montana,1965,88,62,0
+Montana,1966,88,62,0
+Montana,1967,70,89,0
+Montana,1968,70,89,0
+Montana,1969,76,83,0
+Montana,1970,76,83,0
+Montana,1971,79,80,0
+Montana,1972,79,80,0
+Montana,1973,81,69,0
+Montana,1974,81,69,0
+Montana,1975,97,53,0
+Montana,1976,97,53,0
+Montana,1977,82,68,0
+Montana,1978,82,68,0
+Montana,1979,79,71,0
+Montana,1980,79,71,0
+Montana,1981,65,85,0
+Montana,1982,65,85,0
+Montana,1983,79,71,0
+Montana,1984,79,71,0
+Montana,1985,78,72,0
+Montana,1986,78,72,0
+Montana,1987,74,76,0
+Montana,1988,74,76,0
+Montana,1989,75,75,0
+Montana,1990,75,75,0
+Montana,1991,90,60,0
+Montana,1992,90,60,0
+Montana,1993,77,73,0
+Montana,1994,77,73,0
+Montana,1995,52,98,0
+Montana,1996,52,98,0
+Montana,1997,51,99,0
+Montana,1998,51,99,0
+Montana,1999,59,91,0
+Montana,2000,59,91,0
+Montana,2001,61,89,0
+Montana,2002,61,89,0
+Montana,2003,68,82,0
+Montana,2004,68,82,0
+Montana,2005,77,73,0
+Montana,2006,77,73,0
+Montana,2007,75,74,1
+Montana,2008,75,74,1
+Montana,2009,73,77,0
+Montana,2010,73,77,0
+Montana,2011,54,96,0
+Montana,2012,54,96,0
+Montana,2013,60,90,0
+Montana,2014,60,90,0
+Montana,2015,62,88,0
+Montana,2016,62,88,0
+Montana,2017,59,91,0
+Montana,2018,59,91,0
+Montana,2019,62,88,0
+Montana,2020,62,88,0
+Montana,2021,52,98,0
+Montana,2022,52,98,0
+Montana,2023,48,102,0
+Montana,2024,48,102,0
+Montana,2025,60,90,0
+Montana,2026,60,90,0
+Nebraska,1937,21,22,43
+Nebraska,1938,21,22,43
+Nebraska,1939,19,24,43
+Nebraska,1940,19,24,43
+Nebraska,1941,17,26,43
+Nebraska,1942,17,26,43
+Nebraska,1943,13,26,47
+Nebraska,1944,13,25,48
+Nebraska,1945,7,28,51
+Nebraska,1946,7,28,51
+Nebraska,1947,9,20,57
+Nebraska,1948,9,20,57
+Nebraska,1949,5,22,59
+Nebraska,1950,5,23,58
+Nebraska,1951,5,25,56
+Nebraska,1952,5,25,56
+Nebraska,1953,5,26,55
+Nebraska,1954,4,26,56
+Nebraska,1955,8,23,55
+Nebraska,1956,8,23,55
+Nebraska,1957,13,25,48
+Nebraska,1958,13,25,48
+Nebraska,1959,9,31,46
+Nebraska,1960,9,31,46
+Nebraska,1961,11,26,49
+Nebraska,1962,10,27,49
+Nebraska,1963,12,29,45
+Nebraska,1964,13,28,45
+Nebraska,1965,12,31,55
+Nebraska,1966,12,31,55
+Nebraska,1967,12,33,53
+Nebraska,1968,12,33,53
+Nebraska,1969,11,36,51
+Nebraska,1970,11,36,51
+Nebraska,1971,12,36,50
+Nebraska,1972,12,36,50
+Nebraska,1973,15,33,50
+Nebraska,1974,15,33,50
+Nebraska,1975,15,33,50
+Nebraska,1976,15,33,50
+Nebraska,1977,17,30,51
+Nebraska,1978,19,28,51
+Nebraska,1979,22,25,51
+Nebraska,1980,22,25,51
+Nebraska,1981,17,30,51
+Nebraska,1982,16,31,51
+Nebraska,1983,17,30,51
+Nebraska,1984,19,29,50
+Nebraska,1985,22,26,50
+Nebraska,1986,23,25,50
+Nebraska,1987,22,26,50
+Nebraska,1988,21,27,50
+Nebraska,1989,20,28,50
+Nebraska,1990,19,29,50
+Nebraska,1991,21,27,50
+Nebraska,1992,22,26,50
+Nebraska,1993,22,26,50
+Nebraska,1994,23,25,50
+Nebraska,1995,22,26,50
+Nebraska,1996,22,26,50
+Nebraska,1997,21,27,50
+Nebraska,1998,21,26,51
+Nebraska,1999,19,28,51
+Nebraska,2000,18,29,51
+Nebraska,2001,16,31,51
+Nebraska,2002,16,31,51
+Nebraska,2003,13,34,51
+Nebraska,2004,13,34,51
+Nebraska,2005,15,32,51
+Nebraska,2006,15,32,51
+Nebraska,2007,17,30,51
+Nebraska,2008,17,30,51
+Nebraska,2009,18,31,49
+Nebraska,2010,19,30,49
+Nebraska,2011,17,32,49
+Nebraska,2012,17,32,49
+Nebraska,2013,19,29,50
+Nebraska,2014,19,29,50
+Nebraska,2015,14,34,50
+Nebraska,2016,13,35,50
+Nebraska,2017,16,31,51
+Nebraska,2018,16,31,51
+Nebraska,2019,18,30,50
+Nebraska,2020,18,30,50
+Nebraska,2021,17,32,49
+Nebraska,2022,17,32,49
+Nebraska,2023,17,32,49
+Nebraska,2024,16,32,50
+Nebraska,2025,15,33,50
+Nebraska,2026,15,33,50
+Nevada,1865,2,51,0
+Nevada,1866,2,51,0
+Nevada,1867,2,55,0
+Nevada,1868,2,55,0
+Nevada,1869,10,49,0
+Nevada,1870,10,49,0
+Nevada,1871,29,38,2
+Nevada,1872,29,38,2
+Nevada,1873,18,53,1
+Nevada,1874,18,53,1
+Nevada,1875,26,49,0
+Nevada,1876,26,49,0
+Nevada,1877,28,47,0
+Nevada,1878,28,47,0
+Nevada,1879,15,56,4
+Nevada,1880,15,56,4
+Nevada,1881,54,20,1
+Nevada,1882,54,20,1
+Nevada,1883,23,37,0
+Nevada,1884,23,37,0
+Nevada,1885,13,47,0
+Nevada,1886,13,47,0
+Nevada,1887,14,46,0
+Nevada,1888,14,46,0
+Nevada,1889,18,42,0
+Nevada,1890,18,42,0
+Nevada,1891,7,53,0
+Nevada,1892,7,53,0
+Nevada,1893,5,11,29
+Nevada,1894,5,11,29
+Nevada,1895,4,16,25
+Nevada,1896,4,16,25
+Nevada,1897,5,7,33
+Nevada,1898,5,7,33
+Nevada,1899,2,15,28
+Nevada,1900,2,15,28
+Nevada,1901,14,8,24
+Nevada,1902,14,8,24
+Nevada,1903,16,10,25
+Nevada,1904,16,10,25
+Nevada,1905,17,30,9
+Nevada,1906,17,30,9
+Nevada,1907,25,24,8
+Nevada,1908,25,24,8
+Nevada,1909,46,20,1
+Nevada,1910,46,20,1
+Nevada,1911,38,31,0
+Nevada,1912,38,31,0
+Nevada,1913,44,24,7
+Nevada,1914,44,24,7
+Nevada,1915,32,35,8
+Nevada,1916,32,35,8
+Nevada,1917,25,23,6
+Nevada,1918,25,23,6
+Nevada,1919,22,23,8
+Nevada,1920,22,23,8
+Nevada,1921,14,34,6
+Nevada,1922,14,34,6
+Nevada,1923,14,36,4
+Nevada,1924,14,36,4
+Nevada,1925,21,32,1
+Nevada,1926,21,32,1
+Nevada,1927,25,25,4
+Nevada,1928,25,25,4
+Nevada,1929,18,33,3
+Nevada,1930,18,33,3
+Nevada,1931,23,29,2
+Nevada,1932,23,29,2
+Nevada,1933,32,21,4
+Nevada,1934,32,21,4
+Nevada,1935,39,14,4
+Nevada,1936,39,14,4
+Nevada,1937,41,13,3
+Nevada,1938,41,13,3
+Nevada,1939,34,18,5
+Nevada,1940,34,18,5
+Nevada,1941,32,23,2
+Nevada,1942,32,23,2
+Nevada,1943,30,27,0
+Nevada,1944,30,27,0
+Nevada,1945,35,22,0
+Nevada,1946,35,22,0
+Nevada,1947,29,28,1
+Nevada,1948,29,28,1
+Nevada,1949,31,29,0
+Nevada,1950,31,29,0
+Nevada,1951,29,31,0
+Nevada,1952,29,31,0
+Nevada,1953,34,30,0
+Nevada,1954,34,30,0
+Nevada,1955,34,30,0
+Nevada,1956,34,30,0
+Nevada,1957,36,28,0
+Nevada,1958,36,28,0
+Nevada,1959,40,24,0
+Nevada,1960,40,24,0
+Nevada,1961,40,24,0
+Nevada,1962,40,24,0
+Nevada,1963,39,25,0
+Nevada,1964,39,25,0
+Nevada,1965,32,21,1
+Nevada,1966,32,21,1
+Nevada,1967,32,28,0
+Nevada,1968,32,28,0
+Nevada,1969,29,31,0
+Nevada,1970,29,31,0
+Nevada,1971,32,28,0
+Nevada,1972,32,28,0
+Nevada,1973,39,21,0
+Nevada,1974,39,21,0
+Nevada,1975,48,12,0
+Nevada,1976,48,12,0
+Nevada,1977,52,8,0
+Nevada,1978,52,8,0
+Nevada,1979,41,19,0
+Nevada,1980,41,19,0
+Nevada,1981,41,19,0
+Nevada,1982,41,19,0
+Nevada,1983,39,24,0
+Nevada,1984,39,24,0
+Nevada,1985,30,33,0
+Nevada,1986,30,33,0
+Nevada,1987,38,25,0
+Nevada,1988,38,25,0
+Nevada,1989,40,23,0
+Nevada,1990,40,23,0
+Nevada,1991,33,30,0
+Nevada,1992,33,30,0
+Nevada,1993,39,24,0
+Nevada,1994,39,24,0
+Nevada,1995,29,34,0
+Nevada,1996,29,34,0
+Nevada,1997,34,29,0
+Nevada,1998,34,29,0
+Nevada,1999,37,26,0
+Nevada,2000,37,26,0
+Nevada,2001,36,27,0
+Nevada,2002,36,27,0
+Nevada,2003,31,32,0
+Nevada,2004,31,32,0
+Nevada,2005,35,28,0
+Nevada,2006,35,28,0
+Nevada,2007,37,26,0
+Nevada,2008,37,26,0
+Nevada,2009,40,23,0
+Nevada,2010,40,23,0
+Nevada,2011,37,26,0
+Nevada,2012,37,26,0
+Nevada,2013,38,25,0
+Nevada,2014,38,25,0
+Nevada,2015,27,36,0
+Nevada,2016,27,35,1
+Nevada,2017,38,24,1
+Nevada,2018,38,24,1
+Nevada,2019,42,21,0
+Nevada,2020,42,21,0
+Nevada,2021,38,25,0
+Nevada,2022,38,25,0
+Nevada,2023,41,22,0
+Nevada,2024,41,22,0
+Nevada,2025,40,23,0
+Nevada,2026,40,23,0
+New Hampshire,1832,144,0,64
+New Hampshire,1834,162,0,46
+New Hampshire,1835,161,0,59
+New Hampshire,1836,179,0,47
+New Hampshire,1837,188,0,52
+New Hampshire,1838,137,0,120
+New Hampshire,1839,164,0,93
+New Hampshire,1840,181,0,71
+New Hampshire,1841,171,0,87
+New Hampshire,1842,177,0,65
+New Hampshire,1843,149,0,100
+New Hampshire,1844,164,0,82
+New Hampshire,1845,168,0,81
+New Hampshire,1846,128,0,158
+New Hampshire,1847,157,0,137
+New Hampshire,1848,169,0,123
+New Hampshire,1849,169,0,108
+New Hampshire,1850,200,0,87
+New Hampshire,1851,124,0,180
+New Hampshire,1852,151,0,139
+New Hampshire,1853,189,0,127
+New Hampshire,1854,170,0,152
+New Hampshire,1855,80,227,16
+New Hampshire,1856,150,168,8
+New Hampshire,1857,132,204,4
+New Hampshire,1858,122,205,0
+New Hampshire,1859,130,207,0
+New Hampshire,1860,123,216,0
+New Hampshire,1861,123,210,0
+New Hampshire,1862,123,212,0
+New Hampshire,1863,144,199,0
+New Hampshire,1864,126,219,0
+New Hampshire,1865,117,223,0
+New Hampshire,1866,117,217,0
+New Hampshire,1867,131,211,0
+New Hampshire,1868,141,203,0
+New Hampshire,1869,143,203,0
+New Hampshire,1870,127,212,0
+New Hampshire,1871,171,170,0
+New Hampshire,1872,154,218,0
+New Hampshire,1873,147,213,0
+New Hampshire,1874,185,168,0
+New Hampshire,1875,189,196,0
+New Hampshire,1876,183,220,0
+New Hampshire,1877,159,232,0
+New Hampshire,1878,174,224,0
+New Hampshire,1879,104,188,11
+New Hampshire,1880,104,188,11
+New Hampshire,1881,122,195,0
+New Hampshire,1882,122,195,0
+New Hampshire,1883,128,205,1
+New Hampshire,1884,128,205,1
+New Hampshire,1885,130,198,1
+New Hampshire,1886,130,198,1
+New Hampshire,1887,147,184,0
+New Hampshire,1888,147,184,0
+New Hampshire,1889,150,187,0
+New Hampshire,1890,150,187,0
+New Hampshire,1891,180,199,0
+New Hampshire,1892,180,199,0
+New Hampshire,1893,158,224,0
+New Hampshire,1894,158,224,0
+New Hampshire,1895,102,285,0
+New Hampshire,1896,102,285,0
+New Hampshire,1897,68,313,0
+New Hampshire,1898,68,313,0
+New Hampshire,1899,111,272,1
+New Hampshire,1900,111,272,1
+New Hampshire,1901,98,323,0
+New Hampshire,1902,98,323,0
+New Hampshire,1903,140,277,0
+New Hampshire,1904,140,277,0
+New Hampshire,1905,108,307,0
+New Hampshire,1906,108,307,0
+New Hampshire,1907,134,280,1
+New Hampshire,1908,134,280,1
+New Hampshire,1909,121,289,1
+New Hampshire,1910,121,289,1
+New Hampshire,1911,181,236,0
+New Hampshire,1912,181,236,0
+New Hampshire,1913,209,217,0
+New Hampshire,1914,209,217,0
+New Hampshire,1915,157,269,6
+New Hampshire,1916,157,269,6
+New Hampshire,1917,165,262,1
+New Hampshire,1918,165,262,1
+New Hampshire,1919,165,263,2
+New Hampshire,1920,165,263,2
+New Hampshire,1921,112,315,1
+New Hampshire,1922,112,315,1
+New Hampshire,1923,228,212,2
+New Hampshire,1924,228,212,2
+New Hampshire,1925,152,292,1
+New Hampshire,1926,152,292,1
+New Hampshire,1927,135,306,1
+New Hampshire,1928,135,306,1
+New Hampshire,1929,153,292,0
+New Hampshire,1930,153,292,0
+New Hampshire,1931,168,273,0
+New Hampshire,1932,168,273,0
+New Hampshire,1933,201,241,0
+New Hampshire,1934,201,241,0
+New Hampshire,1935,217,228,3
+New Hampshire,1936,217,228,3
+New Hampshire,1937,195,246,1
+New Hampshire,1938,195,246,1
+New Hampshire,1939,164,287,0
+New Hampshire,1940,164,287,0
+New Hampshire,1941,202,245,0
+New Hampshire,1942,202,245,0
+New Hampshire,1943,174,293,0
+New Hampshire,1944,174,293,0
+New Hampshire,1945,172,281,1
+New Hampshire,1946,172,281,1
+New Hampshire,1947,131,292,1
+New Hampshire,1948,131,292,1
+New Hampshire,1949,151,272,0
+New Hampshire,1950,151,272,0
+New Hampshire,1951,139,281,3
+New Hampshire,1952,139,281,3
+New Hampshire,1953,128,294,1
+New Hampshire,1954,128,294,1
+New Hampshire,1955,141,282,0
+New Hampshire,1956,141,282,0
+New Hampshire,1957,124,294,3
+New Hampshire,1958,124,294,3
+New Hampshire,1959,142,282,0
+New Hampshire,1960,142,282,0
+New Hampshire,1961,145,277,1
+New Hampshire,1962,145,277,1
+New Hampshire,1963,151,272,0
+New Hampshire,1964,151,272,0
+New Hampshire,1965,193,230,0
+New Hampshire,1966,193,230,0
+New Hampshire,1967,165,259,0
+New Hampshire,1968,165,259,0
+New Hampshire,1969,154,270,0
+New Hampshire,1970,154,270,0
+New Hampshire,1971,156,268,0
+New Hampshire,1972,156,268,0
+New Hampshire,1973,147,277,0
+New Hampshire,1974,147,277,0
+New Hampshire,1975,177,247,0
+New Hampshire,1976,177,247,0
+New Hampshire,1977,192,232,0
+New Hampshire,1978,192,232,0
+New Hampshire,1979,187,237,0
+New Hampshire,1980,187,237,0
+New Hampshire,1981,170,254,0
+New Hampshire,1982,170,254,0
+New Hampshire,1983,167,257,0
+New Hampshire,1984,167,257,0
+New Hampshire,1985,108,316,0
+New Hampshire,1986,108,316,0
+New Hampshire,1987,141,283,0
+New Hampshire,1988,141,283,0
+New Hampshire,1989,126,298,0
+New Hampshire,1990,126,298,0
+New Hampshire,1991,140,284,0
+New Hampshire,1992,140,284,0
+New Hampshire,1993,151,269,4
+New Hampshire,1994,151,269,4
+New Hampshire,1995,116,308,0
+New Hampshire,1996,116,308,0
+New Hampshire,1997,155,269,0
+New Hampshire,1998,155,269,0
+New Hampshire,1999,168,256,0
+New Hampshire,2000,167,257,0
+New Hampshire,2001,155,269,0
+New Hampshire,2002,155,269,0
+New Hampshire,2003,128,296,0
+New Hampshire,2004,128,296,0
+New Hampshire,2005,159,265,0
+New Hampshire,2006,159,265,0
+New Hampshire,2007,253,170,1
+New Hampshire,2008,253,170,1
+New Hampshire,2009,239,185,0
+New Hampshire,2010,238,186,0
+New Hampshire,2011,107,317,0
+New Hampshire,2012,110,314,0
+New Hampshire,2013,232,192,0
+New Hampshire,2014,232,192,0
+New Hampshire,2015,170,253,1
+New Hampshire,2016,170,253,1
+New Hampshire,2017,186,231,3
+New Hampshire,2018,186,231,3
+New Hampshire,2019,248,176,0
+New Hampshire,2020,248,176,0
+New Hampshire,2021,197,227,0
+New Hampshire,2022,198,225,1
+New Hampshire,2023,209,215,0
+New Hampshire,2024,206,215,3
+New Hampshire,2025,186,238,0
+New Hampshire,2026,186,238,0
+New Jersey,1834,54,0,10
+New Jersey,1835,36,0,27
+New Jersey,1836,43,0,21
+New Jersey,1837,38,0,26
+New Jersey,1838,24,0,45
+New Jersey,1839,27,0,43
+New Jersey,1840,27,0,43
+New Jersey,1841,17,0,54
+New Jersey,1842,33,0,43
+New Jersey,1843,34,0,42
+New Jersey,1844,47,0,29
+New Jersey,1845,24,0,53
+New Jersey,1846,34,0,43
+New Jersey,1847,25,0,52
+New Jersey,1848,27,0,50
+New Jersey,1849,26,0,51
+New Jersey,1850,34,0,43
+New Jersey,1851,40,0,38
+New Jersey,1852,58,0,22
+New Jersey,1853,52,0,28
+New Jersey,1854,53,0,27
+New Jersey,1855,39,0,41
+New Jersey,1856,42,0,38
+New Jersey,1857,49,22,9
+New Jersey,1858,50,25,6
+New Jersey,1859,37,0,44
+New Jersey,1860,42,36,3
+New Jersey,1861,42,39,0
+New Jersey,1862,46,34,1
+New Jersey,1863,58,23,0
+New Jersey,1864,54,27,0
+New Jersey,1865,43,38,0
+New Jersey,1866,34,47,0
+New Jersey,1867,35,46,0
+New Jersey,1868,57,24,0
+New Jersey,1869,44,37,0
+New Jersey,1870,47,34,0
+New Jersey,1871,35,46,0
+New Jersey,1872,33,48,0
+New Jersey,1873,23,58,0
+New Jersey,1874,35,46,0
+New Jersey,1875,49,32,0
+New Jersey,1876,32,49,0
+New Jersey,1877,41,40,0
+New Jersey,1878,45,36,0
+New Jersey,1879,36,44,1
+New Jersey,1880,34,47,0
+New Jersey,1881,31,49,1
+New Jersey,1882,44,37,0
+New Jersey,1883,44,37,0
+New Jersey,1884,43,38,0
+New Jersey,1885,36,45,0
+New Jersey,1886,37,44,0
+New Jersey,1887,37,44,0
+New Jersey,1888,32,49,0
+New Jersey,1889,43,38,0
+New Jersey,1890,47,34,0
+New Jersey,1891,54,27,0
+New Jersey,1892,58,23,0
+New Jersey,1893,55,26,0
+New Jersey,1894,31,50,0
+New Jersey,1895,11,70,0
+New Jersey,1896,10,71,0
+New Jersey,1897,7,74,0
+New Jersey,1898,30,51,0
+New Jersey,1899,30,51,0
+New Jersey,1900,24,57,0
+New Jersey,1901,26,55,0
+New Jersey,1902,18,63,0
+New Jersey,1903,29,52,0
+New Jersey,1904,29,52,0
+New Jersey,1905,21,60,0
+New Jersey,1906,7,74,0
+New Jersey,1907,37,44,0
+New Jersey,1908,27,54,0
+New Jersey,1909,23,58,0
+New Jersey,1910,25,56,0
+New Jersey,1911,51,30,0
+New Jersey,1912,33,48,0
+New Jersey,1913,64,17,0
+New Jersey,1914,48,33,0
+New Jersey,1915,32,49,0
+New Jersey,1916,28,53,0
+New Jersey,1917,22,59,0
+New Jersey,1918,23,61,0
+New Jersey,1919,36,45,0
+New Jersey,1920,33,48,0
+New Jersey,1921,7,74,0
+New Jersey,1922,20,61,0
+New Jersey,1923,20,61,0
+New Jersey,1924,22,59,0
+New Jersey,1925,16,65,0
+New Jersey,1926,17,64,0
+New Jersey,1927,17,64,0
+New Jersey,1928,17,64,0
+New Jersey,1929,15,66,0
+New Jersey,1930,18,63,0
+New Jersey,1931,18,63,0
+New Jersey,1932,40,41,0
+New Jersey,1933,28,53,0
+New Jersey,1934,33,48,0
+New Jersey,1935,32,49,0
+New Jersey,1936,26,55,0
+New Jersey,1937,49,32,0
+New Jersey,1938,27,54,0
+New Jersey,1939,21,60,0
+New Jersey,1940,21,60,0
+New Jersey,1941,20,61,0
+New Jersey,1942,20,61,0
+New Jersey,1943,19,62,0
+New Jersey,1944,19,62,0
+New Jersey,1945,22,59,0
+New Jersey,1946,23,58,0
+New Jersey,1947,18,63,0
+New Jersey,1948,19,62,0
+New Jersey,1949,22,59,0
+New Jersey,1950,29,52,0
+New Jersey,1951,29,52,0
+New Jersey,1952,22,59,0
+New Jersey,1953,22,59,0
+New Jersey,1954,24,57,0
+New Jersey,1955,24,57,0
+New Jersey,1956,27,54,0
+New Jersey,1957,27,54,0
+New Jersey,1958,50,31,0
+New Jersey,1959,50,31,0
+New Jersey,1960,44,37,0
+New Jersey,1961,44,37,0
+New Jersey,1962,48,33,0
+New Jersey,1963,48,33,0
+New Jersey,1964,33,48,0
+New Jersey,1965,33,48,0
+New Jersey,1966,60,29,0
+New Jersey,1967,60,29,0
+New Jersey,1968,31,89,0
+New Jersey,1969,31,89,0
+New Jersey,1970,30,90,0
+New Jersey,1971,30,90,0
+New Jersey,1972,56,63,1
+New Jersey,1973,56,63,1
+New Jersey,1974,95,24,1
+New Jersey,1975,95,24,1
+New Jersey,1976,78,41,1
+New Jersey,1977,78,41,1
+New Jersey,1978,81,39,0
+New Jersey,1979,81,39,0
+New Jersey,1980,70,50,0
+New Jersey,1981,70,50,0
+New Jersey,1982,65,55,0
+New Jersey,1983,65,55,0
+New Jersey,1984,67,53,0
+New Jersey,1985,67,53,0
+New Jersey,1986,53,67,0
+New Jersey,1987,53,67,0
+New Jersey,1988,62,58,0
+New Jersey,1989,62,58,0
+New Jersey,1990,65,55,0
+New Jersey,1991,65,55,0
+New Jersey,1992,35,85,0
+New Jersey,1993,35,85,0
+New Jersey,1994,43,77,0
+New Jersey,1995,43,77,0
+New Jersey,1996,46,74,0
+New Jersey,1997,46,74,0
+New Jersey,1998,48,72,0
+New Jersey,1999,48,72,0
+New Jersey,2000,51,69,0
+New Jersey,2001,51,69,0
+New Jersey,2002,64,56,0
+New Jersey,2003,64,56,0
+New Jersey,2004,69,51,0
+New Jersey,2005,69,51,0
+New Jersey,2006,71,49,0
+New Jersey,2007,71,49,0
+New Jersey,2008,71,49,0
+New Jersey,2009,71,49,0
+New Jersey,2010,70,50,0
+New Jersey,2011,71,49,0
+New Jersey,2012,72,48,0
+New Jersey,2013,72,48,0
+New Jersey,2014,72,48,0
+New Jersey,2015,72,48,0
+New Jersey,2016,76,44,0
+New Jersey,2017,76,44,0
+New Jersey,2018,79,41,0
+New Jersey,2019,79,41,0
+New Jersey,2020,77,43,0
+New Jersey,2021,77,43,0
+New Jersey,2022,70,50,0
+New Jersey,2023,71,49,0
+New Jersey,2024,77,43,0
+New Jersey,2025,77,43,0
+New Jersey,2026,82,38,0
+New Mexico,1912,23,46,4
+New Mexico,1913,23,46,4
+New Mexico,1914,23,46,4
+New Mexico,1915,21,49,3
+New Mexico,1916,21,49,3
+New Mexico,1917,29,44,0
+New Mexico,1918,29,44,0
+New Mexico,1919,29,44,0
+New Mexico,1920,29,44,0
+New Mexico,1921,29,44,0
+New Mexico,1922,29,44,0
+New Mexico,1923,43,30,0
+New Mexico,1924,43,30,0
+New Mexico,1925,39,34,0
+New Mexico,1926,39,34,0
+New Mexico,1927,39,34,0
+New Mexico,1928,39,34,0
+New Mexico,1929,18,55,0
+New Mexico,1930,18,55,0
+New Mexico,1931,36,37,0
+New Mexico,1932,36,37,0
+New Mexico,1933,61,12,0
+New Mexico,1934,62,11,0
+New Mexico,1935,55,18,0
+New Mexico,1936,55,18,0
+New Mexico,1937,70,3,0
+New Mexico,1938,70,3,0
+New Mexico,1939,65,8,0
+New Mexico,1940,65,8,0
+New Mexico,1941,61,12,0
+New Mexico,1942,61,12,0
+New Mexico,1943,54,19,0
+New Mexico,1944,54,19,0
+New Mexico,1945,48,25,0
+New Mexico,1946,48,25,0
+New Mexico,1947,48,25,0
+New Mexico,1948,48,25,0
+New Mexico,1949,55,18,0
+New Mexico,1950,55,18,0
+New Mexico,1951,64,15,0
+New Mexico,1952,64,15,0
+New Mexico,1953,49,37,0
+New Mexico,1954,49,37,0
+New Mexico,1955,74,13,0
+New Mexico,1956,74,13,0
+New Mexico,1957,67,31,0
+New Mexico,1958,67,31,0
+New Mexico,1959,84,14,0
+New Mexico,1960,84,14,0
+New Mexico,1961,87,11,0
+New Mexico,1962,87,11,0
+New Mexico,1963,83,15,0
+New Mexico,1964,83,15,0
+New Mexico,1965,87,22,0
+New Mexico,1966,87,22,0
+New Mexico,1967,70,42,0
+New Mexico,1968,70,42,0
+New Mexico,1969,69,43,0
+New Mexico,1970,69,43,0
+New Mexico,1971,76,36,0
+New Mexico,1972,76,36,0
+New Mexico,1973,81,31,0
+New Mexico,1974,80,32,0
+New Mexico,1975,80,32,0
+New Mexico,1976,81,31,0
+New Mexico,1977,81,31,0
+New Mexico,1978,81,31,0
+New Mexico,1979,74,38,0
+New Mexico,1980,73,39,0
+New Mexico,1981,63,49,0
+New Mexico,1982,64,48,0
+New Mexico,1983,69,43,0
+New Mexico,1984,70,42,0
+New Mexico,1985,64,48,0
+New Mexico,1986,63,49,0
+New Mexico,1987,68,44,0
+New Mexico,1988,67,45,0
+New Mexico,1989,71,41,0
+New Mexico,1990,70,42,0
+New Mexico,1991,75,37,0
+New Mexico,1992,75,37,0
+New Mexico,1993,80,32,0
+New Mexico,1994,80,32,0
+New Mexico,1995,73,39,0
+New Mexico,1996,73,39,0
+New Mexico,1997,67,45,0
+New Mexico,1998,67,45,0
+New Mexico,1999,65,47,0
+New Mexico,2000,65,47,0
+New Mexico,2001,66,46,0
+New Mexico,2002,66,46,0
+New Mexico,2003,67,45,0
+New Mexico,2004,67,45,0
+New Mexico,2005,66,46,0
+New Mexico,2006,66,46,0
+New Mexico,2007,66,46,0
+New Mexico,2008,66,46,0
+New Mexico,2009,72,40,0
+New Mexico,2010,72,40,0
+New Mexico,2011,63,49,0
+New Mexico,2012,63,49,0
+New Mexico,2013,63,49,0
+New Mexico,2014,62,50,0
+New Mexico,2015,57,55,0
+New Mexico,2016,57,55,0
+New Mexico,2017,64,48,0
+New Mexico,2018,64,48,0
+New Mexico,2019,72,40,0
+New Mexico,2020,72,40,0
+New Mexico,2021,72,39,1
+New Mexico,2022,72,39,1
+New Mexico,2023,72,40,0
+New Mexico,2024,72,40,0
+New Mexico,2025,70,42,0
+New Mexico,2026,70,42,0
+New York,1835,119,0,41
+New York,1836,139,0,21
+New York,1837,117,0,43
+New York,1838,50,0,110
+New York,1839,63,0,97
+New York,1840,70,0,90
+New York,1841,73,0,87
+New York,1842,113,0,47
+New York,1843,114,0,46
+New York,1844,118,0,42
+New York,1845,92,0,68
+New York,1846,99,0,61
+New York,1847,73,0,87
+New York,1848,44,0,116
+New York,1849,15,0,145
+New York,1850,79,0,81
+New York,1851,59,0,101
+New York,1852,79,0,81
+New York,1853,104,0,56
+New York,1854,55,0,105
+New York,1855,46,2,112
+New York,1856,51,51,58
+New York,1857,44,96,20
+New York,1858,71,76,14
+New York,1859,41,106,13
+New York,1860,46,113,1
+New York,1861,44,116,0
+New York,1862,43,116,1
+New York,1863,72,88,0
+New York,1864,56,102,2
+New York,1865,63,96,1
+New York,1866,43,117,0
+New York,1867,50,110,0
+New York,1868,88,72,0
+New York,1869,67,91,2
+New York,1870,91,69,0
+New York,1871,83,77,0
+New York,1872,38,122,0
+New York,1873,41,117,2
+New York,1874,67,90,3
+New York,1875,87,71,2
+New York,1876,69,91,0
+New York,1877,70,90,0
+New York,1878,73,85,2
+New York,1879,39,117,4
+New York,1880,42,116,2
+New York,1881,54,105,1
+New York,1882,84,75,1
+New York,1883,103,53,4
+New York,1884,69,91,0
+New York,1885,67,93,0
+New York,1886,61,97,2
+New York,1887,66,94,0
+New York,1888,66,93,1
+New York,1889,62,98,0
+New York,1890,70,90,0
+New York,1891,81,78,1
+New York,1892,84,75,1
+New York,1893,91,68,1
+New York,1894,69,90,1
+New York,1895,35,124,1
+New York,1896,61,138,1
+New York,1897,49,149,2
+New York,1898,83,112,5
+New York,1899,86,114,0
+New York,1900,80,119,1
+New York,1901,60,140,0
+New York,1902,57,141,2
+New York,1903,83,117,0
+New York,1904,74,125,1
+New York,1905,66,135,0
+New York,1906,55,142,4
+New York,1907,71,129,1
+New York,1908,74,127,0
+New York,1909,67,134,0
+New York,1910,72,129,0
+New York,1911,116,84,1
+New York,1912,77,122,2
+New York,1913,137,58,6
+New York,1914,81,98,22
+New York,1915,67,134,0
+New York,1916,69,131,1
+New York,1917,63,136,2
+New York,1918,59,132,10
+New York,1919,76,123,2
+New York,1920,56,140,5
+New York,1921,39,158,4
+New York,1922,64,135,2
+New York,1923,95,106,0
+New York,1924,90,111,0
+New York,1925,76,125,0
+New York,1926,81,120,0
+New York,1927,90,111,0
+New York,1928,86,115,0
+New York,1929,85,116,0
+New York,1930,87,113,1
+New York,1931,95,106,0
+New York,1932,95,106,0
+New York,1933,99,102,0
+New York,1934,91,110,0
+New York,1935,106,95,0
+New York,1936,96,104,1
+New York,1937,103,98,0
+New York,1938,94,106,5
+New York,1939,88,112,1
+New York,1940,88,112,1
+New York,1941,83,117,1
+New York,1942,83,117,1
+New York,1943,79,121,1
+New York,1944,79,121,1
+New York,1945,76,129,1
+New York,1946,76,129,1
+New York,1947,54,150,2
+New York,1948,54,150,2
+New York,1949,88,118,0
+New York,1950,88,118,0
+New York,1951,86,119,1
+New York,1952,86,119,1
+New York,1953,71,135,0
+New York,1954,71,135,0
+New York,1955,84,124,0
+New York,1956,84,124,0
+New York,1957,74,134,0
+New York,1958,74,134,0
+New York,1959,82,126,0
+New York,1960,82,126,0
+New York,1961,91,117,0
+New York,1962,91,117,0
+New York,1963,90,118,0
+New York,1964,90,118,0
+New York,1965,121,87,0
+New York,1966,118,112,0
+New York,1967,106,101,0
+New York,1968,106,101,0
+New York,1969,96,109,2
+New York,1970,96,109,2
+New York,1971,95,109,3
+New York,1972,95,109,3
+New York,1973,89,120,1
+New York,1974,89,120,1
+New York,1975,114,96,0
+New York,1976,114,96,0
+New York,1977,115,95,0
+New York,1978,115,95,0
+New York,1979,111,99,0
+New York,1980,111,99,0
+New York,1981,110,99,1
+New York,1982,110,99,1
+New York,1983,124,87,0
+New York,1984,124,87,0
+New York,1985,118,91,2
+New York,1986,118,91,2
+New York,1987,118,93,0
+New York,1988,118,93,0
+New York,1989,119,92,0
+New York,1990,119,92,0
+New York,1991,121,90,0
+New York,1992,121,90,0
+New York,1993,126,85,0
+New York,1994,126,85,0
+New York,1995,120,91,0
+New York,1996,120,91,0
+New York,1997,121,90,0
+New York,1998,121,90,0
+New York,1999,124,87,0
+New York,2000,124,87,0
+New York,2001,123,88,0
+New York,2002,123,88,0
+New York,2003,127,85,0
+New York,2004,127,85,0
+New York,2005,131,81,0
+New York,2006,130,82,0
+New York,2007,135,75,2
+New York,2008,135,75,2
+New York,2009,139,71,2
+New York,2010,139,71,2
+New York,2011,124,88,1
+New York,2012,124,88,1
+New York,2013,133,79,1
+New York,2014,133,79,1
+New York,2015,131,80,2
+New York,2016,131,80,2
+New York,2017,130,82,1
+New York,2018,130,82,1
+New York,2019,145,66,2
+New York,2020,146,66,1
+New York,2021,149,63,1
+New York,2022,149,63,1
+New York,2023,144,69,0
+New York,2024,144,69,0
+New York,2025,144,69,0
+New York,2026,144,69,0
+North Carolina,1836,97,0,99
+North Carolina,1837,86,0,84
+North Carolina,1838,86,0,84
+North Carolina,1839,77,0,93
+North Carolina,1840,77,0,93
+North Carolina,1841,67,0,103
+North Carolina,1842,67,0,103
+North Carolina,1843,87,0,83
+North Carolina,1844,87,0,83
+North Carolina,1845,75,0,95
+North Carolina,1846,75,0,95
+North Carolina,1847,78,0,92
+North Carolina,1848,78,0,92
+North Carolina,1849,83,0,87
+North Carolina,1850,83,0,87
+North Carolina,1851,92,0,78
+North Carolina,1852,92,0,78
+North Carolina,1853,86,0,84
+North Carolina,1854,86,0,84
+North Carolina,1855,93,0,77
+North Carolina,1856,93,0,77
+North Carolina,1857,113,0,57
+North Carolina,1858,113,0,57
+North Carolina,1859,114,0,56
+North Carolina,1860,114,0,56
+North Carolina,1861,95,0,75
+North Carolina,1862,95,0,75
+North Carolina,1867,0,106,64
+North Carolina,1868,0,106,64
+North Carolina,1869,0,120,50
+North Carolina,1870,0,120,50
+North Carolina,1871,0,56,114
+North Carolina,1872,0,56,114
+North Carolina,1873,97,72,1
+North Carolina,1874,97,72,1
+North Carolina,1875,121,45,4
+North Carolina,1876,121,45,4
+North Carolina,1877,124,46,0
+North Carolina,1878,124,46,0
+North Carolina,1879,113,57,0
+North Carolina,1880,113,57,0
+North Carolina,1881,121,49,0
+North Carolina,1882,121,49,0
+North Carolina,1883,102,68,0
+North Carolina,1884,102,68,0
+North Carolina,1885,140,30,0
+North Carolina,1886,140,30,0
+North Carolina,1887,98,72,0
+North Carolina,1888,98,72,0
+North Carolina,1889,122,48,0
+North Carolina,1890,122,48,0
+North Carolina,1891,145,24,1
+North Carolina,1892,145,24,1
+North Carolina,1893,138,20,12
+North Carolina,1894,138,20,12
+North Carolina,1895,54,56,60
+North Carolina,1896,54,56,60
+North Carolina,1897,45,66,59
+North Carolina,1898,45,66,59
+North Carolina,1899,134,0,36
+North Carolina,1900,134,0,36
+North Carolina,1901,140,25,5
+North Carolina,1902,140,25,5
+North Carolina,1903,145,22,3
+North Carolina,1904,145,22,3
+North Carolina,1905,148,22,0
+North Carolina,1906,148,22,0
+North Carolina,1907,145,25,0
+North Carolina,1908,145,25,0
+North Carolina,1909,136,34,0
+North Carolina,1910,136,34,0
+North Carolina,1911,142,28,0
+North Carolina,1912,142,28,0
+North Carolina,1913,154,16,0
+North Carolina,1914,154,16,0
+North Carolina,1915,141,27,2
+North Carolina,1916,141,27,2
+North Carolina,1917,138,31,1
+North Carolina,1918,138,31,1
+North Carolina,1919,133,37,0
+North Carolina,1920,133,37,0
+North Carolina,1921,130,40,0
+North Carolina,1922,130,40,0
+North Carolina,1923,157,13,0
+North Carolina,1924,157,13,0
+North Carolina,1925,149,21,0
+North Carolina,1926,149,21,0
+North Carolina,1927,151,19,0
+North Carolina,1928,151,19,0
+North Carolina,1929,122,48,0
+North Carolina,1930,122,48,0
+North Carolina,1931,163,7,0
+North Carolina,1932,163,7,0
+North Carolina,1933,160,10,0
+North Carolina,1934,160,10,0
+North Carolina,1935,156,14,0
+North Carolina,1936,156,14,0
+North Carolina,1937,160,10,0
+North Carolina,1938,160,10,0
+North Carolina,1939,162,8,0
+North Carolina,1940,162,8,0
+North Carolina,1941,162,8,0
+North Carolina,1942,162,8,0
+North Carolina,1943,156,14,0
+North Carolina,1944,156,14,0
+North Carolina,1945,153,17,0
+North Carolina,1946,153,17,0
+North Carolina,1947,156,14,0
+North Carolina,1948,156,14,0
+North Carolina,1949,157,13,0
+North Carolina,1950,157,13,0
+North Carolina,1951,159,11,0
+North Carolina,1952,159,11,0
+North Carolina,1953,154,16,0
+North Carolina,1954,154,16,0
+North Carolina,1955,159,11,0
+North Carolina,1956,159,11,0
+North Carolina,1957,154,16,0
+North Carolina,1958,154,16,0
+North Carolina,1959,165,5,0
+North Carolina,1960,165,5,0
+North Carolina,1961,153,17,0
+North Carolina,1962,153,17,0
+North Carolina,1963,147,23,0
+North Carolina,1964,147,23,0
+North Carolina,1965,155,15,0
+North Carolina,1966,155,15,0
+North Carolina,1967,137,33,0
+North Carolina,1968,137,33,0
+North Carolina,1969,129,41,0
+North Carolina,1970,129,41,0
+North Carolina,1971,139,31,0
+North Carolina,1972,139,31,0
+North Carolina,1973,119,51,0
+North Carolina,1974,119,51,0
+North Carolina,1975,160,10,0
+North Carolina,1976,160,10,0
+North Carolina,1977,160,10,0
+North Carolina,1978,160,10,0
+North Carolina,1979,150,20,0
+North Carolina,1980,150,20,0
+North Carolina,1981,136,34,0
+North Carolina,1982,136,34,0
+North Carolina,1983,146,24,0
+North Carolina,1984,146,24,0
+North Carolina,1985,120,50,0
+North Carolina,1986,120,50,0
+North Carolina,1987,121,49,0
+North Carolina,1988,121,49,0
+North Carolina,1989,111,59,0
+North Carolina,1990,111,59,0
+North Carolina,1991,117,53,0
+North Carolina,1992,117,53,0
+North Carolina,1993,117,53,0
+North Carolina,1994,117,53,0
+North Carolina,1995,78,92,0
+North Carolina,1996,78,92,0
+North Carolina,1997,89,81,0
+North Carolina,1998,89,81,0
+North Carolina,1999,101,69,0
+North Carolina,2000,101,69,0
+North Carolina,2001,97,73,0
+North Carolina,2002,97,73,0
+North Carolina,2003,88,82,0
+North Carolina,2004,88,82,0
+North Carolina,2005,92,78,0
+North Carolina,2006,92,78,0
+North Carolina,2007,99,71,0
+North Carolina,2008,99,71,0
+North Carolina,2009,98,72,0
+North Carolina,2010,98,72,0
+North Carolina,2011,71,98,1
+North Carolina,2012,71,99,0
+North Carolina,2013,60,110,0
+North Carolina,2014,60,110,0
+North Carolina,2015,61,108,1
+North Carolina,2016,61,108,1
+North Carolina,2017,61,109,0
+North Carolina,2018,61,109,0
+North Carolina,2019,76,94,0
+North Carolina,2020,76,94,0
+North Carolina,2021,73,97,0
+North Carolina,2022,73,97,0
+North Carolina,2023,68,102,0
+North Carolina,2024,68,102,0
+North Carolina,2025,69,101,0
+North Carolina,2026,69,101,0
+North Dakota,1889,10,83,0
+North Dakota,1890,10,83,0
+North Dakota,1891,22,63,8
+North Dakota,1892,22,63,8
+North Dakota,1893,23,52,18
+North Dakota,1894,23,52,18
+North Dakota,1895,4,77,10
+North Dakota,1896,4,77,10
+North Dakota,1897,3,68,22
+North Dakota,1898,3,68,22
+North Dakota,1899,2,77,14
+North Dakota,1900,2,77,14
+North Dakota,1901,0,80,12
+North Dakota,1902,0,80,12
+North Dakota,1903,18,116,6
+North Dakota,1904,18,116,6
+North Dakota,1905,7,132,1
+North Dakota,1906,7,132,1
+North Dakota,1907,19,120,1
+North Dakota,1908,19,120,1
+North Dakota,1909,16,130,1
+North Dakota,1910,16,130,1
+North Dakota,1911,16,134,2
+North Dakota,1912,16,134,2
+North Dakota,1913,14,145,0
+North Dakota,1914,14,145,0
+North Dakota,1915,11,150,0
+North Dakota,1916,11,150,0
+North Dakota,1917,23,140,0
+North Dakota,1918,23,140,0
+North Dakota,1919,20,142,162
+North Dakota,1920,20,142,162
+North Dakota,1921,0,162,162
+North Dakota,1922,0,162,162
+North Dakota,1923,0,162,162
+North Dakota,1924,0,162,162
+North Dakota,1925,10,152,162
+North Dakota,1926,10,152,162
+North Dakota,1927,0,162,162
+North Dakota,1928,0,162,162
+North Dakota,1929,2,160,162
+North Dakota,1930,2,160,162
+North Dakota,1931,3,159,162
+North Dakota,1932,3,159,162
+North Dakota,1933,15,147,0
+North Dakota,1934,15,147,0
+North Dakota,1935,37,125,0
+North Dakota,1936,37,125,0
+North Dakota,1937,40,121,1
+North Dakota,1938,40,121,1
+North Dakota,1939,17,145,0
+North Dakota,1940,17,145,0
+North Dakota,1941,15,147,0
+North Dakota,1942,15,147,0
+North Dakota,1943,11,151,0
+North Dakota,1944,11,151,0
+North Dakota,1945,7,155,0
+North Dakota,1946,7,155,0
+North Dakota,1947,5,157,0
+North Dakota,1948,5,157,0
+North Dakota,1949,4,158,0
+North Dakota,1950,4,158,0
+North Dakota,1951,3,159,0
+North Dakota,1952,3,159,0
+North Dakota,1953,3,159,0
+North Dakota,1954,3,159,0
+North Dakota,1955,5,157,0
+North Dakota,1956,5,157,0
+North Dakota,1957,28,134,0
+North Dakota,1958,28,134,0
+North Dakota,1959,63,99,0
+North Dakota,1960,63,99,0
+North Dakota,1961,62,98,0
+North Dakota,1962,62,98,0
+North Dakota,1963,55,107,0
+North Dakota,1964,55,107,0
+North Dakota,1965,85,73,0
+North Dakota,1966,85,73,0
+North Dakota,1967,20,127,0
+North Dakota,1968,20,127,0
+North Dakota,1969,24,123,0
+North Dakota,1970,24,123,0
+North Dakota,1971,52,95,0
+North Dakota,1972,52,95,0
+North Dakota,1973,37,116,0
+North Dakota,1974,37,116,0
+North Dakota,1975,57,96,0
+North Dakota,1976,57,96,0
+North Dakota,1977,68,82,0
+North Dakota,1978,68,82,0
+North Dakota,1979,44,106,0
+North Dakota,1980,44,106,0
+North Dakota,1981,37,113,0
+North Dakota,1982,37,113,0
+North Dakota,1983,76,83,0
+North Dakota,1984,76,83,0
+North Dakota,1985,65,94,0
+North Dakota,1986,65,94,0
+North Dakota,1987,72,87,0
+North Dakota,1988,72,87,0
+North Dakota,1989,77,82,0
+North Dakota,1990,77,82,0
+North Dakota,1991,75,84,0
+North Dakota,1992,75,84,0
+North Dakota,1993,58,89,0
+North Dakota,1994,58,89,0
+North Dakota,1995,43,104,0
+North Dakota,1996,43,104,0
+North Dakota,1997,45,102,0
+North Dakota,1998,45,102,0
+North Dakota,1999,52,95,0
+North Dakota,2000,52,95,0
+North Dakota,2001,46,101,0
+North Dakota,2002,46,101,0
+North Dakota,2003,44,97,0
+North Dakota,2004,44,97,0
+North Dakota,2005,42,99,0
+North Dakota,2006,42,99,0
+North Dakota,2007,54,87,0
+North Dakota,2008,54,87,0
+North Dakota,2009,57,84,0
+North Dakota,2010,57,84,0
+North Dakota,2011,37,104,0
+North Dakota,2012,37,104,0
+North Dakota,2013,37,104,0
+North Dakota,2014,37,104,0
+North Dakota,2015,38,103,0
+North Dakota,2016,38,103,0
+North Dakota,2017,22,119,0
+North Dakota,2018,22,119,0
+North Dakota,2019,25,116,0
+North Dakota,2020,25,116,0
+North Dakota,2021,21,120,0
+North Dakota,2022,21,120,0
+North Dakota,2023,16,125,0
+North Dakota,2024,16,125,0
+North Dakota,2025,16,125,0
+North Dakota,2026,16,125,0
+Ohio,1831,47,0,61
+Ohio,1832,46,0,62
+Ohio,1833,58,0,48
+Ohio,1834,68,0,40
+Ohio,1835,48,0,59
+Ohio,1836,66,0,42
+Ohio,1837,53,0,55
+Ohio,1838,48,0,60
+Ohio,1839,57,0,51
+Ohio,1840,73,0,35
+Ohio,1841,43,0,65
+Ohio,1842,56,0,52
+Ohio,1843,61,0,47
+Ohio,1844,54,0,54
+Ohio,1845,45,0,63
+Ohio,1846,43,0,65
+Ohio,1847,50,0,58
+Ohio,1848,49,0,59
+Ohio,1849,53,0,55
+Ohio,1850,45,0,63
+Ohio,1851,48,0,60
+Ohio,1852,89,0,39
+Ohio,1853,89,0,39
+Ohio,1854,96,0,33
+Ohio,1855,96,0,33
+Ohio,1856,40,107,0
+Ohio,1857,40,107,0
+Ohio,1858,82,57,1
+Ohio,1859,82,57,1
+Ohio,1860,56,83,1
+Ohio,1861,56,83,1
+Ohio,1862,31,100,0
+Ohio,1863,31,100,0
+Ohio,1864,25,106,0
+Ohio,1865,25,106,0
+Ohio,1866,46,96,0
+Ohio,1867,46,96,0
+Ohio,1868,74,66,0
+Ohio,1869,74,66,0
+Ohio,1870,72,76,0
+Ohio,1871,72,76,0
+Ohio,1872,66,75,0
+Ohio,1873,66,75,0
+Ohio,1874,80,58,3
+Ohio,1875,80,58,3
+Ohio,1876,63,85,0
+Ohio,1877,63,85,0
+Ohio,1878,93,48,3
+Ohio,1879,93,48,3
+Ohio,1880,59,92,0
+Ohio,1881,59,92,0
+Ohio,1882,46,92,0
+Ohio,1883,46,92,0
+Ohio,1884,82,56,0
+Ohio,1885,82,56,0
+Ohio,1886,58,89,0
+Ohio,1887,58,89,0
+Ohio,1888,56,90,0
+Ohio,1889,56,90,0
+Ohio,1890,79,71,0
+Ohio,1891,79,71,0
+Ohio,1892,45,93,0
+Ohio,1893,45,93,0
+Ohio,1894,27,111,0
+Ohio,1895,27,111,0
+Ohio,1896,31,117,1
+Ohio,1897,31,117,1
+Ohio,1898,65,79,1
+Ohio,1899,65,79,1
+Ohio,1900,56,81,4
+Ohio,1901,56,81,4
+Ohio,1902,54,89,0
+Ohio,1903,54,89,0
+Ohio,1904,26,117,0
+Ohio,1905,26,117,0
+Ohio,1906,93,80,3
+Ohio,1907,93,80,3
+Ohio,1908,93,80,3
+Ohio,1909,59,91,1
+Ohio,1910,59,91,1
+Ohio,1911,89,64,0
+Ohio,1912,89,64,0
+Ohio,1913,113,40,3
+Ohio,1914,113,40,3
+Ohio,1915,63,92,1
+Ohio,1916,63,92,1
+Ohio,1917,97,67,0
+Ohio,1918,97,67,0
+Ohio,1919,43,127,0
+Ohio,1920,43,127,0
+Ohio,1921,13,149,0
+Ohio,1922,13,149,0
+Ohio,1923,31,134,0
+Ohio,1924,31,134,0
+Ohio,1925,22,143,0
+Ohio,1926,22,143,0
+Ohio,1927,35,138,0
+Ohio,1928,35,138,0
+Ohio,1929,11,153,0
+Ohio,1930,11,153,0
+Ohio,1931,72,88,0
+Ohio,1932,72,88,0
+Ohio,1933,100,67,0
+Ohio,1934,100,67,0
+Ohio,1935,86,81,0
+Ohio,1936,86,81,0
+Ohio,1937,136,38,0
+Ohio,1938,136,38,0
+Ohio,1939,43,127,0
+Ohio,1940,43,127,0
+Ohio,1941,77,97,0
+Ohio,1942,77,97,0
+Ohio,1943,30,139,0
+Ohio,1944,30,139,0
+Ohio,1945,60,109,0
+Ohio,1946,60,109,0
+Ohio,1947,20,155,0
+Ohio,1948,20,155,0
+Ohio,1949,88,80,0
+Ohio,1950,88,80,0
+Ohio,1951,43,124,1
+Ohio,1952,43,124,1
+Ohio,1953,44,125,0
+Ohio,1954,44,125,0
+Ohio,1955,59,110,0
+Ohio,1956,59,110,0
+Ohio,1957,54,119,0
+Ohio,1958,54,119,0
+Ohio,1959,98,74,0
+Ohio,1960,98,74,0
+Ohio,1961,73,104,0
+Ohio,1962,73,104,0
+Ohio,1963,62,108,0
+Ohio,1964,62,108,0
+Ohio,1965,78,91,0
+Ohio,1966,78,91,0
+Ohio,1967,47,85,0
+Ohio,1968,47,85,0
+Ohio,1969,47,85,0
+Ohio,1970,47,85,0
+Ohio,1971,58,74,0
+Ohio,1972,58,74,0
+Ohio,1973,73,59,0
+Ohio,1974,73,59,0
+Ohio,1975,80,52,0
+Ohio,1976,80,52,0
+Ohio,1977,83,49,0
+Ohio,1978,83,49,0
+Ohio,1979,81,51,0
+Ohio,1980,81,51,0
+Ohio,1981,71,61,0
+Ohio,1982,71,61,0
+Ohio,1983,79,53,0
+Ohio,1984,79,53,0
+Ohio,1985,74,58,0
+Ohio,1986,74,58,0
+Ohio,1987,75,57,0
+Ohio,1988,75,57,0
+Ohio,1989,73,59,0
+Ohio,1990,73,59,0
+Ohio,1991,73,59,0
+Ohio,1992,73,59,0
+Ohio,1993,66,66,0
+Ohio,1994,66,66,0
+Ohio,1995,56,76,0
+Ohio,1996,56,76,0
+Ohio,1997,51,81,0
+Ohio,1998,51,81,0
+Ohio,1999,52,80,0
+Ohio,2000,52,80,0
+Ohio,2001,51,81,0
+Ohio,2002,51,81,0
+Ohio,2003,48,84,0
+Ohio,2004,48,84,0
+Ohio,2005,49,83,0
+Ohio,2006,49,83,0
+Ohio,2007,58,74,0
+Ohio,2008,58,74,0
+Ohio,2009,65,67,0
+Ohio,2010,65,67,0
+Ohio,2011,50,82,0
+Ohio,2012,50,82,0
+Ohio,2013,49,83,0
+Ohio,2014,49,83,0
+Ohio,2015,44,88,0
+Ohio,2016,44,88,0
+Ohio,2017,42,90,0
+Ohio,2018,42,90,0
+Ohio,2019,47,85,0
+Ohio,2020,47,85,0
+Ohio,2021,43,89,0
+Ohio,2022,43,89,0
+Ohio,2023,39,93,0
+Ohio,2024,39,93,0
+Ohio,2025,43,89,0
+Ohio,2026,43,89,0
+Oklahoma,1907,131,22,0
+Oklahoma,1908,131,22,0
+Oklahoma,1909,102,51,0
+Oklahoma,1910,102,51,0
+Oklahoma,1911,113,40,0
+Oklahoma,1912,113,40,0
+Oklahoma,1913,116,26,0
+Oklahoma,1914,116,26,0
+Oklahoma,1915,113,22,6
+Oklahoma,1916,113,22,6
+Oklahoma,1917,123,31,1
+Oklahoma,1918,123,31,1
+Oklahoma,1919,108,40,0
+Oklahoma,1920,108,40,0
+Oklahoma,1921,74,72,0
+Oklahoma,1922,74,72,0
+Oklahoma,1923,125,26,0
+Oklahoma,1924,125,26,0
+Oklahoma,1925,119,33,0
+Oklahoma,1926,119,33,0
+Oklahoma,1927,122,30,0
+Oklahoma,1928,122,30,0
+Oklahoma,1929,88,59,0
+Oklahoma,1930,88,59,0
+Oklahoma,1931,120,21,0
+Oklahoma,1932,120,21,0
+Oklahoma,1933,152,9,1
+Oklahoma,1934,152,9,1
+Oklahoma,1935,155,8,1
+Oklahoma,1936,155,8,1
+Oklahoma,1937,158,3,0
+Oklahoma,1938,158,3,0
+Oklahoma,1939,145,14,0
+Oklahoma,1940,145,14,0
+Oklahoma,1941,156,9,0
+Oklahoma,1942,156,9,0
+Oklahoma,1943,133,28,0
+Oklahoma,1944,133,28,0
+Oklahoma,1945,136,28,0
+Oklahoma,1946,136,28,0
+Oklahoma,1947,132,30,0
+Oklahoma,1948,132,30,0
+Oklahoma,1949,142,17,0
+Oklahoma,1950,142,17,0
+Oklahoma,1951,140,22,0
+Oklahoma,1952,140,22,0
+Oklahoma,1953,142,26,0
+Oklahoma,1954,142,26,0
+Oklahoma,1955,141,24,0
+Oklahoma,1956,141,24,0
+Oklahoma,1957,142,23,0
+Oklahoma,1958,142,23,0
+Oklahoma,1959,151,12,0
+Oklahoma,1960,151,12,0
+Oklahoma,1961,147,18,0
+Oklahoma,1962,147,18,0
+Oklahoma,1963,134,30,0
+Oklahoma,1964,134,30,0
+Oklahoma,1965,119,28,0
+Oklahoma,1966,119,28,0
+Oklahoma,1967,113,34,0
+Oklahoma,1968,113,34,0
+Oklahoma,1969,114,33,0
+Oklahoma,1970,114,33,0
+Oklahoma,1971,117,30,0
+Oklahoma,1972,117,30,0
+Oklahoma,1973,113,36,0
+Oklahoma,1974,113,36,0
+Oklahoma,1975,115,34,0
+Oklahoma,1976,115,34,0
+Oklahoma,1977,117,32,0
+Oklahoma,1978,117,32,0
+Oklahoma,1979,114,35,0
+Oklahoma,1980,114,35,0
+Oklahoma,1981,110,39,0
+Oklahoma,1982,110,39,0
+Oklahoma,1983,110,39,0
+Oklahoma,1984,110,39,0
+Oklahoma,1985,104,45,0
+Oklahoma,1986,104,45,0
+Oklahoma,1987,101,48,0
+Oklahoma,1988,101,48,0
+Oklahoma,1989,102,47,0
+Oklahoma,1990,102,47,0
+Oklahoma,1991,106,43,0
+Oklahoma,1992,106,43,0
+Oklahoma,1993,105,44,0
+Oklahoma,1994,105,44,0
+Oklahoma,1995,100,49,0
+Oklahoma,1996,100,49,0
+Oklahoma,1997,98,51,0
+Oklahoma,1998,98,51,0
+Oklahoma,1999,94,55,0
+Oklahoma,2000,94,55,0
+Oklahoma,2001,83,66,0
+Oklahoma,2002,83,66,0
+Oklahoma,2003,81,68,0
+Oklahoma,2004,81,68,0
+Oklahoma,2005,70,79,0
+Oklahoma,2006,69,80,0
+Oklahoma,2007,68,81,0
+Oklahoma,2008,68,81,0
+Oklahoma,2009,62,87,0
+Oklahoma,2010,61,88,0
+Oklahoma,2011,47,102,0
+Oklahoma,2012,47,99,3
+Oklahoma,2013,41,108,0
+Oklahoma,2014,41,108,0
+Oklahoma,2015,37,112,0
+Oklahoma,2016,39,110,0
+Oklahoma,2017,32,117,0
+Oklahoma,2018,32,117,0
+Oklahoma,2019,33,116,0
+Oklahoma,2020,33,116,0
+Oklahoma,2021,28,121,0
+Oklahoma,2022,28,121,0
+Oklahoma,2023,28,121,0
+Oklahoma,2024,28,121,0
+Oklahoma,2025,28,121,0
+Oklahoma,2026,28,121,0
+Oregon,1851,11,0,2
+Oregon,1852,17,0,16
+Oregon,1853,30,0,5
+Oregon,1854,30,0,8
+Oregon,1855,34,0,5
+Oregon,1856,30,0,5
+Oregon,1857,25,0,14
+Oregon,1858,33,6,2
+Oregon,1859,44,6,0
+Oregon,1860,44,6,0
+Oregon,1861,37,13,0
+Oregon,1862,37,13,0
+Oregon,1863,6,43,1
+Oregon,1864,6,43,1
+Oregon,1865,8,48,0
+Oregon,1866,8,48,0
+Oregon,1867,30,41,1
+Oregon,1868,30,41,1
+Oregon,1869,37,28,0
+Oregon,1870,37,28,0
+Oregon,1871,41,28,0
+Oregon,1872,41,28,0
+Oregon,1873,26,45,0
+Oregon,1874,26,45,0
+Oregon,1875,38,28,24
+Oregon,1876,38,28,24
+Oregon,1877,45,40,5
+Oregon,1878,45,40,5
+Oregon,1879,48,38,4
+Oregon,1880,48,38,4
+Oregon,1881,34,56,0
+Oregon,1882,34,56,0
+Oregon,1883,35,53,2
+Oregon,1884,35,53,2
+Oregon,1885,38,52,0
+Oregon,1886,38,52,0
+Oregon,1887,37,53,0
+Oregon,1888,37,53,0
+Oregon,1889,18,72,0
+Oregon,1890,18,72,0
+Oregon,1891,24,66,0
+Oregon,1892,24,66,0
+Oregon,1893,32,54,4
+Oregon,1894,32,54,4
+Oregon,1895,8,72,10
+Oregon,1896,8,72,10
+Oregon,1897,7,63,20
+Oregon,1898,7,63,20
+Oregon,1899,4,66,20
+Oregon,1900,4,66,20
+Oregon,1901,8,56,26
+Oregon,1902,8,56,26
+Oregon,1903,14,69,7
+Oregon,1904,14,69,7
+Oregon,1905,15,75,0
+Oregon,1906,15,75,0
+Oregon,1907,7,83,0
+Oregon,1908,7,83,0
+Oregon,1909,13,77,0
+Oregon,1910,13,77,0
+Oregon,1911,5,85,0
+Oregon,1912,5,85,0
+Oregon,1913,7,76,7
+Oregon,1914,7,76,7
+Oregon,1915,6,84,0
+Oregon,1916,6,84,0
+Oregon,1917,9,79,2
+Oregon,1918,9,79,2
+Oregon,1919,9,78,3
+Oregon,1920,9,78,3
+Oregon,1921,3,85,2
+Oregon,1922,3,85,2
+Oregon,1923,13,77,0
+Oregon,1924,13,77,0
+Oregon,1925,7,83,0
+Oregon,1926,7,83,0
+Oregon,1927,7,83,0
+Oregon,1928,7,83,0
+Oregon,1929,4,86,0
+Oregon,1930,4,86,0
+Oregon,1931,8,82,0
+Oregon,1932,8,82,0
+Oregon,1933,25,64,1
+Oregon,1934,25,64,1
+Oregon,1935,51,39,0
+Oregon,1936,51,39,0
+Oregon,1937,50,39,1
+Oregon,1938,50,39,1
+Oregon,1939,21,68,1
+Oregon,1940,21,68,1
+Oregon,1941,27,63,0
+Oregon,1942,27,63,0
+Oregon,1943,12,78,0
+Oregon,1944,12,78,0
+Oregon,1945,15,75,0
+Oregon,1946,15,75,0
+Oregon,1947,7,83,0
+Oregon,1948,7,83,0
+Oregon,1949,19,71,0
+Oregon,1950,19,71,0
+Oregon,1951,18,72,0
+Oregon,1952,18,72,0
+Oregon,1953,15,75,0
+Oregon,1954,15,75,0
+Oregon,1955,31,59,0
+Oregon,1956,31,59,0
+Oregon,1957,52,38,0
+Oregon,1958,52,38,0
+Oregon,1959,52,38,0
+Oregon,1960,52,38,0
+Oregon,1961,51,39,0
+Oregon,1962,51,39,0
+Oregon,1963,52,38,0
+Oregon,1964,52,38,0
+Oregon,1965,46,44,0
+Oregon,1966,46,44,0
+Oregon,1967,41,49,0
+Oregon,1968,41,49,0
+Oregon,1969,38,52,0
+Oregon,1970,38,52,0
+Oregon,1971,42,48,0
+Oregon,1972,42,48,0
+Oregon,1973,51,39,0
+Oregon,1974,51,39,0
+Oregon,1975,60,29,1
+Oregon,1976,60,29,1
+Oregon,1977,61,29,0
+Oregon,1978,61,29,0
+Oregon,1979,57,33,0
+Oregon,1980,57,33,0
+Oregon,1981,55,35,0
+Oregon,1982,55,35,0
+Oregon,1983,57,33,0
+Oregon,1984,57,33,0
+Oregon,1985,52,38,0
+Oregon,1986,52,38,0
+Oregon,1987,52,38,0
+Oregon,1988,48,42,0
+Oregon,1989,51,39,0
+Oregon,1990,51,39,0
+Oregon,1991,49,41,0
+Oregon,1992,49,41,0
+Oregon,1993,44,46,0
+Oregon,1994,44,46,0
+Oregon,1995,38,52,0
+Oregon,1996,38,52,0
+Oregon,1997,39,51,0
+Oregon,1998,39,51,0
+Oregon,1999,38,51,1
+Oregon,2000,38,51,1
+Oregon,2001,41,48,1
+Oregon,2002,41,48,1
+Oregon,2003,40,50,0
+Oregon,2004,40,50,0
+Oregon,2005,44,44,0
+Oregon,2006,44,44,0
+Oregon,2007,50,40,0
+Oregon,2008,50,40,0
+Oregon,2009,54,36,0
+Oregon,2010,54,36,0
+Oregon,2011,46,44,0
+Oregon,2012,46,44,0
+Oregon,2013,50,40,0
+Oregon,2014,50,40,0
+Oregon,2015,53,37,0
+Oregon,2016,53,37,0
+Oregon,2017,52,38,0
+Oregon,2018,52,38,0
+Oregon,2019,56,34,0
+Oregon,2020,56,34,0
+Oregon,2021,55,34,1
+Oregon,2022,55,34,1
+Oregon,2023,52,37,1
+Oregon,2024,52,37,1
+Oregon,2025,54,36,0
+Oregon,2026,55,35,0
+Pennsylvania,1836,51,0,82
+Pennsylvania,1837,87,0,46
+Pennsylvania,1838,70,0,63
+Pennsylvania,1839,71,0,62
+Pennsylvania,1840,86,0,47
+Pennsylvania,1841,58,0,75
+Pennsylvania,1842,80,0,53
+Pennsylvania,1843,76,0,57
+Pennsylvania,1844,80,0,53
+Pennsylvania,1845,72,0,61
+Pennsylvania,1846,81,0,52
+Pennsylvania,1847,58,0,75
+Pennsylvania,1848,78,0,55
+Pennsylvania,1849,62,0,71
+Pennsylvania,1850,76,0,57
+Pennsylvania,1851,76,0,57
+Pennsylvania,1852,74,0,59
+Pennsylvania,1853,77,0,56
+Pennsylvania,1854,88,0,45
+Pennsylvania,1855,49,0,84
+Pennsylvania,1856,83,0,50
+Pennsylvania,1857,68,0,65
+Pennsylvania,1858,89,42,2
+Pennsylvania,1859,50,83,0
+Pennsylvania,1860,46,87,0
+Pennsylvania,1861,35,98,0
+Pennsylvania,1862,61,72,0
+Pennsylvania,1863,67,66,0
+Pennsylvania,1864,64,69,0
+Pennsylvania,1865,49,84,0
+Pennsylvania,1866,45,88,0
+Pennsylvania,1867,50,83,0
+Pennsylvania,1868,60,73,0
+Pennsylvania,1869,53,80,0
+Pennsylvania,1870,55,78,0
+Pennsylvania,1871,62,71,0
+Pennsylvania,1872,55,80,1
+Pennsylvania,1873,53,78,2
+Pennsylvania,1874,55,77,1
+Pennsylvania,1875,130,119,2
+Pennsylvania,1876,131,118,2
+Pennsylvania,1877,100,150,1
+Pennsylvania,1878,100,150,1
+Pennsylvania,1879,94,139,18
+Pennsylvania,1880,94,139,18
+Pennsylvania,1881,95,153,3
+Pennsylvania,1882,95,153,3
+Pennsylvania,1883,133,118,0
+Pennsylvania,1884,133,118,0
+Pennsylvania,1885,79,171,1
+Pennsylvania,1886,79,171,1
+Pennsylvania,1887,85,165,1
+Pennsylvania,1888,85,165,1
+Pennsylvania,1889,76,178,0
+Pennsylvania,1890,76,178,0
+Pennsylvania,1891,98,153,3
+Pennsylvania,1892,98,153,3
+Pennsylvania,1893,86,168,0
+Pennsylvania,1894,86,168,0
+Pennsylvania,1895,35,219,0
+Pennsylvania,1896,35,219,0
+Pennsylvania,1897,38,216,0
+Pennsylvania,1898,38,216,0
+Pennsylvania,1899,84,164,6
+Pennsylvania,1900,84,164,6
+Pennsylvania,1901,60,194,0
+Pennsylvania,1902,60,194,0
+Pennsylvania,1903,54,200,0
+Pennsylvania,1904,54,200,0
+Pennsylvania,1905,27,227,0
+Pennsylvania,1906,27,227,0
+Pennsylvania,1907,60,197,0
+Pennsylvania,1908,60,197,0
+Pennsylvania,1909,45,212,0
+Pennsylvania,1910,45,212,0
+Pennsylvania,1911,62,200,1
+Pennsylvania,1912,62,200,1
+Pennsylvania,1913,70,161,26
+Pennsylvania,1914,70,161,26
+Pennsylvania,1915,52,202,3
+Pennsylvania,1916,52,202,3
+Pennsylvania,1917,47,208,3
+Pennsylvania,1918,47,208,3
+Pennsylvania,1919,29,228,0
+Pennsylvania,1920,29,228,0
+Pennsylvania,1921,17,240,0
+Pennsylvania,1922,17,240,0
+Pennsylvania,1923,48,210,0
+Pennsylvania,1924,48,210,0
+Pennsylvania,1925,22,236,0
+Pennsylvania,1926,22,236,0
+Pennsylvania,1927,22,236,0
+Pennsylvania,1928,22,236,0
+Pennsylvania,1929,22,236,0
+Pennsylvania,1930,22,236,0
+Pennsylvania,1931,26,230,2
+Pennsylvania,1932,26,230,2
+Pennsylvania,1933,72,183,3
+Pennsylvania,1934,72,183,3
+Pennsylvania,1935,136,120,2
+Pennsylvania,1936,136,120,2
+Pennsylvania,1937,188,70,0
+Pennsylvania,1938,188,70,0
+Pennsylvania,1939,102,156,0
+Pennsylvania,1940,102,156,0
+Pennsylvania,1941,144,114,0
+Pennsylvania,1942,144,114,0
+Pennsylvania,1943,94,164,0
+Pennsylvania,1944,94,164,0
+Pennsylvania,1945,117,141,0
+Pennsylvania,1946,117,141,0
+Pennsylvania,1947,54,204,0
+Pennsylvania,1948,54,204,0
+Pennsylvania,1949,106,152,0
+Pennsylvania,1950,106,152,0
+Pennsylvania,1951,108,150,0
+Pennsylvania,1952,108,150,0
+Pennsylvania,1953,116,142,0
+Pennsylvania,1954,116,142,0
+Pennsylvania,1955,136,124,0
+Pennsylvania,1956,136,124,0
+Pennsylvania,1957,107,153,0
+Pennsylvania,1958,107,153,0
+Pennsylvania,1959,130,130,0
+Pennsylvania,1960,130,130,0
+Pennsylvania,1961,134,126,0
+Pennsylvania,1962,134,126,0
+Pennsylvania,1963,125,135,0
+Pennsylvania,1964,125,135,0
+Pennsylvania,1965,138,121,0
+Pennsylvania,1966,138,121,0
+Pennsylvania,1967,122,131,0
+Pennsylvania,1968,122,131,0
+Pennsylvania,1969,130,123,0
+Pennsylvania,1970,130,123,0
+Pennsylvania,1971,139,114,0
+Pennsylvania,1972,139,114,0
+Pennsylvania,1973,122,131,0
+Pennsylvania,1974,122,131,0
+Pennsylvania,1975,143,110,0
+Pennsylvania,1976,143,110,0
+Pennsylvania,1977,149,104,0
+Pennsylvania,1978,149,104,0
+Pennsylvania,1979,129,124,0
+Pennsylvania,1980,129,124,0
+Pennsylvania,1981,124,129,0
+Pennsylvania,1982,124,129,0
+Pennsylvania,1983,126,127,0
+Pennsylvania,1984,126,127,0
+Pennsylvania,1985,126,127,0
+Pennsylvania,1986,126,127,0
+Pennsylvania,1987,126,127,0
+Pennsylvania,1988,126,127,0
+Pennsylvania,1989,127,126,0
+Pennsylvania,1990,127,126,0
+Pennsylvania,1991,131,122,0
+Pennsylvania,1992,131,122,0
+Pennsylvania,1993,130,123,0
+Pennsylvania,1994,129,124,0
+Pennsylvania,1995,122,131,0
+Pennsylvania,1996,122,131,0
+Pennsylvania,1997,119,134,0
+Pennsylvania,1998,119,134,0
+Pennsylvania,1999,120,133,0
+Pennsylvania,2000,120,133,0
+Pennsylvania,2001,119,134,0
+Pennsylvania,2002,119,134,0
+Pennsylvania,2003,114,139,0
+Pennsylvania,2004,114,139,0
+Pennsylvania,2005,113,140,0
+Pennsylvania,2006,113,140,0
+Pennsylvania,2007,123,130,0
+Pennsylvania,2008,123,130,0
+Pennsylvania,2009,124,129,0
+Pennsylvania,2010,124,129,0
+Pennsylvania,2011,111,142,0
+Pennsylvania,2012,111,142,0
+Pennsylvania,2013,115,138,0
+Pennsylvania,2014,115,138,0
+Pennsylvania,2015,103,150,0
+Pennsylvania,2016,103,150,0
+Pennsylvania,2017,98,155,0
+Pennsylvania,2018,98,155,0
+Pennsylvania,2019,115,138,0
+Pennsylvania,2020,114,138,1
+Pennsylvania,2021,111,141,1
+Pennsylvania,2022,111,141,1
+Pennsylvania,2023,124,129,0
+Pennsylvania,2024,124,129,0
+Pennsylvania,2025,125,128,0
+Pennsylvania,2026,126,127,0
+Rhode Island,1834,36,0,42
+Rhode Island,1835,39,0,43
+Rhode Island,1836,41,0,33
+Rhode Island,1838,28,0,54
+Rhode Island,1839,32,0,50
+Rhode Island,1840,20,0,62
+Rhode Island,1841,17,0,65
+Rhode Island,1842,10,0,72
+Rhode Island,1843,26,0,74
+Rhode Island,1844,20,0,80
+Rhode Island,1845,37,0,63
+Rhode Island,1847,27,0,72
+Rhode Island,1848,37,0,63
+Rhode Island,1849,34,0,66
+Rhode Island,1850,36,0,64
+Rhode Island,1851,52,0,51
+Rhode Island,1852,44,0,57
+Rhode Island,1853,63,0,40
+Rhode Island,1854,44,0,59
+Rhode Island,1855,5,0,98
+Rhode Island,1856,25,78,0
+Rhode Island,1857,10,94,0
+Rhode Island,1858,6,97,0
+Rhode Island,1859,14,89,0
+Rhode Island,1860,0,46,57
+Rhode Island,1861,0,39,65
+Rhode Island,1862,0,37,66
+Rhode Island,1863,0,44,61
+Rhode Island,1864,30,75,0
+Rhode Island,1865,27,77,0
+Rhode Island,1866,12,93,0
+Rhode Island,1867,13,93,0
+Rhode Island,1868,12,94,0
+Rhode Island,1869,17,88,0
+Rhode Island,1870,27,79,0
+Rhode Island,1871,26,82,0
+Rhode Island,1872,26,82,0
+Rhode Island,1873,27,81,0
+Rhode Island,1874,25,83,0
+Rhode Island,1875,23,85,0
+Rhode Island,1876,20,88,0
+Rhode Island,1877,26,82,0
+Rhode Island,1878,28,80,0
+Rhode Island,1879,26,82,0
+Rhode Island,1880,21,87,0
+Rhode Island,1881,16,92,0
+Rhode Island,1882,10,99,0
+Rhode Island,1883,20,89,0
+Rhode Island,1884,23,85,0
+Rhode Island,1885,14,93,1
+Rhode Island,1886,12,94,2
+Rhode Island,1887,56,50,2
+Rhode Island,1888,16,91,1
+Rhode Island,1889,50,58,0
+Rhode Island,1890,56,52,0
+Rhode Island,1891,30,78,0
+Rhode Island,1892,38,70,0
+Rhode Island,1893,54,54,0
+Rhode Island,1894,5,103,0
+Rhode Island,1895,9,100,0
+Rhode Island,1896,6,103,0
+Rhode Island,1897,23,86,0
+Rhode Island,1898,11,98,0
+Rhode Island,1899,19,89,1
+Rhode Island,1900,15,94,0
+Rhode Island,1901,15,94,0
+Rhode Island,1902,26,83,1
+Rhode Island,1903,46,64,0
+Rhode Island,1904,42,66,2
+Rhode Island,1905,15,92,3
+Rhode Island,1906,17,93,0
+Rhode Island,1907,42,66,2
+Rhode Island,1908,40,68,2
+Rhode Island,1909,12,95,3
+Rhode Island,1910,12,93,5
+Rhode Island,1911,51,87,0
+Rhode Island,1912,33,104,1
+Rhode Island,1913,55,82,1
+Rhode Island,1914,55,82,1
+Rhode Island,1915,32,105,2
+Rhode Island,1916,32,105,2
+Rhode Island,1917,47,90,2
+Rhode Island,1918,47,90,2
+Rhode Island,1919,41,98,0
+Rhode Island,1920,41,98,0
+Rhode Island,1921,29,107,2
+Rhode Island,1922,29,107,2
+Rhode Island,1923,64,70,5
+Rhode Island,1924,64,70,5
+Rhode Island,1925,39,100,0
+Rhode Island,1926,39,100,0
+Rhode Island,1927,30,109,0
+Rhode Island,1928,30,109,0
+Rhode Island,1929,49,90,0
+Rhode Island,1930,49,90,0
+Rhode Island,1931,49,93,0
+Rhode Island,1932,49,93,0
+Rhode Island,1933,64,78,0
+Rhode Island,1934,64,78,0
+Rhode Island,1935,79,63,0
+Rhode Island,1936,79,63,0
+Rhode Island,1937,69,73,0
+Rhode Island,1938,69,73,0
+Rhode Island,1939,49,95,0
+Rhode Island,1940,49,95,0
+Rhode Island,1941,78,66,0
+Rhode Island,1942,78,66,0
+Rhode Island,1943,76,68,0
+Rhode Island,1944,76,68,0
+Rhode Island,1945,87,57,0
+Rhode Island,1946,87,57,0
+Rhode Island,1947,72,72,0
+Rhode Island,1948,72,72,0
+Rhode Island,1949,86,58,0
+Rhode Island,1950,86,58,0
+Rhode Island,1951,88,56,0
+Rhode Island,1952,88,56,0
+Rhode Island,1953,76,68,0
+Rhode Island,1954,76,68,0
+Rhode Island,1955,89,55,0
+Rhode Island,1956,89,55,0
+Rhode Island,1957,83,61,0
+Rhode Island,1958,83,61,0
+Rhode Island,1959,94,50,0
+Rhode Island,1960,94,50,0
+Rhode Island,1961,108,36,0
+Rhode Island,1962,108,36,0
+Rhode Island,1963,101,45,0
+Rhode Island,1964,101,45,0
+Rhode Island,1965,106,39,1
+Rhode Island,1966,106,39,1
+Rhode Island,1967,102,48,0
+Rhode Island,1968,102,48,0
+Rhode Island,1969,113,37,0
+Rhode Island,1970,113,37,0
+Rhode Island,1971,116,33,1
+Rhode Island,1972,116,33,1
+Rhode Island,1973,112,38,0
+Rhode Island,1974,112,38,0
+Rhode Island,1975,132,18,0
+Rhode Island,1976,132,18,0
+Rhode Island,1977,128,22,0
+Rhode Island,1978,128,22,0
+Rhode Island,1979,129,21,0
+Rhode Island,1980,129,21,0
+Rhode Island,1981,125,25,0
+Rhode Island,1982,125,25,0
+Rhode Island,1983,129,21,0
+Rhode Island,1984,115,35,0
+Rhode Island,1985,112,37,1
+Rhode Island,1986,112,37,1
+Rhode Island,1987,118,32,0
+Rhode Island,1988,118,32,0
+Rhode Island,1989,127,23,0
+Rhode Island,1990,127,23,0
+Rhode Island,1991,134,16,0
+Rhode Island,1992,134,16,0
+Rhode Island,1993,124,26,0
+Rhode Island,1994,124,26,0
+Rhode Island,1995,124,26,0
+Rhode Island,1996,124,26,0
+Rhode Island,1997,125,25,0
+Rhode Island,1998,125,25,0
+Rhode Island,1999,128,21,1
+Rhode Island,2000,128,21,1
+Rhode Island,2001,129,21,0
+Rhode Island,2002,129,21,0
+Rhode Island,2003,95,17,1
+Rhode Island,2004,95,17,1
+Rhode Island,2005,92,21,0
+Rhode Island,2006,92,21,0
+Rhode Island,2007,93,20,0
+Rhode Island,2008,93,20,0
+Rhode Island,2009,102,10,1
+Rhode Island,2010,102,10,1
+Rhode Island,2011,94,18,1
+Rhode Island,2012,94,17,2
+Rhode Island,2013,101,11,1
+Rhode Island,2014,101,11,1
+Rhode Island,2015,95,16,2
+Rhode Island,2016,94,17,2
+Rhode Island,2017,97,16,0
+Rhode Island,2018,97,16,0
+Rhode Island,2019,99,14,0
+Rhode Island,2020,99,14,0
+Rhode Island,2021,98,15,0
+Rhode Island,2022,98,15,0
+Rhode Island,2023,98,14,1
+Rhode Island,2024,98,14,1
+Rhode Island,2025,98,14,1
+Rhode Island,2026,98,14,1
+South Carolina,1869,20,135,0
+South Carolina,1870,20,135,0
+South Carolina,1871,5,126,24
+South Carolina,1872,5,126,24
+South Carolina,1873,31,126,0
+South Carolina,1874,31,126,0
+South Carolina,1875,0,117,40
+South Carolina,1876,0,117,40
+South Carolina,1877,80,77,0
+South Carolina,1878,80,77,0
+South Carolina,1879,149,8,0
+South Carolina,1880,149,8,0
+South Carolina,1881,153,6,0
+South Carolina,1882,153,6,0
+South Carolina,1883,151,8,0
+South Carolina,1884,151,8,0
+South Carolina,1885,151,8,0
+South Carolina,1886,151,8,0
+South Carolina,1887,153,6,0
+South Carolina,1888,153,6,0
+South Carolina,1889,156,3,0
+South Carolina,1890,156,3,0
+South Carolina,1891,147,12,0
+South Carolina,1892,147,12,0
+South Carolina,1893,156,4,0
+South Carolina,1894,156,4,0
+South Carolina,1895,133,3,24
+South Carolina,1896,133,3,24
+South Carolina,1897,159,1,0
+South Carolina,1898,159,1,0
+South Carolina,1899,164,1,0
+South Carolina,1900,164,1,0
+South Carolina,1901,164,1,0
+South Carolina,1902,164,1,0
+South Carolina,1903,165,0,0
+South Carolina,1904,165,0,0
+South Carolina,1905,165,0,0
+South Carolina,1906,165,0,0
+South Carolina,1907,165,0,0
+South Carolina,1908,165,0,0
+South Carolina,1909,165,0,0
+South Carolina,1910,165,0,0
+South Carolina,1911,168,0,0
+South Carolina,1912,168,0,0
+South Carolina,1913,168,0,0
+South Carolina,1914,168,0,0
+South Carolina,1915,168,0,0
+South Carolina,1916,168,0,0
+South Carolina,1917,168,0,0
+South Carolina,1918,168,0,0
+South Carolina,1919,170,0,0
+South Carolina,1920,170,0,0
+South Carolina,1921,170,0,0
+South Carolina,1922,170,0,0
+South Carolina,1923,170,0,0
+South Carolina,1924,170,0,0
+South Carolina,1925,170,0,0
+South Carolina,1926,170,0,0
+South Carolina,1927,170,0,0
+South Carolina,1928,170,0,0
+South Carolina,1929,170,0,0
+South Carolina,1930,170,0,0
+South Carolina,1931,170,0,0
+South Carolina,1932,170,0,0
+South Carolina,1933,170,0,0
+South Carolina,1934,170,0,0
+South Carolina,1935,170,0,0
+South Carolina,1936,170,0,0
+South Carolina,1937,170,0,0
+South Carolina,1938,170,0,0
+South Carolina,1939,170,0,0
+South Carolina,1940,170,0,0
+South Carolina,1941,170,0,0
+South Carolina,1942,170,0,0
+South Carolina,1943,170,0,0
+South Carolina,1944,170,0,0
+South Carolina,1945,170,0,0
+South Carolina,1946,170,0,0
+South Carolina,1947,170,0,0
+South Carolina,1948,170,0,0
+South Carolina,1949,170,0,0
+South Carolina,1950,170,0,0
+South Carolina,1951,170,0,0
+South Carolina,1952,170,0,0
+South Carolina,1953,170,0,0
+South Carolina,1954,170,0,0
+South Carolina,1955,170,0,0
+South Carolina,1956,170,0,0
+South Carolina,1957,170,0,0
+South Carolina,1958,170,0,0
+South Carolina,1959,170,0,0
+South Carolina,1960,170,0,0
+South Carolina,1961,170,0,0
+South Carolina,1962,169,1,0
+South Carolina,1963,170,0,0
+South Carolina,1964,170,0,0
+South Carolina,1965,169,1,0
+South Carolina,1966,169,1,0
+South Carolina,1967,150,23,1
+South Carolina,1968,150,23,1
+South Carolina,1969,166,8,0
+South Carolina,1970,166,8,0
+South Carolina,1971,157,13,0
+South Carolina,1972,157,13,0
+South Carolina,1973,146,24,0
+South Carolina,1974,146,24,0
+South Carolina,1975,151,19,0
+South Carolina,1976,151,19,0
+South Carolina,1977,154,16,0
+South Carolina,1978,154,16,0
+South Carolina,1979,150,20,0
+South Carolina,1980,150,20,0
+South Carolina,1981,147,23,0
+South Carolina,1982,147,23,0
+South Carolina,1983,144,26,0
+South Carolina,1984,144,26,0
+South Carolina,1985,132,38,0
+South Carolina,1986,132,38,0
+South Carolina,1987,128,42,0
+South Carolina,1988,128,42,0
+South Carolina,1989,123,47,0
+South Carolina,1990,123,47,0
+South Carolina,1991,115,55,0
+South Carolina,1992,115,55,0
+South Carolina,1993,104,66,0
+South Carolina,1994,104,66,0
+South Carolina,1995,80,90,0
+South Carolina,1996,80,90,0
+South Carolina,1997,78,92,0
+South Carolina,1998,78,92,0
+South Carolina,1999,82,88,0
+South Carolina,2000,82,88,0
+South Carolina,2001,74,96,0
+South Carolina,2002,74,96,0
+South Carolina,2003,71,99,0
+South Carolina,2004,71,99,0
+South Carolina,2005,70,100,0
+South Carolina,2006,70,100,0
+South Carolina,2007,71,99,0
+South Carolina,2008,70,100,0
+South Carolina,2009,70,100,0
+South Carolina,2010,70,100,0
+South Carolina,2011,67,103,0
+South Carolina,2012,67,103,0
+South Carolina,2013,64,106,0
+South Carolina,2014,64,106,0
+South Carolina,2015,63,106,1
+South Carolina,2016,64,106,0
+South Carolina,2017,62,108,0
+South Carolina,2018,62,108,0
+South Carolina,2019,63,107,0
+South Carolina,2020,63,107,0
+South Carolina,2021,59,111,0
+South Carolina,2022,59,111,0
+South Carolina,2023,51,118,1
+South Carolina,2024,51,118,1
+South Carolina,2025,48,122,0
+South Carolina,2026,47,123,0
+South Dakota,1889,17,143,9
+South Dakota,1890,17,143,9
+South Dakota,1891,66,42,57
+South Dakota,1892,66,42,57
+South Dakota,1893,8,104,14
+South Dakota,1894,8,104,14
+South Dakota,1895,5,104,20
+South Dakota,1896,5,104,20
+South Dakota,1897,11,59,57
+South Dakota,1898,11,59,57
+South Dakota,1899,13,92,27
+South Dakota,1900,13,92,27
+South Dakota,1901,13,92,27
+South Dakota,1902,8,120,4
+South Dakota,1903,11,118,3
+South Dakota,1904,11,118,3
+South Dakota,1905,3,128,3
+South Dakota,1906,3,128,3
+South Dakota,1907,17,115,2
+South Dakota,1908,17,115,2
+South Dakota,1909,15,130,3
+South Dakota,1910,15,130,3
+South Dakota,1911,16,129,4
+South Dakota,1912,16,129,4
+South Dakota,1913,24,123,1
+South Dakota,1914,24,123,1
+South Dakota,1915,30,118,0
+South Dakota,1916,30,118,0
+South Dakota,1917,24,124,0
+South Dakota,1918,24,124,0
+South Dakota,1919,13,131,3
+South Dakota,1920,13,131,3
+South Dakota,1921,5,139,4
+South Dakota,1922,5,139,4
+South Dakota,1923,21,118,8
+South Dakota,1924,21,118,8
+South Dakota,1925,24,120,4
+South Dakota,1926,24,120,4
+South Dakota,1927,41,106,0
+South Dakota,1928,41,106,0
+South Dakota,1929,33,115,0
+South Dakota,1930,33,115,0
+South Dakota,1931,38,110,0
+South Dakota,1932,38,110,0
+South Dakota,1933,99,49,0
+South Dakota,1934,99,49,0
+South Dakota,1935,95,53,0
+South Dakota,1936,95,53,0
+South Dakota,1937,59,89,0
+South Dakota,1938,59,89,0
+South Dakota,1939,18,92,0
+South Dakota,1940,18,92,0
+South Dakota,1941,14,96,0
+South Dakota,1942,14,96,0
+South Dakota,1943,10,100,0
+South Dakota,1944,10,100,0
+South Dakota,1945,3,107,0
+South Dakota,1946,3,107,0
+South Dakota,1947,4,106,0
+South Dakota,1948,4,106,0
+South Dakota,1949,19,91,0
+South Dakota,1950,19,91,0
+South Dakota,1951,15,95,0
+South Dakota,1952,15,95,0
+South Dakota,1953,2,108,0
+South Dakota,1954,2,108,0
+South Dakota,1955,24,86,0
+South Dakota,1956,24,86,0
+South Dakota,1957,44,66,0
+South Dakota,1958,44,66,0
+South Dakota,1959,52,58,0
+South Dakota,1960,52,58,0
+South Dakota,1961,30,80,0
+South Dakota,1962,30,80,0
+South Dakota,1963,26,84,0
+South Dakota,1964,26,84,0
+South Dakota,1965,45,64,1
+South Dakota,1966,45,64,1
+South Dakota,1967,17,93,0
+South Dakota,1968,17,93,0
+South Dakota,1969,24,86,0
+South Dakota,1970,24,86,0
+South Dakota,1971,41,69,0
+South Dakota,1972,41,69,0
+South Dakota,1973,53,52,0
+South Dakota,1974,53,52,0
+South Dakota,1975,52,53,0
+South Dakota,1976,52,53,0
+South Dakota,1977,33,72,0
+South Dakota,1978,33,72,0
+South Dakota,1979,33,72,0
+South Dakota,1980,33,72,0
+South Dakota,1981,31,74,0
+South Dakota,1982,31,74,0
+South Dakota,1983,27,78,0
+South Dakota,1984,27,78,0
+South Dakota,1985,23,82,0
+South Dakota,1986,23,82,0
+South Dakota,1987,33,72,0
+South Dakota,1988,33,72,0
+South Dakota,1989,39,66,0
+South Dakota,1990,39,66,0
+South Dakota,1991,42,63,0
+South Dakota,1992,42,63,0
+South Dakota,1993,49,56,0
+South Dakota,1994,49,56,0
+South Dakota,1995,40,64,1
+South Dakota,1996,40,64,1
+South Dakota,1997,36,69,0
+South Dakota,1998,36,69,0
+South Dakota,1999,31,74,0
+South Dakota,2000,31,74,0
+South Dakota,2001,31,74,0
+South Dakota,2002,31,74,0
+South Dakota,2003,30,75,0
+South Dakota,2004,30,75,0
+South Dakota,2005,29,76,0
+South Dakota,2006,29,76,0
+South Dakota,2007,35,70,0
+South Dakota,2008,35,70,0
+South Dakota,2009,38,67,0
+South Dakota,2010,38,67,0
+South Dakota,2011,24,80,1
+South Dakota,2012,24,80,1
+South Dakota,2013,24,81,0
+South Dakota,2014,24,81,0
+South Dakota,2015,20,85,0
+South Dakota,2016,20,85,0
+South Dakota,2017,16,89,0
+South Dakota,2018,16,89,0
+South Dakota,2019,16,89,0
+South Dakota,2020,16,89,0
+South Dakota,2021,11,94,0
+South Dakota,2022,11,94,0
+South Dakota,2023,11,94,0
+South Dakota,2024,11,94,0
+South Dakota,2025,9,96,0
+South Dakota,2026,8,97,0
+Tennessee,1838,32,0,64
+Tennessee,1839,32,0,64
+Tennessee,1840,56,0,44
+Tennessee,1841,56,0,44
+Tennessee,1842,49,0,51
+Tennessee,1843,49,0,51
+Tennessee,1844,46,0,54
+Tennessee,1845,46,0,54
+Tennessee,1846,52,0,48
+Tennessee,1847,52,0,48
+Tennessee,1848,46,0,54
+Tennessee,1849,46,0,54
+Tennessee,1850,53,0,47
+Tennessee,1851,53,0,47
+Tennessee,1852,45,0,55
+Tennessee,1853,45,0,55
+Tennessee,1854,44,0,56
+Tennessee,1855,44,0,56
+Tennessee,1856,48,0,52
+Tennessee,1857,48,0,52
+Tennessee,1858,60,0,40
+Tennessee,1859,60,0,40
+Tennessee,1860,55,0,45
+Tennessee,1861,55,0,45
+Tennessee,1866,4,104,0
+Tennessee,1867,4,104,0
+Tennessee,1868,0,108,0
+Tennessee,1869,0,108,0
+Tennessee,1870,86,22,0
+Tennessee,1871,85,15,0
+Tennessee,1872,85,15,0
+Tennessee,1873,67,33,0
+Tennessee,1874,67,33,0
+Tennessee,1875,93,7,0
+Tennessee,1876,93,7,0
+Tennessee,1877,79,21,0
+Tennessee,1878,79,21,0
+Tennessee,1879,83,17,0
+Tennessee,1880,83,17,0
+Tennessee,1881,52,47,1
+Tennessee,1882,52,47,1
+Tennessee,1883,98,34,0
+Tennessee,1884,98,34,0
+Tennessee,1885,103,29,0
+Tennessee,1886,103,29,0
+Tennessee,1887,84,48,0
+Tennessee,1888,84,48,0
+Tennessee,1889,92,40,0
+Tennessee,1890,92,40,0
+Tennessee,1891,104,28,0
+Tennessee,1892,104,28,0
+Tennessee,1893,93,32,7
+Tennessee,1894,93,32,7
+Tennessee,1895,81,42,9
+Tennessee,1896,81,42,9
+Tennessee,1897,87,41,4
+Tennessee,1898,87,41,4
+Tennessee,1899,102,30,0
+Tennessee,1900,102,30,0
+Tennessee,1901,103,28,1
+Tennessee,1902,103,28,1
+Tennessee,1903,111,21,0
+Tennessee,1904,111,21,0
+Tennessee,1905,108,24,0
+Tennessee,1906,108,24,0
+Tennessee,1907,105,27,0
+Tennessee,1908,105,27,0
+Tennessee,1909,105,27,0
+Tennessee,1910,105,27,0
+Tennessee,1911,95,32,5
+Tennessee,1912,95,32,5
+Tennessee,1913,68,33,31
+Tennessee,1914,68,33,31
+Tennessee,1915,98,34,0
+Tennessee,1916,98,34,0
+Tennessee,1917,99,33,0
+Tennessee,1918,99,33,0
+Tennessee,1919,98,34,0
+Tennessee,1920,98,34,0
+Tennessee,1921,90,41,1
+Tennessee,1922,90,41,1
+Tennessee,1923,104,28,0
+Tennessee,1924,104,28,0
+Tennessee,1925,105,27,0
+Tennessee,1926,105,27,0
+Tennessee,1927,108,24,0
+Tennessee,1928,108,24,0
+Tennessee,1929,97,35,0
+Tennessee,1930,97,35,0
+Tennessee,1931,111,21,0
+Tennessee,1932,111,21,0
+Tennessee,1933,110,22,0
+Tennessee,1934,110,22,0
+Tennessee,1935,109,23,0
+Tennessee,1936,109,23,0
+Tennessee,1937,110,22,0
+Tennessee,1938,110,22,0
+Tennessee,1939,112,20,0
+Tennessee,1940,112,20,0
+Tennessee,1941,112,20,0
+Tennessee,1942,112,20,0
+Tennessee,1943,108,23,1
+Tennessee,1944,108,23,1
+Tennessee,1945,103,29,0
+Tennessee,1946,103,29,0
+Tennessee,1947,111,21,0
+Tennessee,1948,111,21,0
+Tennessee,1949,109,23,0
+Tennessee,1950,109,23,0
+Tennessee,1951,109,23,0
+Tennessee,1952,109,23,0
+Tennessee,1953,109,23,0
+Tennessee,1954,109,23,0
+Tennessee,1955,108,24,0
+Tennessee,1956,108,24,0
+Tennessee,1957,105,27,0
+Tennessee,1958,105,27,0
+Tennessee,1959,110,22,0
+Tennessee,1960,110,22,0
+Tennessee,1961,108,24,0
+Tennessee,1962,108,24,0
+Tennessee,1963,105,27,0
+Tennessee,1964,105,27,0
+Tennessee,1965,99,33,0
+Tennessee,1966,99,33,0
+Tennessee,1967,83,49,0
+Tennessee,1968,83,49,0
+Tennessee,1969,69,62,1
+Tennessee,1970,70,61,1
+Tennessee,1971,75,56,1
+Tennessee,1972,75,56,1
+Tennessee,1973,70,61,1
+Tennessee,1974,70,61,1
+Tennessee,1975,83,47,2
+Tennessee,1976,83,47,2
+Tennessee,1977,89,41,2
+Tennessee,1978,89,41,2
+Tennessee,1979,80,50,2
+Tennessee,1980,80,50,2
+Tennessee,1981,78,51,3
+Tennessee,1982,79,50,3
+Tennessee,1983,81,49,2
+Tennessee,1984,82,49,1
+Tennessee,1985,85,47,0
+Tennessee,1986,85,47,0
+Tennessee,1987,84,48,0
+Tennessee,1988,84,48,0
+Tennessee,1989,81,51,0
+Tennessee,1990,81,51,0
+Tennessee,1991,75,57,0
+Tennessee,1992,75,57,0
+Tennessee,1993,83,49,0
+Tennessee,1994,83,49,0
+Tennessee,1995,77,55,0
+Tennessee,1996,75,57,0
+Tennessee,1997,79,53,0
+Tennessee,1998,79,53,0
+Tennessee,1999,77,55,0
+Tennessee,2000,77,55,0
+Tennessee,2001,76,56,0
+Tennessee,2002,76,56,0
+Tennessee,2003,72,60,0
+Tennessee,2004,72,60,0
+Tennessee,2005,69,63,0
+Tennessee,2006,68,64,0
+Tennessee,2007,69,63,0
+Tennessee,2008,69,62,1
+Tennessee,2009,63,69,0
+Tennessee,2010,62,69,1
+Tennessee,2011,47,84,1
+Tennessee,2012,47,84,1
+Tennessee,2013,34,97,1
+Tennessee,2014,33,98,1
+Tennessee,2015,31,101,0
+Tennessee,2016,31,101,0
+Tennessee,2017,30,102,0
+Tennessee,2018,30,102,0
+Tennessee,2019,31,101,0
+Tennessee,2020,31,101,0
+Tennessee,2021,32,100,0
+Tennessee,2022,32,100,0
+Tennessee,2023,30,102,0
+Tennessee,2024,30,102,0
+Tennessee,2025,30,102,0
+Tennessee,2026,30,102,0
+Texas,1856,80,0,39
+Texas,1857,80,0,39
+Texas,1858,108,0,15
+Texas,1859,108,0,15
+Texas,1870,45,73,2
+Texas,1871,46,72,2
+Texas,1872,46,72,2
+Texas,1873,89,29,2
+Texas,1874,105,14,1
+Texas,1875,104,14,2
+Texas,1876,108,9,7
+Texas,1877,108,9,7
+Texas,1878,108,9,7
+Texas,1879,100,13,11
+Texas,1880,102,11,11
+Texas,1881,111,9,4
+Texas,1882,111,9,4
+Texas,1883,126,3,8
+Texas,1884,126,3,8
+Texas,1885,133,4,0
+Texas,1886,133,4,0
+Texas,1887,133,6,1
+Texas,1888,133,6,1
+Texas,1889,133,3,1
+Texas,1890,133,3,1
+Texas,1891,135,2,0
+Texas,1892,135,2,0
+Texas,1893,149,1,9
+Texas,1894,149,1,9
+Texas,1895,130,4,25
+Texas,1896,130,4,25
+Texas,1897,148,3,8
+Texas,1898,148,3,8
+Texas,1899,148,2,9
+Texas,1900,148,2,9
+Texas,1901,157,0,2
+Texas,1902,157,0,2
+Texas,1903,161,1,2
+Texas,1904,161,1,2
+Texas,1905,162,2,0
+Texas,1906,162,2,0
+Texas,1932,49,0,0
+Texas,1933,179,0,2
+Texas,1934,179,0,2
+Texas,1935,180,0,1
+Texas,1936,180,0,1
+Texas,1937,180,0,1
+Texas,1938,180,0,1
+Texas,1939,181,0,0
+Texas,1940,181,0,0
+Texas,1941,181,0,0
+Texas,1942,181,0,0
+Texas,1943,181,0,0
+Texas,1944,181,0,0
+Texas,1945,181,0,0
+Texas,1946,181,0,0
+Texas,1947,181,0,0
+Texas,1948,181,0,0
+Texas,1949,181,0,0
+Texas,1950,181,0,0
+Texas,1951,180,1,0
+Texas,1952,180,1,0
+Texas,1953,181,0,0
+Texas,1954,181,0,0
+Texas,1955,181,0,0
+Texas,1956,181,0,0
+Texas,1957,181,0,0
+Texas,1958,181,0,0
+Texas,1959,180,0,1
+Texas,1960,180,0,1
+Texas,1961,181,0,0
+Texas,1962,179,2,0
+Texas,1963,171,10,0
+Texas,1964,171,10,0
+Texas,1965,180,1,0
+Texas,1966,180,1,0
+Texas,1967,173,8,0
+Texas,1968,172,9,0
+Texas,1969,170,10,1
+Texas,1970,170,10,1
+Texas,1971,169,12,0
+Texas,1972,169,12,0
+Texas,1973,161,20,0
+Texas,1974,161,20,0
+Texas,1975,162,19,0
+Texas,1976,161,20,0
+Texas,1977,160,21,0
+Texas,1978,158,23,0
+Texas,1979,154,27,0
+Texas,1980,154,27,0
+Texas,1981,137,44,0
+Texas,1982,137,44,0
+Texas,1983,139,42,0
+Texas,1984,139,42,0
+Texas,1985,120,61,0
+Texas,1986,120,61,0
+Texas,1987,119,62,0
+Texas,1988,119,62,0
+Texas,1989,114,67,0
+Texas,1990,114,67,0
+Texas,1991,115,66,0
+Texas,1992,114,67,0
+Texas,1993,110,71,0
+Texas,1994,109,72,0
+Texas,1995,106,75,0
+Texas,1996,104,77,0
+Texas,1997,96,85,0
+Texas,1998,96,85,0
+Texas,1999,93,88,0
+Texas,2000,93,88,0
+Texas,2001,93,88,0
+Texas,2002,93,88,0
+Texas,2003,74,107,0
+Texas,2004,74,107,0
+Texas,2005,75,106,0
+Texas,2006,76,105,0
+Texas,2007,80,101,0
+Texas,2008,82,99,0
+Texas,2009,86,95,0
+Texas,2010,85,96,0
+Texas,2011,61,120,0
+Texas,2012,60,121,0
+Texas,2013,67,114,0
+Texas,2014,67,114,0
+Texas,2015,63,118,0
+Texas,2016,61,119,1
+Texas,2017,66,115,0
+Texas,2018,66,115,0
+Texas,2019,79,102,0
+Texas,2020,79,102,0
+Texas,2021,80,101,0
+Texas,2022,78,103,0
+Texas,2023,76,105,0
+Texas,2024,75,106,0
+Texas,2025,73,108,0
+Texas,2026,74,107,0
+Utah,1896,20,43,0
+Utah,1897,2,57,4
+Utah,1898,2,57,4
+Utah,1899,40,17,6
+Utah,1900,40,17,6
+Utah,1901,27,36,0
+Utah,1902,27,36,0
+Utah,1903,13,50,0
+Utah,1904,13,50,0
+Utah,1905,7,56,0
+Utah,1906,7,56,0
+Utah,1907,7,56,0
+Utah,1908,7,56,0
+Utah,1909,2,61,0
+Utah,1910,2,61,0
+Utah,1911,9,54,0
+Utah,1912,9,54,0
+Utah,1913,16,47,0
+Utah,1914,16,47,0
+Utah,1915,24,35,4
+Utah,1916,24,35,4
+Utah,1917,58,4,1
+Utah,1918,58,4,1
+Utah,1919,55,8,0
+Utah,1920,55,8,0
+Utah,1921,8,57,0
+Utah,1922,8,57,0
+Utah,1923,11,64,0
+Utah,1924,11,64,0
+Utah,1925,10,65,0
+Utah,1926,10,65,0
+Utah,1927,7,68,0
+Utah,1928,7,68,0
+Utah,1929,35,40,0
+Utah,1930,35,40,0
+Utah,1931,23,52,0
+Utah,1932,23,52,0
+Utah,1933,64,19,0
+Utah,1934,64,19,0
+Utah,1935,75,8,0
+Utah,1936,75,8,0
+Utah,1937,78,5,0
+Utah,1938,78,5,0
+Utah,1939,66,17,0
+Utah,1940,66,17,0
+Utah,1941,63,20,0
+Utah,1942,63,20,0
+Utah,1943,56,27,0
+Utah,1944,56,27,0
+Utah,1945,63,20,0
+Utah,1946,63,20,0
+Utah,1947,33,50,0
+Utah,1948,33,50,0
+Utah,1949,53,30,0
+Utah,1950,53,30,0
+Utah,1951,46,37,0
+Utah,1952,46,37,0
+Utah,1953,29,54,0
+Utah,1954,29,54,0
+Utah,1955,34,49,0
+Utah,1956,34,49,0
+Utah,1957,34,54,1
+Utah,1958,34,54,1
+Utah,1959,54,35,0
+Utah,1960,54,35,0
+Utah,1961,50,39,0
+Utah,1962,50,39,0
+Utah,1963,42,47,0
+Utah,1964,42,47,0
+Utah,1965,54,42,0
+Utah,1966,54,42,0
+Utah,1967,15,82,0
+Utah,1968,15,82,0
+Utah,1969,29,68,0
+Utah,1970,29,68,0
+Utah,1971,52,45,0
+Utah,1972,52,45,0
+Utah,1973,44,60,0
+Utah,1974,44,60,0
+Utah,1975,56,48,0
+Utah,1976,56,48,0
+Utah,1977,52,52,0
+Utah,1978,52,52,0
+Utah,1979,34,70,0
+Utah,1980,34,70,0
+Utah,1981,24,80,0
+Utah,1982,24,80,0
+Utah,1983,21,83,0
+Utah,1984,21,83,0
+Utah,1985,19,85,0
+Utah,1986,19,85,0
+Utah,1987,35,69,0
+Utah,1988,35,69,0
+Utah,1989,35,69,0
+Utah,1990,35,69,0
+Utah,1991,41,63,0
+Utah,1992,41,63,0
+Utah,1993,37,67,0
+Utah,1994,37,67,0
+Utah,1995,30,74,0
+Utah,1996,30,74,0
+Utah,1997,29,75,0
+Utah,1998,29,75,0
+Utah,1999,32,72,0
+Utah,2000,32,72,0
+Utah,2001,33,71,0
+Utah,2002,33,71,0
+Utah,2003,26,78,0
+Utah,2004,26,78,0
+Utah,2005,27,77,0
+Utah,2006,27,77,0
+Utah,2007,28,76,0
+Utah,2008,28,76,0
+Utah,2009,30,74,0
+Utah,2010,30,74,0
+Utah,2011,24,80,0
+Utah,2012,24,80,0
+Utah,2013,19,85,0
+Utah,2014,19,85,0
+Utah,2015,17,87,0
+Utah,2016,17,87,0
+Utah,2017,18,86,0
+Utah,2018,18,86,0
+Utah,2019,22,82,0
+Utah,2020,22,82,0
+Utah,2021,23,81,0
+Utah,2022,23,81,0
+Utah,2023,20,84,0
+Utah,2024,20,84,0
+Utah,2025,20,83,1
+Utah,2026,20,83,1
+Vermont,1837,112,0,136
+Vermont,1838,98,0,148
+Vermont,1839,80,0,179
+Vermont,1840,124,0,136
+Vermont,1841,58,0,206
+Vermont,1842,83,0,148
+Vermont,1843,113,0,148
+Vermont,1844,102,0,145
+Vermont,1845,75,0,160
+Vermont,1846,74,0,191
+Vermont,1847,75,0,188
+Vermont,1848,87,0,180
+Vermont,1849,56,0,210
+Vermont,1850,11,0,255
+Vermont,1851,22,0,248
+Vermont,1852,31,0,239
+Vermont,1853,67,0,201
+Vermont,1854,93,0,178
+Vermont,1855,47,0,213
+Vermont,1856,29,186,42
+Vermont,1857,8,257,4
+Vermont,1858,30,230,7
+Vermont,1859,39,219,11
+Vermont,1860,32,229,8
+Vermont,1861,26,239,5
+Vermont,1862,17,230,5
+Vermont,1864,14,254,2
+Vermont,1865,19,242,2
+Vermont,1866,11,243,4
+Vermont,1867,13,254,3
+Vermont,1868,25,242,4
+Vermont,1869,15,254,2
+Vermont,1870,24,240,6
+Vermont,1871,27,236,7
+Vermont,1872,27,236,7
+Vermont,1873,16,246,9
+Vermont,1874,16,246,9
+Vermont,1875,51,203,17
+Vermont,1876,51,203,17
+Vermont,1877,31,235,5
+Vermont,1878,31,235,5
+Vermont,1879,46,204,21
+Vermont,1880,46,204,21
+Vermont,1881,19,247,5
+Vermont,1882,19,247,5
+Vermont,1883,49,211,11
+Vermont,1884,49,211,11
+Vermont,1885,38,222,11
+Vermont,1886,38,222,11
+Vermont,1887,30,236,5
+Vermont,1888,30,236,5
+Vermont,1889,19,249,6
+Vermont,1890,19,249,6
+Vermont,1891,63,201,8
+Vermont,1892,63,201,8
+Vermont,1893,40,230,3
+Vermont,1894,40,230,3
+Vermont,1895,11,258,5
+Vermont,1896,11,258,5
+Vermont,1897,19,254,3
+Vermont,1898,19,254,3
+Vermont,1899,41,233,2
+Vermont,1900,41,233,2
+Vermont,1901,48,226,2
+Vermont,1902,48,226,2
+Vermont,1903,53,217,6
+Vermont,1904,53,217,6
+Vermont,1905,33,236,6
+Vermont,1906,33,236,6
+Vermont,1907,35,229,12
+Vermont,1908,35,229,12
+Vermont,1909,31,229,8
+Vermont,1910,31,229,8
+Vermont,1911,47,224,5
+Vermont,1912,47,224,5
+Vermont,1913,59,174,43
+Vermont,1914,59,174,43
+Vermont,1915,32,207,37
+Vermont,1916,32,207,37
+Vermont,1917,42,225,8
+Vermont,1918,42,225,8
+Vermont,1919,26,241,10
+Vermont,1920,26,241,10
+Vermont,1921,23,245,8
+Vermont,1922,23,245,8
+Vermont,1923,37,233,8
+Vermont,1924,37,233,8
+Vermont,1925,29,244,5
+Vermont,1926,29,244,5
+Vermont,1927,29,247,2
+Vermont,1928,29,247,2
+Vermont,1929,20,253,5
+Vermont,1930,20,253,5
+Vermont,1931,37,237,4
+Vermont,1932,37,237,4
+Vermont,1933,42,226,10
+Vermont,1934,42,226,10
+Vermont,1935,55,216,9
+Vermont,1936,55,216,9
+Vermont,1937,47,225,6
+Vermont,1938,47,225,6
+Vermont,1939,36,229,11
+Vermont,1940,36,229,11
+Vermont,1941,45,219,12
+Vermont,1942,45,219,12
+Vermont,1943,30,234,9
+Vermont,1944,30,234,9
+Vermont,1945,30,236,10
+Vermont,1946,30,236,10
+Vermont,1947,31,236,9
+Vermont,1948,31,236,9
+Vermont,1949,39,232,5
+Vermont,1950,39,232,5
+Vermont,1951,23,245,8
+Vermont,1952,23,245,8
+Vermont,1953,21,250,5
+Vermont,1954,21,250,5
+Vermont,1955,32,244,0
+Vermont,1956,32,244,0
+Vermont,1957,39,236,3
+Vermont,1958,39,236,3
+Vermont,1959,54,222,0
+Vermont,1960,54,222,0
+Vermont,1961,57,213,6
+Vermont,1962,57,213,6
+Vermont,1963,54,214,8
+Vermont,1964,54,214,8
+Vermont,1965,63,212,1
+Vermont,1966,21,159,0
+Vermont,1967,63,115,2
+Vermont,1968,63,115,2
+Vermont,1969,58,122,0
+Vermont,1970,58,122,0
+Vermont,1971,62,118,0
+Vermont,1972,62,118,0
+Vermont,1973,64,114,2
+Vermont,1974,64,114,2
+Vermont,1975,80,96,4
+Vermont,1976,80,96,4
+Vermont,1977,82,96,2
+Vermont,1978,82,96,2
+Vermont,1979,79,99,2
+Vermont,1980,79,99,2
+Vermont,1981,77,100,3
+Vermont,1982,77,100,3
+Vermont,1983,78,101,1
+Vermont,1984,78,101,1
+Vermont,1985,90,89,1
+Vermont,1986,90,89,1
+Vermont,1987,93,86,1
+Vermont,1988,93,86,1
+Vermont,1989,92,88,0
+Vermont,1990,92,88,0
+Vermont,1991,88,90,2
+Vermont,1992,88,90,2
+Vermont,1993,101,73,6
+Vermont,1994,101,73,6
+Vermont,1995,98,79,3
+Vermont,1996,98,79,3
+Vermont,1997,106,70,4
+Vermont,1998,106,70,4
+Vermont,1999,94,79,7
+Vermont,2000,94,79,7
+Vermont,2001,78,97,5
+Vermont,2002,79,96,5
+Vermont,2003,89,84,7
+Vermont,2004,88,85,7
+Vermont,2005,104,69,7
+Vermont,2006,104,69,7
+Vermont,2007,116,56,8
+Vermont,2008,116,56,8
+Vermont,2009,117,55,8
+Vermont,2010,117,55,8
+Vermont,2011,115,56,9
+Vermont,2012,115,56,9
+Vermont,2013,117,52,11
+Vermont,2014,117,52,11
+Vermont,2015,104,62,14
+Vermont,2016,104,62,14
+Vermont,2017,104,60,16
+Vermont,2018,104,60,16
+Vermont,2019,117,49,14
+Vermont,2020,117,49,14
+Vermont,2021,113,53,14
+Vermont,2022,113,53,14
+Vermont,2023,126,45,9
+Vermont,2024,127,44,9
+Vermont,2025,103,69,8
+Vermont,2026,103,69,8
+Virginia,1835,81,0,85
+Virginia,1836,92,0,74
+Virginia,1837,98,0,66
+Virginia,1838,105,0,59
+Virginia,1839,70,0,96
+Virginia,1840,73,0,93
+Virginia,1841,80,0,86
+Virginia,1842,81,0,85
+Virginia,1843,102,0,64
+Virginia,1844,95,0,71
+Virginia,1845,82,0,84
+Virginia,1846,100,0,66
+Virginia,1847,92,0,72
+Virginia,1848,92,0,74
+Virginia,1850,101,0,66
+Virginia,1851,97,0,70
+Virginia,1852,123,0,77
+Virginia,1853,123,0,77
+Virginia,1870,127,54,0
+Virginia,1871,127,54,0
+Virginia,1872,132,43,0
+Virginia,1873,132,43,0
+Virginia,1874,133,41,1
+Virginia,1875,133,41,1
+Virginia,1876,138,31,1
+Virginia,1877,138,31,1
+Virginia,1878,140,13,22
+Virginia,1879,140,13,22
+Virginia,1880,114,26,0
+Virginia,1881,114,26,0
+Virginia,1882,59,0,81
+Virginia,1883,59,0,81
+Virginia,1884,88,0,49
+Virginia,1885,88,0,49
+Virginia,1886,100,40,0
+Virginia,1887,100,40,0
+Virginia,1888,87,52,1
+Virginia,1889,87,52,1
+Virginia,1890,116,24,0
+Virginia,1891,116,24,0
+Virginia,1892,136,4,0
+Virginia,1893,136,4,0
+Virginia,1894,128,12,0
+Virginia,1895,128,12,0
+Virginia,1896,102,20,18
+Virginia,1897,102,20,18
+Virginia,1898,130,8,2
+Virginia,1899,130,8,2
+Virginia,1900,131,9,0
+Virginia,1901,131,9,0
+Virginia,1902,131,9,0
+Virginia,1903,131,9,0
+Virginia,1904,121,19,0
+Virginia,1905,121,19,0
+Virginia,1906,121,19,0
+Virginia,1907,121,19,0
+Virginia,1908,121,19,0
+Virginia,1909,121,19,0
+Virginia,1910,121,19,0
+Virginia,1911,121,19,0
+Virginia,1912,125,15,0
+Virginia,1913,125,15,0
+Virginia,1914,127,13,0
+Virginia,1915,127,13,0
+Virginia,1916,124,16,0
+Virginia,1917,124,16,0
+Virginia,1918,124,16,0
+Virginia,1919,124,16,0
+Virginia,1920,122,18,0
+Virginia,1921,122,18,0
+Virginia,1922,129,11,0
+Virginia,1923,129,11,0
+Virginia,1924,136,4,0
+Virginia,1925,136,4,0
+Virginia,1926,134,6,0
+Virginia,1927,134,6,0
+Virginia,1928,131,9,0
+Virginia,1929,131,9,0
+Virginia,1930,133,7,0
+Virginia,1931,133,7,0
+Virginia,1932,133,7,0
+Virginia,1933,133,7,0
+Virginia,1934,131,9,0
+Virginia,1935,131,9,0
+Virginia,1936,131,9,0
+Virginia,1937,131,9,0
+Virginia,1938,131,9,0
+Virginia,1939,131,9,0
+Virginia,1940,135,5,0
+Virginia,1941,135,5,0
+Virginia,1942,135,5,0
+Virginia,1943,135,5,0
+Virginia,1944,131,9,0
+Virginia,1945,131,9,0
+Virginia,1946,130,10,0
+Virginia,1947,130,10,0
+Virginia,1948,131,9,0
+Virginia,1949,131,9,0
+Virginia,1950,132,8,0
+Virginia,1951,132,8,0
+Virginia,1952,131,9,0
+Virginia,1953,131,9,0
+Virginia,1954,131,9,0
+Virginia,1955,131,9,0
+Virginia,1956,131,9,0
+Virginia,1957,131,9,0
+Virginia,1958,131,9,0
+Virginia,1959,131,9,0
+Virginia,1960,134,6,0
+Virginia,1961,134,6,0
+Virginia,1962,132,7,1
+Virginia,1963,132,7,1
+Virginia,1964,126,14,0
+Virginia,1965,126,14,0
+Virginia,1966,124,15,1
+Virginia,1967,124,15,1
+Virginia,1968,120,20,0
+Virginia,1969,120,20,0
+Virginia,1970,108,31,1
+Virginia,1971,108,31,1
+Virginia,1972,106,31,3
+Virginia,1973,106,31,3
+Virginia,1974,99,26,15
+Virginia,1975,99,26,15
+Virginia,1976,113,22,5
+Virginia,1977,113,22,5
+Virginia,1978,110,27,3
+Virginia,1979,110,27,3
+Virginia,1980,105,34,1
+Virginia,1981,105,34,1
+Virginia,1982,97,41,2
+Virginia,1983,96,43,1
+Virginia,1984,97,42,1
+Virginia,1985,97,42,1
+Virginia,1986,97,41,2
+Virginia,1987,97,41,2
+Virginia,1988,94,45,1
+Virginia,1989,94,45,1
+Virginia,1990,89,50,1
+Virginia,1991,89,50,1
+Virginia,1992,80,59,1
+Virginia,1993,80,59,1
+Virginia,1994,74,65,1
+Virginia,1995,74,65,1
+Virginia,1996,72,67,1
+Virginia,1997,72,67,1
+Virginia,1998,69,70,1
+Virginia,1999,69,70,1
+Virginia,2000,66,73,1
+Virginia,2001,66,73,1
+Virginia,2002,53,85,2
+Virginia,2003,53,85,2
+Virginia,2004,53,85,2
+Virginia,2005,53,85,2
+Virginia,2006,56,81,3
+Virginia,2007,56,81,3
+Virginia,2008,65,73,2
+Virginia,2009,66,72,2
+Virginia,2010,61,77,2
+Virginia,2011,61,77,2
+Virginia,2012,52,87,1
+Virginia,2013,52,87,1
+Virginia,2014,52,88,0
+Virginia,2015,51,88,1
+Virginia,2016,53,87,0
+Virginia,2017,53,87,0
+Virginia,2018,68,72,0
+Virginia,2019,68,72,0
+Virginia,2020,76,64,0
+Virginia,2021,76,64,0
+Virginia,2022,69,71,0
+Virginia,2023,70,70,0
+Virginia,2024,72,68,0
+Virginia,2025,72,68,0
+Virginia,2026,85,55,0
+Washington,1889,9,95,1
+Washington,1890,9,95,1
+Washington,1891,22,90,0
+Washington,1892,22,90,0
+Washington,1893,29,75,8
+Washington,1894,29,75,8
+Washington,1895,9,80,23
+Washington,1896,9,80,23
+Washington,1897,14,25,73
+Washington,1898,14,25,73
+Washington,1899,7,83,22
+Washington,1900,7,83,22
+Washington,1901,29,85,0
+Washington,1902,29,85,0
+Washington,1903,23,113,0
+Washington,1904,23,113,0
+Washington,1905,8,128,0
+Washington,1906,8,128,0
+Washington,1907,13,123,0
+Washington,1908,13,123,0
+Washington,1909,9,127,0
+Washington,1910,9,127,0
+Washington,1911,17,122,0
+Washington,1912,17,122,0
+Washington,1913,28,76,35
+Washington,1914,28,76,35
+Washington,1915,19,108,12
+Washington,1916,19,108,12
+Washington,1917,19,120,0
+Washington,1918,19,120,0
+Washington,1919,13,126,0
+Washington,1920,13,126,0
+Washington,1921,2,134,3
+Washington,1922,2,134,3
+Washington,1923,10,123,6
+Washington,1924,10,123,6
+Washington,1925,7,132,0
+Washington,1926,7,132,0
+Washington,1927,10,129,0
+Washington,1928,10,129,0
+Washington,1929,7,132,0
+Washington,1930,7,132,0
+Washington,1931,8,131,0
+Washington,1932,8,131,0
+Washington,1933,95,50,0
+Washington,1934,95,50,0
+Washington,1935,134,11,0
+Washington,1936,134,11,0
+Washington,1937,128,17,0
+Washington,1938,128,17,0
+Washington,1939,113,32,0
+Washington,1940,113,32,0
+Washington,1941,105,40,0
+Washington,1942,105,40,0
+Washington,1943,86,59,0
+Washington,1944,86,59,0
+Washington,1945,95,50,0
+Washington,1946,95,50,0
+Washington,1947,50,95,0
+Washington,1948,50,95,0
+Washington,1949,86,59,0
+Washington,1950,86,59,0
+Washington,1951,79,66,0
+Washington,1952,79,66,0
+Washington,1953,62,83,0
+Washington,1954,62,83,0
+Washington,1955,72,73,0
+Washington,1956,72,73,0
+Washington,1957,87,58,0
+Washington,1958,87,58,0
+Washington,1959,101,47,0
+Washington,1960,101,47,0
+Washington,1961,96,52,0
+Washington,1962,96,52,0
+Washington,1963,83,65,0
+Washington,1964,83,65,0
+Washington,1965,92,56,0
+Washington,1966,92,56,0
+Washington,1967,73,75,0
+Washington,1968,73,75,0
+Washington,1969,70,78,0
+Washington,1970,70,78,0
+Washington,1971,77,71,0
+Washington,1972,77,71,0
+Washington,1973,87,60,0
+Washington,1974,87,60,0
+Washington,1975,92,55,0
+Washington,1976,92,55,0
+Washington,1977,92,55,0
+Washington,1978,92,55,0
+Washington,1979,79,68,0
+Washington,1980,79,68,0
+Washington,1981,66,81,0
+Washington,1982,67,80,0
+Washington,1983,80,67,0
+Washington,1984,79,68,0
+Washington,1985,80,67,0
+Washington,1986,80,67,0
+Washington,1987,86,61,0
+Washington,1988,85,62,0
+Washington,1989,87,60,0
+Washington,1990,87,60,0
+Washington,1991,82,65,0
+Washington,1992,82,65,0
+Washington,1993,93,54,0
+Washington,1994,93,54,0
+Washington,1995,62,85,0
+Washington,1996,61,86,0
+Washington,1997,65,82,0
+Washington,1998,64,83,0
+Washington,1999,76,72,0
+Washington,2000,76,72,0
+Washington,2001,74,73,0
+Washington,2002,75,72,0
+Washington,2003,76,71,0
+Washington,2004,76,71,0
+Washington,2005,81,66,0
+Washington,2006,81,66,0
+Washington,2007,94,53,0
+Washington,2008,95,52,0
+Washington,2009,93,54,0
+Washington,2010,92,55,0
+Washington,2011,83,64,0
+Washington,2012,83,64,0
+Washington,2013,81,66,0
+Washington,2014,80,67,0
+Washington,2015,75,72,0
+Washington,2016,74,73,0
+Washington,2017,75,72,0
+Washington,2018,76,71,0
+Washington,2019,86,61,0
+Washington,2020,86,61,0
+Washington,2021,86,61,0
+Washington,2022,86,61,0
+Washington,2023,87,60,0
+Washington,2024,87,60,0
+Washington,2025,89,58,0
+Washington,2026,89,58,0
+West Virginia,1866,9,67,0
+West Virginia,1867,18,60,0
+West Virginia,1868,16,62,0
+West Virginia,1869,28,50,0
+West Virginia,1870,28,37,13
+West Virginia,1871,52,26,0
+West Virginia,1872,57,20,0
+West Virginia,1873,64,22,0
+West Virginia,1874,64,22,0
+West Virginia,1875,68,16,5
+West Virginia,1876,68,16,5
+West Virginia,1877,65,24,0
+West Virginia,1878,65,24,0
+West Virginia,1879,61,10,18
+West Virginia,1880,61,10,18
+West Virginia,1881,66,20,3
+West Virginia,1882,66,20,3
+West Virginia,1883,55,35,1
+West Virginia,1884,55,35,1
+West Virginia,1885,52,39,0
+West Virginia,1886,52,39,0
+West Virginia,1887,50,41,0
+West Virginia,1888,50,41,0
+West Virginia,1889,46,44,1
+West Virginia,1890,46,44,1
+West Virginia,1891,60,31,0
+West Virginia,1892,60,31,0
+West Virginia,1893,62,35,0
+West Virginia,1894,62,35,0
+West Virginia,1895,34,63,0
+West Virginia,1896,34,63,0
+West Virginia,1897,36,60,1
+West Virginia,1898,36,60,1
+West Virginia,1899,46,50,0
+West Virginia,1900,46,50,0
+West Virginia,1901,34,63,0
+West Virginia,1902,34,63,0
+West Virginia,1903,35,81,0
+West Virginia,1904,35,81,0
+West Virginia,1905,30,86,0
+West Virginia,1906,30,86,0
+West Virginia,1907,30,85,1
+West Virginia,1908,30,85,1
+West Virginia,1909,32,84,0
+West Virginia,1910,32,84,0
+West Virginia,1911,78,38,0
+West Virginia,1912,78,38,0
+West Virginia,1913,48,68,0
+West Virginia,1914,48,68,0
+West Virginia,1915,36,77,3
+West Virginia,1916,36,77,3
+West Virginia,1917,62,62,0
+West Virginia,1918,62,62,0
+West Virginia,1919,31,93,0
+West Virginia,1920,31,93,0
+West Virginia,1921,25,99,0
+West Virginia,1922,25,99,0
+West Virginia,1923,76,48,0
+West Virginia,1924,76,48,0
+West Virginia,1925,53,71,0
+West Virginia,1926,53,71,0
+West Virginia,1927,42,81,1
+West Virginia,1928,42,81,1
+West Virginia,1929,37,87,0
+West Virginia,1930,37,87,0
+West Virginia,1931,81,43,0
+West Virginia,1932,81,43,0
+West Virginia,1933,103,21,0
+West Virginia,1934,103,21,0
+West Virginia,1935,106,18,0
+West Virginia,1936,106,18,0
+West Virginia,1937,96,28,0
+West Virginia,1938,96,28,0
+West Virginia,1939,97,29,0
+West Virginia,1940,97,29,0
+West Virginia,1941,100,26,0
+West Virginia,1942,100,26,0
+West Virginia,1943,71,55,0
+West Virginia,1944,71,55,0
+West Virginia,1945,86,40,0
+West Virginia,1946,86,40,0
+West Virginia,1947,76,50,0
+West Virginia,1948,76,50,0
+West Virginia,1949,98,28,0
+West Virginia,1950,98,28,0
+West Virginia,1951,87,39,0
+West Virginia,1952,87,39,0
+West Virginia,1953,89,43,0
+West Virginia,1954,89,43,0
+West Virginia,1955,99,33,0
+West Virginia,1956,99,33,0
+West Virginia,1957,79,53,0
+West Virginia,1958,79,53,0
+West Virginia,1959,108,24,0
+West Virginia,1960,108,24,0
+West Virginia,1961,107,25,0
+West Virginia,1962,107,25,0
+West Virginia,1963,99,33,0
+West Virginia,1964,99,33,0
+West Virginia,1965,118,16,0
+West Virginia,1966,118,16,0
+West Virginia,1967,90,44,0
+West Virginia,1968,90,44,0
+West Virginia,1969,85,49,0
+West Virginia,1970,85,49,0
+West Virginia,1971,91,43,0
+West Virginia,1972,91,43,0
+West Virginia,1973,81,53,0
+West Virginia,1974,81,53,0
+West Virginia,1975,113,21,0
+West Virginia,1976,113,21,0
+West Virginia,1977,119,15,0
+West Virginia,1978,119,15,0
+West Virginia,1979,100,34,0
+West Virginia,1980,100,34,0
+West Virginia,1981,105,29,0
+West Virginia,1982,105,29,0
+West Virginia,1983,118,16,0
+West Virginia,1984,118,16,0
+West Virginia,1985,103,31,0
+West Virginia,1986,103,31,0
+West Virginia,1987,106,28,0
+West Virginia,1988,106,28,0
+West Virginia,1989,108,26,0
+West Virginia,1990,108,26,0
+West Virginia,1991,107,27,0
+West Virginia,1992,107,27,0
+West Virginia,1993,111,23,0
+West Virginia,1994,111,23,0
+West Virginia,1995,95,39,0
+West Virginia,1996,95,39,0
+West Virginia,1997,99,35,0
+West Virginia,1998,99,35,0
+West Virginia,1999,104,30,0
+West Virginia,2000,104,30,0
+West Virginia,2001,103,31,0
+West Virginia,2002,103,31,0
+West Virginia,2003,92,42,0
+West Virginia,2004,92,42,0
+West Virginia,2005,89,45,0
+West Virginia,2006,89,45,0
+West Virginia,2007,95,39,0
+West Virginia,2008,95,39,0
+West Virginia,2009,97,37,0
+West Virginia,2010,97,37,0
+West Virginia,2011,93,41,0
+West Virginia,2012,93,41,0
+West Virginia,2013,79,55,0
+West Virginia,2014,77,57,0
+West Virginia,2015,52,82,0
+West Virginia,2016,52,82,0
+West Virginia,2017,48,86,0
+West Virginia,2018,48,86,0
+West Virginia,2019,57,77,0
+West Virginia,2020,57,77,0
+West Virginia,2021,35,99,0
+West Virginia,2022,33,101,0
+West Virginia,2023,14,120,0
+West Virginia,2024,14,120,0
+West Virginia,2025,11,123,0
+West Virginia,2026,11,123,0
+Wisconsin,1848,65,0,20
+Wisconsin,1849,50,0,35
+Wisconsin,1850,54,0,31
+Wisconsin,1851,60,0,25
+Wisconsin,1852,41,0,44
+Wisconsin,1853,69,0,38
+Wisconsin,1854,70,0,38
+Wisconsin,1855,47,56,4
+Wisconsin,1856,57,49,1
+Wisconsin,1857,44,81,2
+Wisconsin,1858,60,67,0
+Wisconsin,1859,56,71,0
+Wisconsin,1860,52,75,0
+Wisconsin,1861,35,92,0
+Wisconsin,1862,44,64,26
+Wisconsin,1863,61,71,3
+Wisconsin,1864,36,0,97
+Wisconsin,1865,41,0,92
+Wisconsin,1866,43,0,90
+Wisconsin,1867,36,0,97
+Wisconsin,1868,56,77,0
+Wisconsin,1869,46,87,0
+Wisconsin,1870,49,74,10
+Wisconsin,1871,55,76,2
+Wisconsin,1872,47,81,5
+Wisconsin,1873,76,57,0
+Wisconsin,1874,50,81,5
+Wisconsin,1875,75,57,1
+Wisconsin,1876,61,68,4
+Wisconsin,1877,52,69,12
+Wisconsin,1878,50,69,14
+Wisconsin,1879,34,90,9
+Wisconsin,1880,37,95,1
+Wisconsin,1881,31,102,0
+Wisconsin,1882,44,87,2
+Wisconsin,1883,52,81,0
+Wisconsin,1884,52,81,0
+Wisconsin,1885,52,81,0
+Wisconsin,1886,52,81,0
+Wisconsin,1887,36,82,15
+Wisconsin,1888,36,82,15
+Wisconsin,1889,35,95,3
+Wisconsin,1890,35,95,3
+Wisconsin,1891,85,47,1
+Wisconsin,1892,85,47,1
+Wisconsin,1893,82,51,0
+Wisconsin,1894,82,51,0
+Wisconsin,1895,32,101,0
+Wisconsin,1896,32,101,0
+Wisconsin,1897,13,119,1
+Wisconsin,1898,13,119,1
+Wisconsin,1899,21,112,0
+Wisconsin,1900,21,112,0
+Wisconsin,1901,20,113,0
+Wisconsin,1902,20,113,0
+Wisconsin,1903,28,105,0
+Wisconsin,1904,28,105,0
+Wisconsin,1905,15,113,5
+Wisconsin,1906,15,113,5
+Wisconsin,1907,24,103,6
+Wisconsin,1908,24,103,6
+Wisconsin,1909,21,108,4
+Wisconsin,1910,21,108,4
+Wisconsin,1911,33,86,14
+Wisconsin,1912,33,86,14
+Wisconsin,1913,46,80,7
+Wisconsin,1914,46,80,7
+Wisconsin,1915,40,84,9
+Wisconsin,1916,40,84,9
+Wisconsin,1917,20,103,10
+Wisconsin,1918,20,103,10
+Wisconsin,1919,7,106,20
+Wisconsin,1920,7,106,20
+Wisconsin,1921,4,119,10
+Wisconsin,1922,4,119,10
+Wisconsin,1923,1,119,13
+Wisconsin,1924,1,119,13
+Wisconsin,1925,1,120,12
+Wisconsin,1926,1,120,12
+Wisconsin,1927,3,120,10
+Wisconsin,1928,3,120,10
+Wisconsin,1929,5,122,6
+Wisconsin,1930,5,122,6
+Wisconsin,1931,4,118,11
+Wisconsin,1932,4,118,11
+Wisconsin,1933,68,61,4
+Wisconsin,1934,68,61,4
+Wisconsin,1935,49,23,61
+Wisconsin,1936,49,23,61
+Wisconsin,1937,40,29,64
+Wisconsin,1938,40,29,64
+Wisconsin,1939,21,69,43
+Wisconsin,1940,21,69,43
+Wisconsin,1941,19,83,31
+Wisconsin,1942,19,83,31
+Wisconsin,1943,18,96,19
+Wisconsin,1944,18,96,19
+Wisconsin,1945,25,97,10
+Wisconsin,1946,25,97,10
+Wisconsin,1947,17,115,1
+Wisconsin,1948,17,115,1
+Wisconsin,1949,31,102,0
+Wisconsin,1950,31,102,0
+Wisconsin,1951,31,102,0
+Wisconsin,1952,31,102,0
+Wisconsin,1953,32,101,0
+Wisconsin,1954,32,101,0
+Wisconsin,1955,44,89,0
+Wisconsin,1956,44,89,0
+Wisconsin,1957,43,90,0
+Wisconsin,1958,43,90,0
+Wisconsin,1959,68,65,0
+Wisconsin,1960,68,65,0
+Wisconsin,1961,58,75,0
+Wisconsin,1962,58,75,0
+Wisconsin,1963,58,75,0
+Wisconsin,1964,58,75,0
+Wisconsin,1965,65,68,0
+Wisconsin,1966,65,68,0
+Wisconsin,1967,60,73,0
+Wisconsin,1968,60,73,0
+Wisconsin,1969,58,75,0
+Wisconsin,1970,58,75,0
+Wisconsin,1971,80,53,0
+Wisconsin,1972,80,53,0
+Wisconsin,1973,77,55,0
+Wisconsin,1974,77,55,0
+Wisconsin,1975,82,50,0
+Wisconsin,1976,82,50,0
+Wisconsin,1977,89,43,0
+Wisconsin,1978,89,43,0
+Wisconsin,1979,81,51,0
+Wisconsin,1980,81,51,0
+Wisconsin,1981,77,54,1
+Wisconsin,1982,77,54,1
+Wisconsin,1983,78,54,0
+Wisconsin,1984,78,54,0
+Wisconsin,1985,71,61,0
+Wisconsin,1986,71,61,0
+Wisconsin,1987,73,59,0
+Wisconsin,1988,73,59,0
+Wisconsin,1989,76,56,0
+Wisconsin,1990,76,56,0
+Wisconsin,1991,77,55,0
+Wisconsin,1992,77,55,0
+Wisconsin,1993,70,62,0
+Wisconsin,1994,68,64,0
+Wisconsin,1995,64,68,0
+Wisconsin,1996,64,68,0
+Wisconsin,1997,64,68,0
+Wisconsin,1998,64,68,0
+Wisconsin,1999,62,70,0
+Wisconsin,2000,62,70,0
+Wisconsin,2001,61,71,0
+Wisconsin,2002,61,71,0
+Wisconsin,2003,56,76,0
+Wisconsin,2004,56,76,0
+Wisconsin,2005,53,79,0
+Wisconsin,2006,53,79,0
+Wisconsin,2007,65,67,0
+Wisconsin,2008,65,67,0
+Wisconsin,2009,70,61,1
+Wisconsin,2010,70,61,1
+Wisconsin,2011,53,78,1
+Wisconsin,2012,56,75,1
+Wisconsin,2013,54,78,0
+Wisconsin,2014,54,78,0
+Wisconsin,2015,50,82,0
+Wisconsin,2016,50,82,0
+Wisconsin,2017,48,84,0
+Wisconsin,2018,50,82,0
+Wisconsin,2019,50,82,0
+Wisconsin,2020,50,82,0
+Wisconsin,2021,50,82,0
+Wisconsin,2022,50,82,0
+Wisconsin,2023,46,86,0
+Wisconsin,2024,46,86,0
+Wisconsin,2025,60,72,0
+Wisconsin,2026,60,72,0
+Wyoming,1890,10,39,0
+Wyoming,1891,10,39,0
+Wyoming,1892,10,39,0
+Wyoming,1893,21,23,5
+Wyoming,1894,21,23,5
+Wyoming,1895,6,48,1
+Wyoming,1896,6,48,1
+Wyoming,1897,15,37,5
+Wyoming,1898,15,37,5
+Wyoming,1899,9,48,0
+Wyoming,1900,9,48,0
+Wyoming,1901,4,52,1
+Wyoming,1902,4,52,1
+Wyoming,1903,6,67,0
+Wyoming,1904,6,67,0
+Wyoming,1905,6,67,0
+Wyoming,1906,6,67,0
+Wyoming,1907,7,66,0
+Wyoming,1908,7,66,0
+Wyoming,1909,10,73,0
+Wyoming,1910,10,73,0
+Wyoming,1911,31,52,0
+Wyoming,1912,31,52,0
+Wyoming,1913,36,48,0
+Wyoming,1914,36,48,0
+Wyoming,1915,24,60,0
+Wyoming,1916,24,60,0
+Wyoming,1917,36,48,0
+Wyoming,1918,36,48,0
+Wyoming,1919,21,60,0
+Wyoming,1920,21,60,0
+Wyoming,1921,4,75,0
+Wyoming,1922,4,75,0
+Wyoming,1923,28,57,0
+Wyoming,1924,28,57,0
+Wyoming,1925,34,55,0
+Wyoming,1926,34,55,0
+Wyoming,1927,29,60,0
+Wyoming,1928,29,60,0
+Wyoming,1929,21,68,0
+Wyoming,1930,21,68,0
+Wyoming,1931,32,57,0
+Wyoming,1932,32,57,0
+Wyoming,1933,54,35,0
+Wyoming,1934,54,35,0
+Wyoming,1935,52,31,0
+Wyoming,1936,52,31,0
+Wyoming,1937,54,29,0
+Wyoming,1938,54,29,0
+Wyoming,1939,30,53,0
+Wyoming,1940,30,53,0
+Wyoming,1941,39,44,0
+Wyoming,1942,39,44,0
+Wyoming,1943,27,56,0
+Wyoming,1944,27,56,0
+Wyoming,1945,26,56,0
+Wyoming,1946,26,56,0
+Wyoming,1947,20,63,0
+Wyoming,1948,20,63,0
+Wyoming,1949,37,46,0
+Wyoming,1950,37,46,0
+Wyoming,1951,27,56,0
+Wyoming,1952,27,56,0
+Wyoming,1953,17,66,0
+Wyoming,1954,17,66,0
+Wyoming,1955,32,51,0
+Wyoming,1956,32,51,0
+Wyoming,1957,37,46,0
+Wyoming,1958,37,46,0
+Wyoming,1959,41,42,0
+Wyoming,1960,41,42,0
+Wyoming,1961,31,52,0
+Wyoming,1962,31,52,0
+Wyoming,1963,30,53,0
+Wyoming,1964,30,53,0
+Wyoming,1965,46,40,0
+Wyoming,1966,46,40,0
+Wyoming,1967,39,52,0
+Wyoming,1968,39,52,0
+Wyoming,1969,28,63,0
+Wyoming,1970,28,63,0
+Wyoming,1971,31,59,1
+Wyoming,1972,31,59,1
+Wyoming,1973,30,61,1
+Wyoming,1974,30,61,1
+Wyoming,1975,44,47,1
+Wyoming,1976,44,47,1
+Wyoming,1977,41,50,1
+Wyoming,1978,41,50,1
+Wyoming,1979,31,61,0
+Wyoming,1980,31,61,0
+Wyoming,1981,34,58,0
+Wyoming,1982,34,58,0
+Wyoming,1983,36,57,1
+Wyoming,1984,36,57,1
+Wyoming,1985,29,65,0
+Wyoming,1986,29,65,0
+Wyoming,1987,31,63,0
+Wyoming,1988,31,63,0
+Wyoming,1989,32,62,0
+Wyoming,1990,32,62,0
+Wyoming,1991,32,62,0
+Wyoming,1992,32,62,0
+Wyoming,1993,29,61,0
+Wyoming,1994,29,61,0
+Wyoming,1995,23,67,0
+Wyoming,1996,23,67,0
+Wyoming,1997,26,64,0
+Wyoming,1998,26,64,0
+Wyoming,1999,26,64,0
+Wyoming,2000,26,64,0
+Wyoming,2001,24,66,0
+Wyoming,2002,24,66,0
+Wyoming,2003,25,65,0
+Wyoming,2004,25,65,0
+Wyoming,2005,21,69,0
+Wyoming,2006,21,69,0
+Wyoming,2007,24,66,0
+Wyoming,2008,24,66,0
+Wyoming,2009,26,64,0
+Wyoming,2010,26,64,0
+Wyoming,2011,14,76,0
+Wyoming,2012,14,76,0
+Wyoming,2013,12,78,0
+Wyoming,2014,12,78,0
+Wyoming,2015,13,77,0
+Wyoming,2016,13,77,0
+Wyoming,2017,12,78,0
+Wyoming,2018,12,78,0
+Wyoming,2019,12,77,1
+Wyoming,2020,12,77,1
+Wyoming,2021,9,79,2
+Wyoming,2022,9,79,2
+Wyoming,2023,7,85,0
+Wyoming,2024,7,85,0
+Wyoming,2025,8,84,0
+Wyoming,2026,8,84,0

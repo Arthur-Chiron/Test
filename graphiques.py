@@ -92,26 +92,30 @@ def analyse(persons, seats):
     out["condamnes_sans_decennie"] = sum(1 for p in dr if not p["decennie"])
 
     # Observé vs attendu (même État, même décennie)
-    exp = defaultdict(lambda: {"obs_D": 0, "obs_R": 0, "exp_D": 0.0, "var": 0.0})
-    per_state = defaultdict(lambda: {"obs_D": 0, "n": 0, "exp_D": 0.0})
-    covered = 0
-    for p in dr:
-        if not p["decennie"] or p["etat"] not in STATES:
-            continue
-        sd = state_decade.get((p["etat"], int(p["decennie"])))
-        if not sd or sd[0] + sd[1] == 0:
-            continue
-        covered += 1
-        share = sd[0] / (sd[0] + sd[1])
-        for key in (int(p["decennie"]), "total"):
-            e = exp[key]
-            e["obs_D" if p["parti"] == DEM else "obs_R"] += 1
-            e["exp_D"] += share
-            e["var"] += share * (1 - share)
-        s = per_state[p["etat"]]
-        s["n"] += 1
-        s["obs_D"] += p["parti"] == DEM
-        s["exp_D"] += share
+    def compare(subset):
+        exp = defaultdict(lambda: {"obs_D": 0, "obs_R": 0, "exp_D": 0.0, "var": 0.0})
+        per_state = defaultdict(lambda: {"obs_D": 0, "n": 0, "exp_D": 0.0})
+        covered = 0
+        for p in subset:
+            if not p["decennie"] or p["etat"] not in STATES:
+                continue
+            sd = state_decade.get((p["etat"], int(p["decennie"])))
+            if not sd or sd[0] + sd[1] == 0:
+                continue
+            covered += 1
+            share = sd[0] / (sd[0] + sd[1])
+            for key in (int(p["decennie"]), "total"):
+                e = exp[key]
+                e["obs_D" if p["parti"] == DEM else "obs_R"] += 1
+                e["exp_D"] += share
+                e["var"] += share * (1 - share)
+            s = per_state[p["etat"]]
+            s["n"] += 1
+            s["obs_D"] += p["parti"] == DEM
+            s["exp_D"] += share
+        return exp, per_state, covered
+
+    exp, per_state, covered = compare(dr)
 
     def summarize_exp(e):
         n = e["obs_D"] + e["obs_R"]
@@ -130,6 +134,18 @@ def analyse(persons, seats):
         st: {"n": v["n"], "part_D_observee": round(100 * v["obs_D"] / v["n"], 1),
              "part_D_attendue": round(100 * v["exp_D"] / v["n"], 1)}
         for st, v in sorted(per_state.items(), key=lambda kv: -kv[1]["n"])}
+
+    # Contrôles de robustesse : la même comparaison sur des sous-ensembles.
+    subsets = {
+        "parlementaires_etats": [p for p in dr if p["parlementaire_etat"] == "oui"],
+        "autres_elus": [p for p in dr if p["parlementaire_etat"] != "oui"],
+        "listes_decennies_seules": [p for p in dr if "listes_decennies" in p["sources"]],
+        "ajouts_hors_listes": [p for p in dr if "listes_decennies" not in p["sources"]],
+        "avant_1970": [p for p in dr if p["decennie"] and int(p["decennie"]) < 1970],
+        "depuis_1970": [p for p in dr if p["decennie"] and int(p["decennie"]) >= 1970],
+    }
+    out["robustesse"] = {name: summarize_exp(compare(sub)[0]["total"])
+                         for name, sub in subsets.items()}
 
     # Sièges nationaux (somme des États disposant de données)
     out["sieges_nationaux_par_annee"] = {y: {"D": d, "R": r} for y, (d, r) in national.items()}
@@ -199,7 +215,12 @@ def legend(ax, handles_labels, loc="upper left"):
 
 
 def decade_label(d: int) -> str:
-    return f"{d}s" if d < 2000 else f"{d}s"
+    return f"{d}s"
+
+
+def fr(x: float) -> str:
+    """Nombre décimal à la française : 5,43."""
+    return f"{x}".replace(".", ",")
 
 
 def fig_condamnes_par_decennie(a, path, note):
@@ -261,15 +282,17 @@ def fig_part_democrate(a, path, note):
         "Part des démocrates : parmi les condamnés et parmi les élus",
         "Par décennie, pour les décennies comptant au moins 10 condamnés comparables", note)
     series = [
-        (nat, C["muted"], "Sièges d'États\n(ensemble du pays)"),
-        (exp, C["ink2"], "Attendu si même taux\n(mêmes États, même décennie)"),
-        (obs, C["dem"], "Condamnés"),
+        (obs, C["dem"], "Démocrates parmi les condamnés"),
+        (exp, C["ink2"], "Attendu si même taux (mêmes États, même décennie)"),
+        (nat, C["muted"], "Démocrates parmi les sièges d'États (ensemble du pays)"),
     ]
+    handles = []
     for values, color, label in series:
-        ax.plot(decades, values, color=color, linewidth=2, marker="o", markersize=4.5,
-                markeredgecolor=C["surface"], markeredgewidth=1.2, solid_capstyle="round")
-        ax.annotate(label, (decades[-1], values[-1]), xytext=(10, 0), textcoords="offset points",
-                    va="center", fontsize=8.5, color=C["ink2"])
+        h, = ax.plot(decades, values, color=color, linewidth=2, marker="o", markersize=4.5,
+                     markeredgecolor=C["surface"], markeredgewidth=1.2, solid_capstyle="round")
+        handles.append((h, label))
+    # Les lignes se rejoignent à droite : une légende plutôt que des étiquettes empilées.
+    legend(ax, handles, loc="lower right")
     ax.axhline(50, color=C["axis"], linewidth=1)
     ax.set_ylim(0, 100)
     ax.yaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{int(v)} %"))
@@ -310,9 +333,9 @@ def fig_taux(a, path, note):
     tt = a["parlementaires_taux_total"]
     fig, ax = new_figure(
         "Parlementaires d'États condamnés, pour 1 000 sièges détenus par leur parti",
-        f"Toutes décennies : {tt['taux_D_pour_1000_sieges_decennie']} (D) contre "
-        f"{tt['taux_R_pour_1000_sieges_decennie']} (R) pour 1 000 sièges par décennie "
-        "— décennies avec au moins 5 condamnés", note)
+        f"Condamnés ayant siégé dans un parlement d'État. Toutes décennies : "
+        f"{fr(tt['taux_D_pour_1000_sieges_decennie'])} (D) contre "
+        f"{fr(tt['taux_R_pour_1000_sieges_decennie'])} (R) pour 1 000 sièges", note)
     bd = ax.bar([i - w / 2 for i in x], [rates[d]["taux_D_pour_1000"] for d in decades], w,
                 color=C["dem"], edgecolor=C["surface"], linewidth=1.5)
     br = ax.bar([i + w / 2 for i in x], [rates[d]["taux_R_pour_1000"] for d in decades], w,
@@ -353,6 +376,52 @@ def fig_etats(a, path, note, top=15):
     plt.close(fig)
 
 
+ROBUSTNESS_LABELS = {
+    "ensemble": "Tous les condamnés comparables",
+    "parlementaires_etats": "Parlementaires d'États seulement",
+    "autres_elus": "Autres élus (locaux, exécutifs…)",
+    "listes_decennies_seules": "Listes par décennie seules",
+    "ajouts_hors_listes": "Ajouts hors listes (catégories…)",
+    "avant_1970": "Condamnés avant 1970",
+    "depuis_1970": "Condamnés depuis 1970",
+}
+
+
+def fig_robustesse(a, path, note):
+    rows = [("ensemble", a["observe_vs_attendu"])] + list(a["robustesse"].items())
+    rows = [(k, v) for k, v in rows if v["n"]]
+    rows.reverse()
+    fig, ax = new_figure(
+        "Part des démocrates parmi les condamnés : observée et attendue",
+        "Même comparaison sur différents sous-ensembles ; « attendue » d'après les sièges "
+        "détenus dans le même État à la même décennie", note, size=(10, 5.6))
+    ax.yaxis.grid(False)
+    ax.xaxis.grid(True, color=C["grid"], linewidth=0.8)
+    for i, (k, v) in enumerate(rows):
+        lo, hi = sorted((v["part_D_attendue"], v["part_D_observee"]))
+        ax.plot([lo, hi], [i, i], color=C["axis"], linewidth=2, solid_capstyle="round", zorder=1)
+        ax.plot(v["part_D_attendue"], i, "o", color=C["ink2"], markersize=7,
+                markeredgecolor=C["surface"], markeredgewidth=1.5, zorder=2)
+        ax.plot(v["part_D_observee"], i, "o", color=C["dem"], markersize=7,
+                markeredgecolor=C["surface"], markeredgewidth=1.5, zorder=3)
+        gap = v["part_D_observee"] - v["part_D_attendue"]
+        ax.annotate(f"{'+' if gap >= 0 else '−'}{fr(round(abs(gap), 1))} pts",
+                    (max(v["part_D_attendue"], v["part_D_observee"]), i), xytext=(10, 0),
+                    textcoords="offset points", va="center", fontsize=8.5, color=C["ink2"])
+    ax.set_yticks(range(len(rows)),
+                  [f"{ROBUSTNESS_LABELS[k]} ({v['n']})" for k, v in rows], fontsize=8.5)
+    ax.set_xlim(0, 100)
+    ax.xaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{int(v)} %"))
+    ax.axvline(50, color=C["axis"], linewidth=1)
+    h1, = ax.plot([], [], "o", color=C["dem"], markersize=7)
+    h2, = ax.plot([], [], "o", color=C["ink2"], markersize=7)
+    ax.legend([h1, h2], ["Observée", "Attendue (sièges)"], loc="lower left", frameon=False,
+              fontsize=9, labelcolor=C["ink2"])
+    fig.subplots_adjust(left=0.3)
+    fig.savefig(path, facecolor=C["surface"])
+    plt.close(fig)
+
+
 def write_markdown(a, path):
     t = a["observe_vs_attendu"]
     lines = [
@@ -367,6 +436,12 @@ def write_markdown(a, path):
         f"| Attendus | {t['attendu_D']} | {t['attendu_R']} |", "",
         f"Part des démocrates : {t['part_D_observee']} % observée, {t['part_D_attendue']} % "
         f"attendue (écart de {t['ecart_en_ecarts_types']} écarts-types).", "",
+        "## Contrôles de robustesse (même comparaison sur des sous-ensembles)", "",
+        "| Sous-ensemble | Condamnés | Part D observée | Part D attendue | Écart (écarts-types) |",
+        "|---|---:|---:|---:|---:|",
+        *[f"| {ROBUSTNESS_LABELS[k]} | {v['n']} | {v['part_D_observee']} % | "
+          f"{v['part_D_attendue']} % | {v['ecart_en_ecarts_types']} |"
+          for k, v in a["robustesse"].items()], "",
         "## Par décennie", "",
         "| Décennie | Condamnés D | Condamnés R | Part D observée | Part D attendue | "
         "Part D des sièges (pays) |", "|---|---:|---:|---:|---:|---:|",
@@ -409,6 +484,7 @@ def main(argv=None) -> int:
     fig_observe_attendu(a, out / "4_observe_vs_attendu.png", note)
     fig_taux(a, out / "5_taux_parlementaires.png", note)
     fig_etats(a, out / "6_etats.png", note)
+    fig_robustesse(a, out / "7_robustesse.png", note)
     (args.dir / "analyse.json").write_text(json.dumps(a, ensure_ascii=False, indent=2),
                                            encoding="utf-8")
     write_markdown(a, args.dir / "analyse.md")
@@ -417,6 +493,9 @@ def main(argv=None) -> int:
                      ensure_ascii=False))
     print("Observé vs attendu :", json.dumps(t, ensure_ascii=False))
     print("Taux parlementaires :", json.dumps(a["parlementaires_taux_total"], ensure_ascii=False))
+    for k, v in a["robustesse"].items():
+        print(f"  {k:26} n={v['n']:4}  D observé {v['part_D_observee']} %  attendu "
+              f"{v['part_D_attendue']} %  écart {v['ecart_en_ecarts_types']} σ")
     return 0
 
 

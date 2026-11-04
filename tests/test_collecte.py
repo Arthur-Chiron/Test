@@ -84,10 +84,23 @@ class TestArticleInfo(unittest.TestCase):
         self.assertTrue(info.legislator)
         self.assertEqual(info.year, 2005)
 
+    def test_conviction_year_ignores_career_dates(self):
+        # Les dates de carrière (phrase sans condamnation) sont ignorées ; dans la phrase
+        # de condamnation, l'année la plus proche du verbe l'emporte (1998, pas 1996 ni 2004).
+        wt = ("Doe served in the Senate from 1975 to 1990. After a 1996 investigation, he was "
+              "convicted of fraud in 1998 and released in 2004.")
+        self.assertEqual(ce.conviction_year(wt), 1998)
+
     def test_federal_and_no_office(self):
         fed = ce.article_info("X", "[[Category:Members of the United States House of "
                                    "Representatives from Ohio]]\n[[Category:Ohio state senators]]")
         self.assertTrue(fed.federal)
+        for cat in ["Democratic Party United States representatives from Ohio",
+                    "Treasurers of the United States"]:
+            with self.subTest(cat=cat):
+                self.assertTrue(ce.article_info("Y", f"[[Category:{cat}]]").federal)
+        self.assertFalse(ce.article_info(
+            "G", "[[Category:Democratic Party state governors of the United States]]").federal)
         none = ce.article_info("Y", "Activist. He was convicted in 1970.\n"
                                     "[[Category:American political activists]]")
         self.assertFalse(none.state_local)

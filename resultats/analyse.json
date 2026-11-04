@@ -1,0 +1,1557 @@
+{
+  "personnes": 1384,
+  "partis": {
+    "Démocrate": 647,
+    "Républicain": 482,
+    "Indéterminé": 226,
+    "Les deux (changement de parti)": 16,
+    "Autre": 13
+  },
+  "sources": {
+    "listes_corruption_federale": 197,
+    "categories": 345,
+    "listes_decennies": 842
+  },
+  "condamnes_par_decennie": {
+    "1850": {
+      "Démocrate": 1,
+      "Républicain": 0
+    },
+    "1860": {
+      "Démocrate": 1,
+      "Républicain": 0
+    },
+    "1870": {
+      "Démocrate": 2,
+      "Républicain": 5
+    },
+    "1880": {
+      "Démocrate": 2,
+      "Républicain": 3
+    },
+    "1890": {
+      "Démocrate": 3,
+      "Républicain": 2
+    },
+    "1900": {
+      "Démocrate": 1,
+      "Républicain": 10
+    },
+    "1910": {
+      "Démocrate": 6,
+      "Républicain": 10
+    },
+    "1920": {
+      "Démocrate": 1,
+      "Républicain": 6
+    },
+    "1930": {
+      "Démocrate": 4,
+      "Républicain": 9
+    },
+    "1940": {
+      "Démocrate": 7,
+      "Républicain": 9
+    },
+    "1950": {
+      "Démocrate": 3,
+      "Républicain": 6
+    },
+    "1960": {
+      "Démocrate": 11,
+      "Républicain": 8
+    },
+    "1970": {
+      "Démocrate": 52,
+      "Républicain": 24
+    },
+    "1980": {
+      "Démocrate": 59,
+      "Républicain": 17
+    },
+    "1990": {
+      "Démocrate": 69,
+      "Républicain": 32
+    },
+    "2000": {
+      "Démocrate": 112,
+      "Républicain": 80
+    },
+    "2010": {
+      "Démocrate": 162,
+      "Républicain": 111
+    },
+    "2020": {
+      "Démocrate": 99,
+      "Républicain": 83
+    }
+  },
+  "condamnes_sans_decennie": 119,
+  "comparables": 997,
+  "observe_vs_attendu": {
+    "n": 997,
+    "observe_D": 589,
+    "observe_R": 408,
+    "attendu_D": 524.1,
+    "attendu_R": 472.9,
+    "part_D_observee": 59.1,
+    "part_D_attendue": 52.6,
+    "ecart_en_ecarts_types": 4.39
+  },
+  "observe_vs_attendu_par_decennie": {
+    "1850": {
+      "n": 1,
+      "observe_D": 1,
+      "observe_R": 0,
+      "attendu_D": 0.8,
+      "attendu_R": 0.2,
+      "part_D_observee": 100.0,
+      "part_D_attendue": 83.0,
+      "ecart_en_ecarts_types": 0.45
+    },
+    "1860": {
+      "n": 1,
+      "observe_D": 1,
+      "observe_R": 0,
+      "attendu_D": 0.2,
+      "attendu_R": 0.8,
+      "part_D_observee": 100.0,
+      "part_D_attendue": 21.8,
+      "ecart_en_ecarts_types": 1.9
+    },
+    "1870": {
+      "n": 6,
+      "observe_D": 2,
+      "observe_R": 4,
+      "attendu_D": 2.9,
+      "attendu_R": 3.1,
+      "part_D_observee": 33.3,
+      "part_D_attendue": 48.5,
+      "ecart_en_ecarts_types": -0.8
+    },
+    "1880": {
+      "n": 4,
+      "observe_D": 2,
+      "observe_R": 2,
+      "attendu_D": 3.5,
+      "attendu_R": 0.5,
+      "part_D_observee": 50.0,
+      "part_D_attendue": 88.1,
+      "ecart_en_ecarts_types": -2.39
+    },
+    "1890": {
+      "n": 4,
+      "observe_D": 3,
+      "observe_R": 1,
+      "attendu_D": 1.9,
+      "attendu_R": 2.1,
+      "part_D_observee": 75.0,
+      "part_D_attendue": 48.0,
+      "ecart_en_ecarts_types": 1.12
+    },
+    "1900": {
+      "n": 11,
+      "observe_D": 1,
+      "observe_R": 10,
+      "attendu_D": 3.5,
+      "attendu_R": 7.5,
+      "part_D_observee": 9.1,
+      "part_D_attendue": 31.8,
+      "ecart_en_ecarts_types": -1.85
+    },
+    "1910": {
+      "n": 16,
+      "observe_D": 6,
+      "observe_R": 10,
+      "attendu_D": 7.9,
+      "attendu_R": 8.1,
+      "part_D_observee": 37.5,
+      "part_D_attendue": 49.1,
+      "ecart_en_ecarts_types": -1.1
+    },
+    "1920": {
+      "n": 6,
+      "observe_D": 0,
+      "observe_R": 6,
+      "attendu_D": 1.2,
+      "attendu_R": 4.8,
+      "part_D_observee": 0.0,
+      "part_D_attendue": 20.7,
+      "ecart_en_ecarts_types": -1.33
+    },
+    "1930": {
+      "n": 13,
+      "observe_D": 4,
+      "observe_R": 9,
+      "attendu_D": 6.0,
+      "attendu_R": 7.0,
+      "part_D_observee": 30.8,
+      "part_D_attendue": 46.2,
+      "ecart_en_ecarts_types": -1.24
+    },
+    "1940": {
+      "n": 16,
+      "observe_D": 7,
+      "observe_R": 9,
+      "attendu_D": 6.3,
+      "attendu_R": 9.7,
+      "part_D_observee": 43.8,
+      "part_D_attendue": 39.1,
+      "ecart_en_ecarts_types": 0.42
+    },
+    "1950": {
+      "n": 9,
+      "observe_D": 3,
+      "observe_R": 6,
+      "attendu_D": 4.4,
+      "attendu_R": 4.6,
+      "part_D_observee": 33.3,
+      "part_D_attendue": 49.3,
+      "ecart_en_ecarts_types": -1.08
+    },
+    "1960": {
+      "n": 18,
+      "observe_D": 11,
+      "observe_R": 7,
+      "attendu_D": 10.9,
+      "attendu_R": 7.1,
+      "part_D_observee": 61.1,
+      "part_D_attendue": 60.8,
+      "ecart_en_ecarts_types": 0.03
+    },
+    "1970": {
+      "n": 76,
+      "observe_D": 52,
+      "observe_R": 24,
+      "attendu_D": 47.2,
+      "attendu_R": 28.8,
+      "part_D_observee": 68.4,
+      "part_D_attendue": 62.1,
+      "ecart_en_ecarts_types": 1.2
+    },
+    "1980": {
+      "n": 76,
+      "observe_D": 59,
+      "observe_R": 17,
+      "attendu_D": 47.2,
+      "attendu_R": 28.8,
+      "part_D_observee": 77.6,
+      "part_D_attendue": 62.1,
+      "ecart_en_ecarts_types": 2.92
+    },
+    "1990": {
+      "n": 99,
+      "observe_D": 67,
+      "observe_R": 32,
+      "attendu_D": 60.4,
+      "attendu_R": 38.6,
+      "part_D_observee": 67.7,
+      "part_D_attendue": 61.0,
+      "ecart_en_ecarts_types": 1.4
+    },
+    "2000": {
+      "n": 189,
+      "observe_D": 112,
+      "observe_R": 77,
+      "attendu_D": 101.3,
+      "attendu_R": 87.7,
+      "part_D_observee": 59.3,
+      "part_D_attendue": 53.6,
+      "ecart_en_ecarts_types": 1.61
+    },
+    "2010": {
+      "n": 270,
+      "observe_D": 159,
+      "observe_R": 111,
+      "attendu_D": 132.1,
+      "attendu_R": 137.9,
+      "part_D_observee": 58.9,
+      "part_D_attendue": 48.9,
+      "ecart_en_ecarts_types": 3.44
+    },
+    "2020": {
+      "n": 182,
+      "observe_D": 99,
+      "observe_R": 83,
+      "attendu_D": 86.3,
+      "attendu_R": 95.7,
+      "part_D_observee": 54.4,
+      "part_D_attendue": 47.4,
+      "ecart_en_ecarts_types": 2.05
+    }
+  },
+  "par_etat": {
+    "Illinois": {
+      "n": 103,
+      "part_D_observee": 75.7,
+      "part_D_attendue": 55.7
+    },
+    "New York": {
+      "n": 71,
+      "part_D_observee": 67.6,
+      "part_D_attendue": 57.9
+    },
+    "Pennsylvania": {
+      "n": 68,
+      "part_D_observee": 66.2,
+      "part_D_attendue": 44.8
+    },
+    "New Jersey": {
+      "n": 51,
+      "part_D_observee": 70.6,
+      "part_D_attendue": 55.0
+    },
+    "California": {
+      "n": 45,
+      "part_D_observee": 57.8,
+      "part_D_attendue": 62.5
+    },
+    "Massachusetts": {
+      "n": 43,
+      "part_D_observee": 83.7,
+      "part_D_attendue": 69.8
+    },
+    "Michigan": {
+      "n": 33,
+      "part_D_observee": 54.5,
+      "part_D_attendue": 40.2
+    },
+    "Maryland": {
+      "n": 31,
+      "part_D_observee": 77.4,
+      "part_D_attendue": 74.5
+    },
+    "Oklahoma": {
+      "n": 29,
+      "part_D_observee": 65.5,
+      "part_D_attendue": 48.7
+    },
+    "Tennessee": {
+      "n": 27,
+      "part_D_observee": 51.9,
+      "part_D_attendue": 46.7
+    },
+    "Kentucky": {
+      "n": 27,
+      "part_D_observee": 51.9,
+      "part_D_attendue": 63.1
+    },
+    "Missouri": {
+      "n": 26,
+      "part_D_observee": 69.2,
+      "part_D_attendue": 42.4
+    },
+    "Florida": {
+      "n": 25,
+      "part_D_observee": 52.0,
+      "part_D_attendue": 40.1
+    },
+    "Arkansas": {
+      "n": 24,
+      "part_D_observee": 54.2,
+      "part_D_attendue": 56.8
+    },
+    "Alabama": {
+      "n": 24,
+      "part_D_observee": 70.8,
+      "part_D_attendue": 50.9
+    },
+    "Ohio": {
+      "n": 24,
+      "part_D_observee": 66.7,
+      "part_D_attendue": 34.7
+    },
+    "South Carolina": {
+      "n": 21,
+      "part_D_observee": 4.8,
+      "part_D_attendue": 42.7
+    },
+    "Louisiana": {
+      "n": 21,
+      "part_D_observee": 95.2,
+      "part_D_attendue": 69.7
+    },
+    "North Carolina": {
+      "n": 20,
+      "part_D_observee": 60.0,
+      "part_D_attendue": 47.7
+    },
+    "Connecticut": {
+      "n": 20,
+      "part_D_observee": 50.0,
+      "part_D_attendue": 59.4
+    },
+    "Wisconsin": {
+      "n": 19,
+      "part_D_observee": 42.1,
+      "part_D_attendue": 42.1
+    },
+    "Arizona": {
+      "n": 19,
+      "part_D_observee": 42.1,
+      "part_D_attendue": 41.6
+    },
+    "Georgia": {
+      "n": 18,
+      "part_D_observee": 50.0,
+      "part_D_attendue": 45.9
+    },
+    "Texas": {
+      "n": 17,
+      "part_D_observee": 47.1,
+      "part_D_attendue": 51.8
+    },
+    "Mississippi": {
+      "n": 15,
+      "part_D_observee": 60.0,
+      "part_D_attendue": 47.7
+    },
+    "Nevada": {
+      "n": 14,
+      "part_D_observee": 57.1,
+      "part_D_attendue": 58.7
+    },
+    "Rhode Island": {
+      "n": 14,
+      "part_D_observee": 78.6,
+      "part_D_attendue": 86.2
+    },
+    "Indiana": {
+      "n": 13,
+      "part_D_observee": 38.5,
+      "part_D_attendue": 32.8
+    },
+    "New Hampshire": {
+      "n": 13,
+      "part_D_observee": 30.8,
+      "part_D_attendue": 44.9
+    },
+    "Alaska": {
+      "n": 11,
+      "part_D_observee": 27.3,
+      "part_D_attendue": 40.9
+    },
+    "Virginia": {
+      "n": 11,
+      "part_D_observee": 27.3,
+      "part_D_attendue": 46.0
+    },
+    "Nebraska": {
+      "n": 10,
+      "part_D_observee": 10.0,
+      "part_D_attendue": 35.8
+    },
+    "Minnesota": {
+      "n": 10,
+      "part_D_observee": 60.0,
+      "part_D_attendue": 62.7
+    },
+    "West Virginia": {
+      "n": 10,
+      "part_D_observee": 40.0,
+      "part_D_attendue": 54.3
+    },
+    "Hawaii": {
+      "n": 7,
+      "part_D_observee": 85.7,
+      "part_D_attendue": 83.0
+    },
+    "New Mexico": {
+      "n": 7,
+      "part_D_observee": 71.4,
+      "part_D_attendue": 60.0
+    },
+    "Montana": {
+      "n": 7,
+      "part_D_observee": 14.3,
+      "part_D_attendue": 39.8
+    },
+    "Oregon": {
+      "n": 6,
+      "part_D_observee": 16.7,
+      "part_D_attendue": 48.8
+    },
+    "Colorado": {
+      "n": 6,
+      "part_D_observee": 33.3,
+      "part_D_attendue": 59.6
+    },
+    "Delaware": {
+      "n": 6,
+      "part_D_observee": 50.0,
+      "part_D_attendue": 63.6
+    },
+    "Maine": {
+      "n": 5,
+      "part_D_observee": 20.0,
+      "part_D_attendue": 48.6
+    },
+    "Idaho": {
+      "n": 5,
+      "part_D_observee": 0.0,
+      "part_D_attendue": 18.4
+    },
+    "Kansas": {
+      "n": 5,
+      "part_D_observee": 0.0,
+      "part_D_attendue": 30.2
+    },
+    "Washington": {
+      "n": 4,
+      "part_D_observee": 75.0,
+      "part_D_attendue": 54.2
+    },
+    "Vermont": {
+      "n": 3,
+      "part_D_observee": 33.3,
+      "part_D_attendue": 28.9
+    },
+    "North Dakota": {
+      "n": 3,
+      "part_D_observee": 0.0,
+      "part_D_attendue": 13.2
+    },
+    "Iowa": {
+      "n": 2,
+      "part_D_observee": 50.0,
+      "part_D_attendue": 40.2
+    },
+    "South Dakota": {
+      "n": 2,
+      "part_D_observee": 0.0,
+      "part_D_attendue": 20.4
+    },
+    "Utah": {
+      "n": 2,
+      "part_D_observee": 0.0,
+      "part_D_attendue": 27.9
+    }
+  },
+  "robustesse": {
+    "parlementaires_etats": {
+      "n": 594,
+      "observe_D": 329,
+      "observe_R": 265,
+      "attendu_D": 309.3,
+      "attendu_R": 284.7,
+      "part_D_observee": 55.4,
+      "part_D_attendue": 52.1,
+      "ecart_en_ecarts_types": 1.74
+    },
+    "autres_elus": {
+      "n": 403,
+      "observe_D": 260,
+      "observe_R": 143,
+      "attendu_D": 214.8,
+      "attendu_R": 188.2,
+      "part_D_observee": 64.5,
+      "part_D_attendue": 53.3,
+      "ecart_en_ecarts_types": 4.78
+    },
+    "listes_decennies_seules": {
+      "n": 796,
+      "observe_D": 460,
+      "observe_R": 336,
+      "attendu_D": 414.8,
+      "attendu_R": 381.2,
+      "part_D_observee": 57.8,
+      "part_D_attendue": 52.1,
+      "ecart_en_ecarts_types": 3.42
+    },
+    "ajouts_hors_listes": {
+      "n": 201,
+      "observe_D": 129,
+      "observe_R": 72,
+      "attendu_D": 109.3,
+      "attendu_R": 91.7,
+      "part_D_observee": 64.2,
+      "part_D_attendue": 54.4,
+      "ecart_en_ecarts_types": 2.99
+    },
+    "avant_1970": {
+      "n": 105,
+      "observe_D": 41,
+      "observe_R": 64,
+      "attendu_D": 49.6,
+      "attendu_R": 55.4,
+      "part_D_observee": 39.0,
+      "part_D_attendue": 47.3,
+      "ecart_en_ecarts_types": -1.95
+    },
+    "depuis_1970": {
+      "n": 892,
+      "observe_D": 548,
+      "observe_R": 344,
+      "attendu_D": 474.4,
+      "attendu_R": 417.6,
+      "part_D_observee": 61.4,
+      "part_D_attendue": 53.2,
+      "ecart_en_ecarts_types": 5.22
+    }
+  },
+  "sieges_nationaux_par_annee": {
+    "1828": {
+      "D": 64,
+      "R": 0
+    },
+    "1829": {
+      "D": 111,
+      "R": 0
+    },
+    "1830": {
+      "D": 119,
+      "R": 0
+    },
+    "1831": {
+      "D": 214,
+      "R": 0
+    },
+    "1832": {
+      "D": 406,
+      "R": 0
+    },
+    "1833": {
+      "D": 247,
+      "R": 0
+    },
+    "1834": {
+      "D": 557,
+      "R": 0
+    },
+    "1835": {
+      "D": 1002,
+      "R": 0
+    },
+    "1836": {
+      "D": 1360,
+      "R": 0
+    },
+    "1837": {
+      "D": 1755,
+      "R": 0
+    },
+    "1838": {
+      "D": 1408,
+      "R": 0
+    },
+    "1839": {
+      "D": 1606,
+      "R": 0
+    },
+    "1840": {
+      "D": 1814,
+      "R": 0
+    },
+    "1841": {
+      "D": 1530,
+      "R": 0
+    },
+    "1842": {
+      "D": 1959,
+      "R": 0
+    },
+    "1843": {
+      "D": 2125,
+      "R": 0
+    },
+    "1844": {
+      "D": 2001,
+      "R": 0
+    },
+    "1845": {
+      "D": 1753,
+      "R": 0
+    },
+    "1846": {
+      "D": 1881,
+      "R": 0
+    },
+    "1847": {
+      "D": 1871,
+      "R": 0
+    },
+    "1848": {
+      "D": 1990,
+      "R": 0
+    },
+    "1849": {
+      "D": 1692,
+      "R": 0
+    },
+    "1850": {
+      "D": 1888,
+      "R": 63
+    },
+    "1851": {
+      "D": 1804,
+      "R": 0
+    },
+    "1852": {
+      "D": 1756,
+      "R": 0
+    },
+    "1853": {
+      "D": 2051,
+      "R": 0
+    },
+    "1854": {
+      "D": 2212,
+      "R": 0
+    },
+    "1855": {
+      "D": 1685,
+      "R": 360
+    },
+    "1856": {
+      "D": 1726,
+      "R": 866
+    },
+    "1857": {
+      "D": 1652,
+      "R": 1808
+    },
+    "1858": {
+      "D": 2012,
+      "R": 1642
+    },
+    "1859": {
+      "D": 2003,
+      "R": 1680
+    },
+    "1860": {
+      "D": 2011,
+      "R": 1769
+    },
+    "1861": {
+      "D": 1811,
+      "R": 2004
+    },
+    "1862": {
+      "D": 1067,
+      "R": 1963
+    },
+    "1863": {
+      "D": 1030,
+      "R": 1733
+    },
+    "1864": {
+      "D": 878,
+      "R": 2087
+    },
+    "1865": {
+      "D": 794,
+      "R": 2315
+    },
+    "1866": {
+      "D": 886,
+      "R": 2470
+    },
+    "1867": {
+      "D": 1045,
+      "R": 2646
+    },
+    "1868": {
+      "D": 1503,
+      "R": 2509
+    },
+    "1869": {
+      "D": 1500,
+      "R": 3165
+    },
+    "1870": {
+      "D": 1864,
+      "R": 3028
+    },
+    "1871": {
+      "D": 2208,
+      "R": 2826
+    },
+    "1872": {
+      "D": 2128,
+      "R": 2896
+    },
+    "1873": {
+      "D": 2192,
+      "R": 2948
+    },
+    "1874": {
+      "D": 2295,
+      "R": 2744
+    },
+    "1875": {
+      "D": 2816,
+      "R": 2437
+    },
+    "1876": {
+      "D": 2914,
+      "R": 2535
+    },
+    "1877": {
+      "D": 2859,
+      "R": 2754
+    },
+    "1878": {
+      "D": 2974,
+      "R": 2627
+    },
+    "1879": {
+      "D": 2913,
+      "R": 2412
+    },
+    "1880": {
+      "D": 2727,
+      "R": 2572
+    },
+    "1881": {
+      "D": 2694,
+      "R": 2792
+    },
+    "1882": {
+      "D": 2676,
+      "R": 2727
+    },
+    "1883": {
+      "D": 3000,
+      "R": 2459
+    },
+    "1884": {
+      "D": 3080,
+      "R": 2410
+    },
+    "1885": {
+      "D": 2980,
+      "R": 2573
+    },
+    "1886": {
+      "D": 3043,
+      "R": 2593
+    },
+    "1887": {
+      "D": 2931,
+      "R": 2679
+    },
+    "1888": {
+      "D": 2823,
+      "R": 2771
+    },
+    "1889": {
+      "D": 2879,
+      "R": 3171
+    },
+    "1890": {
+      "D": 3016,
+      "R": 3145
+    },
+    "1891": {
+      "D": 3527,
+      "R": 2563
+    },
+    "1892": {
+      "D": 3558,
+      "R": 2524
+    },
+    "1893": {
+      "D": 3382,
+      "R": 2599
+    },
+    "1894": {
+      "D": 3199,
+      "R": 2807
+    },
+    "1895": {
+      "D": 2245,
+      "R": 3667
+    },
+    "1896": {
+      "D": 2140,
+      "R": 3852
+    },
+    "1897": {
+      "D": 2254,
+      "R": 3567
+    },
+    "1898": {
+      "D": 2452,
+      "R": 3376
+    },
+    "1899": {
+      "D": 2954,
+      "R": 3189
+    },
+    "1900": {
+      "D": 2982,
+      "R": 3198
+    },
+    "1901": {
+      "D": 2913,
+      "R": 3421
+    },
+    "1902": {
+      "D": 2916,
+      "R": 3440
+    },
+    "1903": {
+      "D": 3051,
+      "R": 3586
+    },
+    "1904": {
+      "D": 3039,
+      "R": 3605
+    },
+    "1905": {
+      "D": 2724,
+      "R": 3986
+    },
+    "1906": {
+      "D": 2744,
+      "R": 3986
+    },
+    "1907": {
+      "D": 3033,
+      "R": 3703
+    },
+    "1908": {
+      "D": 3029,
+      "R": 3734
+    },
+    "1909": {
+      "D": 3008,
+      "R": 3794
+    },
+    "1910": {
+      "D": 3054,
+      "R": 3745
+    },
+    "1911": {
+      "D": 3598,
+      "R": 3276
+    },
+    "1912": {
+      "D": 3577,
+      "R": 3418
+    },
+    "1913": {
+      "D": 3955,
+      "R": 2872
+    },
+    "1914": {
+      "D": 3912,
+      "R": 2886
+    },
+    "1915": {
+      "D": 3421,
+      "R": 3341
+    },
+    "1916": {
+      "D": 3340,
+      "R": 3405
+    },
+    "1917": {
+      "D": 3335,
+      "R": 3560
+    },
+    "1918": {
+      "D": 3311,
+      "R": 3582
+    },
+    "1919": {
+      "D": 3007,
+      "R": 3916
+    },
+    "1920": {
+      "D": 3004,
+      "R": 3944
+    },
+    "1921": {
+      "D": 2397,
+      "R": 4535
+    },
+    "1922": {
+      "D": 2488,
+      "R": 4450
+    },
+    "1923": {
+      "D": 3305,
+      "R": 3721
+    },
+    "1924": {
+      "D": 3315,
+      "R": 3705
+    },
+    "1925": {
+      "D": 2982,
+      "R": 4025
+    },
+    "1926": {
+      "D": 2988,
+      "R": 4023
+    },
+    "1927": {
+      "D": 3021,
+      "R": 4071
+    },
+    "1928": {
+      "D": 3009,
+      "R": 4083
+    },
+    "1929": {
+      "D": 2887,
+      "R": 4211
+    },
+    "1930": {
+      "D": 2898,
+      "R": 4199
+    },
+    "1931": {
+      "D": 3501,
+      "R": 3611
+    },
+    "1932": {
+      "D": 3581,
+      "R": 3579
+    },
+    "1933": {
+      "D": 4693,
+      "R": 2635
+    },
+    "1934": {
+      "D": 4684,
+      "R": 2644
+    },
+    "1935": {
+      "D": 4808,
+      "R": 2455
+    },
+    "1936": {
+      "D": 4786,
+      "R": 2476
+    },
+    "1937": {
+      "D": 4891,
+      "R": 2422
+    },
+    "1938": {
+      "D": 4871,
+      "R": 2441
+    },
+    "1939": {
+      "D": 4117,
+      "R": 3170
+    },
+    "1940": {
+      "D": 4119,
+      "R": 3168
+    },
+    "1941": {
+      "D": 4247,
+      "R": 3071
+    },
+    "1942": {
+      "D": 4249,
+      "R": 3069
+    },
+    "1943": {
+      "D": 3758,
+      "R": 3577
+    },
+    "1944": {
+      "D": 3730,
+      "R": 3604
+    },
+    "1945": {
+      "D": 3895,
+      "R": 3459
+    },
+    "1946": {
+      "D": 3905,
+      "R": 3449
+    },
+    "1947": {
+      "D": 3444,
+      "R": 3894
+    },
+    "1948": {
+      "D": 3460,
+      "R": 3878
+    },
+    "1949": {
+      "D": 4160,
+      "R": 3173
+    },
+    "1950": {
+      "D": 4169,
+      "R": 3165
+    },
+    "1951": {
+      "D": 3959,
+      "R": 3401
+    },
+    "1952": {
+      "D": 3947,
+      "R": 3413
+    },
+    "1953": {
+      "D": 3663,
+      "R": 3743
+    },
+    "1954": {
+      "D": 3671,
+      "R": 3734
+    },
+    "1955": {
+      "D": 4194,
+      "R": 3228
+    },
+    "1956": {
+      "D": 4196,
+      "R": 3226
+    },
+    "1957": {
+      "D": 4217,
+      "R": 3270
+    },
+    "1958": {
+      "D": 4237,
+      "R": 3250
+    },
+    "1959": {
+      "D": 4946,
+      "R": 2597
+    },
+    "1960": {
+      "D": 4944,
+      "R": 2599
+    },
+    "1961": {
+      "D": 4675,
+      "R": 2880
+    },
+    "1962": {
+      "D": 4666,
+      "R": 2888
+    },
+    "1963": {
+      "D": 4560,
+      "R": 3059
+    },
+    "1964": {
+      "D": 4510,
+      "R": 3099
+    },
+    "1965": {
+      "D": 5085,
+      "R": 2552
+    },
+    "1966": {
+      "D": 5056,
+      "R": 2515
+    },
+    "1967": {
+      "D": 4327,
+      "R": 3077
+    },
+    "1968": {
+      "D": 4291,
+      "R": 3145
+    },
+    "1969": {
+      "D": 4238,
+      "R": 3195
+    },
+    "1970": {
+      "D": 4236,
+      "R": 3196
+    },
+    "1971": {
+      "D": 4467,
+      "R": 2926
+    },
+    "1972": {
+      "D": 4489,
+      "R": 2901
+    },
+    "1973": {
+      "D": 4449,
+      "R": 3098
+    },
+    "1974": {
+      "D": 4488,
+      "R": 3047
+    },
+    "1975": {
+      "D": 5121,
+      "R": 2350
+    },
+    "1976": {
+      "D": 5115,
+      "R": 2365
+    },
+    "1977": {
+      "D": 5122,
+      "R": 2375
+    },
+    "1978": {
+      "D": 5114,
+      "R": 2380
+    },
+    "1979": {
+      "D": 4769,
+      "R": 2612
+    },
+    "1980": {
+      "D": 4741,
+      "R": 2641
+    },
+    "1981": {
+      "D": 4510,
+      "R": 2870
+    },
+    "1982": {
+      "D": 4499,
+      "R": 2879
+    },
+    "1983": {
+      "D": 4669,
+      "R": 2677
+    },
+    "1984": {
+      "D": 4642,
+      "R": 2702
+    },
+    "1985": {
+      "D": 4350,
+      "R": 3006
+    },
+    "1986": {
+      "D": 4336,
+      "R": 3020
+    },
+    "1987": {
+      "D": 4506,
+      "R": 2877
+    },
+    "1988": {
+      "D": 4486,
+      "R": 2896
+    },
+    "1989": {
+      "D": 4493,
+      "R": 2887
+    },
+    "1990": {
+      "D": 4487,
+      "R": 2892
+    },
+    "1991": {
+      "D": 4516,
+      "R": 2863
+    },
+    "1992": {
+      "D": 4455,
+      "R": 2921
+    },
+    "1993": {
+      "D": 4366,
+      "R": 2970
+    },
+    "1994": {
+      "D": 4360,
+      "R": 2973
+    },
+    "1995": {
+      "D": 3862,
+      "R": 3462
+    },
+    "1996": {
+      "D": 3824,
+      "R": 3583
+    },
+    "1997": {
+      "D": 3887,
+      "R": 3500
+    },
+    "1998": {
+      "D": 3874,
+      "R": 3512
+    },
+    "1999": {
+      "D": 3898,
+      "R": 3484
+    },
+    "2000": {
+      "D": 3895,
+      "R": 3509
+    },
+    "2001": {
+      "D": 3839,
+      "R": 3569
+    },
+    "2002": {
+      "D": 3839,
+      "R": 3568
+    },
+    "2003": {
+      "D": 3651,
+      "R": 3707
+    },
+    "2004": {
+      "D": 3638,
+      "R": 3721
+    },
+    "2005": {
+      "D": 3673,
+      "R": 3686
+    },
+    "2006": {
+      "D": 3674,
+      "R": 3685
+    },
+    "2007": {
+      "D": 4005,
+      "R": 3355
+    },
+    "2008": {
+      "D": 4005,
+      "R": 3354
+    },
+    "2009": {
+      "D": 4086,
+      "R": 3272
+    },
+    "2010": {
+      "D": 4074,
+      "R": 3284
+    },
+    "2011": {
+      "D": 3350,
+      "R": 4007
+    },
+    "2012": {
+      "D": 3327,
+      "R": 4028
+    },
+    "2013": {
+      "D": 3488,
+      "R": 3867
+    },
+    "2014": {
+      "D": 3472,
+      "R": 3884
+    },
+    "2015": {
+      "D": 3184,
+      "R": 4165
+    },
+    "2016": {
+      "D": 3174,
+      "R": 4175
+    },
+    "2017": {
+      "D": 3135,
+      "R": 4213
+    },
+    "2018": {
+      "D": 3156,
+      "R": 4184
+    },
+    "2019": {
+      "D": 3474,
+      "R": 3874
+    },
+    "2020": {
+      "D": 3473,
+      "R": 3876
+    },
+    "2021": {
+      "D": 3325,
+      "R": 4022
+    },
+    "2022": {
+      "D": 3304,
+      "R": 4040
+    },
+    "2023": {
+      "D": 3294,
+      "R": 4065
+    },
+    "2024": {
+      "D": 3295,
+      "R": 4063
+    },
+    "2025": {
+      "D": 3240,
+      "R": 4124
+    },
+    "2026": {
+      "D": 3263,
+      "R": 4101
+    }
+  },
+  "part_D_sieges_par_decennie": {
+    "1820": 100.0,
+    "1830": 100.0,
+    "1840": 100.0,
+    "1850": 75.2,
+    "1860": 39.0,
+    "1870": 47.7,
+    "1880": 49.6,
+    "1890": 47.7,
+    "1900": 45.6,
+    "1910": 50.1,
+    "1920": 41.8,
+    "1930": 59.2,
+    "1940": 53.2,
+    "1950": 55.5,
+    "1960": 61.5,
+    "1970": 63.6,
+    "1980": 61.4,
+    "1990": 56.4,
+    "2000": 52.0,
+    "2010": 46.0,
+    "2020": 45.1
+  },
+  "parlementaires_taux_par_decennie": {
+    "1860": {
+      "condamnes_D": 1,
+      "condamnes_R": 0,
+      "sieges_moyens_D": 1693,
+      "sieges_moyens_R": 2654,
+      "taux_D_pour_1000": 0.59,
+      "taux_R_pour_1000": 0.0
+    },
+    "1870": {
+      "condamnes_D": 2,
+      "condamnes_R": 1,
+      "sieges_moyens_D": 2547,
+      "sieges_moyens_R": 2788,
+      "taux_D_pour_1000": 0.79,
+      "taux_R_pour_1000": 0.36
+    },
+    "1880": {
+      "condamnes_D": 0,
+      "condamnes_R": 2,
+      "sieges_moyens_D": 2945,
+      "sieges_moyens_R": 2993,
+      "taux_D_pour_1000": 0.0,
+      "taux_R_pour_1000": 0.67
+    },
+    "1890": {
+      "condamnes_D": 1,
+      "condamnes_R": 0,
+      "sieges_moyens_D": 2882,
+      "sieges_moyens_R": 3160,
+      "taux_D_pour_1000": 0.35,
+      "taux_R_pour_1000": 0.0
+    },
+    "1900": {
+      "condamnes_D": 1,
+      "condamnes_R": 5,
+      "sieges_moyens_D": 3076,
+      "sieges_moyens_R": 3668,
+      "taux_D_pour_1000": 0.33,
+      "taux_R_pour_1000": 1.36
+    },
+    "1910": {
+      "condamnes_D": 2,
+      "condamnes_R": 5,
+      "sieges_moyens_D": 3489,
+      "sieges_moyens_R": 3480,
+      "taux_D_pour_1000": 0.57,
+      "taux_R_pour_1000": 1.44
+    },
+    "1920": {
+      "condamnes_D": 0,
+      "condamnes_R": 4,
+      "sieges_moyens_D": 2941,
+      "sieges_moyens_R": 4093,
+      "taux_D_pour_1000": 0.0,
+      "taux_R_pour_1000": 0.98
+    },
+    "1930": {
+      "condamnes_D": 1,
+      "condamnes_R": 5,
+      "sieges_moyens_D": 4330,
+      "sieges_moyens_R": 2979,
+      "taux_D_pour_1000": 0.23,
+      "taux_R_pour_1000": 1.68
+    },
+    "1940": {
+      "condamnes_D": 4,
+      "condamnes_R": 5,
+      "sieges_moyens_D": 3897,
+      "sieges_moyens_R": 3434,
+      "taux_D_pour_1000": 1.03,
+      "taux_R_pour_1000": 1.46
+    },
+    "1950": {
+      "condamnes_D": 1,
+      "condamnes_R": 5,
+      "sieges_moyens_D": 4120,
+      "sieges_moyens_R": 3303,
+      "taux_D_pour_1000": 0.24,
+      "taux_R_pour_1000": 1.51
+    },
+    "1960": {
+      "condamnes_D": 4,
+      "condamnes_R": 5,
+      "sieges_moyens_D": 4635,
+      "sieges_moyens_R": 2901,
+      "taux_D_pour_1000": 0.86,
+      "taux_R_pour_1000": 1.72
+    },
+    "1970": {
+      "condamnes_D": 27,
+      "condamnes_R": 22,
+      "sieges_moyens_D": 4777,
+      "sieges_moyens_R": 2733,
+      "taux_D_pour_1000": 5.65,
+      "taux_R_pour_1000": 8.05
+    },
+    "1980": {
+      "condamnes_D": 35,
+      "condamnes_R": 13,
+      "sieges_moyens_D": 4523,
+      "sieges_moyens_R": 2846,
+      "taux_D_pour_1000": 7.74,
+      "taux_R_pour_1000": 4.57
+    },
+    "1990": {
+      "condamnes_D": 37,
+      "condamnes_R": 22,
+      "sieges_moyens_D": 4153,
+      "sieges_moyens_R": 3216,
+      "taux_D_pour_1000": 8.91,
+      "taux_R_pour_1000": 6.84
+    },
+    "2000": {
+      "condamnes_D": 63,
+      "condamnes_R": 45,
+      "sieges_moyens_D": 3830,
+      "sieges_moyens_R": 3543,
+      "taux_D_pour_1000": 16.45,
+      "taux_R_pour_1000": 12.7
+    },
+    "2010": {
+      "condamnes_D": 102,
+      "condamnes_R": 80,
+      "sieges_moyens_D": 3383,
+      "sieges_moyens_R": 3968,
+      "taux_D_pour_1000": 30.15,
+      "taux_R_pour_1000": 20.16
+    },
+    "2020": {
+      "condamnes_D": 48,
+      "condamnes_R": 46,
+      "sieges_moyens_D": 3313,
+      "sieges_moyens_R": 4042,
+      "taux_D_pour_1000": 14.49,
+      "taux_R_pour_1000": 11.38
+    }
+  },
+  "parlementaires_taux_total": {
+    "condamnes_D": 329,
+    "condamnes_R": 265,
+    "taux_D_pour_1000_sieges_decennie": 5.43,
+    "taux_R_pour_1000_sieges_decennie": 4.75
+  }
+}
