@@ -12,7 +12,57 @@ parti, ou de parti non déterminé.
 pip install -r requirements.txt
 ```
 
-## Utilisation
+## Base exhaustive et comparaison au nombre d'élus
+
+```bash
+python collecte_exhaustive.py --cache-dir cache/   # ~150 requêtes, 20-40 min la 1re fois
+python graphiques.py --date 2026-11-04             # graphiques + analyse
+```
+
+`collecte_exhaustive.py` élargit la base au-delà des listes par décennie, en
+utilisant uniquement Wikipédia :
+
+| Source | Contenu |
+|---|---|
+| 17 listes par décennie | élus d'États et locaux condamnés pour des faits commis en fonction, avec leur parti |
+| 3 listes « … officials convicted of federal corruption offenses » | élus d'États, locaux et des territoires condamnés pour corruption par la justice fédérale (tableaux sans parti) |
+| arbre de catégories « American politicians convicted of crimes » | tous les articles de politiciens condamnés ; on ne garde que ceux qui ont exercé un mandat d'État ou local et aucun mandat fédéral |
+| pages « Political party strength in <État> » | sièges démocrates et républicains de chaque parlement d'État, année par année |
+
+Une personne présente dans plusieurs sources n'est comptée qu'une fois
+(identité = article Wikipédia). Son parti vient du marqueur de la liste
+(« (D) », « (R) ») quand elle y figure. Sinon, il vient de son article :
+catégories « Democratic Party members of … » et champ `party` de l'infobox.
+Le script vérifie que les deux méthodes concordent sur les personnes
+présentes partout (résultat dans `collecte.json`).
+
+`graphiques.py` compare les condamnés au **nombre d'élus de chaque parti**.
+Si un parti détient plus de sièges, il est normal qu'il compte plus de
+condamnés. Deux mesures :
+
+- **attendu si même taux** : pour chaque condamné, on prend la part de sièges
+  démocrates du parlement de son État pendant sa décennie. La somme donne le
+  nombre de démocrates attendu si les deux partis avaient le même taux de
+  condamnation. On le compare au nombre observé (écart exprimé en
+  écarts-types) ;
+- **taux par siège** : parlementaires d'États condamnés pour 1 000 sièges
+  détenus par leur parti, décennie par décennie.
+
+Sorties dans `resultats/` : `base_exhaustive.csv`,
+`sieges_parlements_etats.csv`, `collecte.json`, `analyse.json`, `analyse.md`
+(tous les chiffres sous forme de tableaux) et `graphiques/*.png`.
+
+**Limites propres à cette comparaison.** Le seul effectif d'élus par parti
+disponible sur Wikipédia est celui des parlements d'États. Il sert de
+référence aussi pour les élus locaux, dont beaucoup sont élus sans étiquette.
+Wikipédia ne recense qu'une petite partie des condamnations réelles, et ses
+contributeurs couvrent certains États et certaines affaires bien plus que
+d'autres. Sources consultées mais bloquées dans l'environnement de
+développement : Wikidata, Harvard Dataverse (données de Klarner sur la
+composition des parlements), NCSL, ministère de la Justice (rapports de la
+Public Integrity Section), Ballotpedia.
+
+## Utilisation de compter_partis.py
 
 ```bash
 python compter_partis.py                         # rapport + politiciens_condamnes.csv

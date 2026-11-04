@@ -24,6 +24,7 @@ from __future__ import annotations
 import argparse
 import copy
 import csv
+import hashlib
 import json
 import re
 import sys
@@ -447,17 +448,21 @@ class HtmlSource(Protocol):
 
 
 class WikiClient:
-    """Client minimal de l'API MediaWiki (action=parse), poli et avec reprises."""
+    """Client minimal de l'API MediaWiki, poli, avec reprises et cache disque.
+
+    Wikipédia limite le débit (réponses 429 avec Retry-After) : le client
+    attend le délai demandé puis réessaie."""
 
     def __init__(self, api_url: str = API_URL, delay: float = 0.5,
-                 cache_dir: Path | None = None, max_retries: int = 5,
-                 session: requests.Session | None = None):
+                 cache_dir: Path | None = None, max_retries: int = 8,
+                 session: requests.Session | None = None, verbose: bool = False):
         self.api_url = api_url
         self.delay = delay
         self.cache_dir = cache_dir
         self.max_retries = max_retries
         self.session = session or requests.Session()
         self.session.headers["User-Agent"] = USER_AGENT
+        self.verbose = verbose
         self._last = 0.0
         if cache_dir:
             cache_dir.mkdir(parents=True, exist_ok=True)
@@ -467,24 +472,15 @@ class WikiClient:
             return None
         return self.cache_dir / (re.sub(r"[^\w.-]+", "_", title)[:150] + ".json")
 
-    def get_html(self, title: str) -> tuple[str, str]:
-        path = self._cache_path(title)
-        if path and path.exists():
-            data = json.loads(path.read_text(encoding="utf-8"))
-            return data["title"], data["html"]
-
-        params = {
-            "action": "parse", "page": title, "prop": "text", "format": "json",
-            "formatversion": "2", "redirects": "1", "disableeditsection": "1",
-            "disabletoc": "1", "maxlag": "5",
-        }
+    def _request(self, params: dict, what: str) -> dict:
+        """Une requête à l'API, avec reprises. Lève PageNotFound si la page n'existe pas."""
         for attempt in range(self.max_retries):
             wait = self.delay - (time.monotonic() - self._last)
             if wait > 0:
                 time.sleep(wait)
             self._last = time.monotonic()
             try:
-                r = self.session.get(self.api_url, params=params, timeout=30)
+                r = self.session.get(self.api_url, params=params, timeout=60)
             except requests.RequestException as exc:
                 if attempt == self.max_retries - 1:
                     raise
@@ -492,7 +488,11 @@ class WikiClient:
                 time.sleep(2 ** attempt)
                 continue
             if r.status_code in (429, 500, 502, 503, 504):
-                time.sleep(float(r.headers.get("Retry-After") or 2 ** attempt))
+                pause = float(r.headers.get("Retry-After") or 2 ** attempt)
+                if self.verbose:
+                    print(f"  [{r.status_code}] Wikipédia demande d'attendre {pause:.0f} s",
+                          file=sys.stderr)
+                time.sleep(pause)
                 continue
             r.raise_for_status()
             data = r.json()
@@ -502,14 +502,40 @@ class WikiClient:
                     time.sleep(float(r.headers.get("Retry-After") or 5))
                     continue
                 if err.get("code") in ("missingtitle", "invalidtitle"):
-                    raise PageNotFound(title)
+                    raise PageNotFound(what)
                 raise RuntimeError(f"API MediaWiki : {err}")
-            result = data["parse"]["title"], data["parse"]["text"]
-            if path:
-                path.write_text(json.dumps({"title": result[0], "html": result[1]}),
-                                encoding="utf-8")
-            return result
-        raise RuntimeError(f"Échec du téléchargement de « {title} » après {self.max_retries} essais")
+            return data
+        raise RuntimeError(f"Échec du téléchargement de « {what} » après {self.max_retries} essais")
+
+    def api(self, **params) -> dict:
+        """Appel générique (action=query, list=search...), mis en cache sur disque."""
+        params = {"format": "json", "formatversion": "2", "maxlag": "5",
+                  **{k: str(v) for k, v in params.items()}}
+        key = hashlib.sha1(json.dumps(params, sort_keys=True).encode()).hexdigest()
+        path = self.cache_dir / f"api_{key}.json" if self.cache_dir else None
+        if path and path.exists():
+            return json.loads(path.read_text(encoding="utf-8"))
+        data = self._request(params, params.get("titles") or params.get("srsearch")
+                             or params.get("page") or "requête")
+        if path:
+            path.write_text(json.dumps(data), encoding="utf-8")
+        return data
+
+    def get_html(self, title: str) -> tuple[str, str]:
+        path = self._cache_path(title)
+        if path and path.exists():
+            data = json.loads(path.read_text(encoding="utf-8"))
+            return data["title"], data["html"]
+        params = {
+            "action": "parse", "page": title, "prop": "text", "format": "json",
+            "formatversion": "2", "redirects": "1", "disableeditsection": "1",
+            "disabletoc": "1", "maxlag": "5",
+        }
+        data = self._request(params, title)
+        result = data["parse"]["title"], data["parse"]["text"]
+        if path:
+            path.write_text(json.dumps({"title": result[0], "html": result[1]}), encoding="utf-8")
+        return result
 
 
 def normalize_title(t: str) -> str:
